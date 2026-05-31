@@ -32,7 +32,23 @@ spend, and tabs for —
 - **Squad problems**: flagged vs addressed vs chronic problem positions per window.
 - **By position**: rating and spend split by GK/DEF/MID/FWD.
 
-Needs `data/dataset.pkl` (created by `python run.py collect`).
+Needs `data/dataset.pkl` (created by `python run.py collect`; bundled in this repo).
+
+## Deploy on Streamlit Community Cloud
+
+The repo is deploy-ready — `app.py` at the root, `requirements.txt`, and the
+bundled `data/dataset.pkl` (so no scraping happens in the cloud).
+
+1. Go to **https://share.streamlit.io** and sign in with GitHub.
+2. **Create app → Deploy a public app from GitHub**.
+3. Repository `arulkannank/football-transfer-window-analyzer`, branch `main`,
+   main file `app.py`. (Optional: Advanced settings → Python 3.12.)
+4. **Deploy.** The first build installs the requirements (a few minutes); the app
+   then loads the bundled dataset and runs. You'll get a public
+   `*.streamlit.app` URL.
+
+To refresh the data later: `python run.py collect && python run.py analyze`, then
+commit the updated `data/dataset.pkl` and push — Streamlit redeploys on push.
 
 Scope is set in [config.py](config.py): `LEAGUES`, `SEASONS` (2019/20–2025/26),
 weights and thresholds. The on-disk HTTP cache (`data/cache/`) makes every run
