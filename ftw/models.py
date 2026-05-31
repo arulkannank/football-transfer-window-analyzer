@@ -11,7 +11,7 @@ class PlayerSeason:
     pid: str
     name: str
     position: str          # raw TM position, e.g. 'Centre-Back'
-    group: str             # GK/DEF/MID/FWD
+    group: str             # fine slot: GK/RB/LB/CB/MID/W/CF
     age: Optional[int]
     minutes: int
     club_id: str

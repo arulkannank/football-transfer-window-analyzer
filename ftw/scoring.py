@@ -80,20 +80,16 @@ def _eff_frac(fee_eur, fee_known, is_free, mv) -> float | None:
     return max(-1.0, min(1.0, diff / EFF_CUTOFF))
 
 
-def _spell_seasons(ds: Dataset, signing: Signing, last_season: int,
-                   sale_season: int | None = None) -> list[int]:
+def _spell_seasons(ds: Dataset, signing: Signing, max_season: int) -> list[int]:
     """Seasons the player was actually in the club's squad, from signing to sale.
 
-    Loan-out gaps are skipped, not terminal: a player bought then loaned out for a
-    few seasons before being integrated (e.g. Saliba at Arsenal) is evaluated over
-    the seasons he was genuinely at the club, not truncated to the signing year.
+    `max_season` is the last season that can count (the season of/ before the
+    sale — see score_signing). Seasons AFTER the player is sold are never
+    included, so they can't drag the average down as zeros; loan-out gaps within
+    the spell are skipped (e.g. Saliba at Arsenal), not terminal.
     """
-    seasons = []
-    for s in range(signing.season, last_season + 1):
-        if sale_season is not None and s > sale_season:
-            break
-        if ds.player_in_roster(signing.pid, signing.club_id, s):
-            seasons.append(s)
+    seasons = [s for s in range(signing.season, max_season + 1)
+               if ds.player_in_roster(signing.pid, signing.club_id, s)]
     return seasons or [signing.season]
 
 
@@ -110,8 +106,14 @@ def score_signing(ds: Dataset, signing: Signing, last_season: int) -> None:
 
     sale = ds.sale_of(signing.pid, club, signing.season)
     sold = sale is not None
-    seasons = _spell_seasons(ds, signing, last_season,
-                             sale["season"] if sold else None)
+    # last season that may count: a SUMMER sale in saison Y means the player left
+    # before Y kicked off, so the spell ends at Y-1; a WINTER sale in Y means he
+    # played part of Y, so Y still counts. Seasons after that are never scored.
+    if sold:
+        max_season = sale["season"] - (1 if sale["window"] == "summer" else 0)
+    else:
+        max_season = last_season
+    seasons = _spell_seasons(ds, signing, max_season)
     min_fracs, rate_fracs, mv_units = [], [], []
     evals = []
     for s in seasons:

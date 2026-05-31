@@ -9,12 +9,18 @@ import altair as alt
 import pandas as pd
 import streamlit as st
 
+import config
 from ftw import analyze as analyze_mod
 from ftw import appdata, collect
 
 st.set_page_config(page_title="Transfer Window Analyzer", page_icon="⚽", layout="wide")
 
-GROUP_NAMES = {"GK": "Goalkeeper", "DEF": "Defence", "MID": "Midfield", "FWD": "Attack"}
+GROUP_NAMES = config.SLOT_NAMES
+LEAGUE_NAME = {lg.code: lg.name for lg in config.LEAGUES}
+
+
+def league_label(codes: str) -> str:
+    return ", ".join(LEAGUE_NAME.get(c, c) for c in str(codes).split(", ") if c)
 
 
 # ----------------------------------------------------------------------------
@@ -65,10 +71,11 @@ st.caption("Top-7 European leagues · 2019/20 – 2025/26 · Transfermarkt + Sof
 # ---- sidebar: pick a club --------------------------------------------------
 with st.sidebar:
     st.header("Select a club")
-    leagues = ["All leagues"] + sorted(clubs["leagues"].str.split(", ").explode().unique())
-    league_pick = st.selectbox("League", leagues)
+    codes = sorted(clubs["leagues"].str.split(", ").explode().unique())
+    name_to_code = {LEAGUE_NAME.get(c, c): c for c in codes}
+    league_pick = st.selectbox("League", ["All leagues"] + list(name_to_code))
     pool = clubs if league_pick == "All leagues" else \
-        clubs[clubs["leagues"].str.contains(league_pick, regex=False)]
+        clubs[clubs["leagues"].str.contains(name_to_code[league_pick], regex=False)]
     club_names = pool.sort_values("club")["club"].tolist()
     default = club_names.index("Manchester City") if "Manchester City" in club_names else 0
     club_name = st.selectbox("Club", club_names, index=default)
@@ -84,7 +91,7 @@ cw = wdf[wdf["club_id"] == cid].copy()
 rated_w = cw[cw["window_rating"].notna()]
 
 # ---- header & KPIs ---------------------------------------------------------
-st.subheader(f"{club_name}  ·  {crow['leagues']}")
+st.subheader(f"{club_name}  ·  {league_label(crow['leagues'])}")
 n_clubs = len(clubs)
 avg = crow["rating"]
 spend = cs.loc[cs["fee_eur"].notna(), "fee_eur"].sum()
@@ -102,7 +109,7 @@ k[5].metric("Net spend", fmt_eur(spend - recouped))
 lg = crow["leagues"].split(", ")[0]
 if lg in league_avg:
     delta = round(avg - league_avg[lg], 2)
-    st.caption(f"League ({lg}) average: **{league_avg[lg]}/10** · this club is "
+    st.caption(f"{LEAGUE_NAME.get(lg, lg)} average: **{league_avg[lg]}/10** · this club is "
                f"**{'+' if delta>=0 else ''}{delta}** vs league.")
 
 # ---- headline cards --------------------------------------------------------

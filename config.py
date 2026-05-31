@@ -45,30 +45,59 @@ BASELINE_SEASON: int = 2018                    # prior-year baseline for 2019/20
 WINDOWS = ("summer", "winter")
 
 
-# ----- position groups -----
-POSITION_GROUPS = {
+# ----- position slots (fine-grained, formation-based) -----
+# Problems and league rating baselines are diagnosed per *slot*, not per broad
+# line, so e.g. a weak right-back isn't masked by strong centre-backs. The
+# required starter counts describe a standard XI (4-3-3 / 4-2-3-1):
+#   GK 1 · RB 1 · LB 1 · CB 2 · MID 3 · W 2 · CF 1  (= 11)
+POSITION_SLOTS = {
     "Goalkeeper": "GK",
-    "Centre-Back": "DEF", "Left-Back": "DEF", "Right-Back": "DEF", "Defender": "DEF",
-    "Defensive Midfield": "MID", "Central Midfield": "MID", "Attacking Midfield": "MID",
-    "Left Midfield": "MID", "Right Midfield": "MID", "Midfielder": "MID",
-    "Left Winger": "FWD", "Right Winger": "FWD", "Centre-Forward": "FWD",
-    "Second Striker": "FWD", "Forward": "FWD", "Attack": "FWD",
+    "Right-Back": "RB",
+    "Left-Back": "LB",
+    "Centre-Back": "CB", "Defender": "CB",
+    "Defensive Midfield": "MID", "Central Midfield": "MID",
+    "Attacking Midfield": "MID", "Midfielder": "MID",
+    "Left Winger": "W", "Right Winger": "W",
+    "Left Midfield": "W", "Right Midfield": "W",
+    "Centre-Forward": "CF", "Second Striker": "CF", "Forward": "CF", "Attack": "CF",
+}
+
+SLOTS = ("GK", "RB", "LB", "CB", "MID", "W", "CF")
+SLOT_REQUIRED = {"GK": 1, "RB": 1, "LB": 1, "CB": 2, "MID": 3, "W": 2, "CF": 1}
+SLOT_NAMES = {
+    "GK": "Goalkeeper", "RB": "Right-back", "LB": "Left-back", "CB": "Centre-back",
+    "MID": "Midfield", "W": "Wingers", "CF": "Centre-forward",
 }
 
 
-def to_group(position: str) -> str:
+def to_slot(position: str) -> str:
     if not position:
         return "MID"
-    if position in POSITION_GROUPS:
-        return POSITION_GROUPS[position]
+    if position in POSITION_SLOTS:
+        return POSITION_SLOTS[position]
     p = position.lower()
-    if "keep" in p:
+    if "keep" in p or "goal" in p:
         return "GK"
+    if "right-back" in p or "right back" in p:
+        return "RB"
+    if "left-back" in p or "left back" in p:
+        return "LB"
     if "back" in p or "defen" in p:
-        return "DEF"
-    if "wing" in p or "forward" in p or "strik" in p or "attack" in p:
-        return "FWD"
+        return "CB"
+    if "wing" in p:
+        return "W"
+    if "forward" in p or "strik" in p or "attack" in p:
+        return "CF"
     return "MID"
+
+
+# Broad line, for any display/aggregation that wants the old grouping.
+_SLOT_LINE = {"GK": "GK", "RB": "DEF", "LB": "DEF", "CB": "DEF",
+              "MID": "MID", "W": "FWD", "CF": "FWD"}
+
+
+def to_group(position: str) -> str:
+    return _SLOT_LINE[to_slot(position)]
 
 
 # ----- per-transfer success weights (user-specified, sum to 1.0) -----
@@ -95,8 +124,9 @@ META_PROBLEM_WEIGHT = 0.30
 STARTER_MINUTES_SHARE = 0.65      # 65% of league minutes ~= a regular starter
 # Corroborating signals raise severity:
 DECLINING_VALUE_PCT = -0.10       # group lost >10% market value YoY
-LOW_RATING_THRESHOLD = 6.70       # group avg SofaScore rating below this
-MIN_DEPTH = {"GK": 2, "DEF": 3, "MID": 3, "FWD": 2}
+LOW_RATING_THRESHOLD = 6.70       # slot avg SofaScore rating below this
+# A slot is a problem if fewer than SLOT_REQUIRED[slot] players reached the
+# starter-minutes share last season (not enough nailed-on starters for the XI).
 
 # ----- degradation rule -----
 # Failing to address a flagged problem for this many consecutive windows degrades

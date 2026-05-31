@@ -93,7 +93,7 @@ def club_performance(client: Client, league, club_id: str, slug: str,
     table = soup.select_one("table.items")
     if not table:
         return []
-    from config import to_group
+    from config import to_slot
     out: list[PlayerSeason] = []
     for r in table.select("tbody > tr"):
         tds = r.find_all("td", recursive=False)
@@ -105,7 +105,7 @@ def club_performance(client: Client, league, club_id: str, slug: str,
         age = util.parse_int(tds[2].get_text(strip=True))
         minutes = util.parse_minutes(tds[-1].get_text(strip=True))
         out.append(PlayerSeason(
-            pid=pid, name=name, position=pos, group=to_group(pos),
+            pid=pid, name=name, position=pos, group=to_slot(pos),
             age=age, minutes=minutes, club_id=club_id, season=season,
             league=league.code))
     return out
@@ -120,7 +120,7 @@ def _header_index(table) -> dict[str, int]:
 
 
 def _transfer_rows(table, league_code: str, season: int, *, incoming: bool) -> list[dict]:
-    from config import to_group
+    from config import to_slot
     hi = _header_index(table)
     counterpart_col = hi.get("Left" if incoming else "Joined")
     fee_col = hi.get("Fee")
@@ -144,7 +144,7 @@ def _transfer_rows(table, league_code: str, season: int, *, incoming: bool) -> l
         mv = util.parse_mv(tds[mv_col].get_text(strip=True)) if mv_col is not None else None
         age = util.parse_int(tds[age_col].get_text(strip=True)) if age_col is not None else None
         rows.append({
-            "pid": pid, "name": name, "position": pos, "group": to_group(pos),
+            "pid": pid, "name": name, "position": pos, "group": to_slot(pos),
             "age": age, "fee": fee, "mv_at": mv, "counterpart_club_id": cp_id,
             "season": season, "league": league_code,
         })

@@ -5,10 +5,16 @@ import csv
 import json
 from pathlib import Path
 
+import config
 from .http import DATA_DIR
 from .dataset import Dataset
 
 OUT_DIR = DATA_DIR / "output"
+_LEAGUE = {lg.code: lg.name for lg in config.LEAGUES}
+
+
+def _lg(code) -> str:
+    return _LEAGUE.get(code, code)
 
 
 def _eur(v) -> str:
@@ -34,7 +40,7 @@ def write_all(ds: Dataset, results: dict, out_dir: Path = OUT_DIR) -> None:
                     "n_rotation", "window_rating", "problems", "problems_addressed",
                     "problems_unaddressed", "chronic", "problem_resolution", "window_grade"])
         for r in windows:
-            w.writerow([r["league"], r["club"], r["season_label"], r["window"],
+            w.writerow([_lg(r["league"]), r["club"], r["season_label"], r["window"],
                         r["n_signings"], r["n_starter"], r["n_rotation"],
                         r["window_rating"], "|".join(r["problems"]),
                         "|".join(r["problems_addressed"]), "|".join(r["problems_unaddressed"]),
@@ -51,7 +57,7 @@ def write_all(ds: Dataset, results: dict, out_dir: Path = OUT_DIR) -> None:
         for s in signings:
             b = getattr(s, "_breakdown", {}) or {}
             w.writerow([
-                s.league, ds.club_name.get(s.club_id, s.club_id),
+                _lg(s.league), ds.club_name.get(s.club_id, s.club_id),
                 f"{s.season % 100:02d}/{(s.season+1) % 100:02d}", s.window, s.name,
                 s.group, "starter" if s.is_starter_signing else "rotation", s.weight,
                 "|".join(s.classification), _eur(s.fee_eur), _eur(s.mv_at_purchase),
@@ -85,7 +91,7 @@ def _write_markdown(ds: Dataset, results: dict, path: Path) -> None:
     lines.append("| League | Signings | Rating |")
     lines.append("|---|---:|---:|")
     for r in rollups["by_league"]:
-        lines.append(f"| {r['league']} | {r['n_signings']} | {r['rating']} |")
+        lines.append(f"| {_lg(r['league'])} | {r['n_signings']} | {r['rating']} |")
     lines.append("")
 
     lines.append("> Scale note: every incoming transfer is scored, minutes are 60% of the "
@@ -99,7 +105,7 @@ def _write_markdown(ds: Dataset, results: dict, path: Path) -> None:
     lines.append("| League | Club | Season | Window | N | Rating | Problems addressed |")
     lines.append("|---|---|---|---|---:|---:|---|")
     for w in sub[:20]:
-        lines.append(f"| {w['league']} | {w['club']} | {w['season_label']} | {w['window']} "
+        lines.append(f"| {_lg(w['league'])} | {w['club']} | {w['season_label']} | {w['window']} "
                      f"| {w['n_signings']} | {w['window_rating']} "
                      f"| {','.join(w['problems_addressed']) or '-'} |")
     lines.append("")
@@ -108,7 +114,7 @@ def _write_markdown(ds: Dataset, results: dict, path: Path) -> None:
     lines.append("| League | Club | Season | Window | N | Rating | Unaddressed problems |")
     lines.append("|---|---|---|---|---:|---:|---|")
     for w in sub[-20:][::-1]:
-        lines.append(f"| {w['league']} | {w['club']} | {w['season_label']} | {w['window']} "
+        lines.append(f"| {_lg(w['league'])} | {w['club']} | {w['season_label']} | {w['window']} "
                      f"| {w['n_signings']} | {w['window_rating']} "
                      f"| {','.join(w['problems_unaddressed']) or '-'} |")
     lines.append("")

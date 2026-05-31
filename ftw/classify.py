@@ -79,12 +79,21 @@ def classify(signing: Signing, flags: dict[str, ProblemFlag],
     if signing.is_free or (signing.fee_known and (signing.fee_eur or 0) == 0):
         cheap = True
     non_problem = not addresses
-    rotation_option = bool((signing.age_at_signing or 0) > 26 and non_problem and cheap)
+    # the slot is already well covered if an existing player there rates above the
+    # league average -> a new signing in it is depth, not a starter need
+    covered = bool(flag and flag.has_above_avg_incumbent)
+
+    rotation_option = bool(
+        non_problem and (
+            ((signing.age_at_signing or 0) > 24 and cheap)   # older, cheap depth buy
+            or covered                                        # slot already well covered
+        ))
     if rotation_option:
         labels.append("rotation_option")
 
-    # rubric bucket
-    is_rotation = rotation_option or (cheap and non_problem and not replaces and not improves)
+    # rubric bucket: a clear need (addresses/improves a problem) is always starter-type
+    is_rotation = (not addresses and not improves) and (
+        rotation_option or (cheap and not replaces))
     signing.classification = labels or ["squad_addition"]
     signing.addressed_problem = addresses
     signing.is_starter_signing = not is_rotation
