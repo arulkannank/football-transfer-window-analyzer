@@ -19,6 +19,7 @@ class Dataset:
     club_slug: dict[str, str] = field(default_factory=dict)
     club_league: dict[tuple[str, int], str] = field(default_factory=dict)  # (club_id,season)->league
     matches: dict[tuple[str, int], int] = field(default_factory=dict)      # (club_id,season)->matches
+    standings: dict[tuple[str, int], dict] = field(default_factory=dict)   # (club_id,season)->{position,points,played}
     rosters: dict[tuple[str, int], list[PlayerSeason]] = field(default_factory=dict)
     squad_mv: dict[tuple[str, int], dict[str, int]] = field(default_factory=dict)  # (club,season)->{pid:mv}
     transfers: dict[tuple[str, int, str], dict] = field(default_factory=dict)  # (club,season,window)->{arr,dep}

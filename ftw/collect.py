@@ -115,8 +115,11 @@ def build_dataset(leagues=None, *, workers: int = 4, save: bool = True,
             clubs = tm.league_clubs(lc, league, season)
             season_clubs[season] = clubs
             ds.clubs[(league.code, season)] = clubs
-            ds.matches.update({(cid, season): m
-                               for cid, m in tm.league_matches(lc, league, season).items()})
+            standings = tm.league_standings(lc, league, season)
+            for cid, st in standings.items():
+                ds.standings[(cid, season)] = st
+                if st.get("played"):
+                    ds.matches[(cid, season)] = st["played"]
             if season in RATING_SEASONS:
                 sid = sofa.tournament_season_id(sofa_client, league.sofa_tournament_id, season)
                 if sid:

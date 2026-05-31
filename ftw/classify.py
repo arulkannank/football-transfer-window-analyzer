@@ -23,6 +23,8 @@ from .dataset import Dataset
 from .models import Signing
 from .problems import ProblemFlag
 
+ROTATION_MIN_AGE = 24      # squad-player age floor for a rotation-option buy
+
 
 def compute_avg_spend(ds: Dataset) -> dict[str, float]:
     """{club_id: average spend per incoming transfer} over the full period.
@@ -87,8 +89,8 @@ def classify(signing: Signing, flags: dict[str, ProblemFlag],
 
     rotation_option = bool(
         non_problem and (
-            ((signing.age_at_signing or 0) > 24 and cheap)   # older, cheap depth buy
-            or covered                                        # slot already well covered
+            ((signing.age_at_signing or 0) > ROTATION_MIN_AGE and cheap)  # older, cheap depth
+            or covered                                                    # slot well covered
         ))
     if rotation_option:
         labels.append("rotation_option")

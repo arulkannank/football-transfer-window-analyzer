@@ -1,0 +1,9318 @@
+{
+ "n": 931,
+ "data": [
+  {
+   "club": "SC Heerenveen",
+   "season": "21/22",
+   "league": "NL1",
+   "recruitment": 6.994,
+   "n_signings": 8,
+   "position": 8,
+   "points": 41,
+   "pos_change": 4
+  },
+  {
+   "club": "Go Ahead Eagles",
+   "season": "21/22",
+   "league": "NL1",
+   "recruitment": 6.664,
+   "n_signings": 8,
+   "position": 13,
+   "points": 36,
+   "pos_change": null
+  },
+  {
+   "club": "Montpellier HSC",
+   "season": "19/20",
+   "league": "FR1",
+   "recruitment": 8.537,
+   "n_signings": 4,
+   "position": 8,
+   "points": 40,
+   "pos_change": -2
+  },
+  {
+   "club": "Angers SCO",
+   "season": "24/25",
+   "league": "FR1",
+   "recruitment": 6.682,
+   "n_signings": 7,
+   "position": 14,
+   "points": 36,
+   "pos_change": null
+  },
+  {
+   "club": "FC Groningen",
+   "season": "20/21",
+   "league": "NL1",
+   "recruitment": 6.634,
+   "n_signings": 5,
+   "position": 7,
+   "points": 50,
+   "pos_change": 2
+  },
+  {
+   "club": "GD Estoril Praia",
+   "season": "21/22",
+   "league": "PO1",
+   "recruitment": 6.226,
+   "n_signings": 7,
+   "position": 9,
+   "points": 39,
+   "pos_change": null
+  },
+  {
+   "club": "AJ Auxerre",
+   "season": "22/23",
+   "league": "FR1",
+   "recruitment": 5.885,
+   "n_signings": 9,
+   "position": 17,
+   "points": 35,
+   "pos_change": null
+  },
+  {
+   "club": "Willem II Tilburg",
+   "season": "20/21",
+   "league": "NL1",
+   "recruitment": 5.829,
+   "n_signings": 9,
+   "position": 14,
+   "points": 31,
+   "pos_change": -9
+  },
+  {
+   "club": "Stade Rennais FC",
+   "season": "25/26",
+   "league": "FR1",
+   "recruitment": 5.871,
+   "n_signings": 8,
+   "position": 6,
+   "points": 59,
+   "pos_change": 6
+  },
+  {
+   "club": "FC Lorient",
+   "season": "25/26",
+   "league": "FR1",
+   "recruitment": 7.1,
+   "n_signings": 2,
+   "position": 10,
+   "points": 45,
+   "pos_change": null
+  },
+  {
+   "club": "VfB Stuttgart",
+   "season": "24/25",
+   "league": "L1",
+   "recruitment": 5.622,
+   "n_signings": 14,
+   "position": 9,
+   "points": 50,
+   "pos_change": -7
+  },
+  {
+   "club": "Ajax Amsterdam",
+   "season": "20/21",
+   "league": "NL1",
+   "recruitment": 5.803,
+   "n_signings": 8,
+   "position": 1,
+   "points": 88,
+   "pos_change": 0
+  },
+  {
+   "club": "Ajax Amsterdam",
+   "season": "19/20",
+   "league": "NL1",
+   "recruitment": 5.667,
+   "n_signings": 11,
+   "position": 1,
+   "points": 56,
+   "pos_change": 0
+  },
+  {
+   "club": "VfL Bochum",
+   "season": "21/22",
+   "league": "L1",
+   "recruitment": 6.428,
+   "n_signings": 5,
+   "position": 13,
+   "points": 42,
+   "pos_change": null
+  },
+  {
+   "club": "PEC Zwolle",
+   "season": "23/24",
+   "league": "NL1",
+   "recruitment": 5.632,
+   "n_signings": 7,
+   "position": 12,
+   "points": 36,
+   "pos_change": null
+  },
+  {
+   "club": "Bayer 04 Leverkusen",
+   "season": "19/20",
+   "league": "L1",
+   "recruitment": 5.936,
+   "n_signings": 7,
+   "position": 5,
+   "points": 63,
+   "pos_change": -1
+  },
+  {
+   "club": "SC Heerenveen",
+   "season": "19/20",
+   "league": "NL1",
+   "recruitment": 5.612,
+   "n_signings": 5,
+   "position": 10,
+   "points": 33,
+   "pos_change": 1
+  },
+  {
+   "club": "VfB Stuttgart",
+   "season": "23/24",
+   "league": "L1",
+   "recruitment": 5.802,
+   "n_signings": 5,
+   "position": 2,
+   "points": 73,
+   "pos_change": 14
+  },
+  {
+   "club": "Levante UD",
+   "season": "25/26",
+   "league": "ES1",
+   "recruitment": 5.671,
+   "n_signings": 7,
+   "position": 16,
+   "points": 42,
+   "pos_change": null
+  },
+  {
+   "club": "Leicester City",
+   "season": "20/21",
+   "league": "GB1",
+   "recruitment": 7.673,
+   "n_signings": 3,
+   "position": 5,
+   "points": 66,
+   "pos_change": 0
+  },
+  {
+   "club": "VfB Stuttgart",
+   "season": "20/21",
+   "league": "L1",
+   "recruitment": 5.63,
+   "n_signings": 5,
+   "position": 9,
+   "points": 45,
+   "pos_change": null
+  },
+  {
+   "club": "Vitesse Arnhem",
+   "season": "23/24",
+   "league": "NL1",
+   "recruitment": 5.746,
+   "n_signings": 4,
+   "position": 18,
+   "points": 6,
+   "pos_change": -8
+  },
+  {
+   "club": "FC Famalicão",
+   "season": "23/24",
+   "league": "PO1",
+   "recruitment": 5.312,
+   "n_signings": 7,
+   "position": 8,
+   "points": 42,
+   "pos_change": 0
+  },
+  {
+   "club": "SL Benfica",
+   "season": "22/23",
+   "league": "PO1",
+   "recruitment": 5.143,
+   "n_signings": 13,
+   "position": 1,
+   "points": 87,
+   "pos_change": 2
+  },
+  {
+   "club": "Girona FC",
+   "season": "23/24",
+   "league": "ES1",
+   "recruitment": 5.299,
+   "n_signings": 7,
+   "position": 3,
+   "points": 81,
+   "pos_change": 7
+  },
+  {
+   "club": "FC Toulouse",
+   "season": "24/25",
+   "league": "FR1",
+   "recruitment": 5.288,
+   "n_signings": 6,
+   "position": 10,
+   "points": 42,
+   "pos_change": 1
+  },
+  {
+   "club": "FC Groningen",
+   "season": "24/25",
+   "league": "NL1",
+   "recruitment": 5.611,
+   "n_signings": 5,
+   "position": 13,
+   "points": 39,
+   "pos_change": null
+  },
+  {
+   "club": "AZ Alkmaar",
+   "season": "23/24",
+   "league": "NL1",
+   "recruitment": 4.99,
+   "n_signings": 13,
+   "position": 4,
+   "points": 65,
+   "pos_change": 0
+  },
+  {
+   "club": "Feyenoord Rotterdam",
+   "season": "22/23",
+   "league": "NL1",
+   "recruitment": 4.995,
+   "n_signings": 12,
+   "position": 1,
+   "points": 82,
+   "pos_change": 2
+  },
+  {
+   "club": "SC Heerenveen",
+   "season": "25/26",
+   "league": "NL1",
+   "recruitment": 5.027,
+   "n_signings": 9,
+   "position": 8,
+   "points": 51,
+   "pos_change": 1
+  },
+  {
+   "club": "FC Twente Enschede",
+   "season": "21/22",
+   "league": "NL1",
+   "recruitment": 5.043,
+   "n_signings": 8,
+   "position": 4,
+   "points": 68,
+   "pos_change": 6
+  },
+  {
+   "club": "AFC Bournemouth",
+   "season": "22/23",
+   "league": "GB1",
+   "recruitment": 5.269,
+   "n_signings": 7,
+   "position": 15,
+   "points": 39,
+   "pos_change": null
+  },
+  {
+   "club": "Boavista FC",
+   "season": "20/21",
+   "league": "PO1",
+   "recruitment": 5.082,
+   "n_signings": 6,
+   "position": 13,
+   "points": 36,
+   "pos_change": -1
+  },
+  {
+   "club": "Stade Rennais FC",
+   "season": "21/22",
+   "league": "FR1",
+   "recruitment": 5.03,
+   "n_signings": 9,
+   "position": 4,
+   "points": 66,
+   "pos_change": 2
+  },
+  {
+   "club": "Inter Milan",
+   "season": "21/22",
+   "league": "IT1",
+   "recruitment": 5.754,
+   "n_signings": 6,
+   "position": 2,
+   "points": 84,
+   "pos_change": -1
+  },
+  {
+   "club": "1.FC Heidenheim 1846",
+   "season": "23/24",
+   "league": "L1",
+   "recruitment": 5.528,
+   "n_signings": 5,
+   "position": 8,
+   "points": 42,
+   "pos_change": null
+  },
+  {
+   "club": "Celta de Vigo",
+   "season": "25/26",
+   "league": "ES1",
+   "recruitment": 4.983,
+   "n_signings": 9,
+   "position": 6,
+   "points": 54,
+   "pos_change": 1
+  },
+  {
+   "club": "RC Lens",
+   "season": "20/21",
+   "league": "FR1",
+   "recruitment": 4.922,
+   "n_signings": 7,
+   "position": 7,
+   "points": 57,
+   "pos_change": null
+  },
+  {
+   "club": "Avs Futebol",
+   "season": "24/25",
+   "league": "PO1",
+   "recruitment": 4.765,
+   "n_signings": 14,
+   "position": 16,
+   "points": 27,
+   "pos_change": null
+  },
+  {
+   "club": "CD Leganés",
+   "season": "24/25",
+   "league": "ES1",
+   "recruitment": 4.828,
+   "n_signings": 13,
+   "position": 18,
+   "points": 40,
+   "pos_change": null
+  },
+  {
+   "club": "PSV Eindhoven",
+   "season": "24/25",
+   "league": "NL1",
+   "recruitment": 4.809,
+   "n_signings": 10,
+   "position": 1,
+   "points": 79,
+   "pos_change": 0
+  },
+  {
+   "club": "FC Nantes",
+   "season": "20/21",
+   "league": "FR1",
+   "recruitment": 5.189,
+   "n_signings": 4,
+   "position": 18,
+   "points": 40,
+   "pos_change": -5
+  },
+  {
+   "club": "AJ Auxerre",
+   "season": "25/26",
+   "league": "FR1",
+   "recruitment": 4.947,
+   "n_signings": 7,
+   "position": 15,
+   "points": 34,
+   "pos_change": -4
+  },
+  {
+   "club": "PSV Eindhoven",
+   "season": "19/20",
+   "league": "NL1",
+   "recruitment": 5.128,
+   "n_signings": 6,
+   "position": 4,
+   "points": 49,
+   "pos_change": -2
+  },
+  {
+   "club": "FC Twente Enschede",
+   "season": "22/23",
+   "league": "NL1",
+   "recruitment": 4.91,
+   "n_signings": 5,
+   "position": 5,
+   "points": 64,
+   "pos_change": -1
+  },
+  {
+   "club": "SV Werder Bremen",
+   "season": "22/23",
+   "league": "L1",
+   "recruitment": 5.05,
+   "n_signings": 7,
+   "position": 13,
+   "points": 36,
+   "pos_change": null
+  },
+  {
+   "club": "Vitesse Arnhem",
+   "season": "22/23",
+   "league": "NL1",
+   "recruitment": 5.023,
+   "n_signings": 5,
+   "position": 10,
+   "points": 40,
+   "pos_change": -4
+  },
+  {
+   "club": "Liverpool FC",
+   "season": "23/24",
+   "league": "GB1",
+   "recruitment": 5.03,
+   "n_signings": 6,
+   "position": 3,
+   "points": 82,
+   "pos_change": 2
+  },
+  {
+   "club": "FC Twente Enschede",
+   "season": "23/24",
+   "league": "NL1",
+   "recruitment": 4.993,
+   "n_signings": 6,
+   "position": 3,
+   "points": 69,
+   "pos_change": 2
+  },
+  {
+   "club": "AC Milan",
+   "season": "19/20",
+   "league": "IT1",
+   "recruitment": 5.171,
+   "n_signings": 7,
+   "position": 6,
+   "points": 66,
+   "pos_change": -1
+  },
+  {
+   "club": "PSV Eindhoven",
+   "season": "22/23",
+   "league": "NL1",
+   "recruitment": 4.663,
+   "n_signings": 9,
+   "position": 2,
+   "points": 75,
+   "pos_change": 0
+  },
+  {
+   "club": "Willem II Tilburg",
+   "season": "19/20",
+   "league": "NL1",
+   "recruitment": 4.721,
+   "n_signings": 7,
+   "position": 5,
+   "points": 44,
+   "pos_change": 5
+  },
+  {
+   "club": "Manchester United",
+   "season": "25/26",
+   "league": "GB1",
+   "recruitment": 5.223,
+   "n_signings": 4,
+   "position": 3,
+   "points": 71,
+   "pos_change": 12
+  },
+  {
+   "club": "Atlético de Madrid",
+   "season": "22/23",
+   "league": "ES1",
+   "recruitment": 4.913,
+   "n_signings": 6,
+   "position": 3,
+   "points": 77,
+   "pos_change": 0
+  },
+  {
+   "club": "CD Tondela",
+   "season": "20/21",
+   "league": "PO1",
+   "recruitment": 4.872,
+   "n_signings": 5,
+   "position": 12,
+   "points": 36,
+   "pos_change": 2
+  },
+  {
+   "club": "Le Havre AC",
+   "season": "23/24",
+   "league": "FR1",
+   "recruitment": 4.696,
+   "n_signings": 9,
+   "position": 15,
+   "points": 32,
+   "pos_change": null
+  },
+  {
+   "club": "NAC Breda",
+   "season": "24/25",
+   "league": "NL1",
+   "recruitment": 4.67,
+   "n_signings": 9,
+   "position": 15,
+   "points": 33,
+   "pos_change": null
+  },
+  {
+   "club": "FC Twente Enschede",
+   "season": "20/21",
+   "league": "NL1",
+   "recruitment": 5.091,
+   "n_signings": 3,
+   "position": 10,
+   "points": 41,
+   "pos_change": 4
+  },
+  {
+   "club": "Juventus FC",
+   "season": "24/25",
+   "league": "IT1",
+   "recruitment": 4.964,
+   "n_signings": 9,
+   "position": 4,
+   "points": 70,
+   "pos_change": -1
+  },
+  {
+   "club": "Olympique Marseille",
+   "season": "25/26",
+   "league": "FR1",
+   "recruitment": 4.588,
+   "n_signings": 13,
+   "position": 5,
+   "points": 59,
+   "pos_change": -3
+  },
+  {
+   "club": "FC Porto",
+   "season": "21/22",
+   "league": "PO1",
+   "recruitment": 4.973,
+   "n_signings": 5,
+   "position": 1,
+   "points": 91,
+   "pos_change": 1
+  },
+  {
+   "club": "FC Famalicão",
+   "season": "24/25",
+   "league": "PO1",
+   "recruitment": 4.563,
+   "n_signings": 12,
+   "position": 7,
+   "points": 47,
+   "pos_change": 1
+  },
+  {
+   "club": "SSC Napoli",
+   "season": "22/23",
+   "league": "IT1",
+   "recruitment": 4.929,
+   "n_signings": 8,
+   "position": 1,
+   "points": 90,
+   "pos_change": 2
+  },
+  {
+   "club": "CA Osasuna",
+   "season": "24/25",
+   "league": "ES1",
+   "recruitment": 5.739,
+   "n_signings": 2,
+   "position": 9,
+   "points": 52,
+   "pos_change": 2
+  },
+  {
+   "club": "US Sassuolo",
+   "season": "25/26",
+   "league": "IT1",
+   "recruitment": 4.973,
+   "n_signings": 6,
+   "position": 11,
+   "points": 49,
+   "pos_change": null
+  },
+  {
+   "club": "Bayer 04 Leverkusen",
+   "season": "21/22",
+   "league": "L1",
+   "recruitment": 4.876,
+   "n_signings": 6,
+   "position": 3,
+   "points": 64,
+   "pos_change": 3
+  },
+  {
+   "club": "AS Roma",
+   "season": "22/23",
+   "league": "IT1",
+   "recruitment": 4.962,
+   "n_signings": 8,
+   "position": 6,
+   "points": 63,
+   "pos_change": 0
+  },
+  {
+   "club": "SC Braga",
+   "season": "23/24",
+   "league": "PO1",
+   "recruitment": 4.6,
+   "n_signings": 10,
+   "position": 4,
+   "points": 68,
+   "pos_change": -1
+  },
+  {
+   "club": "Valencia CF",
+   "season": "23/24",
+   "league": "ES1",
+   "recruitment": 4.55,
+   "n_signings": 10,
+   "position": 9,
+   "points": 49,
+   "pos_change": 5
+  },
+  {
+   "club": "Atlético de Madrid",
+   "season": "24/25",
+   "league": "ES1",
+   "recruitment": 5.196,
+   "n_signings": 4,
+   "position": 3,
+   "points": 76,
+   "pos_change": 1
+  },
+  {
+   "club": "Genoa CFC",
+   "season": "25/26",
+   "league": "IT1",
+   "recruitment": 5.704,
+   "n_signings": 3,
+   "position": 16,
+   "points": 41,
+   "pos_change": -3
+  },
+  {
+   "club": "RCD Mallorca",
+   "season": "22/23",
+   "league": "ES1",
+   "recruitment": 4.622,
+   "n_signings": 7,
+   "position": 9,
+   "points": 50,
+   "pos_change": 7
+  },
+  {
+   "club": "Vitesse Arnhem",
+   "season": "20/21",
+   "league": "NL1",
+   "recruitment": 5.242,
+   "n_signings": 3,
+   "position": 4,
+   "points": 61,
+   "pos_change": 3
+  },
+  {
+   "club": "Bayern Munich",
+   "season": "25/26",
+   "league": "L1",
+   "recruitment": 5.141,
+   "n_signings": 3,
+   "position": 1,
+   "points": 89,
+   "pos_change": 0
+  },
+  {
+   "club": "SC Farense",
+   "season": "20/21",
+   "league": "PO1",
+   "recruitment": 4.397,
+   "n_signings": 17,
+   "position": 17,
+   "points": 31,
+   "pos_change": null
+  },
+  {
+   "club": "Stade Reims",
+   "season": "19/20",
+   "league": "FR1",
+   "recruitment": 4.545,
+   "n_signings": 9,
+   "position": 5,
+   "points": 41,
+   "pos_change": 3
+  },
+  {
+   "club": "FC Toulouse",
+   "season": "23/24",
+   "league": "FR1",
+   "recruitment": 4.482,
+   "n_signings": 10,
+   "position": 11,
+   "points": 43,
+   "pos_change": 2
+  },
+  {
+   "club": "Real Sociedad",
+   "season": "24/25",
+   "league": "ES1",
+   "recruitment": 4.506,
+   "n_signings": 9,
+   "position": 11,
+   "points": 46,
+   "pos_change": -5
+  },
+  {
+   "club": "Stade Brestois 29",
+   "season": "19/20",
+   "league": "FR1",
+   "recruitment": 4.505,
+   "n_signings": 8,
+   "position": 14,
+   "points": 34,
+   "pos_change": null
+  },
+  {
+   "club": "Angers SCO",
+   "season": "25/26",
+   "league": "FR1",
+   "recruitment": 4.693,
+   "n_signings": 4,
+   "position": 13,
+   "points": 36,
+   "pos_change": 1
+  },
+  {
+   "club": "Olympique Lyon",
+   "season": "20/21",
+   "league": "FR1",
+   "recruitment": 4.857,
+   "n_signings": 4,
+   "position": 4,
+   "points": 76,
+   "pos_change": 3
+  },
+  {
+   "club": "FC Paços de Ferreira",
+   "season": "22/23",
+   "league": "PO1",
+   "recruitment": 4.583,
+   "n_signings": 6,
+   "position": 17,
+   "points": 23,
+   "pos_change": -6
+  },
+  {
+   "club": "Sevilla FC",
+   "season": "23/24",
+   "league": "ES1",
+   "recruitment": 4.503,
+   "n_signings": 8,
+   "position": 13,
+   "points": 41,
+   "pos_change": -2
+  },
+  {
+   "club": "Eintracht Frankfurt",
+   "season": "25/26",
+   "league": "L1",
+   "recruitment": 4.693,
+   "n_signings": 7,
+   "position": 8,
+   "points": 44,
+   "pos_change": -5
+  },
+  {
+   "club": "FC Augsburg",
+   "season": "25/26",
+   "league": "L1",
+   "recruitment": 4.457,
+   "n_signings": 10,
+   "position": 9,
+   "points": 43,
+   "pos_change": 3
+  },
+  {
+   "club": "NEC Nijmegen",
+   "season": "22/23",
+   "league": "NL1",
+   "recruitment": 4.482,
+   "n_signings": 6,
+   "position": 12,
+   "points": 39,
+   "pos_change": -1
+  },
+  {
+   "club": "AZ Alkmaar",
+   "season": "24/25",
+   "league": "NL1",
+   "recruitment": 4.482,
+   "n_signings": 7,
+   "position": 5,
+   "points": 57,
+   "pos_change": -1
+  },
+  {
+   "club": "Girona FC",
+   "season": "24/25",
+   "league": "ES1",
+   "recruitment": 4.832,
+   "n_signings": 6,
+   "position": 16,
+   "points": 41,
+   "pos_change": -13
+  },
+  {
+   "club": "TSG 1899 Hoffenheim",
+   "season": "21/22",
+   "league": "L1",
+   "recruitment": 4.744,
+   "n_signings": 4,
+   "position": 9,
+   "points": 46,
+   "pos_change": 2
+  },
+  {
+   "club": "Elche CF",
+   "season": "20/21",
+   "league": "ES1",
+   "recruitment": 4.454,
+   "n_signings": 10,
+   "position": 17,
+   "points": 36,
+   "pos_change": null
+  },
+  {
+   "club": "Heracles Almelo",
+   "season": "23/24",
+   "league": "NL1",
+   "recruitment": 4.328,
+   "n_signings": 9,
+   "position": 14,
+   "points": 33,
+   "pos_change": null
+  },
+  {
+   "club": "Arminia Bielefeld",
+   "season": "20/21",
+   "league": "L1",
+   "recruitment": 5.053,
+   "n_signings": 4,
+   "position": 15,
+   "points": 35,
+   "pos_change": null
+  },
+  {
+   "club": "Stade Brestois 29",
+   "season": "24/25",
+   "league": "FR1",
+   "recruitment": 4.602,
+   "n_signings": 5,
+   "position": 9,
+   "points": 50,
+   "pos_change": -6
+  },
+  {
+   "club": "FC Paços de Ferreira",
+   "season": "21/22",
+   "league": "PO1",
+   "recruitment": 4.329,
+   "n_signings": 8,
+   "position": 11,
+   "points": 38,
+   "pos_change": -6
+  },
+  {
+   "club": "Nîmes Olympique",
+   "season": "20/21",
+   "league": "FR1",
+   "recruitment": 4.341,
+   "n_signings": 7,
+   "position": 19,
+   "points": 35,
+   "pos_change": -1
+  },
+  {
+   "club": "Boavista FC",
+   "season": "23/24",
+   "league": "PO1",
+   "recruitment": 4.724,
+   "n_signings": 3,
+   "position": 15,
+   "points": 32,
+   "pos_change": -6
+  },
+  {
+   "club": "Stade Brestois 29",
+   "season": "21/22",
+   "league": "FR1",
+   "recruitment": 4.338,
+   "n_signings": 7,
+   "position": 11,
+   "points": 48,
+   "pos_change": 6
+  },
+  {
+   "club": "FC Barcelona",
+   "season": "23/24",
+   "league": "ES1",
+   "recruitment": 4.439,
+   "n_signings": 9,
+   "position": 2,
+   "points": 85,
+   "pos_change": -1
+  },
+  {
+   "club": "Borussia Dortmund",
+   "season": "23/24",
+   "league": "L1",
+   "recruitment": 4.568,
+   "n_signings": 5,
+   "position": 5,
+   "points": 63,
+   "pos_change": -3
+  },
+  {
+   "club": "SC Braga",
+   "season": "21/22",
+   "league": "PO1",
+   "recruitment": 4.311,
+   "n_signings": 9,
+   "position": 4,
+   "points": 65,
+   "pos_change": 0
+  },
+  {
+   "club": "Borussia Dortmund",
+   "season": "19/20",
+   "league": "L1",
+   "recruitment": 4.548,
+   "n_signings": 6,
+   "position": 2,
+   "points": 69,
+   "pos_change": 0
+  },
+  {
+   "club": "FC Porto",
+   "season": "23/24",
+   "league": "PO1",
+   "recruitment": 4.284,
+   "n_signings": 8,
+   "position": 3,
+   "points": 72,
+   "pos_change": -1
+  },
+  {
+   "club": "PEC Zwolle",
+   "season": "25/26",
+   "league": "NL1",
+   "recruitment": 4.402,
+   "n_signings": 4,
+   "position": 15,
+   "points": 37,
+   "pos_change": -5
+  },
+  {
+   "club": "Olympique Marseille",
+   "season": "20/21",
+   "league": "FR1",
+   "recruitment": 4.57,
+   "n_signings": 4,
+   "position": 5,
+   "points": 60,
+   "pos_change": -3
+  },
+  {
+   "club": "RKC Waalwijk",
+   "season": "24/25",
+   "league": "NL1",
+   "recruitment": 4.137,
+   "n_signings": 13,
+   "position": 17,
+   "points": 25,
+   "pos_change": -2
+  },
+  {
+   "club": "Sparta Rotterdam",
+   "season": "22/23",
+   "league": "NL1",
+   "recruitment": 4.178,
+   "n_signings": 10,
+   "position": 6,
+   "points": 59,
+   "pos_change": 8
+  },
+  {
+   "club": "VfL Bochum",
+   "season": "24/25",
+   "league": "L1",
+   "recruitment": 4.455,
+   "n_signings": 6,
+   "position": 18,
+   "points": 25,
+   "pos_change": -2
+  },
+  {
+   "club": "LOSC Lille",
+   "season": "24/25",
+   "league": "FR1",
+   "recruitment": 4.334,
+   "n_signings": 7,
+   "position": 5,
+   "points": 60,
+   "pos_change": -1
+  },
+  {
+   "club": "Sparta Rotterdam",
+   "season": "23/24",
+   "league": "NL1",
+   "recruitment": 4.221,
+   "n_signings": 8,
+   "position": 8,
+   "points": 49,
+   "pos_change": -2
+  },
+  {
+   "club": "Chelsea FC",
+   "season": "19/20",
+   "league": "GB1",
+   "recruitment": 4.568,
+   "n_signings": 5,
+   "position": 4,
+   "points": 66,
+   "pos_change": -1
+  },
+  {
+   "club": "Celta de Vigo",
+   "season": "24/25",
+   "league": "ES1",
+   "recruitment": 4.234,
+   "n_signings": 10,
+   "position": 7,
+   "points": 55,
+   "pos_change": 7
+  },
+  {
+   "club": "Borussia Dortmund",
+   "season": "21/22",
+   "league": "L1",
+   "recruitment": 4.891,
+   "n_signings": 3,
+   "position": 2,
+   "points": 69,
+   "pos_change": 1
+  },
+  {
+   "club": "Stade Rennais FC",
+   "season": "20/21",
+   "league": "FR1",
+   "recruitment": 4.245,
+   "n_signings": 7,
+   "position": 6,
+   "points": 58,
+   "pos_change": -3
+  },
+  {
+   "club": "Moreirense FC",
+   "season": "23/24",
+   "league": "PO1",
+   "recruitment": 4.138,
+   "n_signings": 16,
+   "position": 6,
+   "points": 55,
+   "pos_change": null
+  },
+  {
+   "club": "Olympique Lyon",
+   "season": "25/26",
+   "league": "FR1",
+   "recruitment": 4.238,
+   "n_signings": 9,
+   "position": 4,
+   "points": 60,
+   "pos_change": 2
+  },
+  {
+   "club": "FC Vizela",
+   "season": "21/22",
+   "league": "PO1",
+   "recruitment": 4.247,
+   "n_signings": 10,
+   "position": 14,
+   "points": 33,
+   "pos_change": null
+  },
+  {
+   "club": "Paris FC",
+   "season": "25/26",
+   "league": "FR1",
+   "recruitment": 4.175,
+   "n_signings": 10,
+   "position": 11,
+   "points": 44,
+   "pos_change": null
+  },
+  {
+   "club": "FC Twente Enschede",
+   "season": "25/26",
+   "league": "NL1",
+   "recruitment": 4.171,
+   "n_signings": 8,
+   "position": 4,
+   "points": 58,
+   "pos_change": 2
+  },
+  {
+   "club": "Olympique Marseille",
+   "season": "24/25",
+   "league": "FR1",
+   "recruitment": 4.195,
+   "n_signings": 10,
+   "position": 2,
+   "points": 65,
+   "pos_change": 6
+  },
+  {
+   "club": "FC Alverca",
+   "season": "25/26",
+   "league": "PO1",
+   "recruitment": 4.074,
+   "n_signings": 19,
+   "position": 11,
+   "points": 39,
+   "pos_change": null
+  },
+  {
+   "club": "Real Sociedad",
+   "season": "19/20",
+   "league": "ES1",
+   "recruitment": 4.241,
+   "n_signings": 8,
+   "position": 6,
+   "points": 56,
+   "pos_change": 3
+  },
+  {
+   "club": "Bayer 04 Leverkusen",
+   "season": "23/24",
+   "league": "L1",
+   "recruitment": 4.303,
+   "n_signings": 7,
+   "position": 1,
+   "points": 90,
+   "pos_change": 5
+  },
+  {
+   "club": "Real Madrid",
+   "season": "23/24",
+   "league": "ES1",
+   "recruitment": 4.571,
+   "n_signings": 4,
+   "position": 1,
+   "points": 95,
+   "pos_change": 1
+  },
+  {
+   "club": "Leeds United",
+   "season": "25/26",
+   "league": "GB1",
+   "recruitment": 4.231,
+   "n_signings": 10,
+   "position": 14,
+   "points": 47,
+   "pos_change": null
+  },
+  {
+   "club": "Real Madrid",
+   "season": "25/26",
+   "league": "ES1",
+   "recruitment": 4.374,
+   "n_signings": 6,
+   "position": 2,
+   "points": 86,
+   "pos_change": 0
+  },
+  {
+   "club": "Benevento Calcio",
+   "season": "20/21",
+   "league": "IT1",
+   "recruitment": 4.437,
+   "n_signings": 6,
+   "position": 18,
+   "points": 33,
+   "pos_change": null
+  },
+  {
+   "club": "Liverpool FC",
+   "season": "20/21",
+   "league": "GB1",
+   "recruitment": 4.76,
+   "n_signings": 4,
+   "position": 3,
+   "points": 69,
+   "pos_change": -2
+  },
+  {
+   "club": "FC Metz",
+   "season": "19/20",
+   "league": "FR1",
+   "recruitment": 4.255,
+   "n_signings": 5,
+   "position": 15,
+   "points": 34,
+   "pos_change": null
+  },
+  {
+   "club": "UD Las Palmas",
+   "season": "24/25",
+   "league": "ES1",
+   "recruitment": 4.18,
+   "n_signings": 10,
+   "position": 19,
+   "points": 32,
+   "pos_change": -3
+  },
+  {
+   "club": "Nottingham Forest",
+   "season": "23/24",
+   "league": "GB1",
+   "recruitment": 4.148,
+   "n_signings": 11,
+   "position": 17,
+   "points": 32,
+   "pos_change": -1
+  },
+  {
+   "club": "RB Leipzig",
+   "season": "23/24",
+   "league": "L1",
+   "recruitment": 4.266,
+   "n_signings": 7,
+   "position": 4,
+   "points": 65,
+   "pos_change": -1
+  },
+  {
+   "club": "US Lecce",
+   "season": "19/20",
+   "league": "IT1",
+   "recruitment": 4.272,
+   "n_signings": 10,
+   "position": 18,
+   "points": 35,
+   "pos_change": null
+  },
+  {
+   "club": "Willem II Tilburg",
+   "season": "24/25",
+   "league": "NL1",
+   "recruitment": 4.293,
+   "n_signings": 4,
+   "position": 16,
+   "points": 26,
+   "pos_change": null
+  },
+  {
+   "club": "Moreirense FC",
+   "season": "25/26",
+   "league": "PO1",
+   "recruitment": 4.069,
+   "n_signings": 10,
+   "position": 7,
+   "points": 43,
+   "pos_change": 3
+  },
+  {
+   "club": "Elche CF",
+   "season": "25/26",
+   "league": "ES1",
+   "recruitment": 4.136,
+   "n_signings": 10,
+   "position": 15,
+   "points": 43,
+   "pos_change": null
+  },
+  {
+   "club": "Borussia Dortmund",
+   "season": "20/21",
+   "league": "L1",
+   "recruitment": 4.918,
+   "n_signings": 3,
+   "position": 3,
+   "points": 64,
+   "pos_change": -1
+  },
+  {
+   "club": "Paris Saint-Germain",
+   "season": "24/25",
+   "league": "FR1",
+   "recruitment": 4.154,
+   "n_signings": 6,
+   "position": 1,
+   "points": 84,
+   "pos_change": 0
+  },
+  {
+   "club": "Stade Brestois 29",
+   "season": "23/24",
+   "league": "FR1",
+   "recruitment": 4.294,
+   "n_signings": 4,
+   "position": 3,
+   "points": 61,
+   "pos_change": 11
+  },
+  {
+   "club": "Fulham FC",
+   "season": "23/24",
+   "league": "GB1",
+   "recruitment": 4.304,
+   "n_signings": 6,
+   "position": 13,
+   "points": 47,
+   "pos_change": -3
+  },
+  {
+   "club": "FC Nantes",
+   "season": "21/22",
+   "league": "FR1",
+   "recruitment": 4.353,
+   "n_signings": 3,
+   "position": 9,
+   "points": 55,
+   "pos_change": 9
+  },
+  {
+   "club": "Rayo Vallecano",
+   "season": "21/22",
+   "league": "ES1",
+   "recruitment": 4.269,
+   "n_signings": 6,
+   "position": 12,
+   "points": 42,
+   "pos_change": null
+  },
+  {
+   "club": "NEC Nijmegen",
+   "season": "25/26",
+   "league": "NL1",
+   "recruitment": 4.021,
+   "n_signings": 9,
+   "position": 3,
+   "points": 59,
+   "pos_change": 5
+  },
+  {
+   "club": "Real Betis Balompié",
+   "season": "21/22",
+   "league": "ES1",
+   "recruitment": 4.291,
+   "n_signings": 5,
+   "position": 5,
+   "points": 65,
+   "pos_change": 1
+  },
+  {
+   "club": "Montpellier HSC",
+   "season": "23/24",
+   "league": "FR1",
+   "recruitment": 4.046,
+   "n_signings": 7,
+   "position": 12,
+   "points": 41,
+   "pos_change": 0
+  },
+  {
+   "club": "FC Emmen",
+   "season": "22/23",
+   "league": "NL1",
+   "recruitment": 4.053,
+   "n_signings": 9,
+   "position": 16,
+   "points": 28,
+   "pos_change": null
+  },
+  {
+   "club": "SL Benfica",
+   "season": "20/21",
+   "league": "PO1",
+   "recruitment": 3.995,
+   "n_signings": 12,
+   "position": 3,
+   "points": 76,
+   "pos_change": -1
+  },
+  {
+   "club": "AS Monaco",
+   "season": "22/23",
+   "league": "FR1",
+   "recruitment": 4.048,
+   "n_signings": 6,
+   "position": 6,
+   "points": 65,
+   "pos_change": -3
+  },
+  {
+   "club": "AS Monaco",
+   "season": "21/22",
+   "league": "FR1",
+   "recruitment": 4.351,
+   "n_signings": 4,
+   "position": 3,
+   "points": 69,
+   "pos_change": 0
+  },
+  {
+   "club": "Fortuna Sittard",
+   "season": "25/26",
+   "league": "NL1",
+   "recruitment": 3.966,
+   "n_signings": 10,
+   "position": 11,
+   "points": 39,
+   "pos_change": 0
+  },
+  {
+   "club": "Paris Saint-Germain",
+   "season": "23/24",
+   "league": "FR1",
+   "recruitment": 3.941,
+   "n_signings": 15,
+   "position": 1,
+   "points": 76,
+   "pos_change": 0
+  },
+  {
+   "club": "SC Heerenveen",
+   "season": "24/25",
+   "league": "NL1",
+   "recruitment": 3.937,
+   "n_signings": 10,
+   "position": 9,
+   "points": 43,
+   "pos_change": 2
+  },
+  {
+   "club": "SS Lazio",
+   "season": "23/24",
+   "league": "IT1",
+   "recruitment": 4.487,
+   "n_signings": 7,
+   "position": 7,
+   "points": 61,
+   "pos_change": -5
+  },
+  {
+   "club": "Hamburger SV",
+   "season": "25/26",
+   "league": "L1",
+   "recruitment": 4.055,
+   "n_signings": 9,
+   "position": 13,
+   "points": 38,
+   "pos_change": null
+  },
+  {
+   "club": "RB Leipzig",
+   "season": "24/25",
+   "league": "L1",
+   "recruitment": 4.187,
+   "n_signings": 6,
+   "position": 7,
+   "points": 51,
+   "pos_change": -3
+  },
+  {
+   "club": "Excelsior Rotterdam",
+   "season": "25/26",
+   "league": "NL1",
+   "recruitment": 3.932,
+   "n_signings": 10,
+   "position": 13,
+   "points": 38,
+   "pos_change": null
+  },
+  {
+   "club": "Gil Vicente FC",
+   "season": "25/26",
+   "league": "PO1",
+   "recruitment": 3.934,
+   "n_signings": 11,
+   "position": 6,
+   "points": 50,
+   "pos_change": 7
+  },
+  {
+   "club": "Sporting CP",
+   "season": "23/24",
+   "league": "PO1",
+   "recruitment": 3.948,
+   "n_signings": 10,
+   "position": 1,
+   "points": 90,
+   "pos_change": 3
+  },
+  {
+   "club": "FC Girondins Bordeaux",
+   "season": "19/20",
+   "league": "FR1",
+   "recruitment": 3.95,
+   "n_signings": 8,
+   "position": 12,
+   "points": 37,
+   "pos_change": 2
+  },
+  {
+   "club": "Sunderland AFC",
+   "season": "25/26",
+   "league": "GB1",
+   "recruitment": 3.92,
+   "n_signings": 17,
+   "position": 7,
+   "points": 54,
+   "pos_change": null
+  },
+  {
+   "club": "SL Benfica",
+   "season": "23/24",
+   "league": "PO1",
+   "recruitment": 4.024,
+   "n_signings": 8,
+   "position": 2,
+   "points": 80,
+   "pos_change": -1
+  },
+  {
+   "club": "Amiens SC",
+   "season": "19/20",
+   "league": "FR1",
+   "recruitment": 3.92,
+   "n_signings": 9,
+   "position": 19,
+   "points": 23,
+   "pos_change": -4
+  },
+  {
+   "club": "Manchester City",
+   "season": "24/25",
+   "league": "GB1",
+   "recruitment": 4.304,
+   "n_signings": 7,
+   "position": 3,
+   "points": 71,
+   "pos_change": -2
+  },
+  {
+   "club": "Aston Villa",
+   "season": "21/22",
+   "league": "GB1",
+   "recruitment": 4.197,
+   "n_signings": 7,
+   "position": 14,
+   "points": 45,
+   "pos_change": -3
+  },
+  {
+   "club": "GD Chaves",
+   "season": "23/24",
+   "league": "PO1",
+   "recruitment": 3.901,
+   "n_signings": 13,
+   "position": 18,
+   "points": 23,
+   "pos_change": -11
+  },
+  {
+   "club": "Aston Villa",
+   "season": "20/21",
+   "league": "GB1",
+   "recruitment": 4.186,
+   "n_signings": 5,
+   "position": 11,
+   "points": 55,
+   "pos_change": 6
+  },
+  {
+   "club": "CD Tondela",
+   "season": "21/22",
+   "league": "PO1",
+   "recruitment": 4.115,
+   "n_signings": 4,
+   "position": 17,
+   "points": 28,
+   "pos_change": -5
+  },
+  {
+   "club": "Manchester United",
+   "season": "19/20",
+   "league": "GB1",
+   "recruitment": 4.289,
+   "n_signings": 4,
+   "position": 3,
+   "points": 66,
+   "pos_change": 3
+  },
+  {
+   "club": "Arsenal FC",
+   "season": "23/24",
+   "league": "GB1",
+   "recruitment": 4.594,
+   "n_signings": 3,
+   "position": 2,
+   "points": 89,
+   "pos_change": 0
+  },
+  {
+   "club": "Villarreal CF",
+   "season": "20/21",
+   "league": "ES1",
+   "recruitment": 3.947,
+   "n_signings": 10,
+   "position": 7,
+   "points": 58,
+   "pos_change": -2
+  },
+  {
+   "club": "VfL Bochum",
+   "season": "22/23",
+   "league": "L1",
+   "recruitment": 4.075,
+   "n_signings": 6,
+   "position": 14,
+   "points": 35,
+   "pos_change": -1
+  },
+  {
+   "club": "GD Estoril Praia",
+   "season": "24/25",
+   "league": "PO1",
+   "recruitment": 3.827,
+   "n_signings": 17,
+   "position": 8,
+   "points": 46,
+   "pos_change": 5
+  },
+  {
+   "club": "Manchester City",
+   "season": "21/22",
+   "league": "GB1",
+   "recruitment": 4.429,
+   "n_signings": 3,
+   "position": 1,
+   "points": 93,
+   "pos_change": 0
+  },
+  {
+   "club": "Everton FC",
+   "season": "24/25",
+   "league": "GB1",
+   "recruitment": 4.426,
+   "n_signings": 3,
+   "position": 13,
+   "points": 48,
+   "pos_change": 2
+  },
+  {
+   "club": "Udinese Calcio",
+   "season": "20/21",
+   "league": "IT1",
+   "recruitment": 4.164,
+   "n_signings": 6,
+   "position": 14,
+   "points": 40,
+   "pos_change": -1
+  },
+  {
+   "club": "Rio Ave FC",
+   "season": "20/21",
+   "league": "PO1",
+   "recruitment": 3.995,
+   "n_signings": 7,
+   "position": 16,
+   "points": 34,
+   "pos_change": -11
+  },
+  {
+   "club": "Getafe CF",
+   "season": "20/21",
+   "league": "ES1",
+   "recruitment": 4.278,
+   "n_signings": 3,
+   "position": 15,
+   "points": 38,
+   "pos_change": -7
+  },
+  {
+   "club": "FC Arouca",
+   "season": "24/25",
+   "league": "PO1",
+   "recruitment": 3.844,
+   "n_signings": 9,
+   "position": 12,
+   "points": 38,
+   "pos_change": -5
+  },
+  {
+   "club": "Vitória Guimarães SC",
+   "season": "19/20",
+   "league": "PO1",
+   "recruitment": 3.83,
+   "n_signings": 10,
+   "position": 7,
+   "points": 50,
+   "pos_change": -2
+  },
+  {
+   "club": "Bayern Munich",
+   "season": "23/24",
+   "league": "L1",
+   "recruitment": 3.863,
+   "n_signings": 9,
+   "position": 3,
+   "points": 72,
+   "pos_change": -2
+  },
+  {
+   "club": "Elche CF",
+   "season": "21/22",
+   "league": "ES1",
+   "recruitment": 3.835,
+   "n_signings": 10,
+   "position": 13,
+   "points": 42,
+   "pos_change": 4
+  },
+  {
+   "club": "AC Ajaccio",
+   "season": "22/23",
+   "league": "FR1",
+   "recruitment": 3.802,
+   "n_signings": 10,
+   "position": 18,
+   "points": 26,
+   "pos_change": null
+  },
+  {
+   "club": "Real Valladolid CF",
+   "season": "22/23",
+   "league": "ES1",
+   "recruitment": 3.815,
+   "n_signings": 13,
+   "position": 18,
+   "points": 40,
+   "pos_change": null
+  },
+  {
+   "club": "FC Emmen",
+   "season": "19/20",
+   "league": "NL1",
+   "recruitment": 3.746,
+   "n_signings": 11,
+   "position": 12,
+   "points": 32,
+   "pos_change": 2
+  },
+  {
+   "club": "Portimonense SAD",
+   "season": "23/24",
+   "league": "PO1",
+   "recruitment": 3.832,
+   "n_signings": 8,
+   "position": 16,
+   "points": 32,
+   "pos_change": -1
+  },
+  {
+   "club": "AS Monaco",
+   "season": "24/25",
+   "league": "FR1",
+   "recruitment": 3.841,
+   "n_signings": 6,
+   "position": 3,
+   "points": 61,
+   "pos_change": -1
+  },
+  {
+   "club": "Sparta Rotterdam",
+   "season": "25/26",
+   "league": "NL1",
+   "recruitment": 3.756,
+   "n_signings": 11,
+   "position": 10,
+   "points": 43,
+   "pos_change": 2
+  },
+  {
+   "club": "Leicester City",
+   "season": "21/22",
+   "league": "GB1",
+   "recruitment": 4.191,
+   "n_signings": 4,
+   "position": 8,
+   "points": 52,
+   "pos_change": -3
+  },
+  {
+   "club": "AS Monaco",
+   "season": "23/24",
+   "league": "FR1",
+   "recruitment": 3.784,
+   "n_signings": 9,
+   "position": 2,
+   "points": 67,
+   "pos_change": 4
+  },
+  {
+   "club": "LOSC Lille",
+   "season": "25/26",
+   "league": "FR1",
+   "recruitment": 3.745,
+   "n_signings": 13,
+   "position": 3,
+   "points": 61,
+   "pos_change": 2
+  },
+  {
+   "club": "ESTAC Troyes",
+   "season": "21/22",
+   "league": "FR1",
+   "recruitment": 3.726,
+   "n_signings": 13,
+   "position": 15,
+   "points": 38,
+   "pos_change": null
+  },
+  {
+   "club": "FC Empoli",
+   "season": "23/24",
+   "league": "IT1",
+   "recruitment": 3.89,
+   "n_signings": 10,
+   "position": 17,
+   "points": 36,
+   "pos_change": -3
+  },
+  {
+   "club": "Heracles Almelo",
+   "season": "19/20",
+   "league": "NL1",
+   "recruitment": 3.745,
+   "n_signings": 8,
+   "position": 8,
+   "points": 36,
+   "pos_change": -1
+  },
+  {
+   "club": "Villarreal CF",
+   "season": "24/25",
+   "league": "ES1",
+   "recruitment": 3.767,
+   "n_signings": 16,
+   "position": 5,
+   "points": 70,
+   "pos_change": 3
+  },
+  {
+   "club": "Casa Pia AC",
+   "season": "22/23",
+   "league": "PO1",
+   "recruitment": 3.772,
+   "n_signings": 10,
+   "position": 10,
+   "points": 41,
+   "pos_change": null
+  },
+  {
+   "club": "Brighton & Hove Albion",
+   "season": "23/24",
+   "league": "GB1",
+   "recruitment": 3.881,
+   "n_signings": 11,
+   "position": 11,
+   "points": 48,
+   "pos_change": -5
+  },
+  {
+   "club": "Bologna FC 1909",
+   "season": "20/21",
+   "league": "IT1",
+   "recruitment": 4.393,
+   "n_signings": 3,
+   "position": 12,
+   "points": 41,
+   "pos_change": 0
+  },
+  {
+   "club": "SC Cambuur Leeuwarden",
+   "season": "22/23",
+   "league": "NL1",
+   "recruitment": 3.735,
+   "n_signings": 8,
+   "position": 17,
+   "points": 19,
+   "pos_change": -8
+  },
+  {
+   "club": "Sparta Rotterdam",
+   "season": "19/20",
+   "league": "NL1",
+   "recruitment": 3.771,
+   "n_signings": 6,
+   "position": 11,
+   "points": 33,
+   "pos_change": null
+  },
+  {
+   "club": "VfL Wolfsburg",
+   "season": "25/26",
+   "league": "L1",
+   "recruitment": 3.804,
+   "n_signings": 9,
+   "position": 16,
+   "points": 29,
+   "pos_change": -5
+  },
+  {
+   "club": "Liverpool FC",
+   "season": "21/22",
+   "league": "GB1",
+   "recruitment": 4.321,
+   "n_signings": 3,
+   "position": 2,
+   "points": 92,
+   "pos_change": 1
+  },
+  {
+   "club": "Atlético de Madrid",
+   "season": "20/21",
+   "league": "ES1",
+   "recruitment": 3.869,
+   "n_signings": 7,
+   "position": 1,
+   "points": 86,
+   "pos_change": 2
+  },
+  {
+   "club": "PEC Zwolle",
+   "season": "24/25",
+   "league": "NL1",
+   "recruitment": 3.756,
+   "n_signings": 5,
+   "position": 10,
+   "points": 41,
+   "pos_change": 2
+  },
+  {
+   "club": "Granada CF",
+   "season": "20/21",
+   "league": "ES1",
+   "recruitment": 3.867,
+   "n_signings": 6,
+   "position": 10,
+   "points": 46,
+   "pos_change": -3
+  },
+  {
+   "club": "Rayo Vallecano",
+   "season": "23/24",
+   "league": "ES1",
+   "recruitment": 3.81,
+   "n_signings": 7,
+   "position": 17,
+   "points": 38,
+   "pos_change": -5
+  },
+  {
+   "club": "Clermont Foot 63",
+   "season": "21/22",
+   "league": "FR1",
+   "recruitment": 3.777,
+   "n_signings": 6,
+   "position": 17,
+   "points": 36,
+   "pos_change": null
+  },
+  {
+   "club": "RB Leipzig",
+   "season": "20/21",
+   "league": "L1",
+   "recruitment": 4.19,
+   "n_signings": 4,
+   "position": 2,
+   "points": 65,
+   "pos_change": 1
+  },
+  {
+   "club": "Go Ahead Eagles",
+   "season": "24/25",
+   "league": "NL1",
+   "recruitment": 3.694,
+   "n_signings": 9,
+   "position": 7,
+   "points": 51,
+   "pos_change": 2
+  },
+  {
+   "club": "Manchester United",
+   "season": "21/22",
+   "league": "GB1",
+   "recruitment": 4.102,
+   "n_signings": 4,
+   "position": 6,
+   "points": 58,
+   "pos_change": -4
+  },
+  {
+   "club": "Real Sociedad",
+   "season": "20/21",
+   "league": "ES1",
+   "recruitment": 3.95,
+   "n_signings": 4,
+   "position": 5,
+   "points": 62,
+   "pos_change": 1
+  },
+  {
+   "club": "Sporting CP",
+   "season": "21/22",
+   "league": "PO1",
+   "recruitment": 3.856,
+   "n_signings": 5,
+   "position": 2,
+   "points": 85,
+   "pos_change": -1
+  },
+  {
+   "club": "Tottenham Hotspur",
+   "season": "22/23",
+   "league": "GB1",
+   "recruitment": 3.906,
+   "n_signings": 7,
+   "position": 8,
+   "points": 60,
+   "pos_change": -4
+  },
+  {
+   "club": "FC Famalicão",
+   "season": "19/20",
+   "league": "PO1",
+   "recruitment": 3.723,
+   "n_signings": 8,
+   "position": 6,
+   "points": 54,
+   "pos_change": null
+  },
+  {
+   "club": "Borussia Mönchengladbach",
+   "season": "24/25",
+   "league": "L1",
+   "recruitment": 4.042,
+   "n_signings": 3,
+   "position": 10,
+   "points": 45,
+   "pos_change": 4
+  },
+  {
+   "club": "FC Porto",
+   "season": "25/26",
+   "league": "PO1",
+   "recruitment": 3.672,
+   "n_signings": 10,
+   "position": 1,
+   "points": 88,
+   "pos_change": 2
+  },
+  {
+   "club": "Brentford FC",
+   "season": "23/24",
+   "league": "GB1",
+   "recruitment": 3.879,
+   "n_signings": 7,
+   "position": 16,
+   "points": 39,
+   "pos_change": -7
+  },
+  {
+   "club": "Stade Reims",
+   "season": "21/22",
+   "league": "FR1",
+   "recruitment": 3.655,
+   "n_signings": 9,
+   "position": 12,
+   "points": 46,
+   "pos_change": 2
+  },
+  {
+   "club": "Borussia Mönchengladbach",
+   "season": "20/21",
+   "league": "L1",
+   "recruitment": 3.967,
+   "n_signings": 4,
+   "position": 8,
+   "points": 49,
+   "pos_change": -4
+  },
+  {
+   "club": "FC Utrecht",
+   "season": "23/24",
+   "league": "NL1",
+   "recruitment": 3.629,
+   "n_signings": 13,
+   "position": 7,
+   "points": 50,
+   "pos_change": 0
+  },
+  {
+   "club": "AZ Alkmaar",
+   "season": "20/21",
+   "league": "NL1",
+   "recruitment": 3.696,
+   "n_signings": 7,
+   "position": 3,
+   "points": 71,
+   "pos_change": -1
+  },
+  {
+   "club": "RCD Mallorca",
+   "season": "23/24",
+   "league": "ES1",
+   "recruitment": 3.743,
+   "n_signings": 9,
+   "position": 15,
+   "points": 40,
+   "pos_change": -6
+  },
+  {
+   "club": "Newcastle United",
+   "season": "21/22",
+   "league": "GB1",
+   "recruitment": 3.885,
+   "n_signings": 5,
+   "position": 11,
+   "points": 49,
+   "pos_change": 1
+  },
+  {
+   "club": "Arsenal FC",
+   "season": "24/25",
+   "league": "GB1",
+   "recruitment": 4.106,
+   "n_signings": 3,
+   "position": 2,
+   "points": 74,
+   "pos_change": 0
+  },
+  {
+   "club": "Deportivo Alavés",
+   "season": "23/24",
+   "league": "ES1",
+   "recruitment": 3.707,
+   "n_signings": 9,
+   "position": 10,
+   "points": 46,
+   "pos_change": null
+  },
+  {
+   "club": "Burnley FC",
+   "season": "25/26",
+   "league": "GB1",
+   "recruitment": 3.684,
+   "n_signings": 13,
+   "position": 19,
+   "points": 22,
+   "pos_change": null
+  },
+  {
+   "club": "Dijon FCO",
+   "season": "19/20",
+   "league": "FR1",
+   "recruitment": 3.615,
+   "n_signings": 10,
+   "position": 16,
+   "points": 30,
+   "pos_change": 2
+  },
+  {
+   "club": "Fortuna Sittard",
+   "season": "20/21",
+   "league": "NL1",
+   "recruitment": 3.597,
+   "n_signings": 11,
+   "position": 11,
+   "points": 41,
+   "pos_change": 5
+  },
+  {
+   "club": "Crystal Palace",
+   "season": "21/22",
+   "league": "GB1",
+   "recruitment": 3.773,
+   "n_signings": 7,
+   "position": 12,
+   "points": 48,
+   "pos_change": 2
+  },
+  {
+   "club": "Vitória Guimarães SC",
+   "season": "24/25",
+   "league": "PO1",
+   "recruitment": 3.624,
+   "n_signings": 10,
+   "position": 6,
+   "points": 54,
+   "pos_change": -1
+  },
+  {
+   "club": "Excelsior Rotterdam",
+   "season": "23/24",
+   "league": "NL1",
+   "recruitment": 3.616,
+   "n_signings": 7,
+   "position": 16,
+   "points": 29,
+   "pos_change": -1
+  },
+  {
+   "club": "FC Barcelona",
+   "season": "22/23",
+   "league": "ES1",
+   "recruitment": 3.699,
+   "n_signings": 9,
+   "position": 1,
+   "points": 88,
+   "pos_change": 1
+  },
+  {
+   "club": "OGC Nice",
+   "season": "21/22",
+   "league": "FR1",
+   "recruitment": 3.637,
+   "n_signings": 7,
+   "position": 5,
+   "points": 66,
+   "pos_change": 4
+  },
+  {
+   "club": "Moreirense FC",
+   "season": "20/21",
+   "league": "PO1",
+   "recruitment": 3.617,
+   "n_signings": 11,
+   "position": 8,
+   "points": 43,
+   "pos_change": 0
+  },
+  {
+   "club": "Stade Brestois 29",
+   "season": "20/21",
+   "league": "FR1",
+   "recruitment": 3.618,
+   "n_signings": 8,
+   "position": 17,
+   "points": 41,
+   "pos_change": -3
+  },
+  {
+   "club": "CD Santa Clara",
+   "season": "20/21",
+   "league": "PO1",
+   "recruitment": 3.612,
+   "n_signings": 10,
+   "position": 6,
+   "points": 46,
+   "pos_change": 3
+  },
+  {
+   "club": "PSV Eindhoven",
+   "season": "20/21",
+   "league": "NL1",
+   "recruitment": 3.595,
+   "n_signings": 8,
+   "position": 2,
+   "points": 72,
+   "pos_change": 2
+  },
+  {
+   "club": "VfB Stuttgart",
+   "season": "21/22",
+   "league": "L1",
+   "recruitment": 3.74,
+   "n_signings": 7,
+   "position": 15,
+   "points": 33,
+   "pos_change": -6
+  },
+  {
+   "club": "Celta de Vigo",
+   "season": "19/20",
+   "league": "ES1",
+   "recruitment": 3.802,
+   "n_signings": 5,
+   "position": 17,
+   "points": 37,
+   "pos_change": 0
+  },
+  {
+   "club": "OGC Nice",
+   "season": "19/20",
+   "league": "FR1",
+   "recruitment": 3.645,
+   "n_signings": 6,
+   "position": 6,
+   "points": 41,
+   "pos_change": 1
+  },
+  {
+   "club": "RC Strasbourg Alsace",
+   "season": "19/20",
+   "league": "FR1",
+   "recruitment": 3.656,
+   "n_signings": 5,
+   "position": 10,
+   "points": 38,
+   "pos_change": 1
+  },
+  {
+   "club": "Feyenoord Rotterdam",
+   "season": "23/24",
+   "league": "NL1",
+   "recruitment": 3.566,
+   "n_signings": 10,
+   "position": 2,
+   "points": 84,
+   "pos_change": -1
+  },
+  {
+   "club": "FC Augsburg",
+   "season": "24/25",
+   "league": "L1",
+   "recruitment": 3.655,
+   "n_signings": 9,
+   "position": 12,
+   "points": 43,
+   "pos_change": -1
+  },
+  {
+   "club": "Montpellier HSC",
+   "season": "22/23",
+   "league": "FR1",
+   "recruitment": 3.587,
+   "n_signings": 9,
+   "position": 12,
+   "points": 50,
+   "pos_change": 1
+  },
+  {
+   "club": "Manchester City",
+   "season": "23/24",
+   "league": "GB1",
+   "recruitment": 3.762,
+   "n_signings": 8,
+   "position": 1,
+   "points": 91,
+   "pos_change": 0
+  },
+  {
+   "club": "SL Benfica",
+   "season": "24/25",
+   "league": "PO1",
+   "recruitment": 3.592,
+   "n_signings": 12,
+   "position": 2,
+   "points": 80,
+   "pos_change": 0
+  },
+  {
+   "club": "Levante UD",
+   "season": "20/21",
+   "league": "ES1",
+   "recruitment": 3.683,
+   "n_signings": 7,
+   "position": 14,
+   "points": 41,
+   "pos_change": -2
+  },
+  {
+   "club": "Tottenham Hotspur",
+   "season": "23/24",
+   "league": "GB1",
+   "recruitment": 3.684,
+   "n_signings": 9,
+   "position": 5,
+   "points": 66,
+   "pos_change": 3
+  },
+  {
+   "club": "FC Twente Enschede",
+   "season": "24/25",
+   "league": "NL1",
+   "recruitment": 3.557,
+   "n_signings": 8,
+   "position": 6,
+   "points": 54,
+   "pos_change": -3
+  },
+  {
+   "club": "Heracles Almelo",
+   "season": "24/25",
+   "league": "NL1",
+   "recruitment": 3.568,
+   "n_signings": 6,
+   "position": 14,
+   "points": 38,
+   "pos_change": 0
+  },
+  {
+   "club": "FC Girondins Bordeaux",
+   "season": "21/22",
+   "league": "FR1",
+   "recruitment": 3.597,
+   "n_signings": 7,
+   "position": 20,
+   "points": 31,
+   "pos_change": -8
+  },
+  {
+   "club": "CA Osasuna",
+   "season": "25/26",
+   "league": "ES1",
+   "recruitment": 3.719,
+   "n_signings": 5,
+   "position": 17,
+   "points": 42,
+   "pos_change": -8
+  },
+  {
+   "club": "CD Santa Clara",
+   "season": "24/25",
+   "league": "PO1",
+   "recruitment": 3.597,
+   "n_signings": 8,
+   "position": 5,
+   "points": 57,
+   "pos_change": null
+  },
+  {
+   "club": "Go Ahead Eagles",
+   "season": "25/26",
+   "league": "NL1",
+   "recruitment": 3.55,
+   "n_signings": 7,
+   "position": 12,
+   "points": 38,
+   "pos_change": -5
+  },
+  {
+   "club": "Inter Milan",
+   "season": "23/24",
+   "league": "IT1",
+   "recruitment": 3.743,
+   "n_signings": 8,
+   "position": 1,
+   "points": 94,
+   "pos_change": 2
+  },
+  {
+   "club": "Atalanta BC",
+   "season": "20/21",
+   "league": "IT1",
+   "recruitment": 3.854,
+   "n_signings": 8,
+   "position": 3,
+   "points": 78,
+   "pos_change": 0
+  },
+  {
+   "club": "Real Betis Balompié",
+   "season": "20/21",
+   "league": "ES1",
+   "recruitment": 3.703,
+   "n_signings": 6,
+   "position": 6,
+   "points": 61,
+   "pos_change": 9
+  },
+  {
+   "club": "Eintracht Frankfurt",
+   "season": "23/24",
+   "league": "L1",
+   "recruitment": 3.51,
+   "n_signings": 18,
+   "position": 6,
+   "points": 47,
+   "pos_change": 1
+  },
+  {
+   "club": "Dijon FCO",
+   "season": "20/21",
+   "league": "FR1",
+   "recruitment": 3.53,
+   "n_signings": 7,
+   "position": 20,
+   "points": 21,
+   "pos_change": -4
+  },
+  {
+   "club": "FC Lorient",
+   "season": "22/23",
+   "league": "FR1",
+   "recruitment": 3.484,
+   "n_signings": 13,
+   "position": 10,
+   "points": 55,
+   "pos_change": 6
+  },
+  {
+   "club": "FC Porto",
+   "season": "19/20",
+   "league": "PO1",
+   "recruitment": 3.509,
+   "n_signings": 15,
+   "position": 1,
+   "points": 82,
+   "pos_change": 1
+  },
+  {
+   "club": "Getafe CF",
+   "season": "23/24",
+   "league": "ES1",
+   "recruitment": 3.715,
+   "n_signings": 4,
+   "position": 12,
+   "points": 43,
+   "pos_change": 3
+  },
+  {
+   "club": "Liverpool FC",
+   "season": "22/23",
+   "league": "GB1",
+   "recruitment": 3.899,
+   "n_signings": 4,
+   "position": 5,
+   "points": 67,
+   "pos_change": -3
+  },
+  {
+   "club": "Boavista FC",
+   "season": "19/20",
+   "league": "PO1",
+   "recruitment": 3.543,
+   "n_signings": 6,
+   "position": 12,
+   "points": 39,
+   "pos_change": -4
+  },
+  {
+   "club": "VVV-Venlo",
+   "season": "20/21",
+   "league": "NL1",
+   "recruitment": 3.46,
+   "n_signings": 10,
+   "position": 17,
+   "points": 23,
+   "pos_change": -4
+  },
+  {
+   "club": "SC Freiburg",
+   "season": "22/23",
+   "league": "L1",
+   "recruitment": 3.6,
+   "n_signings": 7,
+   "position": 5,
+   "points": 59,
+   "pos_change": 1
+  },
+  {
+   "club": "Villarreal CF",
+   "season": "25/26",
+   "league": "ES1",
+   "recruitment": 3.527,
+   "n_signings": 10,
+   "position": 3,
+   "points": 72,
+   "pos_change": 2
+  },
+  {
+   "club": "Cádiz CF",
+   "season": "21/22",
+   "league": "ES1",
+   "recruitment": 3.543,
+   "n_signings": 8,
+   "position": 17,
+   "points": 39,
+   "pos_change": -5
+  },
+  {
+   "club": "Spezia Calcio",
+   "season": "20/21",
+   "league": "IT1",
+   "recruitment": 3.855,
+   "n_signings": 5,
+   "position": 15,
+   "points": 39,
+   "pos_change": null
+  },
+  {
+   "club": "LOSC Lille",
+   "season": "19/20",
+   "league": "FR1",
+   "recruitment": 3.444,
+   "n_signings": 10,
+   "position": 4,
+   "points": 49,
+   "pos_change": -2
+  },
+  {
+   "club": "TSG 1899 Hoffenheim",
+   "season": "25/26",
+   "league": "L1",
+   "recruitment": 3.472,
+   "n_signings": 14,
+   "position": 5,
+   "points": 61,
+   "pos_change": 10
+  },
+  {
+   "club": "Everton FC",
+   "season": "22/23",
+   "league": "GB1",
+   "recruitment": 3.544,
+   "n_signings": 9,
+   "position": 17,
+   "points": 36,
+   "pos_change": -1
+  },
+  {
+   "club": "FC Porto",
+   "season": "20/21",
+   "league": "PO1",
+   "recruitment": 3.487,
+   "n_signings": 7,
+   "position": 2,
+   "points": 80,
+   "pos_change": -1
+  },
+  {
+   "club": "RC Lens",
+   "season": "23/24",
+   "league": "FR1",
+   "recruitment": 3.438,
+   "n_signings": 9,
+   "position": 7,
+   "points": 51,
+   "pos_change": -5
+  },
+  {
+   "club": "Arsenal FC",
+   "season": "25/26",
+   "league": "GB1",
+   "recruitment": 3.62,
+   "n_signings": 7,
+   "position": 1,
+   "points": 85,
+   "pos_change": 1
+  },
+  {
+   "club": "CS Marítimo",
+   "season": "21/22",
+   "league": "PO1",
+   "recruitment": 3.432,
+   "n_signings": 10,
+   "position": 10,
+   "points": 38,
+   "pos_change": 5
+  },
+  {
+   "club": "FC Augsburg",
+   "season": "22/23",
+   "league": "L1",
+   "recruitment": 3.473,
+   "n_signings": 10,
+   "position": 15,
+   "points": 34,
+   "pos_change": -1
+  },
+  {
+   "club": "Borussia Mönchengladbach",
+   "season": "23/24",
+   "league": "L1",
+   "recruitment": 3.527,
+   "n_signings": 7,
+   "position": 14,
+   "points": 34,
+   "pos_change": -4
+  },
+  {
+   "club": "Casa Pia AC",
+   "season": "24/25",
+   "league": "PO1",
+   "recruitment": 3.418,
+   "n_signings": 13,
+   "position": 9,
+   "points": 45,
+   "pos_change": 0
+  },
+  {
+   "club": "FC Metz",
+   "season": "25/26",
+   "league": "FR1",
+   "recruitment": 3.41,
+   "n_signings": 11,
+   "position": 18,
+   "points": 17,
+   "pos_change": null
+  },
+  {
+   "club": "West Ham United",
+   "season": "20/21",
+   "league": "GB1",
+   "recruitment": 3.796,
+   "n_signings": 3,
+   "position": 6,
+   "points": 65,
+   "pos_change": 10
+  },
+  {
+   "club": "Gil Vicente FC",
+   "season": "24/25",
+   "league": "PO1",
+   "recruitment": 3.404,
+   "n_signings": 15,
+   "position": 13,
+   "points": 34,
+   "pos_change": -1
+  },
+  {
+   "club": "1.FC Union Berlin",
+   "season": "25/26",
+   "league": "L1",
+   "recruitment": 3.504,
+   "n_signings": 7,
+   "position": 11,
+   "points": 39,
+   "pos_change": 2
+  },
+  {
+   "club": "AS Saint-Étienne",
+   "season": "19/20",
+   "league": "FR1",
+   "recruitment": 3.388,
+   "n_signings": 10,
+   "position": 17,
+   "points": 30,
+   "pos_change": -13
+  },
+  {
+   "club": "1.FC Union Berlin",
+   "season": "19/20",
+   "league": "L1",
+   "recruitment": 3.478,
+   "n_signings": 9,
+   "position": 11,
+   "points": 41,
+   "pos_change": null
+  },
+  {
+   "club": "LOSC Lille",
+   "season": "21/22",
+   "league": "FR1",
+   "recruitment": 3.438,
+   "n_signings": 4,
+   "position": 10,
+   "points": 55,
+   "pos_change": -9
+  },
+  {
+   "club": "Leicester City",
+   "season": "22/23",
+   "league": "GB1",
+   "recruitment": 3.76,
+   "n_signings": 3,
+   "position": 18,
+   "points": 34,
+   "pos_change": -10
+  },
+  {
+   "club": "Moreirense FC",
+   "season": "19/20",
+   "league": "PO1",
+   "recruitment": 3.398,
+   "n_signings": 10,
+   "position": 8,
+   "points": 43,
+   "pos_change": -2
+  },
+  {
+   "club": "Valencia CF",
+   "season": "22/23",
+   "league": "ES1",
+   "recruitment": 3.49,
+   "n_signings": 6,
+   "position": 14,
+   "points": 42,
+   "pos_change": -5
+  },
+  {
+   "club": "Celta de Vigo",
+   "season": "21/22",
+   "league": "ES1",
+   "recruitment": 3.565,
+   "n_signings": 4,
+   "position": 11,
+   "points": 46,
+   "pos_change": -3
+  },
+  {
+   "club": "Granada CF",
+   "season": "19/20",
+   "league": "ES1",
+   "recruitment": 3.466,
+   "n_signings": 7,
+   "position": 7,
+   "points": 56,
+   "pos_change": null
+  },
+  {
+   "club": "SC Cambuur Leeuwarden",
+   "season": "21/22",
+   "league": "NL1",
+   "recruitment": 3.378,
+   "n_signings": 4,
+   "position": 9,
+   "points": 39,
+   "pos_change": null
+  },
+  {
+   "club": "Ipswich Town",
+   "season": "24/25",
+   "league": "GB1",
+   "recruitment": 3.438,
+   "n_signings": 11,
+   "position": 19,
+   "points": 22,
+   "pos_change": null
+  },
+  {
+   "club": "RC Lens",
+   "season": "21/22",
+   "league": "FR1",
+   "recruitment": 3.364,
+   "n_signings": 8,
+   "position": 7,
+   "points": 62,
+   "pos_change": 0
+  },
+  {
+   "club": "LOSC Lille",
+   "season": "20/21",
+   "league": "FR1",
+   "recruitment": 3.373,
+   "n_signings": 6,
+   "position": 1,
+   "points": 83,
+   "pos_change": 3
+  },
+  {
+   "club": "FC Toulouse",
+   "season": "22/23",
+   "league": "FR1",
+   "recruitment": 3.35,
+   "n_signings": 11,
+   "position": 13,
+   "points": 48,
+   "pos_change": null
+  },
+  {
+   "club": "Borussia Dortmund",
+   "season": "25/26",
+   "league": "L1",
+   "recruitment": 3.483,
+   "n_signings": 6,
+   "position": 2,
+   "points": 73,
+   "pos_change": 2
+  },
+  {
+   "club": "Angers SCO",
+   "season": "21/22",
+   "league": "FR1",
+   "recruitment": 3.354,
+   "n_signings": 7,
+   "position": 14,
+   "points": 41,
+   "pos_change": -1
+  },
+  {
+   "club": "Le Havre AC",
+   "season": "25/26",
+   "league": "FR1",
+   "recruitment": 3.34,
+   "n_signings": 10,
+   "position": 14,
+   "points": 35,
+   "pos_change": 1
+  },
+  {
+   "club": "Montpellier HSC",
+   "season": "20/21",
+   "league": "FR1",
+   "recruitment": 3.416,
+   "n_signings": 3,
+   "position": 8,
+   "points": 54,
+   "pos_change": 0
+  },
+  {
+   "club": "RC Strasbourg Alsace",
+   "season": "21/22",
+   "league": "FR1",
+   "recruitment": 3.345,
+   "n_signings": 8,
+   "position": 6,
+   "points": 63,
+   "pos_change": 9
+  },
+  {
+   "club": "Burnley FC",
+   "season": "21/22",
+   "league": "GB1",
+   "recruitment": 3.537,
+   "n_signings": 6,
+   "position": 18,
+   "points": 35,
+   "pos_change": -1
+  },
+  {
+   "club": "SC Braga",
+   "season": "25/26",
+   "league": "PO1",
+   "recruitment": 3.354,
+   "n_signings": 9,
+   "position": 4,
+   "points": 59,
+   "pos_change": 0
+  },
+  {
+   "club": "Bayern Munich",
+   "season": "21/22",
+   "league": "L1",
+   "recruitment": 3.461,
+   "n_signings": 7,
+   "position": 1,
+   "points": 77,
+   "pos_change": 0
+  },
+  {
+   "club": "AC Milan",
+   "season": "25/26",
+   "league": "IT1",
+   "recruitment": 3.467,
+   "n_signings": 11,
+   "position": 5,
+   "points": 70,
+   "pos_change": 3
+  },
+  {
+   "club": "Olympique Lyon",
+   "season": "23/24",
+   "league": "FR1",
+   "recruitment": 3.328,
+   "n_signings": 11,
+   "position": 6,
+   "points": 53,
+   "pos_change": 1
+  },
+  {
+   "club": "LOSC Lille",
+   "season": "22/23",
+   "league": "FR1",
+   "recruitment": 3.319,
+   "n_signings": 8,
+   "position": 5,
+   "points": 67,
+   "pos_change": 5
+  },
+  {
+   "club": "Juventus FC",
+   "season": "22/23",
+   "league": "IT1",
+   "recruitment": 3.461,
+   "n_signings": 9,
+   "position": 7,
+   "points": 62,
+   "pos_change": -3
+  },
+  {
+   "club": "CD Santa Clara",
+   "season": "19/20",
+   "league": "PO1",
+   "recruitment": 3.324,
+   "n_signings": 10,
+   "position": 9,
+   "points": 43,
+   "pos_change": 1
+  },
+  {
+   "club": "Brighton & Hove Albion",
+   "season": "22/23",
+   "league": "GB1",
+   "recruitment": 3.475,
+   "n_signings": 6,
+   "position": 6,
+   "points": 62,
+   "pos_change": 3
+  },
+  {
+   "club": "SC Freiburg",
+   "season": "25/26",
+   "league": "L1",
+   "recruitment": 3.409,
+   "n_signings": 6,
+   "position": 7,
+   "points": 47,
+   "pos_change": -2
+  },
+  {
+   "club": "Newcastle United",
+   "season": "22/23",
+   "league": "GB1",
+   "recruitment": 3.429,
+   "n_signings": 7,
+   "position": 4,
+   "points": 71,
+   "pos_change": 7
+  },
+  {
+   "club": "Everton FC",
+   "season": "21/22",
+   "league": "GB1",
+   "recruitment": 3.515,
+   "n_signings": 5,
+   "position": 16,
+   "points": 39,
+   "pos_change": -6
+  },
+  {
+   "club": "Crystal Palace",
+   "season": "20/21",
+   "league": "GB1",
+   "recruitment": 3.705,
+   "n_signings": 3,
+   "position": 14,
+   "points": 44,
+   "pos_change": 0
+  },
+  {
+   "club": "FC Barcelona",
+   "season": "24/25",
+   "league": "ES1",
+   "recruitment": 3.401,
+   "n_signings": 5,
+   "position": 1,
+   "points": 88,
+   "pos_change": 1
+  },
+  {
+   "club": "Aston Villa",
+   "season": "23/24",
+   "league": "GB1",
+   "recruitment": 3.418,
+   "n_signings": 7,
+   "position": 4,
+   "points": 68,
+   "pos_change": 3
+  },
+  {
+   "club": "Olympique Marseille",
+   "season": "22/23",
+   "league": "FR1",
+   "recruitment": 3.27,
+   "n_signings": 13,
+   "position": 3,
+   "points": 73,
+   "pos_change": -1
+  },
+  {
+   "club": "Juventus FC",
+   "season": "25/26",
+   "league": "IT1",
+   "recruitment": 3.446,
+   "n_signings": 8,
+   "position": 6,
+   "points": 69,
+   "pos_change": -2
+  },
+  {
+   "club": "Bayer 04 Leverkusen",
+   "season": "25/26",
+   "league": "L1",
+   "recruitment": 3.31,
+   "n_signings": 15,
+   "position": 6,
+   "points": 59,
+   "pos_change": -4
+  },
+  {
+   "club": "SpVgg Greuther Fürth",
+   "season": "21/22",
+   "league": "L1",
+   "recruitment": 3.336,
+   "n_signings": 10,
+   "position": 18,
+   "points": 18,
+   "pos_change": null
+  },
+  {
+   "club": "B SAD (2018-2024)",
+   "season": "19/20",
+   "league": "PO1",
+   "recruitment": 3.287,
+   "n_signings": 12,
+   "position": 15,
+   "points": 35,
+   "pos_change": -6
+  },
+  {
+   "club": "FC Lorient",
+   "season": "20/21",
+   "league": "FR1",
+   "recruitment": 3.257,
+   "n_signings": 8,
+   "position": 16,
+   "points": 42,
+   "pos_change": null
+  },
+  {
+   "club": "Chelsea FC",
+   "season": "23/24",
+   "league": "GB1",
+   "recruitment": 3.32,
+   "n_signings": 14,
+   "position": 6,
+   "points": 63,
+   "pos_change": 6
+  },
+  {
+   "club": "Leeds United",
+   "season": "20/21",
+   "league": "GB1",
+   "recruitment": 3.383,
+   "n_signings": 7,
+   "position": 9,
+   "points": 59,
+   "pos_change": null
+  },
+  {
+   "club": "FC Porto",
+   "season": "24/25",
+   "league": "PO1",
+   "recruitment": 3.293,
+   "n_signings": 7,
+   "position": 3,
+   "points": 71,
+   "pos_change": 0
+  },
+  {
+   "club": "Stade Reims",
+   "season": "22/23",
+   "league": "FR1",
+   "recruitment": 3.244,
+   "n_signings": 11,
+   "position": 11,
+   "points": 51,
+   "pos_change": 1
+  },
+  {
+   "club": "West Ham United",
+   "season": "23/24",
+   "league": "GB1",
+   "recruitment": 3.433,
+   "n_signings": 5,
+   "position": 9,
+   "points": 52,
+   "pos_change": 5
+  },
+  {
+   "club": "FC St. Pauli",
+   "season": "25/26",
+   "league": "L1",
+   "recruitment": 3.3,
+   "n_signings": 11,
+   "position": 18,
+   "points": 26,
+   "pos_change": -4
+  },
+  {
+   "club": "Fulham FC",
+   "season": "20/21",
+   "league": "GB1",
+   "recruitment": 3.431,
+   "n_signings": 6,
+   "position": 18,
+   "points": 28,
+   "pos_change": null
+  },
+  {
+   "club": "Atalanta BC",
+   "season": "19/20",
+   "league": "IT1",
+   "recruitment": 3.44,
+   "n_signings": 10,
+   "position": 3,
+   "points": 78,
+   "pos_change": 0
+  },
+  {
+   "club": "Nîmes Olympique",
+   "season": "19/20",
+   "league": "FR1",
+   "recruitment": 3.232,
+   "n_signings": 10,
+   "position": 18,
+   "points": 27,
+   "pos_change": -9
+  },
+  {
+   "club": "PSV Eindhoven",
+   "season": "25/26",
+   "league": "NL1",
+   "recruitment": 3.217,
+   "n_signings": 9,
+   "position": 1,
+   "points": 84,
+   "pos_change": 0
+  },
+  {
+   "club": "Stade Brestois 29",
+   "season": "25/26",
+   "league": "FR1",
+   "recruitment": 3.234,
+   "n_signings": 7,
+   "position": 12,
+   "points": 39,
+   "pos_change": -3
+  },
+  {
+   "club": "OGC Nice",
+   "season": "24/25",
+   "league": "FR1",
+   "recruitment": 3.235,
+   "n_signings": 7,
+   "position": 4,
+   "points": 60,
+   "pos_change": 1
+  },
+  {
+   "club": "FC Arouca",
+   "season": "23/24",
+   "league": "PO1",
+   "recruitment": 3.246,
+   "n_signings": 10,
+   "position": 7,
+   "points": 46,
+   "pos_change": -2
+  },
+  {
+   "club": "Go Ahead Eagles",
+   "season": "23/24",
+   "league": "NL1",
+   "recruitment": 3.209,
+   "n_signings": 8,
+   "position": 9,
+   "points": 46,
+   "pos_change": 2
+  },
+  {
+   "club": "Eintracht Frankfurt",
+   "season": "19/20",
+   "league": "L1",
+   "recruitment": 3.29,
+   "n_signings": 11,
+   "position": 9,
+   "points": 45,
+   "pos_change": -2
+  },
+  {
+   "club": "Girona FC",
+   "season": "22/23",
+   "league": "ES1",
+   "recruitment": 3.275,
+   "n_signings": 11,
+   "position": 10,
+   "points": 49,
+   "pos_change": null
+  },
+  {
+   "club": "Fulham FC",
+   "season": "22/23",
+   "league": "GB1",
+   "recruitment": 3.324,
+   "n_signings": 9,
+   "position": 10,
+   "points": 52,
+   "pos_change": null
+  },
+  {
+   "club": "Casa Pia AC",
+   "season": "25/26",
+   "league": "PO1",
+   "recruitment": 3.22,
+   "n_signings": 11,
+   "position": 16,
+   "points": 30,
+   "pos_change": -7
+  },
+  {
+   "club": "Chelsea FC",
+   "season": "21/22",
+   "league": "GB1",
+   "recruitment": 3.664,
+   "n_signings": 2,
+   "position": 3,
+   "points": 74,
+   "pos_change": 1
+  },
+  {
+   "club": "SSC Napoli",
+   "season": "21/22",
+   "league": "IT1",
+   "recruitment": 3.901,
+   "n_signings": 2,
+   "position": 3,
+   "points": 79,
+   "pos_change": 2
+  },
+  {
+   "club": "Rio Ave FC",
+   "season": "19/20",
+   "league": "PO1",
+   "recruitment": 3.219,
+   "n_signings": 8,
+   "position": 5,
+   "points": 55,
+   "pos_change": 2
+  },
+  {
+   "club": "Casa Pia AC",
+   "season": "23/24",
+   "league": "PO1",
+   "recruitment": 3.209,
+   "n_signings": 11,
+   "position": 9,
+   "points": 38,
+   "pos_change": 1
+  },
+  {
+   "club": "RCD Espanyol Barcelona",
+   "season": "25/26",
+   "league": "ES1",
+   "recruitment": 3.246,
+   "n_signings": 10,
+   "position": 11,
+   "points": 46,
+   "pos_change": 3
+  },
+  {
+   "club": "Gil Vicente FC",
+   "season": "19/20",
+   "league": "PO1",
+   "recruitment": 3.2,
+   "n_signings": 14,
+   "position": 10,
+   "points": 43,
+   "pos_change": null
+  },
+  {
+   "club": "AC Milan",
+   "season": "21/22",
+   "league": "IT1",
+   "recruitment": 3.379,
+   "n_signings": 9,
+   "position": 1,
+   "points": 86,
+   "pos_change": 1
+  },
+  {
+   "club": "FC Utrecht",
+   "season": "21/22",
+   "league": "NL1",
+   "recruitment": 3.16,
+   "n_signings": 6,
+   "position": 7,
+   "points": 47,
+   "pos_change": -1
+  },
+  {
+   "club": "1.FC Köln",
+   "season": "23/24",
+   "league": "L1",
+   "recruitment": 3.289,
+   "n_signings": 6,
+   "position": 17,
+   "points": 27,
+   "pos_change": -6
+  },
+  {
+   "club": "Portimonense SAD",
+   "season": "20/21",
+   "league": "PO1",
+   "recruitment": 3.2,
+   "n_signings": 8,
+   "position": 14,
+   "points": 35,
+   "pos_change": 3
+  },
+  {
+   "club": "Real Betis Balompié",
+   "season": "23/24",
+   "league": "ES1",
+   "recruitment": 3.211,
+   "n_signings": 15,
+   "position": 7,
+   "points": 57,
+   "pos_change": -1
+  },
+  {
+   "club": "Real Oviedo",
+   "season": "25/26",
+   "league": "ES1",
+   "recruitment": 3.255,
+   "n_signings": 9,
+   "position": 20,
+   "points": 29,
+   "pos_change": null
+  },
+  {
+   "club": "Sporting CP",
+   "season": "20/21",
+   "league": "PO1",
+   "recruitment": 3.196,
+   "n_signings": 9,
+   "position": 1,
+   "points": 85,
+   "pos_change": 3
+  },
+  {
+   "club": "PSV Eindhoven",
+   "season": "21/22",
+   "league": "NL1",
+   "recruitment": 3.154,
+   "n_signings": 7,
+   "position": 2,
+   "points": 81,
+   "pos_change": 0
+  },
+  {
+   "club": "Brighton & Hove Albion",
+   "season": "19/20",
+   "league": "GB1",
+   "recruitment": 3.322,
+   "n_signings": 6,
+   "position": 15,
+   "points": 41,
+   "pos_change": 2
+  },
+  {
+   "club": "Inter Milan",
+   "season": "24/25",
+   "league": "IT1",
+   "recruitment": 3.402,
+   "n_signings": 11,
+   "position": 2,
+   "points": 81,
+   "pos_change": -1
+  },
+  {
+   "club": "Bologna FC 1909",
+   "season": "22/23",
+   "league": "IT1",
+   "recruitment": 3.338,
+   "n_signings": 8,
+   "position": 9,
+   "points": 54,
+   "pos_change": 4
+  },
+  {
+   "club": "VVV-Venlo",
+   "season": "19/20",
+   "league": "NL1",
+   "recruitment": 3.147,
+   "n_signings": 9,
+   "position": 13,
+   "points": 28,
+   "pos_change": -1
+  },
+  {
+   "club": "Almere City FC",
+   "season": "23/24",
+   "league": "NL1",
+   "recruitment": 3.122,
+   "n_signings": 4,
+   "position": 13,
+   "points": 34,
+   "pos_change": null
+  },
+  {
+   "club": "Rio Ave FC",
+   "season": "24/25",
+   "league": "PO1",
+   "recruitment": 3.168,
+   "n_signings": 12,
+   "position": 11,
+   "points": 38,
+   "pos_change": 0
+  },
+  {
+   "club": "RC Strasbourg Alsace",
+   "season": "25/26",
+   "league": "FR1",
+   "recruitment": 3.15,
+   "n_signings": 15,
+   "position": 8,
+   "points": 53,
+   "pos_change": -1
+  },
+  {
+   "club": "Paris Saint-Germain",
+   "season": "25/26",
+   "league": "FR1",
+   "recruitment": 3.133,
+   "n_signings": 4,
+   "position": 1,
+   "points": 76,
+   "pos_change": 0
+  },
+  {
+   "club": "Le Havre AC",
+   "season": "24/25",
+   "league": "FR1",
+   "recruitment": 3.14,
+   "n_signings": 9,
+   "position": 15,
+   "points": 34,
+   "pos_change": 0
+  },
+  {
+   "club": "Newcastle United",
+   "season": "25/26",
+   "league": "GB1",
+   "recruitment": 3.275,
+   "n_signings": 7,
+   "position": 12,
+   "points": 49,
+   "pos_change": -7
+  },
+  {
+   "club": "Bologna FC 1909",
+   "season": "24/25",
+   "league": "IT1",
+   "recruitment": 3.308,
+   "n_signings": 8,
+   "position": 9,
+   "points": 62,
+   "pos_change": -4
+  },
+  {
+   "club": "Borussia Mönchengladbach",
+   "season": "19/20",
+   "league": "L1",
+   "recruitment": 3.285,
+   "n_signings": 4,
+   "position": 4,
+   "points": 65,
+   "pos_change": 1
+  },
+  {
+   "club": "SV Werder Bremen",
+   "season": "19/20",
+   "league": "L1",
+   "recruitment": 3.283,
+   "n_signings": 4,
+   "position": 16,
+   "points": 31,
+   "pos_change": -8
+  },
+  {
+   "club": "SC Freiburg",
+   "season": "23/24",
+   "league": "L1",
+   "recruitment": 3.271,
+   "n_signings": 5,
+   "position": 10,
+   "points": 42,
+   "pos_change": -5
+  },
+  {
+   "club": "RC Lens",
+   "season": "22/23",
+   "league": "FR1",
+   "recruitment": 3.114,
+   "n_signings": 10,
+   "position": 2,
+   "points": 84,
+   "pos_change": 5
+  },
+  {
+   "club": "RC Lens",
+   "season": "24/25",
+   "league": "FR1",
+   "recruitment": 3.112,
+   "n_signings": 10,
+   "position": 8,
+   "points": 52,
+   "pos_change": -1
+  },
+  {
+   "club": "Atalanta BC",
+   "season": "25/26",
+   "league": "IT1",
+   "recruitment": 3.29,
+   "n_signings": 9,
+   "position": 7,
+   "points": 59,
+   "pos_change": -4
+  },
+  {
+   "club": "Fortuna Sittard",
+   "season": "22/23",
+   "league": "NL1",
+   "recruitment": 3.097,
+   "n_signings": 12,
+   "position": 13,
+   "points": 36,
+   "pos_change": 2
+  },
+  {
+   "club": "Genoa CFC",
+   "season": "23/24",
+   "league": "IT1",
+   "recruitment": 3.226,
+   "n_signings": 13,
+   "position": 11,
+   "points": 49,
+   "pos_change": null
+  },
+  {
+   "club": "Borussia Dortmund",
+   "season": "22/23",
+   "league": "L1",
+   "recruitment": 3.179,
+   "n_signings": 8,
+   "position": 2,
+   "points": 71,
+   "pos_change": 0
+  },
+  {
+   "club": "Real Betis Balompié",
+   "season": "24/25",
+   "league": "ES1",
+   "recruitment": 3.149,
+   "n_signings": 13,
+   "position": 6,
+   "points": 60,
+   "pos_change": 1
+  },
+  {
+   "club": "CD Tondela",
+   "season": "25/26",
+   "league": "PO1",
+   "recruitment": 3.121,
+   "n_signings": 10,
+   "position": 17,
+   "points": 28,
+   "pos_change": null
+  },
+  {
+   "club": "SSC Napoli",
+   "season": "24/25",
+   "league": "IT1",
+   "recruitment": 3.279,
+   "n_signings": 8,
+   "position": 1,
+   "points": 82,
+   "pos_change": 9
+  },
+  {
+   "club": "FC Emmen",
+   "season": "20/21",
+   "league": "NL1",
+   "recruitment": 3.082,
+   "n_signings": 9,
+   "position": 16,
+   "points": 30,
+   "pos_change": -4
+  },
+  {
+   "club": "Girona FC",
+   "season": "25/26",
+   "league": "ES1",
+   "recruitment": 3.168,
+   "n_signings": 8,
+   "position": 19,
+   "points": 41,
+   "pos_change": -3
+  },
+  {
+   "club": "Go Ahead Eagles",
+   "season": "22/23",
+   "league": "NL1",
+   "recruitment": 3.093,
+   "n_signings": 15,
+   "position": 11,
+   "points": 40,
+   "pos_change": 2
+  },
+  {
+   "club": "Brescia Calcio (- 2025)",
+   "season": "19/20",
+   "league": "IT1",
+   "recruitment": 3.248,
+   "n_signings": 10,
+   "position": 19,
+   "points": 25,
+   "pos_change": null
+  },
+  {
+   "club": "Eintracht Frankfurt",
+   "season": "24/25",
+   "league": "L1",
+   "recruitment": 3.16,
+   "n_signings": 9,
+   "position": 3,
+   "points": 60,
+   "pos_change": 3
+  },
+  {
+   "club": "Eintracht Frankfurt",
+   "season": "21/22",
+   "league": "L1",
+   "recruitment": 3.223,
+   "n_signings": 4,
+   "position": 11,
+   "points": 42,
+   "pos_change": -6
+  },
+  {
+   "club": "Vitória Guimarães SC",
+   "season": "22/23",
+   "league": "PO1",
+   "recruitment": 3.112,
+   "n_signings": 8,
+   "position": 6,
+   "points": 53,
+   "pos_change": 0
+  },
+  {
+   "club": "Bologna FC 1909",
+   "season": "23/24",
+   "league": "IT1",
+   "recruitment": 3.207,
+   "n_signings": 11,
+   "position": 5,
+   "points": 68,
+   "pos_change": 4
+  },
+  {
+   "club": "OGC Nice",
+   "season": "25/26",
+   "league": "FR1",
+   "recruitment": 3.073,
+   "n_signings": 7,
+   "position": 16,
+   "points": 32,
+   "pos_change": -12
+  },
+  {
+   "club": "1.FC Köln",
+   "season": "21/22",
+   "league": "L1",
+   "recruitment": 3.157,
+   "n_signings": 7,
+   "position": 7,
+   "points": 52,
+   "pos_change": 9
+  },
+  {
+   "club": "Liverpool FC",
+   "season": "19/20",
+   "league": "GB1",
+   "recruitment": 4.579,
+   "n_signings": 1,
+   "position": 1,
+   "points": 99,
+   "pos_change": 1
+  },
+  {
+   "club": "Arsenal FC",
+   "season": "21/22",
+   "league": "GB1",
+   "recruitment": 3.213,
+   "n_signings": 6,
+   "position": 5,
+   "points": 69,
+   "pos_change": 3
+  },
+  {
+   "club": "West Ham United",
+   "season": "21/22",
+   "league": "GB1",
+   "recruitment": 3.38,
+   "n_signings": 3,
+   "position": 7,
+   "points": 56,
+   "pos_change": -1
+  },
+  {
+   "club": "SSC Napoli",
+   "season": "23/24",
+   "league": "IT1",
+   "recruitment": 3.289,
+   "n_signings": 10,
+   "position": 10,
+   "points": 53,
+   "pos_change": -9
+  },
+  {
+   "club": "Real Madrid",
+   "season": "22/23",
+   "league": "ES1",
+   "recruitment": 3.183,
+   "n_signings": 5,
+   "position": 2,
+   "points": 78,
+   "pos_change": -1
+  },
+  {
+   "club": "NEC Nijmegen",
+   "season": "21/22",
+   "league": "NL1",
+   "recruitment": 3.026,
+   "n_signings": 6,
+   "position": 11,
+   "points": 38,
+   "pos_change": null
+  },
+  {
+   "club": "Manchester City",
+   "season": "25/26",
+   "league": "GB1",
+   "recruitment": 3.164,
+   "n_signings": 10,
+   "position": 2,
+   "points": 78,
+   "pos_change": 1
+  },
+  {
+   "club": "Villarreal CF",
+   "season": "22/23",
+   "league": "ES1",
+   "recruitment": 3.157,
+   "n_signings": 6,
+   "position": 5,
+   "points": 64,
+   "pos_change": 2
+  },
+  {
+   "club": "CD Nacional",
+   "season": "25/26",
+   "league": "PO1",
+   "recruitment": 3.08,
+   "n_signings": 10,
+   "position": 14,
+   "points": 34,
+   "pos_change": 0
+  },
+  {
+   "club": "Sporting CP",
+   "season": "22/23",
+   "league": "PO1",
+   "recruitment": 3.078,
+   "n_signings": 14,
+   "position": 4,
+   "points": 74,
+   "pos_change": -2
+  },
+  {
+   "club": "SC Braga",
+   "season": "20/21",
+   "league": "PO1",
+   "recruitment": 3.076,
+   "n_signings": 8,
+   "position": 4,
+   "points": 64,
+   "pos_change": -1
+  },
+  {
+   "club": "CS Marítimo",
+   "season": "22/23",
+   "league": "PO1",
+   "recruitment": 3.074,
+   "n_signings": 10,
+   "position": 16,
+   "points": 26,
+   "pos_change": -6
+  },
+  {
+   "club": "Clermont Foot 63",
+   "season": "22/23",
+   "league": "FR1",
+   "recruitment": 3.053,
+   "n_signings": 11,
+   "position": 8,
+   "points": 59,
+   "pos_change": 9
+  },
+  {
+   "club": "AS Monaco",
+   "season": "20/21",
+   "league": "FR1",
+   "recruitment": 3.037,
+   "n_signings": 6,
+   "position": 3,
+   "points": 78,
+   "pos_change": 6
+  },
+  {
+   "club": "SC Farense",
+   "season": "23/24",
+   "league": "PO1",
+   "recruitment": 3.068,
+   "n_signings": 12,
+   "position": 10,
+   "points": 37,
+   "pos_change": null
+  },
+  {
+   "club": "Atalanta BC",
+   "season": "24/25",
+   "league": "IT1",
+   "recruitment": 3.249,
+   "n_signings": 8,
+   "position": 3,
+   "points": 74,
+   "pos_change": 1
+  },
+  {
+   "club": "NEC Nijmegen",
+   "season": "23/24",
+   "league": "NL1",
+   "recruitment": 3.034,
+   "n_signings": 11,
+   "position": 6,
+   "points": 53,
+   "pos_change": 6
+  },
+  {
+   "club": "Arsenal FC",
+   "season": "20/21",
+   "league": "GB1",
+   "recruitment": 3.18,
+   "n_signings": 6,
+   "position": 8,
+   "points": 61,
+   "pos_change": 0
+  },
+  {
+   "club": "Atalanta BC",
+   "season": "21/22",
+   "league": "IT1",
+   "recruitment": 3.279,
+   "n_signings": 6,
+   "position": 8,
+   "points": 59,
+   "pos_change": -5
+  },
+  {
+   "club": "FC Groningen",
+   "season": "19/20",
+   "league": "NL1",
+   "recruitment": 3.019,
+   "n_signings": 12,
+   "position": 9,
+   "points": 35,
+   "pos_change": -1
+  },
+  {
+   "club": "Clermont Foot 63",
+   "season": "23/24",
+   "league": "FR1",
+   "recruitment": 3.006,
+   "n_signings": 6,
+   "position": 18,
+   "points": 25,
+   "pos_change": -10
+  },
+  {
+   "club": "Valencia CF",
+   "season": "21/22",
+   "league": "ES1",
+   "recruitment": 3.105,
+   "n_signings": 6,
+   "position": 9,
+   "points": 48,
+   "pos_change": 4
+  },
+  {
+   "club": "West Bromwich Albion",
+   "season": "20/21",
+   "league": "GB1",
+   "recruitment": 3.142,
+   "n_signings": 8,
+   "position": 19,
+   "points": 26,
+   "pos_change": null
+  },
+  {
+   "club": "CF Estrela Amadora",
+   "season": "23/24",
+   "league": "PO1",
+   "recruitment": 3.036,
+   "n_signings": 13,
+   "position": 14,
+   "points": 33,
+   "pos_change": null
+  },
+  {
+   "club": "Athletic Bilbao",
+   "season": "21/22",
+   "league": "ES1",
+   "recruitment": 3.137,
+   "n_signings": 3,
+   "position": 8,
+   "points": 55,
+   "pos_change": 1
+  },
+  {
+   "club": "Cagliari Calcio",
+   "season": "24/25",
+   "league": "IT1",
+   "recruitment": 3.221,
+   "n_signings": 6,
+   "position": 15,
+   "points": 36,
+   "pos_change": 1
+  },
+  {
+   "club": "ACF Fiorentina",
+   "season": "24/25",
+   "league": "IT1",
+   "recruitment": 3.192,
+   "n_signings": 8,
+   "position": 6,
+   "points": 65,
+   "pos_change": 2
+  },
+  {
+   "club": "SC Freiburg",
+   "season": "21/22",
+   "league": "L1",
+   "recruitment": 3.078,
+   "n_signings": 8,
+   "position": 6,
+   "points": 55,
+   "pos_change": 4
+  },
+  {
+   "club": "UD Almería",
+   "season": "23/24",
+   "league": "ES1",
+   "recruitment": 3.065,
+   "n_signings": 9,
+   "position": 19,
+   "points": 21,
+   "pos_change": -2
+  },
+  {
+   "club": "AS Monaco",
+   "season": "25/26",
+   "league": "FR1",
+   "recruitment": 2.975,
+   "n_signings": 6,
+   "position": 7,
+   "points": 54,
+   "pos_change": -4
+  },
+  {
+   "club": "FC Famalicão",
+   "season": "25/26",
+   "league": "PO1",
+   "recruitment": 3.011,
+   "n_signings": 9,
+   "position": 5,
+   "points": 56,
+   "pos_change": 2
+  },
+  {
+   "club": "PEC Zwolle",
+   "season": "21/22",
+   "league": "NL1",
+   "recruitment": 2.977,
+   "n_signings": 10,
+   "position": 18,
+   "points": 27,
+   "pos_change": -5
+  },
+  {
+   "club": "Crystal Palace",
+   "season": "23/24",
+   "league": "GB1",
+   "recruitment": 3.112,
+   "n_signings": 7,
+   "position": 10,
+   "points": 49,
+   "pos_change": 1
+  },
+  {
+   "club": "OGC Nice",
+   "season": "22/23",
+   "league": "FR1",
+   "recruitment": 2.985,
+   "n_signings": 13,
+   "position": 9,
+   "points": 58,
+   "pos_change": -4
+  },
+  {
+   "club": "Ajax Amsterdam",
+   "season": "24/25",
+   "league": "NL1",
+   "recruitment": 2.948,
+   "n_signings": 7,
+   "position": 2,
+   "points": 78,
+   "pos_change": 3
+  },
+  {
+   "club": "Portimonense SAD",
+   "season": "19/20",
+   "league": "PO1",
+   "recruitment": 3.0,
+   "n_signings": 10,
+   "position": 17,
+   "points": 33,
+   "pos_change": -6
+  },
+  {
+   "club": "Gil Vicente FC",
+   "season": "23/24",
+   "league": "PO1",
+   "recruitment": 2.997,
+   "n_signings": 9,
+   "position": 12,
+   "points": 36,
+   "pos_change": 1
+  },
+  {
+   "club": "Boavista FC",
+   "season": "21/22",
+   "league": "PO1",
+   "recruitment": 2.999,
+   "n_signings": 12,
+   "position": 12,
+   "points": 38,
+   "pos_change": 1
+  },
+  {
+   "club": "US Lecce",
+   "season": "23/24",
+   "league": "IT1",
+   "recruitment": 3.08,
+   "n_signings": 15,
+   "position": 14,
+   "points": 38,
+   "pos_change": 2
+  },
+  {
+   "club": "NAC Breda",
+   "season": "25/26",
+   "league": "NL1",
+   "recruitment": 2.948,
+   "n_signings": 8,
+   "position": 17,
+   "points": 29,
+   "pos_change": -2
+  },
+  {
+   "club": "VfL Bochum",
+   "season": "23/24",
+   "league": "L1",
+   "recruitment": 3.035,
+   "n_signings": 8,
+   "position": 16,
+   "points": 33,
+   "pos_change": -2
+  },
+  {
+   "club": "UD Las Palmas",
+   "season": "23/24",
+   "league": "ES1",
+   "recruitment": 3.029,
+   "n_signings": 8,
+   "position": 16,
+   "points": 40,
+   "pos_change": null
+  },
+  {
+   "club": "Chelsea FC",
+   "season": "22/23",
+   "league": "GB1",
+   "recruitment": 3.032,
+   "n_signings": 18,
+   "position": 12,
+   "points": 44,
+   "pos_change": -9
+  },
+  {
+   "club": "1.FC Köln",
+   "season": "19/20",
+   "league": "L1",
+   "recruitment": 3.03,
+   "n_signings": 8,
+   "position": 14,
+   "points": 36,
+   "pos_change": null
+  },
+  {
+   "club": "Heracles Almelo",
+   "season": "20/21",
+   "league": "NL1",
+   "recruitment": 2.947,
+   "n_signings": 11,
+   "position": 9,
+   "points": 44,
+   "pos_change": -1
+  },
+  {
+   "club": "SS Lazio",
+   "season": "22/23",
+   "league": "IT1",
+   "recruitment": 3.112,
+   "n_signings": 10,
+   "position": 2,
+   "points": 74,
+   "pos_change": 3
+  },
+  {
+   "club": "GD Chaves",
+   "season": "22/23",
+   "league": "PO1",
+   "recruitment": 2.962,
+   "n_signings": 10,
+   "position": 7,
+   "points": 46,
+   "pos_change": null
+  },
+  {
+   "club": "ACF Fiorentina",
+   "season": "25/26",
+   "league": "IT1",
+   "recruitment": 3.099,
+   "n_signings": 10,
+   "position": 15,
+   "points": 42,
+   "pos_change": -9
+  },
+  {
+   "club": "SC Braga",
+   "season": "19/20",
+   "league": "PO1",
+   "recruitment": 2.961,
+   "n_signings": 12,
+   "position": 3,
+   "points": 60,
+   "pos_change": 1
+  },
+  {
+   "club": "Crystal Palace",
+   "season": "19/20",
+   "league": "GB1",
+   "recruitment": 3.147,
+   "n_signings": 3,
+   "position": 14,
+   "points": 43,
+   "pos_change": -2
+  },
+  {
+   "club": "Rio Ave FC",
+   "season": "25/26",
+   "league": "PO1",
+   "recruitment": 2.964,
+   "n_signings": 16,
+   "position": 12,
+   "points": 36,
+   "pos_change": -1
+  },
+  {
+   "club": "FC Vizela",
+   "season": "23/24",
+   "league": "PO1",
+   "recruitment": 2.958,
+   "n_signings": 11,
+   "position": 17,
+   "points": 26,
+   "pos_change": -6
+  },
+  {
+   "club": "RCD Espanyol Barcelona",
+   "season": "22/23",
+   "league": "ES1",
+   "recruitment": 2.99,
+   "n_signings": 13,
+   "position": 19,
+   "points": 37,
+   "pos_change": -5
+  },
+  {
+   "club": "PEC Zwolle",
+   "season": "19/20",
+   "league": "NL1",
+   "recruitment": 2.91,
+   "n_signings": 8,
+   "position": 15,
+   "points": 26,
+   "pos_change": -2
+  },
+  {
+   "club": "CA Osasuna",
+   "season": "23/24",
+   "league": "ES1",
+   "recruitment": 2.994,
+   "n_signings": 6,
+   "position": 11,
+   "points": 45,
+   "pos_change": -4
+  },
+  {
+   "club": "Como 1907",
+   "season": "24/25",
+   "league": "IT1",
+   "recruitment": 3.011,
+   "n_signings": 24,
+   "position": 10,
+   "points": 49,
+   "pos_change": null
+  },
+  {
+   "club": "Hellas Verona",
+   "season": "25/26",
+   "league": "IT1",
+   "recruitment": 3.042,
+   "n_signings": 13,
+   "position": 19,
+   "points": 21,
+   "pos_change": -5
+  },
+  {
+   "club": "Angers SCO",
+   "season": "20/21",
+   "league": "FR1",
+   "recruitment": 2.908,
+   "n_signings": 7,
+   "position": 13,
+   "points": 44,
+   "pos_change": -2
+  },
+  {
+   "club": "PSV Eindhoven",
+   "season": "23/24",
+   "league": "NL1",
+   "recruitment": 2.887,
+   "n_signings": 9,
+   "position": 1,
+   "points": 91,
+   "pos_change": 1
+  },
+  {
+   "club": "AS Roma",
+   "season": "25/26",
+   "league": "IT1",
+   "recruitment": 3.277,
+   "n_signings": 5,
+   "position": 3,
+   "points": 73,
+   "pos_change": 2
+  },
+  {
+   "club": "Udinese Calcio",
+   "season": "22/23",
+   "league": "IT1",
+   "recruitment": 3.023,
+   "n_signings": 16,
+   "position": 12,
+   "points": 46,
+   "pos_change": 0
+  },
+  {
+   "club": "Hellas Verona",
+   "season": "19/20",
+   "league": "IT1",
+   "recruitment": 3.021,
+   "n_signings": 16,
+   "position": 9,
+   "points": 49,
+   "pos_change": null
+  },
+  {
+   "club": "Real Madrid",
+   "season": "24/25",
+   "league": "ES1",
+   "recruitment": 2.98,
+   "n_signings": 5,
+   "position": 2,
+   "points": 84,
+   "pos_change": -1
+  },
+  {
+   "club": "SD Huesca",
+   "season": "20/21",
+   "league": "ES1",
+   "recruitment": 2.966,
+   "n_signings": 9,
+   "position": 18,
+   "points": 34,
+   "pos_change": null
+  },
+  {
+   "club": "Ajax Amsterdam",
+   "season": "22/23",
+   "league": "NL1",
+   "recruitment": 2.897,
+   "n_signings": 13,
+   "position": 3,
+   "points": 69,
+   "pos_change": -2
+  },
+  {
+   "club": "AZ Alkmaar",
+   "season": "25/26",
+   "league": "NL1",
+   "recruitment": 2.888,
+   "n_signings": 10,
+   "position": 7,
+   "points": 52,
+   "pos_change": -2
+  },
+  {
+   "club": "AZ Alkmaar",
+   "season": "22/23",
+   "league": "NL1",
+   "recruitment": 2.892,
+   "n_signings": 11,
+   "position": 4,
+   "points": 67,
+   "pos_change": 1
+  },
+  {
+   "club": "Wolverhampton Wanderers",
+   "season": "21/22",
+   "league": "GB1",
+   "recruitment": 3.025,
+   "n_signings": 6,
+   "position": 10,
+   "points": 51,
+   "pos_change": 3
+  },
+  {
+   "club": "FC Groningen",
+   "season": "21/22",
+   "league": "NL1",
+   "recruitment": 2.892,
+   "n_signings": 13,
+   "position": 12,
+   "points": 36,
+   "pos_change": -5
+  },
+  {
+   "club": "Olympique Lyon",
+   "season": "21/22",
+   "league": "FR1",
+   "recruitment": 2.863,
+   "n_signings": 8,
+   "position": 8,
+   "points": 61,
+   "pos_change": -4
+  },
+  {
+   "club": "Olympique Marseille",
+   "season": "23/24",
+   "league": "FR1",
+   "recruitment": 2.901,
+   "n_signings": 14,
+   "position": 8,
+   "points": 50,
+   "pos_change": -5
+  },
+  {
+   "club": "FC Nantes",
+   "season": "25/26",
+   "league": "FR1",
+   "recruitment": 2.887,
+   "n_signings": 9,
+   "position": 17,
+   "points": 24,
+   "pos_change": -4
+  },
+  {
+   "club": "Hellas Verona",
+   "season": "22/23",
+   "league": "IT1",
+   "recruitment": 2.99,
+   "n_signings": 16,
+   "position": 18,
+   "points": 31,
+   "pos_change": -9
+  },
+  {
+   "club": "1.FC Köln",
+   "season": "25/26",
+   "league": "L1",
+   "recruitment": 2.949,
+   "n_signings": 9,
+   "position": 14,
+   "points": 32,
+   "pos_change": null
+  },
+  {
+   "club": "CD Nacional",
+   "season": "20/21",
+   "league": "PO1",
+   "recruitment": 2.903,
+   "n_signings": 12,
+   "position": 18,
+   "points": 25,
+   "pos_change": null
+  },
+  {
+   "club": "Levante UD",
+   "season": "19/20",
+   "league": "ES1",
+   "recruitment": 2.939,
+   "n_signings": 11,
+   "position": 12,
+   "points": 49,
+   "pos_change": 3
+  },
+  {
+   "club": "Athletic Bilbao",
+   "season": "20/21",
+   "league": "ES1",
+   "recruitment": 2.944,
+   "n_signings": 7,
+   "position": 9,
+   "points": 46,
+   "pos_change": 2
+  },
+  {
+   "club": "US Salernitana 1919",
+   "season": "21/22",
+   "league": "IT1",
+   "recruitment": 3.002,
+   "n_signings": 17,
+   "position": 17,
+   "points": 31,
+   "pos_change": null
+  },
+  {
+   "club": "RC Strasbourg Alsace",
+   "season": "20/21",
+   "league": "FR1",
+   "recruitment": 2.77,
+   "n_signings": 3,
+   "position": 15,
+   "points": 42,
+   "pos_change": -5
+  },
+  {
+   "club": "US Sassuolo",
+   "season": "21/22",
+   "league": "IT1",
+   "recruitment": 3.078,
+   "n_signings": 6,
+   "position": 11,
+   "points": 50,
+   "pos_change": -3
+  },
+  {
+   "club": "Holstein Kiel",
+   "season": "24/25",
+   "league": "L1",
+   "recruitment": 2.939,
+   "n_signings": 7,
+   "position": 17,
+   "points": 25,
+   "pos_change": null
+  },
+  {
+   "club": "Crystal Palace",
+   "season": "24/25",
+   "league": "GB1",
+   "recruitment": 2.981,
+   "n_signings": 7,
+   "position": 12,
+   "points": 53,
+   "pos_change": -2
+  },
+  {
+   "club": "Vitória Guimarães SC",
+   "season": "25/26",
+   "league": "PO1",
+   "recruitment": 2.894,
+   "n_signings": 11,
+   "position": 9,
+   "points": 42,
+   "pos_change": -3
+  },
+  {
+   "club": "Real Betis Balompié",
+   "season": "22/23",
+   "league": "ES1",
+   "recruitment": 2.929,
+   "n_signings": 5,
+   "position": 6,
+   "points": 60,
+   "pos_change": -1
+  },
+  {
+   "club": "Olympique Marseille",
+   "season": "21/22",
+   "league": "FR1",
+   "recruitment": 2.865,
+   "n_signings": 10,
+   "position": 2,
+   "points": 71,
+   "pos_change": 3
+  },
+  {
+   "club": "Sporting CP",
+   "season": "24/25",
+   "league": "PO1",
+   "recruitment": 2.839,
+   "n_signings": 6,
+   "position": 1,
+   "points": 82,
+   "pos_change": 0
+  },
+  {
+   "club": "Sheffield United",
+   "season": "23/24",
+   "league": "GB1",
+   "recruitment": 2.958,
+   "n_signings": 8,
+   "position": 20,
+   "points": 16,
+   "pos_change": null
+  },
+  {
+   "club": "Fulham FC",
+   "season": "24/25",
+   "league": "GB1",
+   "recruitment": 2.961,
+   "n_signings": 8,
+   "position": 11,
+   "points": 54,
+   "pos_change": 2
+  },
+  {
+   "club": "RCD Mallorca",
+   "season": "21/22",
+   "league": "ES1",
+   "recruitment": 2.917,
+   "n_signings": 8,
+   "position": 16,
+   "points": 39,
+   "pos_change": null
+  },
+  {
+   "club": "Borussia Mönchengladbach",
+   "season": "22/23",
+   "league": "L1",
+   "recruitment": 2.925,
+   "n_signings": 6,
+   "position": 10,
+   "points": 43,
+   "pos_change": 0
+  },
+  {
+   "club": "Olympique Lyon",
+   "season": "22/23",
+   "league": "FR1",
+   "recruitment": 2.828,
+   "n_signings": 9,
+   "position": 7,
+   "points": 62,
+   "pos_change": 1
+  },
+  {
+   "club": "Athletic Bilbao",
+   "season": "23/24",
+   "league": "ES1",
+   "recruitment": 2.921,
+   "n_signings": 3,
+   "position": 5,
+   "points": 68,
+   "pos_change": 3
+  },
+  {
+   "club": "Arminia Bielefeld",
+   "season": "21/22",
+   "league": "L1",
+   "recruitment": 2.912,
+   "n_signings": 14,
+   "position": 17,
+   "points": 28,
+   "pos_change": -2
+  },
+  {
+   "club": "Fortuna Sittard",
+   "season": "24/25",
+   "league": "NL1",
+   "recruitment": 2.841,
+   "n_signings": 10,
+   "position": 11,
+   "points": 41,
+   "pos_change": -1
+  },
+  {
+   "club": "1.FSV Mainz 05",
+   "season": "21/22",
+   "league": "L1",
+   "recruitment": 2.918,
+   "n_signings": 6,
+   "position": 8,
+   "points": 46,
+   "pos_change": 4
+  },
+  {
+   "club": "Southampton FC",
+   "season": "20/21",
+   "league": "GB1",
+   "recruitment": 2.994,
+   "n_signings": 4,
+   "position": 15,
+   "points": 43,
+   "pos_change": -4
+  },
+  {
+   "club": "SC Telstar",
+   "season": "25/26",
+   "league": "NL1",
+   "recruitment": 2.755,
+   "n_signings": 5,
+   "position": 14,
+   "points": 37,
+   "pos_change": null
+  },
+  {
+   "club": "VfL Wolfsburg",
+   "season": "24/25",
+   "league": "L1",
+   "recruitment": 2.907,
+   "n_signings": 6,
+   "position": 11,
+   "points": 43,
+   "pos_change": 1
+  },
+  {
+   "club": "FC Nantes",
+   "season": "24/25",
+   "league": "FR1",
+   "recruitment": 2.805,
+   "n_signings": 6,
+   "position": 13,
+   "points": 36,
+   "pos_change": 1
+  },
+  {
+   "club": "Juventus FC",
+   "season": "23/24",
+   "league": "IT1",
+   "recruitment": 3.004,
+   "n_signings": 9,
+   "position": 3,
+   "points": 71,
+   "pos_change": 4
+  },
+  {
+   "club": "Granada CF",
+   "season": "23/24",
+   "league": "ES1",
+   "recruitment": 2.88,
+   "n_signings": 10,
+   "position": 20,
+   "points": 21,
+   "pos_change": null
+  },
+  {
+   "club": "Athletic Bilbao",
+   "season": "24/25",
+   "league": "ES1",
+   "recruitment": 2.88,
+   "n_signings": 9,
+   "position": 4,
+   "points": 70,
+   "pos_change": 1
+  },
+  {
+   "club": "Luton Town",
+   "season": "23/24",
+   "league": "GB1",
+   "recruitment": 2.899,
+   "n_signings": 14,
+   "position": 18,
+   "points": 26,
+   "pos_change": null
+  },
+  {
+   "club": "Portimonense SAD",
+   "season": "22/23",
+   "league": "PO1",
+   "recruitment": 2.844,
+   "n_signings": 15,
+   "position": 15,
+   "points": 34,
+   "pos_change": -2
+  },
+  {
+   "club": "CA Osasuna",
+   "season": "22/23",
+   "league": "ES1",
+   "recruitment": 2.861,
+   "n_signings": 5,
+   "position": 7,
+   "points": 53,
+   "pos_change": 3
+  },
+  {
+   "club": "CD Nacional",
+   "season": "24/25",
+   "league": "PO1",
+   "recruitment": 2.821,
+   "n_signings": 10,
+   "position": 14,
+   "points": 34,
+   "pos_change": null
+  },
+  {
+   "club": "Bayer 04 Leverkusen",
+   "season": "20/21",
+   "league": "L1",
+   "recruitment": 2.858,
+   "n_signings": 5,
+   "position": 6,
+   "points": 52,
+   "pos_change": -1
+  },
+  {
+   "club": "AS Saint-Étienne",
+   "season": "24/25",
+   "league": "FR1",
+   "recruitment": 2.798,
+   "n_signings": 11,
+   "position": 17,
+   "points": 30,
+   "pos_change": null
+  },
+  {
+   "club": "AZ Alkmaar",
+   "season": "21/22",
+   "league": "NL1",
+   "recruitment": 2.782,
+   "n_signings": 11,
+   "position": 5,
+   "points": 61,
+   "pos_change": -2
+  },
+  {
+   "club": "Bologna FC 1909",
+   "season": "25/26",
+   "league": "IT1",
+   "recruitment": 2.957,
+   "n_signings": 7,
+   "position": 8,
+   "points": 56,
+   "pos_change": 1
+  },
+  {
+   "club": "FC Lorient",
+   "season": "21/22",
+   "league": "FR1",
+   "recruitment": 2.771,
+   "n_signings": 8,
+   "position": 16,
+   "points": 36,
+   "pos_change": 0
+  },
+  {
+   "club": "RB Leipzig",
+   "season": "22/23",
+   "league": "L1",
+   "recruitment": 2.846,
+   "n_signings": 8,
+   "position": 3,
+   "points": 66,
+   "pos_change": 1
+  },
+  {
+   "club": "Athletic Bilbao",
+   "season": "22/23",
+   "league": "ES1",
+   "recruitment": 2.841,
+   "n_signings": 8,
+   "position": 8,
+   "points": 51,
+   "pos_change": 0
+  },
+  {
+   "club": "FC Toulouse",
+   "season": "19/20",
+   "league": "FR1",
+   "recruitment": 2.688,
+   "n_signings": 4,
+   "position": 20,
+   "points": 13,
+   "pos_change": -4
+  },
+  {
+   "club": "RCD Mallorca",
+   "season": "19/20",
+   "league": "ES1",
+   "recruitment": 2.836,
+   "n_signings": 7,
+   "position": 19,
+   "points": 33,
+   "pos_change": null
+  },
+  {
+   "club": "RCD Mallorca",
+   "season": "25/26",
+   "league": "ES1",
+   "recruitment": 2.83,
+   "n_signings": 5,
+   "position": 18,
+   "points": 42,
+   "pos_change": -8
+  },
+  {
+   "club": "FC Volendam",
+   "season": "25/26",
+   "league": "NL1",
+   "recruitment": 2.729,
+   "n_signings": 7,
+   "position": 16,
+   "points": 32,
+   "pos_change": null
+  },
+  {
+   "club": "Bayern Munich",
+   "season": "20/21",
+   "league": "L1",
+   "recruitment": 2.835,
+   "n_signings": 7,
+   "position": 1,
+   "points": 78,
+   "pos_change": 0
+  },
+  {
+   "club": "Moreirense FC",
+   "season": "21/22",
+   "league": "PO1",
+   "recruitment": 2.773,
+   "n_signings": 7,
+   "position": 16,
+   "points": 29,
+   "pos_change": -8
+  },
+  {
+   "club": "SD Eibar",
+   "season": "19/20",
+   "league": "ES1",
+   "recruitment": 2.831,
+   "n_signings": 9,
+   "position": 14,
+   "points": 42,
+   "pos_change": -2
+  },
+  {
+   "club": "FC Vizela",
+   "season": "22/23",
+   "league": "PO1",
+   "recruitment": 2.764,
+   "n_signings": 6,
+   "position": 11,
+   "points": 40,
+   "pos_change": 3
+  },
+  {
+   "club": "SL Benfica",
+   "season": "25/26",
+   "league": "PO1",
+   "recruitment": 2.772,
+   "n_signings": 9,
+   "position": 3,
+   "points": 80,
+   "pos_change": -1
+  },
+  {
+   "club": "AS Roma",
+   "season": "23/24",
+   "league": "IT1",
+   "recruitment": 3.027,
+   "n_signings": 4,
+   "position": 6,
+   "points": 63,
+   "pos_change": 0
+  },
+  {
+   "club": "FC Barcelona",
+   "season": "25/26",
+   "league": "ES1",
+   "recruitment": 2.787,
+   "n_signings": 4,
+   "position": 1,
+   "points": 94,
+   "pos_change": 0
+  },
+  {
+   "club": "RKC Waalwijk",
+   "season": "23/24",
+   "league": "NL1",
+   "recruitment": 2.72,
+   "n_signings": 9,
+   "position": 15,
+   "points": 29,
+   "pos_change": -6
+  },
+  {
+   "club": "Heracles Almelo",
+   "season": "25/26",
+   "league": "NL1",
+   "recruitment": 2.712,
+   "n_signings": 8,
+   "position": 18,
+   "points": 19,
+   "pos_change": -4
+  },
+  {
+   "club": "Boavista FC",
+   "season": "22/23",
+   "league": "PO1",
+   "recruitment": 2.73,
+   "n_signings": 6,
+   "position": 9,
+   "points": 44,
+   "pos_change": 3
+  },
+  {
+   "club": "RCD Espanyol Barcelona",
+   "season": "21/22",
+   "league": "ES1",
+   "recruitment": 2.792,
+   "n_signings": 6,
+   "position": 14,
+   "points": 42,
+   "pos_change": null
+  },
+  {
+   "club": "FC Arouca",
+   "season": "21/22",
+   "league": "PO1",
+   "recruitment": 2.744,
+   "n_signings": 9,
+   "position": 15,
+   "points": 31,
+   "pos_change": null
+  },
+  {
+   "club": "Sheffield United",
+   "season": "20/21",
+   "league": "GB1",
+   "recruitment": 2.843,
+   "n_signings": 7,
+   "position": 20,
+   "points": 23,
+   "pos_change": -11
+  },
+  {
+   "club": "Feyenoord Rotterdam",
+   "season": "21/22",
+   "league": "NL1",
+   "recruitment": 2.713,
+   "n_signings": 9,
+   "position": 3,
+   "points": 71,
+   "pos_change": 2
+  },
+  {
+   "club": "Atlético de Madrid",
+   "season": "19/20",
+   "league": "ES1",
+   "recruitment": 2.791,
+   "n_signings": 8,
+   "position": 3,
+   "points": 70,
+   "pos_change": -1
+  },
+  {
+   "club": "NEC Nijmegen",
+   "season": "24/25",
+   "league": "NL1",
+   "recruitment": 2.722,
+   "n_signings": 10,
+   "position": 8,
+   "points": 43,
+   "pos_change": -2
+  },
+  {
+   "club": "Feyenoord Rotterdam",
+   "season": "24/25",
+   "league": "NL1",
+   "recruitment": 2.738,
+   "n_signings": 14,
+   "position": 3,
+   "points": 68,
+   "pos_change": -1
+  },
+  {
+   "club": "SC Braga",
+   "season": "22/23",
+   "league": "PO1",
+   "recruitment": 2.698,
+   "n_signings": 5,
+   "position": 3,
+   "points": 78,
+   "pos_change": 1
+  },
+  {
+   "club": "AS Monaco",
+   "season": "19/20",
+   "league": "FR1",
+   "recruitment": 2.744,
+   "n_signings": 12,
+   "position": 9,
+   "points": 40,
+   "pos_change": 8
+  },
+  {
+   "club": "Borussia Dortmund",
+   "season": "24/25",
+   "league": "L1",
+   "recruitment": 2.784,
+   "n_signings": 8,
+   "position": 4,
+   "points": 57,
+   "pos_change": 1
+  },
+  {
+   "club": "Juventus FC",
+   "season": "21/22",
+   "league": "IT1",
+   "recruitment": 2.91,
+   "n_signings": 7,
+   "position": 4,
+   "points": 70,
+   "pos_change": 0
+  },
+  {
+   "club": "Liverpool FC",
+   "season": "25/26",
+   "league": "GB1",
+   "recruitment": 2.827,
+   "n_signings": 8,
+   "position": 5,
+   "points": 60,
+   "pos_change": -4
+  },
+  {
+   "club": "FC Metz",
+   "season": "23/24",
+   "league": "FR1",
+   "recruitment": 2.729,
+   "n_signings": 11,
+   "position": 16,
+   "points": 29,
+   "pos_change": null
+  },
+  {
+   "club": "Wolverhampton Wanderers",
+   "season": "25/26",
+   "league": "GB1",
+   "recruitment": 2.82,
+   "n_signings": 7,
+   "position": 20,
+   "points": 20,
+   "pos_change": -4
+  },
+  {
+   "club": "Rio Ave FC",
+   "season": "22/23",
+   "league": "PO1",
+   "recruitment": 2.729,
+   "n_signings": 11,
+   "position": 12,
+   "points": 40,
+   "pos_change": null
+  },
+  {
+   "club": "Brentford FC",
+   "season": "25/26",
+   "league": "GB1",
+   "recruitment": 2.807,
+   "n_signings": 9,
+   "position": 9,
+   "points": 53,
+   "pos_change": 1
+  },
+  {
+   "club": "Newcastle United",
+   "season": "23/24",
+   "league": "GB1",
+   "recruitment": 2.817,
+   "n_signings": 5,
+   "position": 7,
+   "points": 60,
+   "pos_change": -3
+  },
+  {
+   "club": "Wolverhampton Wanderers",
+   "season": "20/21",
+   "league": "GB1",
+   "recruitment": 2.813,
+   "n_signings": 6,
+   "position": 13,
+   "points": 45,
+   "pos_change": -6
+  },
+  {
+   "club": "FC Arouca",
+   "season": "22/23",
+   "league": "PO1",
+   "recruitment": 2.738,
+   "n_signings": 12,
+   "position": 5,
+   "points": 54,
+   "pos_change": 10
+  },
+  {
+   "club": "Real Madrid",
+   "season": "21/22",
+   "league": "ES1",
+   "recruitment": 2.715,
+   "n_signings": 3,
+   "position": 1,
+   "points": 86,
+   "pos_change": 1
+  },
+  {
+   "club": "Atlético de Madrid",
+   "season": "25/26",
+   "league": "ES1",
+   "recruitment": 2.766,
+   "n_signings": 13,
+   "position": 4,
+   "points": 69,
+   "pos_change": -1
+  },
+  {
+   "club": "CF Estrela Amadora",
+   "season": "25/26",
+   "league": "PO1",
+   "recruitment": 2.757,
+   "n_signings": 23,
+   "position": 15,
+   "points": 30,
+   "pos_change": 0
+  },
+  {
+   "club": "Deportivo Alavés",
+   "season": "19/20",
+   "league": "ES1",
+   "recruitment": 2.754,
+   "n_signings": 8,
+   "position": 16,
+   "points": 39,
+   "pos_change": -5
+  },
+  {
+   "club": "1.FC Köln",
+   "season": "22/23",
+   "league": "L1",
+   "recruitment": 2.763,
+   "n_signings": 10,
+   "position": 11,
+   "points": 42,
+   "pos_change": -4
+  },
+  {
+   "club": "Deportivo Alavés",
+   "season": "25/26",
+   "league": "ES1",
+   "recruitment": 2.758,
+   "n_signings": 11,
+   "position": 14,
+   "points": 43,
+   "pos_change": 1
+  },
+  {
+   "club": "SC Heerenveen",
+   "season": "22/23",
+   "league": "NL1",
+   "recruitment": 2.679,
+   "n_signings": 10,
+   "position": 8,
+   "points": 46,
+   "pos_change": 0
+  },
+  {
+   "club": "Manchester United",
+   "season": "24/25",
+   "league": "GB1",
+   "recruitment": 2.793,
+   "n_signings": 8,
+   "position": 15,
+   "points": 42,
+   "pos_change": -7
+  },
+  {
+   "club": "B SAD (2018-2024)",
+   "season": "21/22",
+   "league": "PO1",
+   "recruitment": 2.723,
+   "n_signings": 12,
+   "position": 18,
+   "points": 26,
+   "pos_change": -8
+  },
+  {
+   "club": "RC Lens",
+   "season": "25/26",
+   "league": "FR1",
+   "recruitment": 2.736,
+   "n_signings": 21,
+   "position": 2,
+   "points": 70,
+   "pos_change": 6
+  },
+  {
+   "club": "US Cremonese",
+   "season": "25/26",
+   "league": "IT1",
+   "recruitment": 2.827,
+   "n_signings": 12,
+   "position": 18,
+   "points": 34,
+   "pos_change": null
+  },
+  {
+   "club": "LOSC Lille",
+   "season": "23/24",
+   "league": "FR1",
+   "recruitment": 2.646,
+   "n_signings": 9,
+   "position": 4,
+   "points": 59,
+   "pos_change": 1
+  },
+  {
+   "club": "CD Leganés",
+   "season": "19/20",
+   "league": "ES1",
+   "recruitment": 2.729,
+   "n_signings": 7,
+   "position": 18,
+   "points": 36,
+   "pos_change": -5
+  },
+  {
+   "club": "Fortuna Düsseldorf",
+   "season": "19/20",
+   "league": "L1",
+   "recruitment": 2.719,
+   "n_signings": 5,
+   "position": 17,
+   "points": 30,
+   "pos_change": -7
+  },
+  {
+   "club": "Udinese Calcio",
+   "season": "24/25",
+   "league": "IT1",
+   "recruitment": 2.803,
+   "n_signings": 11,
+   "position": 12,
+   "points": 44,
+   "pos_change": 3
+  },
+  {
+   "club": "Feyenoord Rotterdam",
+   "season": "25/26",
+   "league": "NL1",
+   "recruitment": 2.684,
+   "n_signings": 14,
+   "position": 2,
+   "points": 65,
+   "pos_change": 1
+  },
+  {
+   "club": "Stade Rennais FC",
+   "season": "22/23",
+   "league": "FR1",
+   "recruitment": 2.656,
+   "n_signings": 10,
+   "position": 4,
+   "points": 68,
+   "pos_change": 0
+  },
+  {
+   "club": "1.FC Union Berlin",
+   "season": "22/23",
+   "league": "L1",
+   "recruitment": 2.722,
+   "n_signings": 10,
+   "position": 4,
+   "points": 62,
+   "pos_change": 1
+  },
+  {
+   "club": "Como 1907",
+   "season": "25/26",
+   "league": "IT1",
+   "recruitment": 2.785,
+   "n_signings": 13,
+   "position": 4,
+   "points": 71,
+   "pos_change": 6
+  },
+  {
+   "club": "Torino FC",
+   "season": "23/24",
+   "league": "IT1",
+   "recruitment": 2.8,
+   "n_signings": 10,
+   "position": 9,
+   "points": 53,
+   "pos_change": 1
+  },
+  {
+   "club": "B SAD (2018-2024)",
+   "season": "20/21",
+   "league": "PO1",
+   "recruitment": 2.669,
+   "n_signings": 9,
+   "position": 10,
+   "points": 40,
+   "pos_change": 5
+  },
+  {
+   "club": "FC Volendam",
+   "season": "23/24",
+   "league": "NL1",
+   "recruitment": 2.542,
+   "n_signings": 5,
+   "position": 17,
+   "points": 19,
+   "pos_change": -3
+  },
+  {
+   "club": "Bologna FC 1909",
+   "season": "19/20",
+   "league": "IT1",
+   "recruitment": 2.772,
+   "n_signings": 15,
+   "position": 12,
+   "points": 47,
+   "pos_change": -2
+  },
+  {
+   "club": "SV Darmstadt 98",
+   "season": "23/24",
+   "league": "L1",
+   "recruitment": 2.672,
+   "n_signings": 4,
+   "position": 18,
+   "points": 17,
+   "pos_change": null
+  },
+  {
+   "club": "Vitória Guimarães SC",
+   "season": "23/24",
+   "league": "PO1",
+   "recruitment": 2.663,
+   "n_signings": 9,
+   "position": 5,
+   "points": 63,
+   "pos_change": 1
+  },
+  {
+   "club": "Sevilla FC",
+   "season": "20/21",
+   "league": "ES1",
+   "recruitment": 2.701,
+   "n_signings": 10,
+   "position": 4,
+   "points": 77,
+   "pos_change": 0
+  },
+  {
+   "club": "Sevilla FC",
+   "season": "25/26",
+   "league": "ES1",
+   "recruitment": 2.685,
+   "n_signings": 7,
+   "position": 13,
+   "points": 43,
+   "pos_change": 4
+  },
+  {
+   "club": "Real Valladolid CF",
+   "season": "20/21",
+   "league": "ES1",
+   "recruitment": 2.704,
+   "n_signings": 15,
+   "position": 19,
+   "points": 31,
+   "pos_change": -6
+  },
+  {
+   "club": "Gil Vicente FC",
+   "season": "22/23",
+   "league": "PO1",
+   "recruitment": 2.639,
+   "n_signings": 10,
+   "position": 13,
+   "points": 37,
+   "pos_change": -8
+  },
+  {
+   "club": "RC Strasbourg Alsace",
+   "season": "24/25",
+   "league": "FR1",
+   "recruitment": 2.639,
+   "n_signings": 13,
+   "position": 7,
+   "points": 57,
+   "pos_change": 6
+  },
+  {
+   "club": "Borussia Mönchengladbach",
+   "season": "25/26",
+   "league": "L1",
+   "recruitment": 2.646,
+   "n_signings": 5,
+   "position": 12,
+   "points": 38,
+   "pos_change": -2
+  },
+  {
+   "club": "FC Nantes",
+   "season": "23/24",
+   "league": "FR1",
+   "recruitment": 2.609,
+   "n_signings": 11,
+   "position": 14,
+   "points": 33,
+   "pos_change": 2
+  },
+  {
+   "club": "Paris Saint-Germain",
+   "season": "22/23",
+   "league": "FR1",
+   "recruitment": 2.597,
+   "n_signings": 9,
+   "position": 1,
+   "points": 85,
+   "pos_change": 0
+  },
+  {
+   "club": "Celta de Vigo",
+   "season": "23/24",
+   "league": "ES1",
+   "recruitment": 2.672,
+   "n_signings": 13,
+   "position": 14,
+   "points": 41,
+   "pos_change": -1
+  },
+  {
+   "club": "Watford FC",
+   "season": "21/22",
+   "league": "GB1",
+   "recruitment": 2.698,
+   "n_signings": 13,
+   "position": 19,
+   "points": 23,
+   "pos_change": null
+  },
+  {
+   "club": "Feyenoord Rotterdam",
+   "season": "19/20",
+   "league": "NL1",
+   "recruitment": 2.508,
+   "n_signings": 6,
+   "position": 3,
+   "points": 50,
+   "pos_change": 0
+  },
+  {
+   "club": "Portimonense SAD",
+   "season": "21/22",
+   "league": "PO1",
+   "recruitment": 2.584,
+   "n_signings": 7,
+   "position": 13,
+   "points": 38,
+   "pos_change": 1
+  },
+  {
+   "club": "RB Leipzig",
+   "season": "21/22",
+   "league": "L1",
+   "recruitment": 2.652,
+   "n_signings": 9,
+   "position": 4,
+   "points": 58,
+   "pos_change": -2
+  },
+  {
+   "club": "Spezia Calcio",
+   "season": "22/23",
+   "league": "IT1",
+   "recruitment": 2.743,
+   "n_signings": 10,
+   "position": 17,
+   "points": 31,
+   "pos_change": -1
+  },
+  {
+   "club": "Stade Reims",
+   "season": "23/24",
+   "league": "FR1",
+   "recruitment": 2.595,
+   "n_signings": 10,
+   "position": 9,
+   "points": 47,
+   "pos_change": 2
+  },
+  {
+   "club": "Paris Saint-Germain",
+   "season": "21/22",
+   "league": "FR1",
+   "recruitment": 2.575,
+   "n_signings": 9,
+   "position": 1,
+   "points": 86,
+   "pos_change": 1
+  },
+  {
+   "club": "Olympique Lyon",
+   "season": "24/25",
+   "league": "FR1",
+   "recruitment": 2.597,
+   "n_signings": 10,
+   "position": 6,
+   "points": 57,
+   "pos_change": 0
+  },
+  {
+   "club": "SC Farense",
+   "season": "24/25",
+   "league": "PO1",
+   "recruitment": 2.649,
+   "n_signings": 18,
+   "position": 17,
+   "points": 27,
+   "pos_change": -7
+  },
+  {
+   "club": "Celta de Vigo",
+   "season": "22/23",
+   "league": "ES1",
+   "recruitment": 2.653,
+   "n_signings": 11,
+   "position": 13,
+   "points": 43,
+   "pos_change": -2
+  },
+  {
+   "club": "Fortuna Sittard",
+   "season": "23/24",
+   "league": "NL1",
+   "recruitment": 2.577,
+   "n_signings": 10,
+   "position": 10,
+   "points": 38,
+   "pos_change": 3
+  },
+  {
+   "club": "AZ Alkmaar",
+   "season": "19/20",
+   "league": "NL1",
+   "recruitment": 2.486,
+   "n_signings": 7,
+   "position": 2,
+   "points": 56,
+   "pos_change": 2
+  },
+  {
+   "club": "West Ham United",
+   "season": "22/23",
+   "league": "GB1",
+   "recruitment": 2.677,
+   "n_signings": 11,
+   "position": 14,
+   "points": 40,
+   "pos_change": -7
+  },
+  {
+   "club": "FC Barcelona",
+   "season": "19/20",
+   "league": "ES1",
+   "recruitment": 2.625,
+   "n_signings": 10,
+   "position": 2,
+   "points": 82,
+   "pos_change": -1
+  },
+  {
+   "club": "Atalanta BC",
+   "season": "22/23",
+   "league": "IT1",
+   "recruitment": 2.724,
+   "n_signings": 11,
+   "position": 5,
+   "points": 64,
+   "pos_change": 3
+  },
+  {
+   "club": "FC Utrecht",
+   "season": "22/23",
+   "league": "NL1",
+   "recruitment": 2.58,
+   "n_signings": 12,
+   "position": 7,
+   "points": 54,
+   "pos_change": 0
+  },
+  {
+   "club": "Juventus FC",
+   "season": "19/20",
+   "league": "IT1",
+   "recruitment": 2.72,
+   "n_signings": 9,
+   "position": 1,
+   "points": 83,
+   "pos_change": 0
+  },
+  {
+   "club": "Athletic Bilbao",
+   "season": "25/26",
+   "league": "ES1",
+   "recruitment": 2.608,
+   "n_signings": 7,
+   "position": 12,
+   "points": 45,
+   "pos_change": -8
+  },
+  {
+   "club": "Southampton FC",
+   "season": "19/20",
+   "league": "GB1",
+   "recruitment": 2.629,
+   "n_signings": 3,
+   "position": 11,
+   "points": 52,
+   "pos_change": 5
+  },
+  {
+   "club": "Torino FC",
+   "season": "24/25",
+   "league": "IT1",
+   "recruitment": 2.696,
+   "n_signings": 13,
+   "position": 11,
+   "points": 44,
+   "pos_change": -2
+  },
+  {
+   "club": "Inter Milan",
+   "season": "25/26",
+   "league": "IT1",
+   "recruitment": 2.732,
+   "n_signings": 6,
+   "position": 1,
+   "points": 87,
+   "pos_change": 1
+  },
+  {
+   "club": "FC Empoli",
+   "season": "21/22",
+   "league": "IT1",
+   "recruitment": 2.694,
+   "n_signings": 11,
+   "position": 14,
+   "points": 41,
+   "pos_change": null
+  },
+  {
+   "club": "Manchester City",
+   "season": "20/21",
+   "league": "GB1",
+   "recruitment": 2.642,
+   "n_signings": 8,
+   "position": 1,
+   "points": 86,
+   "pos_change": 1
+  },
+  {
+   "club": "SV Werder Bremen",
+   "season": "25/26",
+   "league": "L1",
+   "recruitment": 2.442,
+   "n_signings": 2,
+   "position": 15,
+   "points": 32,
+   "pos_change": -7
+  },
+  {
+   "club": "Valencia CF",
+   "season": "24/25",
+   "league": "ES1",
+   "recruitment": 2.487,
+   "n_signings": 3,
+   "position": 12,
+   "points": 46,
+   "pos_change": -3
+  },
+  {
+   "club": "Gil Vicente FC",
+   "season": "21/22",
+   "league": "PO1",
+   "recruitment": 2.594,
+   "n_signings": 16,
+   "position": 5,
+   "points": 51,
+   "pos_change": 6
+  },
+  {
+   "club": "West Ham United",
+   "season": "25/26",
+   "league": "GB1",
+   "recruitment": 2.637,
+   "n_signings": 15,
+   "position": 18,
+   "points": 39,
+   "pos_change": -4
+  },
+  {
+   "club": "Ajax Amsterdam",
+   "season": "25/26",
+   "league": "NL1",
+   "recruitment": 2.522,
+   "n_signings": 12,
+   "position": 5,
+   "points": 56,
+   "pos_change": -3
+  },
+  {
+   "club": "Bayer 04 Leverkusen",
+   "season": "24/25",
+   "league": "L1",
+   "recruitment": 2.491,
+   "n_signings": 4,
+   "position": 2,
+   "points": 69,
+   "pos_change": -1
+  },
+  {
+   "club": "FC Augsburg",
+   "season": "20/21",
+   "league": "L1",
+   "recruitment": 2.564,
+   "n_signings": 6,
+   "position": 13,
+   "points": 36,
+   "pos_change": 2
+  },
+  {
+   "club": "CD Santa Clara",
+   "season": "22/23",
+   "league": "PO1",
+   "recruitment": 2.56,
+   "n_signings": 11,
+   "position": 18,
+   "points": 22,
+   "pos_change": -11
+  },
+  {
+   "club": "Fortuna Sittard",
+   "season": "19/20",
+   "league": "NL1",
+   "recruitment": 2.442,
+   "n_signings": 6,
+   "position": 16,
+   "points": 26,
+   "pos_change": -1
+  },
+  {
+   "club": "Brentford FC",
+   "season": "21/22",
+   "league": "GB1",
+   "recruitment": 2.611,
+   "n_signings": 7,
+   "position": 13,
+   "points": 46,
+   "pos_change": null
+  },
+  {
+   "club": "GD Estoril Praia",
+   "season": "25/26",
+   "league": "PO1",
+   "recruitment": 2.506,
+   "n_signings": 7,
+   "position": 10,
+   "points": 39,
+   "pos_change": -2
+  },
+  {
+   "club": "Chelsea FC",
+   "season": "20/21",
+   "league": "GB1",
+   "recruitment": 2.598,
+   "n_signings": 6,
+   "position": 4,
+   "points": 67,
+   "pos_change": 0
+  },
+  {
+   "club": "AC Milan",
+   "season": "20/21",
+   "league": "IT1",
+   "recruitment": 2.663,
+   "n_signings": 9,
+   "position": 2,
+   "points": 79,
+   "pos_change": 4
+  },
+  {
+   "club": "AS Roma",
+   "season": "19/20",
+   "league": "IT1",
+   "recruitment": 2.687,
+   "n_signings": 6,
+   "position": 5,
+   "points": 70,
+   "pos_change": 1
+  },
+  {
+   "club": "SPAL",
+   "season": "19/20",
+   "league": "IT1",
+   "recruitment": 2.665,
+   "n_signings": 8,
+   "position": 20,
+   "points": 20,
+   "pos_change": -7
+  },
+  {
+   "club": "ACF Fiorentina",
+   "season": "21/22",
+   "league": "IT1",
+   "recruitment": 2.667,
+   "n_signings": 6,
+   "position": 7,
+   "points": 62,
+   "pos_change": 6
+  },
+  {
+   "club": "Sparta Rotterdam",
+   "season": "21/22",
+   "league": "NL1",
+   "recruitment": 2.375,
+   "n_signings": 5,
+   "position": 14,
+   "points": 35,
+   "pos_change": -6
+  },
+  {
+   "club": "Willem II Tilburg",
+   "season": "21/22",
+   "league": "NL1",
+   "recruitment": 2.441,
+   "n_signings": 7,
+   "position": 17,
+   "points": 33,
+   "pos_change": -3
+  },
+  {
+   "club": "VfL Wolfsburg",
+   "season": "20/21",
+   "league": "L1",
+   "recruitment": 2.517,
+   "n_signings": 5,
+   "position": 4,
+   "points": 61,
+   "pos_change": 3
+  },
+  {
+   "club": "Frosinone Calcio",
+   "season": "23/24",
+   "league": "IT1",
+   "recruitment": 2.637,
+   "n_signings": 14,
+   "position": 18,
+   "points": 35,
+   "pos_change": null
+  },
+  {
+   "club": "RC Strasbourg Alsace",
+   "season": "22/23",
+   "league": "FR1",
+   "recruitment": 2.459,
+   "n_signings": 8,
+   "position": 15,
+   "points": 40,
+   "pos_change": -9
+  },
+  {
+   "club": "SC Heerenveen",
+   "season": "23/24",
+   "league": "NL1",
+   "recruitment": 2.109,
+   "n_signings": 3,
+   "position": 11,
+   "points": 37,
+   "pos_change": -3
+  },
+  {
+   "club": "Torino FC",
+   "season": "25/26",
+   "league": "IT1",
+   "recruitment": 2.659,
+   "n_signings": 6,
+   "position": 12,
+   "points": 45,
+   "pos_change": -1
+  },
+  {
+   "club": "UD Almería",
+   "season": "22/23",
+   "league": "ES1",
+   "recruitment": 2.558,
+   "n_signings": 12,
+   "position": 17,
+   "points": 41,
+   "pos_change": null
+  },
+  {
+   "club": "Cagliari Calcio",
+   "season": "21/22",
+   "league": "IT1",
+   "recruitment": 2.636,
+   "n_signings": 9,
+   "position": 18,
+   "points": 30,
+   "pos_change": -2
+  },
+  {
+   "club": "Bayern Munich",
+   "season": "19/20",
+   "league": "L1",
+   "recruitment": 2.453,
+   "n_signings": 6,
+   "position": 1,
+   "points": 82,
+   "pos_change": 0
+  },
+  {
+   "club": "West Ham United",
+   "season": "19/20",
+   "league": "GB1",
+   "recruitment": 2.555,
+   "n_signings": 6,
+   "position": 16,
+   "points": 39,
+   "pos_change": -6
+  },
+  {
+   "club": "OGC Nice",
+   "season": "23/24",
+   "league": "FR1",
+   "recruitment": 2.376,
+   "n_signings": 6,
+   "position": 5,
+   "points": 55,
+   "pos_change": 4
+  },
+  {
+   "club": "Stade Reims",
+   "season": "24/25",
+   "league": "FR1",
+   "recruitment": 2.475,
+   "n_signings": 11,
+   "position": 16,
+   "points": 33,
+   "pos_change": -7
+  },
+  {
+   "club": "Udinese Calcio",
+   "season": "21/22",
+   "league": "IT1",
+   "recruitment": 2.634,
+   "n_signings": 7,
+   "position": 12,
+   "points": 47,
+   "pos_change": 2
+  },
+  {
+   "club": "1.FC Heidenheim 1846",
+   "season": "24/25",
+   "league": "L1",
+   "recruitment": 2.538,
+   "n_signings": 9,
+   "position": 16,
+   "points": 29,
+   "pos_change": -8
+  },
+  {
+   "club": "TSG 1899 Hoffenheim",
+   "season": "20/21",
+   "league": "L1",
+   "recruitment": 2.442,
+   "n_signings": 4,
+   "position": 11,
+   "points": 43,
+   "pos_change": -5
+  },
+  {
+   "club": "Sporting CP",
+   "season": "25/26",
+   "league": "PO1",
+   "recruitment": 2.495,
+   "n_signings": 11,
+   "position": 2,
+   "points": 82,
+   "pos_change": -1
+  },
+  {
+   "club": "Inter Milan",
+   "season": "20/21",
+   "league": "IT1",
+   "recruitment": 2.626,
+   "n_signings": 8,
+   "position": 1,
+   "points": 91,
+   "pos_change": 1
+  },
+  {
+   "club": "Bayern Munich",
+   "season": "22/23",
+   "league": "L1",
+   "recruitment": 2.503,
+   "n_signings": 7,
+   "position": 1,
+   "points": 71,
+   "pos_change": 0
+  },
+  {
+   "club": "1.FC Union Berlin",
+   "season": "20/21",
+   "league": "L1",
+   "recruitment": 2.509,
+   "n_signings": 7,
+   "position": 7,
+   "points": 50,
+   "pos_change": 4
+  },
+  {
+   "club": "Real Sociedad",
+   "season": "21/22",
+   "league": "ES1",
+   "recruitment": 2.289,
+   "n_signings": 2,
+   "position": 6,
+   "points": 62,
+   "pos_change": -1
+  },
+  {
+   "club": "Rayo Vallecano",
+   "season": "22/23",
+   "league": "ES1",
+   "recruitment": 2.463,
+   "n_signings": 5,
+   "position": 12,
+   "points": 49,
+   "pos_change": 0
+  },
+  {
+   "club": "AFC Bournemouth",
+   "season": "25/26",
+   "league": "GB1",
+   "recruitment": 2.546,
+   "n_signings": 9,
+   "position": 6,
+   "points": 57,
+   "pos_change": 3
+  },
+  {
+   "club": "Newcastle United",
+   "season": "19/20",
+   "league": "GB1",
+   "recruitment": 2.512,
+   "n_signings": 4,
+   "position": 13,
+   "points": 44,
+   "pos_change": 0
+  },
+  {
+   "club": "RKC Waalwijk",
+   "season": "22/23",
+   "league": "NL1",
+   "recruitment": 2.391,
+   "n_signings": 7,
+   "position": 9,
+   "points": 41,
+   "pos_change": 1
+  },
+  {
+   "club": "Vitória Guimarães SC",
+   "season": "21/22",
+   "league": "PO1",
+   "recruitment": 2.396,
+   "n_signings": 6,
+   "position": 6,
+   "points": 48,
+   "pos_change": 1
+  },
+  {
+   "club": "Deportivo Alavés",
+   "season": "24/25",
+   "league": "ES1",
+   "recruitment": 2.529,
+   "n_signings": 14,
+   "position": 15,
+   "points": 42,
+   "pos_change": -5
+  },
+  {
+   "club": "CA Osasuna",
+   "season": "20/21",
+   "league": "ES1",
+   "recruitment": 2.414,
+   "n_signings": 4,
+   "position": 11,
+   "points": 44,
+   "pos_change": -1
+  },
+  {
+   "club": "SSC Napoli",
+   "season": "19/20",
+   "league": "IT1",
+   "recruitment": 2.582,
+   "n_signings": 16,
+   "position": 7,
+   "points": 62,
+   "pos_change": -5
+  },
+  {
+   "club": "Southampton FC",
+   "season": "24/25",
+   "league": "GB1",
+   "recruitment": 2.539,
+   "n_signings": 14,
+   "position": 20,
+   "points": 12,
+   "pos_change": null
+  },
+  {
+   "club": "Wolverhampton Wanderers",
+   "season": "19/20",
+   "league": "GB1",
+   "recruitment": 2.509,
+   "n_signings": 7,
+   "position": 7,
+   "points": 59,
+   "pos_change": 0
+  },
+  {
+   "club": "FC Paços de Ferreira",
+   "season": "19/20",
+   "league": "PO1",
+   "recruitment": 2.414,
+   "n_signings": 8,
+   "position": 13,
+   "points": 39,
+   "pos_change": null
+  },
+  {
+   "club": "SC Paderborn 07",
+   "season": "19/20",
+   "league": "L1",
+   "recruitment": 2.477,
+   "n_signings": 8,
+   "position": 18,
+   "points": 20,
+   "pos_change": null
+  },
+  {
+   "club": "Norwich City",
+   "season": "21/22",
+   "league": "GB1",
+   "recruitment": 2.509,
+   "n_signings": 7,
+   "position": 20,
+   "points": 22,
+   "pos_change": null
+  },
+  {
+   "club": "Eintracht Frankfurt",
+   "season": "22/23",
+   "league": "L1",
+   "recruitment": 2.474,
+   "n_signings": 9,
+   "position": 7,
+   "points": 50,
+   "pos_change": 4
+  },
+  {
+   "club": "Manchester United",
+   "season": "23/24",
+   "league": "GB1",
+   "recruitment": 2.497,
+   "n_signings": 7,
+   "position": 8,
+   "points": 60,
+   "pos_change": -5
+  },
+  {
+   "club": "SC Freiburg",
+   "season": "24/25",
+   "league": "L1",
+   "recruitment": 2.459,
+   "n_signings": 7,
+   "position": 5,
+   "points": 55,
+   "pos_change": 5
+  },
+  {
+   "club": "FC Famalicão",
+   "season": "20/21",
+   "league": "PO1",
+   "recruitment": 2.462,
+   "n_signings": 12,
+   "position": 9,
+   "points": 40,
+   "pos_change": -3
+  },
+  {
+   "club": "Tottenham Hotspur",
+   "season": "21/22",
+   "league": "GB1",
+   "recruitment": 2.47,
+   "n_signings": 5,
+   "position": 4,
+   "points": 71,
+   "pos_change": 3
+  },
+  {
+   "club": "Real Sociedad",
+   "season": "25/26",
+   "league": "ES1",
+   "recruitment": 2.371,
+   "n_signings": 4,
+   "position": 10,
+   "points": 46,
+   "pos_change": 1
+  },
+  {
+   "club": "Villarreal CF",
+   "season": "21/22",
+   "league": "ES1",
+   "recruitment": 2.43,
+   "n_signings": 8,
+   "position": 7,
+   "points": 59,
+   "pos_change": 0
+  },
+  {
+   "club": "SC Freiburg",
+   "season": "20/21",
+   "league": "L1",
+   "recruitment": 2.307,
+   "n_signings": 3,
+   "position": 10,
+   "points": 45,
+   "pos_change": -2
+  },
+  {
+   "club": "Fortuna Sittard",
+   "season": "21/22",
+   "league": "NL1",
+   "recruitment": 2.393,
+   "n_signings": 11,
+   "position": 15,
+   "points": 35,
+   "pos_change": -4
+  },
+  {
+   "club": "FC Empoli",
+   "season": "22/23",
+   "league": "IT1",
+   "recruitment": 2.534,
+   "n_signings": 8,
+   "position": 14,
+   "points": 43,
+   "pos_change": 0
+  },
+  {
+   "club": "Hertha BSC",
+   "season": "19/20",
+   "league": "L1",
+   "recruitment": 2.431,
+   "n_signings": 8,
+   "position": 10,
+   "points": 41,
+   "pos_change": 1
+  },
+  {
+   "club": "Vitória Guimarães SC",
+   "season": "20/21",
+   "league": "PO1",
+   "recruitment": 2.425,
+   "n_signings": 13,
+   "position": 7,
+   "points": 43,
+   "pos_change": 0
+  },
+  {
+   "club": "AFC Bournemouth",
+   "season": "23/24",
+   "league": "GB1",
+   "recruitment": 2.459,
+   "n_signings": 7,
+   "position": 12,
+   "points": 48,
+   "pos_change": 3
+  },
+  {
+   "club": "ADO Den Haag",
+   "season": "19/20",
+   "league": "NL1",
+   "recruitment": 2.227,
+   "n_signings": 5,
+   "position": 17,
+   "points": 19,
+   "pos_change": -8
+  },
+  {
+   "club": "Manchester City",
+   "season": "19/20",
+   "league": "GB1",
+   "recruitment": 2.43,
+   "n_signings": 8,
+   "position": 2,
+   "points": 81,
+   "pos_change": -1
+  },
+  {
+   "club": "Hertha BSC",
+   "season": "20/21",
+   "league": "L1",
+   "recruitment": 2.423,
+   "n_signings": 8,
+   "position": 14,
+   "points": 35,
+   "pos_change": -4
+  },
+  {
+   "club": "RKC Waalwijk",
+   "season": "21/22",
+   "league": "NL1",
+   "recruitment": 2.239,
+   "n_signings": 6,
+   "position": 10,
+   "points": 38,
+   "pos_change": 5
+  },
+  {
+   "club": "SSC Napoli",
+   "season": "20/21",
+   "league": "IT1",
+   "recruitment": 2.519,
+   "n_signings": 3,
+   "position": 5,
+   "points": 77,
+   "pos_change": 2
+  },
+  {
+   "club": "FC Groningen",
+   "season": "22/23",
+   "league": "NL1",
+   "recruitment": 2.33,
+   "n_signings": 9,
+   "position": 18,
+   "points": 18,
+   "pos_change": -6
+  },
+  {
+   "club": "Burnley FC",
+   "season": "23/24",
+   "league": "GB1",
+   "recruitment": 2.458,
+   "n_signings": 11,
+   "position": 19,
+   "points": 24,
+   "pos_change": null
+  },
+  {
+   "club": "US Salernitana 1919",
+   "season": "23/24",
+   "league": "IT1",
+   "recruitment": 2.5,
+   "n_signings": 10,
+   "position": 20,
+   "points": 17,
+   "pos_change": -5
+  },
+  {
+   "club": "West Ham United",
+   "season": "24/25",
+   "league": "GB1",
+   "recruitment": 2.431,
+   "n_signings": 7,
+   "position": 14,
+   "points": 43,
+   "pos_change": -5
+  },
+  {
+   "club": "FC Utrecht",
+   "season": "19/20",
+   "league": "NL1",
+   "recruitment": 2.269,
+   "n_signings": 7,
+   "position": 6,
+   "points": 41,
+   "pos_change": 0
+  },
+  {
+   "club": "Manchester City",
+   "season": "22/23",
+   "league": "GB1",
+   "recruitment": 2.419,
+   "n_signings": 7,
+   "position": 1,
+   "points": 89,
+   "pos_change": 0
+  },
+  {
+   "club": "VfL Wolfsburg",
+   "season": "22/23",
+   "league": "L1",
+   "recruitment": 2.337,
+   "n_signings": 5,
+   "position": 8,
+   "points": 49,
+   "pos_change": 4
+  },
+  {
+   "club": "Newcastle United",
+   "season": "24/25",
+   "league": "GB1",
+   "recruitment": 2.332,
+   "n_signings": 3,
+   "position": 5,
+   "points": 66,
+   "pos_change": 2
+  },
+  {
+   "club": "Olympique Lyon",
+   "season": "19/20",
+   "league": "FR1",
+   "recruitment": 2.275,
+   "n_signings": 8,
+   "position": 7,
+   "points": 40,
+   "pos_change": -4
+  },
+  {
+   "club": "Moreirense FC",
+   "season": "24/25",
+   "league": "PO1",
+   "recruitment": 2.309,
+   "n_signings": 7,
+   "position": 10,
+   "points": 40,
+   "pos_change": -4
+  },
+  {
+   "club": "AJ Auxerre",
+   "season": "24/25",
+   "league": "FR1",
+   "recruitment": 2.221,
+   "n_signings": 6,
+   "position": 11,
+   "points": 42,
+   "pos_change": null
+  },
+  {
+   "club": "OGC Nice",
+   "season": "20/21",
+   "league": "FR1",
+   "recruitment": 2.319,
+   "n_signings": 9,
+   "position": 9,
+   "points": 52,
+   "pos_change": -3
+  },
+  {
+   "club": "SC Freiburg",
+   "season": "19/20",
+   "league": "L1",
+   "recruitment": 2.386,
+   "n_signings": 9,
+   "position": 8,
+   "points": 48,
+   "pos_change": 5
+  },
+  {
+   "club": "CA Osasuna",
+   "season": "19/20",
+   "league": "ES1",
+   "recruitment": 2.387,
+   "n_signings": 11,
+   "position": 10,
+   "points": 52,
+   "pos_change": null
+  },
+  {
+   "club": "Brighton & Hove Albion",
+   "season": "21/22",
+   "league": "GB1",
+   "recruitment": 2.398,
+   "n_signings": 8,
+   "position": 9,
+   "points": 51,
+   "pos_change": 7
+  },
+  {
+   "club": "CS Marítimo",
+   "season": "20/21",
+   "league": "PO1",
+   "recruitment": 2.326,
+   "n_signings": 10,
+   "position": 15,
+   "points": 35,
+   "pos_change": -4
+  },
+  {
+   "club": "Brighton & Hove Albion",
+   "season": "20/21",
+   "league": "GB1",
+   "recruitment": 2.381,
+   "n_signings": 8,
+   "position": 16,
+   "points": 41,
+   "pos_change": -1
+  },
+  {
+   "club": "FC Arouca",
+   "season": "25/26",
+   "league": "PO1",
+   "recruitment": 2.36,
+   "n_signings": 15,
+   "position": 8,
+   "points": 42,
+   "pos_change": 4
+  },
+  {
+   "club": "AC Monza",
+   "season": "22/23",
+   "league": "IT1",
+   "recruitment": 2.432,
+   "n_signings": 11,
+   "position": 11,
+   "points": 52,
+   "pos_change": null
+  },
+  {
+   "club": "RB Leipzig",
+   "season": "19/20",
+   "league": "L1",
+   "recruitment": 2.211,
+   "n_signings": 5,
+   "position": 3,
+   "points": 66,
+   "pos_change": 0
+  },
+  {
+   "club": "FC Twente Enschede",
+   "season": "19/20",
+   "league": "NL1",
+   "recruitment": 2.16,
+   "n_signings": 7,
+   "position": 14,
+   "points": 27,
+   "pos_change": null
+  },
+  {
+   "club": "VfL Wolfsburg",
+   "season": "19/20",
+   "league": "L1",
+   "recruitment": 2.266,
+   "n_signings": 7,
+   "position": 7,
+   "points": 49,
+   "pos_change": -1
+  },
+  {
+   "club": "Hertha BSC",
+   "season": "22/23",
+   "league": "L1",
+   "recruitment": 2.328,
+   "n_signings": 9,
+   "position": 18,
+   "points": 29,
+   "pos_change": -2
+  },
+  {
+   "club": "Paris Saint-Germain",
+   "season": "19/20",
+   "league": "FR1",
+   "recruitment": 2.178,
+   "n_signings": 6,
+   "position": 1,
+   "points": 68,
+   "pos_change": 0
+  },
+  {
+   "club": "US Lecce",
+   "season": "22/23",
+   "league": "IT1",
+   "recruitment": 2.409,
+   "n_signings": 13,
+   "position": 16,
+   "points": 36,
+   "pos_change": null
+  },
+  {
+   "club": "AS Saint-Étienne",
+   "season": "20/21",
+   "league": "FR1",
+   "recruitment": 2.166,
+   "n_signings": 6,
+   "position": 11,
+   "points": 46,
+   "pos_change": 6
+  },
+  {
+   "club": "1.FSV Mainz 05",
+   "season": "19/20",
+   "league": "L1",
+   "recruitment": 2.212,
+   "n_signings": 6,
+   "position": 13,
+   "points": 37,
+   "pos_change": -1
+  },
+  {
+   "club": "1.FSV Mainz 05",
+   "season": "24/25",
+   "league": "L1",
+   "recruitment": 2.222,
+   "n_signings": 5,
+   "position": 6,
+   "points": 52,
+   "pos_change": 7
+  },
+  {
+   "club": "AS Roma",
+   "season": "24/25",
+   "league": "IT1",
+   "recruitment": 2.386,
+   "n_signings": 15,
+   "position": 5,
+   "points": 69,
+   "pos_change": 1
+  },
+  {
+   "club": "RKC Waalwijk",
+   "season": "20/21",
+   "league": "NL1",
+   "recruitment": 2.247,
+   "n_signings": 11,
+   "position": 15,
+   "points": 30,
+   "pos_change": 3
+  },
+  {
+   "club": "Parma Calcio 1913",
+   "season": "24/25",
+   "league": "IT1",
+   "recruitment": 2.377,
+   "n_signings": 11,
+   "position": 16,
+   "points": 36,
+   "pos_change": null
+  },
+  {
+   "club": "Udinese Calcio",
+   "season": "23/24",
+   "league": "IT1",
+   "recruitment": 2.378,
+   "n_signings": 14,
+   "position": 15,
+   "points": 37,
+   "pos_change": -3
+  },
+  {
+   "club": "GD Estoril Praia",
+   "season": "23/24",
+   "league": "PO1",
+   "recruitment": 2.28,
+   "n_signings": 13,
+   "position": 13,
+   "points": 33,
+   "pos_change": 1
+  },
+  {
+   "club": "FC Volendam",
+   "season": "22/23",
+   "league": "NL1",
+   "recruitment": 2.182,
+   "n_signings": 9,
+   "position": 14,
+   "points": 36,
+   "pos_change": null
+  },
+  {
+   "club": "Inter Milan",
+   "season": "22/23",
+   "league": "IT1",
+   "recruitment": 2.343,
+   "n_signings": 10,
+   "position": 3,
+   "points": 72,
+   "pos_change": -1
+  },
+  {
+   "club": "VfB Stuttgart",
+   "season": "22/23",
+   "league": "L1",
+   "recruitment": 2.251,
+   "n_signings": 10,
+   "position": 16,
+   "points": 33,
+   "pos_change": -1
+  },
+  {
+   "club": "VfL Wolfsburg",
+   "season": "23/24",
+   "league": "L1",
+   "recruitment": 2.24,
+   "n_signings": 9,
+   "position": 12,
+   "points": 37,
+   "pos_change": -4
+  },
+  {
+   "club": "CD Santa Clara",
+   "season": "21/22",
+   "league": "PO1",
+   "recruitment": 2.079,
+   "n_signings": 5,
+   "position": 7,
+   "points": 40,
+   "pos_change": -1
+  },
+  {
+   "club": "Nottingham Forest",
+   "season": "22/23",
+   "league": "GB1",
+   "recruitment": 2.314,
+   "n_signings": 20,
+   "position": 16,
+   "points": 38,
+   "pos_change": null
+  },
+  {
+   "club": "FC Crotone",
+   "season": "20/21",
+   "league": "IT1",
+   "recruitment": 2.312,
+   "n_signings": 8,
+   "position": 19,
+   "points": 23,
+   "pos_change": null
+  },
+  {
+   "club": "Leicester City",
+   "season": "19/20",
+   "league": "GB1",
+   "recruitment": 2.203,
+   "n_signings": 5,
+   "position": 5,
+   "points": 62,
+   "pos_change": 4
+  },
+  {
+   "club": "Tottenham Hotspur",
+   "season": "20/21",
+   "league": "GB1",
+   "recruitment": 2.186,
+   "n_signings": 5,
+   "position": 7,
+   "points": 62,
+   "pos_change": -1
+  },
+  {
+   "club": "Leeds United",
+   "season": "22/23",
+   "league": "GB1",
+   "recruitment": 2.277,
+   "n_signings": 10,
+   "position": 19,
+   "points": 31,
+   "pos_change": -2
+  },
+  {
+   "club": "Sevilla FC",
+   "season": "19/20",
+   "league": "ES1",
+   "recruitment": 2.272,
+   "n_signings": 14,
+   "position": 4,
+   "points": 70,
+   "pos_change": 2
+  },
+  {
+   "club": "Everton FC",
+   "season": "23/24",
+   "league": "GB1",
+   "recruitment": 2.16,
+   "n_signings": 4,
+   "position": 15,
+   "points": 40,
+   "pos_change": 2
+  },
+  {
+   "club": "Real Valladolid CF",
+   "season": "19/20",
+   "league": "ES1",
+   "recruitment": 2.165,
+   "n_signings": 6,
+   "position": 13,
+   "points": 42,
+   "pos_change": 3
+  },
+  {
+   "club": "Brentford FC",
+   "season": "22/23",
+   "league": "GB1",
+   "recruitment": 2.219,
+   "n_signings": 6,
+   "position": 9,
+   "points": 59,
+   "pos_change": 4
+  },
+  {
+   "club": "FC Utrecht",
+   "season": "24/25",
+   "league": "NL1",
+   "recruitment": 2.207,
+   "n_signings": 13,
+   "position": 4,
+   "points": 64,
+   "pos_change": 3
+  },
+  {
+   "club": "Bayer 04 Leverkusen",
+   "season": "22/23",
+   "league": "L1",
+   "recruitment": 1.808,
+   "n_signings": 2,
+   "position": 6,
+   "points": 50,
+   "pos_change": -3
+  },
+  {
+   "club": "FC Porto",
+   "season": "22/23",
+   "league": "PO1",
+   "recruitment": 2.124,
+   "n_signings": 10,
+   "position": 2,
+   "points": 85,
+   "pos_change": -1
+  },
+  {
+   "club": "Rayo Vallecano",
+   "season": "25/26",
+   "league": "ES1",
+   "recruitment": 2.083,
+   "n_signings": 5,
+   "position": 8,
+   "points": 50,
+   "pos_change": 0
+  },
+  {
+   "club": "SC Heerenveen",
+   "season": "20/21",
+   "league": "NL1",
+   "recruitment": 2.104,
+   "n_signings": 10,
+   "position": 12,
+   "points": 39,
+   "pos_change": -2
+  },
+  {
+   "club": "Wolverhampton Wanderers",
+   "season": "22/23",
+   "league": "GB1",
+   "recruitment": 2.251,
+   "n_signings": 10,
+   "position": 13,
+   "points": 41,
+   "pos_change": -3
+  },
+  {
+   "club": "Inter Milan",
+   "season": "19/20",
+   "league": "IT1",
+   "recruitment": 2.287,
+   "n_signings": 9,
+   "position": 2,
+   "points": 82,
+   "pos_change": 2
+  },
+  {
+   "club": "Rayo Vallecano",
+   "season": "24/25",
+   "league": "ES1",
+   "recruitment": 1.766,
+   "n_signings": 2,
+   "position": 8,
+   "points": 52,
+   "pos_change": 9
+  },
+  {
+   "club": "1.FSV Mainz 05",
+   "season": "23/24",
+   "league": "L1",
+   "recruitment": 2.185,
+   "n_signings": 8,
+   "position": 13,
+   "points": 35,
+   "pos_change": -4
+  },
+  {
+   "club": "ADO Den Haag",
+   "season": "20/21",
+   "league": "NL1",
+   "recruitment": 2.211,
+   "n_signings": 18,
+   "position": 18,
+   "points": 22,
+   "pos_change": -1
+  },
+  {
+   "club": "FC Augsburg",
+   "season": "23/24",
+   "league": "L1",
+   "recruitment": 2.135,
+   "n_signings": 7,
+   "position": 11,
+   "points": 39,
+   "pos_change": 4
+  },
+  {
+   "club": "FC Schalke 04",
+   "season": "22/23",
+   "league": "L1",
+   "recruitment": 2.229,
+   "n_signings": 15,
+   "position": 17,
+   "points": 31,
+   "pos_change": null
+  },
+  {
+   "club": "Villarreal CF",
+   "season": "23/24",
+   "league": "ES1",
+   "recruitment": 2.168,
+   "n_signings": 8,
+   "position": 8,
+   "points": 53,
+   "pos_change": -3
+  },
+  {
+   "club": "RCD Espanyol Barcelona",
+   "season": "19/20",
+   "league": "ES1",
+   "recruitment": 2.199,
+   "n_signings": 11,
+   "position": 20,
+   "points": 25,
+   "pos_change": -13
+  },
+  {
+   "club": "FC Utrecht",
+   "season": "25/26",
+   "league": "NL1",
+   "recruitment": 2.102,
+   "n_signings": 10,
+   "position": 6,
+   "points": 53,
+   "pos_change": -2
+  },
+  {
+   "club": "FC Metz",
+   "season": "20/21",
+   "league": "FR1",
+   "recruitment": 2.122,
+   "n_signings": 10,
+   "position": 10,
+   "points": 47,
+   "pos_change": 5
+  },
+  {
+   "club": "FC Metz",
+   "season": "21/22",
+   "league": "FR1",
+   "recruitment": 2.055,
+   "n_signings": 7,
+   "position": 19,
+   "points": 31,
+   "pos_change": -9
+  },
+  {
+   "club": "Udinese Calcio",
+   "season": "19/20",
+   "league": "IT1",
+   "recruitment": 2.255,
+   "n_signings": 10,
+   "position": 13,
+   "points": 45,
+   "pos_change": -1
+  },
+  {
+   "club": "Real Madrid",
+   "season": "19/20",
+   "league": "ES1",
+   "recruitment": 2.135,
+   "n_signings": 10,
+   "position": 1,
+   "points": 87,
+   "pos_change": 2
+  },
+  {
+   "club": "Sevilla FC",
+   "season": "22/23",
+   "league": "ES1",
+   "recruitment": 2.144,
+   "n_signings": 9,
+   "position": 11,
+   "points": 49,
+   "pos_change": -7
+  },
+  {
+   "club": "CD Tondela",
+   "season": "19/20",
+   "league": "PO1",
+   "recruitment": 2.149,
+   "n_signings": 11,
+   "position": 14,
+   "points": 36,
+   "pos_change": 1
+  },
+  {
+   "club": "FC Augsburg",
+   "season": "19/20",
+   "league": "L1",
+   "recruitment": 2.172,
+   "n_signings": 11,
+   "position": 15,
+   "points": 36,
+   "pos_change": 0
+  },
+  {
+   "club": "Granada CF",
+   "season": "21/22",
+   "league": "ES1",
+   "recruitment": 2.201,
+   "n_signings": 14,
+   "position": 18,
+   "points": 38,
+   "pos_change": -8
+  },
+  {
+   "club": "FC Girondins Bordeaux",
+   "season": "20/21",
+   "league": "FR1",
+   "recruitment": 1.691,
+   "n_signings": 3,
+   "position": 12,
+   "points": 45,
+   "pos_change": 0
+  },
+  {
+   "club": "RCD Mallorca",
+   "season": "24/25",
+   "league": "ES1",
+   "recruitment": 2.039,
+   "n_signings": 5,
+   "position": 10,
+   "points": 48,
+   "pos_change": 5
+  },
+  {
+   "club": "Almere City FC",
+   "season": "24/25",
+   "league": "NL1",
+   "recruitment": 2.155,
+   "n_signings": 15,
+   "position": 18,
+   "points": 22,
+   "pos_change": -5
+  },
+  {
+   "club": "Real Betis Balompié",
+   "season": "25/26",
+   "league": "ES1",
+   "recruitment": 2.199,
+   "n_signings": 15,
+   "position": 5,
+   "points": 60,
+   "pos_change": 1
+  },
+  {
+   "club": "Fulham FC",
+   "season": "25/26",
+   "league": "GB1",
+   "recruitment": 1.838,
+   "n_signings": 2,
+   "position": 11,
+   "points": 52,
+   "pos_change": 0
+  },
+  {
+   "club": "1.FSV Mainz 05",
+   "season": "22/23",
+   "league": "L1",
+   "recruitment": 2.177,
+   "n_signings": 12,
+   "position": 9,
+   "points": 46,
+   "pos_change": -1
+  },
+  {
+   "club": "FC Barcelona",
+   "season": "21/22",
+   "league": "ES1",
+   "recruitment": 2.141,
+   "n_signings": 11,
+   "position": 2,
+   "points": 73,
+   "pos_change": 1
+  },
+  {
+   "club": "Getafe CF",
+   "season": "24/25",
+   "league": "ES1",
+   "recruitment": 2.164,
+   "n_signings": 11,
+   "position": 13,
+   "points": 42,
+   "pos_change": -1
+  },
+  {
+   "club": "Valencia CF",
+   "season": "25/26",
+   "league": "ES1",
+   "recruitment": 2.119,
+   "n_signings": 8,
+   "position": 9,
+   "points": 49,
+   "pos_change": 3
+  },
+  {
+   "club": "SV Werder Bremen",
+   "season": "23/24",
+   "league": "L1",
+   "recruitment": 2.055,
+   "n_signings": 6,
+   "position": 9,
+   "points": 42,
+   "pos_change": 4
+  },
+  {
+   "club": "Venezia FC",
+   "season": "24/25",
+   "league": "IT1",
+   "recruitment": 2.234,
+   "n_signings": 13,
+   "position": 19,
+   "points": 29,
+   "pos_change": null
+  },
+  {
+   "club": "RC Strasbourg Alsace",
+   "season": "23/24",
+   "league": "FR1",
+   "recruitment": 2.088,
+   "n_signings": 10,
+   "position": 13,
+   "points": 39,
+   "pos_change": 2
+  },
+  {
+   "club": "Atalanta BC",
+   "season": "23/24",
+   "league": "IT1",
+   "recruitment": 2.178,
+   "n_signings": 5,
+   "position": 4,
+   "points": 69,
+   "pos_change": 1
+  },
+  {
+   "club": "SL Benfica",
+   "season": "21/22",
+   "league": "PO1",
+   "recruitment": 2.047,
+   "n_signings": 9,
+   "position": 3,
+   "points": 74,
+   "pos_change": 0
+  },
+  {
+   "club": "Deportivo Alavés",
+   "season": "20/21",
+   "league": "ES1",
+   "recruitment": 2.012,
+   "n_signings": 5,
+   "position": 16,
+   "points": 38,
+   "pos_change": 0
+  },
+  {
+   "club": "Borussia Mönchengladbach",
+   "season": "21/22",
+   "league": "L1",
+   "recruitment": 1.992,
+   "n_signings": 5,
+   "position": 10,
+   "points": 45,
+   "pos_change": -2
+  },
+  {
+   "club": "Torino FC",
+   "season": "19/20",
+   "league": "IT1",
+   "recruitment": 2.199,
+   "n_signings": 9,
+   "position": 16,
+   "points": 40,
+   "pos_change": -9
+  },
+  {
+   "club": "Arsenal FC",
+   "season": "19/20",
+   "league": "GB1",
+   "recruitment": 2.103,
+   "n_signings": 6,
+   "position": 8,
+   "points": 56,
+   "pos_change": -3
+  },
+  {
+   "club": "Hellas Verona",
+   "season": "23/24",
+   "league": "IT1",
+   "recruitment": 2.213,
+   "n_signings": 10,
+   "position": 13,
+   "points": 38,
+   "pos_change": 5
+  },
+  {
+   "club": "Bayern Munich",
+   "season": "24/25",
+   "league": "L1",
+   "recruitment": 2.12,
+   "n_signings": 9,
+   "position": 1,
+   "points": 82,
+   "pos_change": 2
+  },
+  {
+   "club": "AC Milan",
+   "season": "23/24",
+   "league": "IT1",
+   "recruitment": 2.214,
+   "n_signings": 12,
+   "position": 2,
+   "points": 75,
+   "pos_change": 2
+  },
+  {
+   "club": "Stade Rennais FC",
+   "season": "19/20",
+   "league": "FR1",
+   "recruitment": 2.079,
+   "n_signings": 11,
+   "position": 3,
+   "points": 50,
+   "pos_change": 7
+  },
+  {
+   "club": "Aston Villa",
+   "season": "19/20",
+   "league": "GB1",
+   "recruitment": 2.17,
+   "n_signings": 13,
+   "position": 17,
+   "points": 35,
+   "pos_change": null
+  },
+  {
+   "club": "Everton FC",
+   "season": "20/21",
+   "league": "GB1",
+   "recruitment": 2.055,
+   "n_signings": 6,
+   "position": 10,
+   "points": 59,
+   "pos_change": 2
+  },
+  {
+   "club": "1.FC Union Berlin",
+   "season": "24/25",
+   "league": "L1",
+   "recruitment": 2.071,
+   "n_signings": 8,
+   "position": 13,
+   "points": 40,
+   "pos_change": 2
+  },
+  {
+   "club": "Stade Brestois 29",
+   "season": "22/23",
+   "league": "FR1",
+   "recruitment": 2.02,
+   "n_signings": 9,
+   "position": 14,
+   "points": 44,
+   "pos_change": -3
+  },
+  {
+   "club": "FC Famalicão",
+   "season": "22/23",
+   "league": "PO1",
+   "recruitment": 2.012,
+   "n_signings": 9,
+   "position": 8,
+   "points": 44,
+   "pos_change": 0
+  },
+  {
+   "club": "SS Lazio",
+   "season": "24/25",
+   "league": "IT1",
+   "recruitment": 2.126,
+   "n_signings": 6,
+   "position": 7,
+   "points": 65,
+   "pos_change": 0
+  },
+  {
+   "club": "AS Roma",
+   "season": "20/21",
+   "league": "IT1",
+   "recruitment": 2.161,
+   "n_signings": 11,
+   "position": 7,
+   "points": 62,
+   "pos_change": -2
+  },
+  {
+   "club": "Cagliari Calcio",
+   "season": "25/26",
+   "league": "IT1",
+   "recruitment": 2.186,
+   "n_signings": 16,
+   "position": 14,
+   "points": 43,
+   "pos_change": 1
+  },
+  {
+   "club": "Parma Calcio 1913",
+   "season": "25/26",
+   "league": "IT1",
+   "recruitment": 2.148,
+   "n_signings": 8,
+   "position": 13,
+   "points": 45,
+   "pos_change": 3
+  },
+  {
+   "club": "Wolverhampton Wanderers",
+   "season": "24/25",
+   "league": "GB1",
+   "recruitment": 2.07,
+   "n_signings": 8,
+   "position": 16,
+   "points": 42,
+   "pos_change": -2
+  },
+  {
+   "club": "FC Schalke 04",
+   "season": "20/21",
+   "league": "L1",
+   "recruitment": 1.953,
+   "n_signings": 5,
+   "position": 18,
+   "points": 16,
+   "pos_change": -6
+  },
+  {
+   "club": "Genoa CFC",
+   "season": "21/22",
+   "league": "IT1",
+   "recruitment": 2.182,
+   "n_signings": 19,
+   "position": 19,
+   "points": 28,
+   "pos_change": -8
+  },
+  {
+   "club": "Sevilla FC",
+   "season": "24/25",
+   "league": "ES1",
+   "recruitment": 2.06,
+   "n_signings": 9,
+   "position": 17,
+   "points": 41,
+   "pos_change": -4
+  },
+  {
+   "club": "Leicester City",
+   "season": "24/25",
+   "league": "GB1",
+   "recruitment": 2.063,
+   "n_signings": 8,
+   "position": 18,
+   "points": 25,
+   "pos_change": null
+  },
+  {
+   "club": "AC Monza",
+   "season": "24/25",
+   "league": "IT1",
+   "recruitment": 2.138,
+   "n_signings": 9,
+   "position": 20,
+   "points": 18,
+   "pos_change": -8
+  },
+  {
+   "club": "Parma Calcio 1913",
+   "season": "20/21",
+   "league": "IT1",
+   "recruitment": 2.162,
+   "n_signings": 16,
+   "position": 20,
+   "points": 20,
+   "pos_change": -9
+  },
+  {
+   "club": "CA Osasuna",
+   "season": "21/22",
+   "league": "ES1",
+   "recruitment": 1.997,
+   "n_signings": 7,
+   "position": 10,
+   "points": 47,
+   "pos_change": 1
+  },
+  {
+   "club": "Cádiz CF",
+   "season": "22/23",
+   "league": "ES1",
+   "recruitment": 2.086,
+   "n_signings": 13,
+   "position": 16,
+   "points": 42,
+   "pos_change": 1
+  },
+  {
+   "club": "Venezia FC",
+   "season": "21/22",
+   "league": "IT1",
+   "recruitment": 2.144,
+   "n_signings": 13,
+   "position": 20,
+   "points": 27,
+   "pos_change": null
+  },
+  {
+   "club": "Montpellier HSC",
+   "season": "21/22",
+   "league": "FR1",
+   "recruitment": 1.63,
+   "n_signings": 4,
+   "position": 13,
+   "points": 43,
+   "pos_change": -5
+  },
+  {
+   "club": "Chelsea FC",
+   "season": "25/26",
+   "league": "GB1",
+   "recruitment": 2.062,
+   "n_signings": 10,
+   "position": 10,
+   "points": 52,
+   "pos_change": -6
+  },
+  {
+   "club": "Norwich City",
+   "season": "19/20",
+   "league": "GB1",
+   "recruitment": 1.916,
+   "n_signings": 5,
+   "position": 20,
+   "points": 21,
+   "pos_change": null
+  },
+  {
+   "club": "Ajax Amsterdam",
+   "season": "23/24",
+   "league": "NL1",
+   "recruitment": 2.046,
+   "n_signings": 18,
+   "position": 5,
+   "points": 56,
+   "pos_change": -2
+  },
+  {
+   "club": "SV Werder Bremen",
+   "season": "20/21",
+   "league": "L1",
+   "recruitment": 2.004,
+   "n_signings": 8,
+   "position": 17,
+   "points": 31,
+   "pos_change": -1
+  },
+  {
+   "club": "Elche CF",
+   "season": "22/23",
+   "league": "ES1",
+   "recruitment": 1.966,
+   "n_signings": 7,
+   "position": 20,
+   "points": 25,
+   "pos_change": -7
+  },
+  {
+   "club": "SSC Napoli",
+   "season": "25/26",
+   "league": "IT1",
+   "recruitment": 2.075,
+   "n_signings": 7,
+   "position": 2,
+   "points": 76,
+   "pos_change": -1
+  },
+  {
+   "club": "AC Milan",
+   "season": "24/25",
+   "league": "IT1",
+   "recruitment": 2.095,
+   "n_signings": 10,
+   "position": 8,
+   "points": 63,
+   "pos_change": -6
+  },
+  {
+   "club": "Brighton & Hove Albion",
+   "season": "24/25",
+   "league": "GB1",
+   "recruitment": 2.058,
+   "n_signings": 12,
+   "position": 8,
+   "points": 61,
+   "pos_change": 3
+  },
+  {
+   "club": "FC Groningen",
+   "season": "25/26",
+   "league": "NL1",
+   "recruitment": 1.297,
+   "n_signings": 3,
+   "position": 9,
+   "points": 48,
+   "pos_change": 4
+  },
+  {
+   "club": "Olympique Marseille",
+   "season": "19/20",
+   "league": "FR1",
+   "recruitment": 1.477,
+   "n_signings": 3,
+   "position": 2,
+   "points": 56,
+   "pos_change": 3
+  },
+  {
+   "club": "Real Sociedad",
+   "season": "22/23",
+   "league": "ES1",
+   "recruitment": 2.011,
+   "n_signings": 11,
+   "position": 4,
+   "points": 71,
+   "pos_change": 2
+  },
+  {
+   "club": "Crystal Palace",
+   "season": "22/23",
+   "league": "GB1",
+   "recruitment": 1.959,
+   "n_signings": 6,
+   "position": 11,
+   "points": 45,
+   "pos_change": 1
+  },
+  {
+   "club": "CS Marítimo",
+   "season": "19/20",
+   "league": "PO1",
+   "recruitment": 1.873,
+   "n_signings": 7,
+   "position": 11,
+   "points": 39,
+   "pos_change": 1
+  },
+  {
+   "club": "ACF Fiorentina",
+   "season": "22/23",
+   "league": "IT1",
+   "recruitment": 2.036,
+   "n_signings": 7,
+   "position": 8,
+   "points": 56,
+   "pos_change": -1
+  },
+  {
+   "club": "Spezia Calcio",
+   "season": "21/22",
+   "league": "IT1",
+   "recruitment": 2.083,
+   "n_signings": 16,
+   "position": 16,
+   "points": 36,
+   "pos_change": -1
+  },
+  {
+   "club": "Hertha BSC",
+   "season": "21/22",
+   "league": "L1",
+   "recruitment": 2.001,
+   "n_signings": 12,
+   "position": 16,
+   "points": 33,
+   "pos_change": -2
+  },
+  {
+   "club": "Manchester United",
+   "season": "22/23",
+   "league": "GB1",
+   "recruitment": 1.976,
+   "n_signings": 8,
+   "position": 3,
+   "points": 75,
+   "pos_change": 3
+  },
+  {
+   "club": "Hellas Verona",
+   "season": "21/22",
+   "league": "IT1",
+   "recruitment": 2.034,
+   "n_signings": 8,
+   "position": 9,
+   "points": 53,
+   "pos_change": 1
+  },
+  {
+   "club": "Stade Rennais FC",
+   "season": "23/24",
+   "league": "FR1",
+   "recruitment": 1.91,
+   "n_signings": 10,
+   "position": 10,
+   "points": 46,
+   "pos_change": -6
+  },
+  {
+   "club": "Getafe CF",
+   "season": "22/23",
+   "league": "ES1",
+   "recruitment": 1.899,
+   "n_signings": 7,
+   "position": 15,
+   "points": 42,
+   "pos_change": 0
+  },
+  {
+   "club": "AFC Bournemouth",
+   "season": "24/25",
+   "league": "GB1",
+   "recruitment": 1.982,
+   "n_signings": 9,
+   "position": 9,
+   "points": 56,
+   "pos_change": 3
+  },
+  {
+   "club": "Genoa CFC",
+   "season": "20/21",
+   "league": "IT1",
+   "recruitment": 2.054,
+   "n_signings": 14,
+   "position": 11,
+   "points": 42,
+   "pos_change": 6
+  },
+  {
+   "club": "Desportivo Aves (- 2020)",
+   "season": "19/20",
+   "league": "PO1",
+   "recruitment": 2.004,
+   "n_signings": 20,
+   "position": 18,
+   "points": 17,
+   "pos_change": -4
+  },
+  {
+   "club": "Heracles Almelo",
+   "season": "21/22",
+   "league": "NL1",
+   "recruitment": 1.85,
+   "n_signings": 9,
+   "position": 16,
+   "points": 34,
+   "pos_change": -7
+  },
+  {
+   "club": "Stade Reims",
+   "season": "20/21",
+   "league": "FR1",
+   "recruitment": 1.48,
+   "n_signings": 4,
+   "position": 14,
+   "points": 42,
+   "pos_change": -9
+  },
+  {
+   "club": "FC Lorient",
+   "season": "23/24",
+   "league": "FR1",
+   "recruitment": 1.821,
+   "n_signings": 8,
+   "position": 17,
+   "points": 29,
+   "pos_change": -7
+  },
+  {
+   "club": "SS Lazio",
+   "season": "21/22",
+   "league": "IT1",
+   "recruitment": 1.96,
+   "n_signings": 6,
+   "position": 5,
+   "points": 64,
+   "pos_change": 1
+  },
+  {
+   "club": "TSG 1899 Hoffenheim",
+   "season": "23/24",
+   "league": "L1",
+   "recruitment": 1.892,
+   "n_signings": 8,
+   "position": 7,
+   "points": 46,
+   "pos_change": 5
+  },
+  {
+   "club": "CF Estrela Amadora",
+   "season": "24/25",
+   "league": "PO1",
+   "recruitment": 1.97,
+   "n_signings": 17,
+   "position": 15,
+   "points": 29,
+   "pos_change": -1
+  },
+  {
+   "club": "Cagliari Calcio",
+   "season": "23/24",
+   "league": "IT1",
+   "recruitment": 2.001,
+   "n_signings": 10,
+   "position": 16,
+   "points": 36,
+   "pos_change": null
+  },
+  {
+   "club": "Everton FC",
+   "season": "25/26",
+   "league": "GB1",
+   "recruitment": 1.883,
+   "n_signings": 8,
+   "position": 13,
+   "points": 49,
+   "pos_change": 0
+  },
+  {
+   "club": "TSG 1899 Hoffenheim",
+   "season": "19/20",
+   "league": "L1",
+   "recruitment": 1.793,
+   "n_signings": 6,
+   "position": 6,
+   "points": 52,
+   "pos_change": 3
+  },
+  {
+   "club": "SC Braga",
+   "season": "24/25",
+   "league": "PO1",
+   "recruitment": 1.869,
+   "n_signings": 10,
+   "position": 4,
+   "points": 66,
+   "pos_change": 0
+  },
+  {
+   "club": "FC Nantes",
+   "season": "19/20",
+   "league": "FR1",
+   "recruitment": 1.792,
+   "n_signings": 8,
+   "position": 13,
+   "points": 37,
+   "pos_change": -1
+  },
+  {
+   "club": "FC Nantes",
+   "season": "22/23",
+   "league": "FR1",
+   "recruitment": 1.753,
+   "n_signings": 7,
+   "position": 16,
+   "points": 36,
+   "pos_change": -7
+  },
+  {
+   "club": "SV Werder Bremen",
+   "season": "24/25",
+   "league": "L1",
+   "recruitment": 1.532,
+   "n_signings": 3,
+   "position": 8,
+   "points": 51,
+   "pos_change": 1
+  },
+  {
+   "club": "Leeds United",
+   "season": "21/22",
+   "league": "GB1",
+   "recruitment": 1.885,
+   "n_signings": 8,
+   "position": 17,
+   "points": 38,
+   "pos_change": -8
+  },
+  {
+   "club": "Real Valladolid CF",
+   "season": "24/25",
+   "league": "ES1",
+   "recruitment": 1.92,
+   "n_signings": 12,
+   "position": 20,
+   "points": 16,
+   "pos_change": null
+  },
+  {
+   "club": "Sporting CP",
+   "season": "19/20",
+   "league": "PO1",
+   "recruitment": 1.844,
+   "n_signings": 10,
+   "position": 4,
+   "points": 60,
+   "pos_change": -1
+  },
+  {
+   "club": "Gil Vicente FC",
+   "season": "20/21",
+   "league": "PO1",
+   "recruitment": 1.789,
+   "n_signings": 8,
+   "position": 11,
+   "points": 39,
+   "pos_change": -1
+  },
+  {
+   "club": "Sparta Rotterdam",
+   "season": "20/21",
+   "league": "NL1",
+   "recruitment": 1.807,
+   "n_signings": 10,
+   "position": 8,
+   "points": 47,
+   "pos_change": 3
+  },
+  {
+   "club": "Wolverhampton Wanderers",
+   "season": "23/24",
+   "league": "GB1",
+   "recruitment": 1.863,
+   "n_signings": 8,
+   "position": 14,
+   "points": 46,
+   "pos_change": -1
+  },
+  {
+   "club": "Deportivo Alavés",
+   "season": "21/22",
+   "league": "ES1",
+   "recruitment": 1.685,
+   "n_signings": 5,
+   "position": 20,
+   "points": 31,
+   "pos_change": -4
+  },
+  {
+   "club": "Genoa CFC",
+   "season": "24/25",
+   "league": "IT1",
+   "recruitment": 1.954,
+   "n_signings": 12,
+   "position": 13,
+   "points": 43,
+   "pos_change": -2
+  },
+  {
+   "club": "Udinese Calcio",
+   "season": "25/26",
+   "league": "IT1",
+   "recruitment": 1.942,
+   "n_signings": 11,
+   "position": 10,
+   "points": 50,
+   "pos_change": 2
+  },
+  {
+   "club": "Burnley FC",
+   "season": "19/20",
+   "league": "GB1",
+   "recruitment": 1.664,
+   "n_signings": 4,
+   "position": 10,
+   "points": 54,
+   "pos_change": 5
+  },
+  {
+   "club": "Angers SCO",
+   "season": "22/23",
+   "league": "FR1",
+   "recruitment": 1.849,
+   "n_signings": 14,
+   "position": 20,
+   "points": 18,
+   "pos_change": -6
+  },
+  {
+   "club": "US Sassuolo",
+   "season": "23/24",
+   "league": "IT1",
+   "recruitment": 1.929,
+   "n_signings": 11,
+   "position": 19,
+   "points": 30,
+   "pos_change": -6
+  },
+  {
+   "club": "1.FC Union Berlin",
+   "season": "21/22",
+   "league": "L1",
+   "recruitment": 1.906,
+   "n_signings": 16,
+   "position": 5,
+   "points": 57,
+   "pos_change": 2
+  },
+  {
+   "club": "Nottingham Forest",
+   "season": "25/26",
+   "league": "GB1",
+   "recruitment": 1.864,
+   "n_signings": 12,
+   "position": 16,
+   "points": 44,
+   "pos_change": -9
+  },
+  {
+   "club": "FC Toulouse",
+   "season": "25/26",
+   "league": "FR1",
+   "recruitment": 1.662,
+   "n_signings": 7,
+   "position": 9,
+   "points": 45,
+   "pos_change": 1
+  },
+  {
+   "club": "Excelsior Rotterdam",
+   "season": "22/23",
+   "league": "NL1",
+   "recruitment": 1.716,
+   "n_signings": 10,
+   "position": 15,
+   "points": 32,
+   "pos_change": null
+  },
+  {
+   "club": "Juventus FC",
+   "season": "20/21",
+   "league": "IT1",
+   "recruitment": 1.823,
+   "n_signings": 7,
+   "position": 4,
+   "points": 78,
+   "pos_change": -3
+  },
+  {
+   "club": "US Sassuolo",
+   "season": "19/20",
+   "league": "IT1",
+   "recruitment": 1.882,
+   "n_signings": 10,
+   "position": 8,
+   "points": 51,
+   "pos_change": 3
+  },
+  {
+   "club": "US Lecce",
+   "season": "24/25",
+   "league": "IT1",
+   "recruitment": 1.914,
+   "n_signings": 17,
+   "position": 17,
+   "points": 34,
+   "pos_change": -3
+  },
+  {
+   "club": "SD Eibar",
+   "season": "20/21",
+   "league": "ES1",
+   "recruitment": 1.365,
+   "n_signings": 3,
+   "position": 20,
+   "points": 30,
+   "pos_change": -6
+  },
+  {
+   "club": "Nottingham Forest",
+   "season": "24/25",
+   "league": "GB1",
+   "recruitment": 1.838,
+   "n_signings": 11,
+   "position": 7,
+   "points": 65,
+   "pos_change": 10
+  },
+  {
+   "club": "Real Betis Balompié",
+   "season": "19/20",
+   "league": "ES1",
+   "recruitment": 1.769,
+   "n_signings": 9,
+   "position": 15,
+   "points": 41,
+   "pos_change": -5
+  },
+  {
+   "club": "Cádiz CF",
+   "season": "20/21",
+   "league": "ES1",
+   "recruitment": 1.723,
+   "n_signings": 9,
+   "position": 12,
+   "points": 44,
+   "pos_change": null
+  },
+  {
+   "club": "Sparta Rotterdam",
+   "season": "24/25",
+   "league": "NL1",
+   "recruitment": 1.683,
+   "n_signings": 9,
+   "position": 12,
+   "points": 39,
+   "pos_change": -4
+  },
+  {
+   "club": "Tottenham Hotspur",
+   "season": "24/25",
+   "league": "GB1",
+   "recruitment": 1.743,
+   "n_signings": 7,
+   "position": 17,
+   "points": 38,
+   "pos_change": -12
+  },
+  {
+   "club": "UC Sampdoria",
+   "season": "22/23",
+   "league": "IT1",
+   "recruitment": 1.878,
+   "n_signings": 13,
+   "position": 20,
+   "points": 19,
+   "pos_change": -5
+  },
+  {
+   "club": "RB Leipzig",
+   "season": "25/26",
+   "league": "L1",
+   "recruitment": 1.763,
+   "n_signings": 12,
+   "position": 3,
+   "points": 65,
+   "pos_change": 4
+  },
+  {
+   "club": "Tottenham Hotspur",
+   "season": "25/26",
+   "league": "GB1",
+   "recruitment": 1.725,
+   "n_signings": 8,
+   "position": 17,
+   "points": 41,
+   "pos_change": 0
+  },
+  {
+   "club": "Avs Futebol",
+   "season": "25/26",
+   "league": "PO1",
+   "recruitment": 1.781,
+   "n_signings": 17,
+   "position": 18,
+   "points": 21,
+   "pos_change": -2
+  },
+  {
+   "club": "Southampton FC",
+   "season": "22/23",
+   "league": "GB1",
+   "recruitment": 1.795,
+   "n_signings": 13,
+   "position": 20,
+   "points": 25,
+   "pos_change": -5
+  },
+  {
+   "club": "RKC Waalwijk",
+   "season": "19/20",
+   "league": "NL1",
+   "recruitment": 1.044,
+   "n_signings": 3,
+   "position": 18,
+   "points": 15,
+   "pos_change": null
+  },
+  {
+   "club": "Vitesse Arnhem",
+   "season": "19/20",
+   "league": "NL1",
+   "recruitment": 1.543,
+   "n_signings": 8,
+   "position": 7,
+   "points": 41,
+   "pos_change": -2
+  },
+  {
+   "club": "Valencia CF",
+   "season": "19/20",
+   "league": "ES1",
+   "recruitment": 1.652,
+   "n_signings": 8,
+   "position": 9,
+   "points": 53,
+   "pos_change": -5
+  },
+  {
+   "club": "AC Monza",
+   "season": "23/24",
+   "league": "IT1",
+   "recruitment": 1.791,
+   "n_signings": 11,
+   "position": 12,
+   "points": 45,
+   "pos_change": -1
+  },
+  {
+   "club": "ACF Fiorentina",
+   "season": "19/20",
+   "league": "IT1",
+   "recruitment": 1.764,
+   "n_signings": 10,
+   "position": 10,
+   "points": 49,
+   "pos_change": 6
+  },
+  {
+   "club": "Villarreal CF",
+   "season": "19/20",
+   "league": "ES1",
+   "recruitment": 1.681,
+   "n_signings": 9,
+   "position": 5,
+   "points": 60,
+   "pos_change": 9
+  },
+  {
+   "club": "UC Sampdoria",
+   "season": "20/21",
+   "league": "IT1",
+   "recruitment": 1.78,
+   "n_signings": 10,
+   "position": 9,
+   "points": 52,
+   "pos_change": 6
+  },
+  {
+   "club": "Watford FC",
+   "season": "19/20",
+   "league": "GB1",
+   "recruitment": 1.613,
+   "n_signings": 6,
+   "position": 19,
+   "points": 34,
+   "pos_change": -8
+  },
+  {
+   "club": "SS Lazio",
+   "season": "25/26",
+   "league": "IT1",
+   "recruitment": 1.757,
+   "n_signings": 9,
+   "position": 9,
+   "points": 54,
+   "pos_change": -2
+  },
+  {
+   "club": "Eintracht Frankfurt",
+   "season": "20/21",
+   "league": "L1",
+   "recruitment": 1.561,
+   "n_signings": 6,
+   "position": 5,
+   "points": 60,
+   "pos_change": 4
+  },
+  {
+   "club": "FC Schalke 04",
+   "season": "19/20",
+   "league": "L1",
+   "recruitment": 1.493,
+   "n_signings": 5,
+   "position": 12,
+   "points": 39,
+   "pos_change": 2
+  },
+  {
+   "club": "Getafe CF",
+   "season": "25/26",
+   "league": "ES1",
+   "recruitment": 1.6,
+   "n_signings": 7,
+   "position": 7,
+   "points": 51,
+   "pos_change": 6
+  },
+  {
+   "club": "AC Milan",
+   "season": "22/23",
+   "league": "IT1",
+   "recruitment": 1.727,
+   "n_signings": 8,
+   "position": 4,
+   "points": 70,
+   "pos_change": -3
+  },
+  {
+   "club": "US Sassuolo",
+   "season": "22/23",
+   "league": "IT1",
+   "recruitment": 1.759,
+   "n_signings": 10,
+   "position": 13,
+   "points": 45,
+   "pos_change": -2
+  },
+  {
+   "club": "Torino FC",
+   "season": "20/21",
+   "league": "IT1",
+   "recruitment": 1.624,
+   "n_signings": 5,
+   "position": 17,
+   "points": 37,
+   "pos_change": -1
+  },
+  {
+   "club": "US Cremonese",
+   "season": "22/23",
+   "league": "IT1",
+   "recruitment": 1.783,
+   "n_signings": 17,
+   "position": 19,
+   "points": 27,
+   "pos_change": null
+  },
+  {
+   "club": "VfB Stuttgart",
+   "season": "25/26",
+   "league": "L1",
+   "recruitment": 1.599,
+   "n_signings": 8,
+   "position": 4,
+   "points": 62,
+   "pos_change": 5
+  },
+  {
+   "club": "Brentford FC",
+   "season": "24/25",
+   "league": "GB1",
+   "recruitment": 1.557,
+   "n_signings": 6,
+   "position": 10,
+   "points": 56,
+   "pos_change": 6
+  },
+  {
+   "club": "US Salernitana 1919",
+   "season": "22/23",
+   "league": "IT1",
+   "recruitment": 1.778,
+   "n_signings": 20,
+   "position": 15,
+   "points": 42,
+   "pos_change": 2
+  },
+  {
+   "club": "Hellas Verona",
+   "season": "24/25",
+   "league": "IT1",
+   "recruitment": 1.731,
+   "n_signings": 12,
+   "position": 14,
+   "points": 37,
+   "pos_change": -1
+  },
+  {
+   "club": "Crystal Palace",
+   "season": "25/26",
+   "league": "GB1",
+   "recruitment": 1.586,
+   "n_signings": 7,
+   "position": 15,
+   "points": 45,
+   "pos_change": -3
+  },
+  {
+   "club": "Cagliari Calcio",
+   "season": "19/20",
+   "league": "IT1",
+   "recruitment": 1.684,
+   "n_signings": 9,
+   "position": 14,
+   "points": 45,
+   "pos_change": 1
+  },
+  {
+   "club": "SL Benfica",
+   "season": "19/20",
+   "league": "PO1",
+   "recruitment": 1.456,
+   "n_signings": 7,
+   "position": 2,
+   "points": 77,
+   "pos_change": -1
+  },
+  {
+   "club": "Vitória Setúbal FC",
+   "season": "19/20",
+   "league": "PO1",
+   "recruitment": 1.51,
+   "n_signings": 8,
+   "position": 16,
+   "points": 34,
+   "pos_change": -3
+  },
+  {
+   "club": "Vitesse Arnhem",
+   "season": "21/22",
+   "league": "NL1",
+   "recruitment": 1.118,
+   "n_signings": 5,
+   "position": 6,
+   "points": 51,
+   "pos_change": -2
+  },
+  {
+   "club": "Chelsea FC",
+   "season": "24/25",
+   "league": "GB1",
+   "recruitment": 1.682,
+   "n_signings": 15,
+   "position": 4,
+   "points": 69,
+   "pos_change": 2
+  },
+  {
+   "club": "GD Estoril Praia",
+   "season": "22/23",
+   "league": "PO1",
+   "recruitment": 1.561,
+   "n_signings": 11,
+   "position": 14,
+   "points": 35,
+   "pos_change": -5
+  },
+  {
+   "club": "TSG 1899 Hoffenheim",
+   "season": "22/23",
+   "league": "L1",
+   "recruitment": 1.537,
+   "n_signings": 8,
+   "position": 12,
+   "points": 36,
+   "pos_change": -3
+  },
+  {
+   "club": "TSG 1899 Hoffenheim",
+   "season": "24/25",
+   "league": "L1",
+   "recruitment": 1.631,
+   "n_signings": 13,
+   "position": 15,
+   "points": 32,
+   "pos_change": -8
+  },
+  {
+   "club": "Getafe CF",
+   "season": "21/22",
+   "league": "ES1",
+   "recruitment": 1.478,
+   "n_signings": 7,
+   "position": 15,
+   "points": 39,
+   "pos_change": 0
+  },
+  {
+   "club": "Aston Villa",
+   "season": "22/23",
+   "league": "GB1",
+   "recruitment": 1.544,
+   "n_signings": 8,
+   "position": 7,
+   "points": 61,
+   "pos_change": 7
+  },
+  {
+   "club": "Everton FC",
+   "season": "19/20",
+   "league": "GB1",
+   "recruitment": 1.397,
+   "n_signings": 5,
+   "position": 12,
+   "points": 49,
+   "pos_change": -4
+  },
+  {
+   "club": "UC Sampdoria",
+   "season": "19/20",
+   "league": "IT1",
+   "recruitment": 1.646,
+   "n_signings": 11,
+   "position": 15,
+   "points": 42,
+   "pos_change": -6
+  },
+  {
+   "club": "SS Lazio",
+   "season": "20/21",
+   "league": "IT1",
+   "recruitment": 1.49,
+   "n_signings": 6,
+   "position": 6,
+   "points": 68,
+   "pos_change": -2
+  },
+  {
+   "club": "FC Paços de Ferreira",
+   "season": "20/21",
+   "league": "PO1",
+   "recruitment": 1.446,
+   "n_signings": 8,
+   "position": 5,
+   "points": 53,
+   "pos_change": 8
+  },
+  {
+   "club": "ACF Fiorentina",
+   "season": "23/24",
+   "league": "IT1",
+   "recruitment": 1.629,
+   "n_signings": 11,
+   "position": 8,
+   "points": 60,
+   "pos_change": 0
+  },
+  {
+   "club": "RCD Espanyol Barcelona",
+   "season": "24/25",
+   "league": "ES1",
+   "recruitment": 1.362,
+   "n_signings": 6,
+   "position": 14,
+   "points": 42,
+   "pos_change": null
+  },
+  {
+   "club": "Manchester United",
+   "season": "20/21",
+   "league": "GB1",
+   "recruitment": 1.469,
+   "n_signings": 7,
+   "position": 2,
+   "points": 74,
+   "pos_change": 1
+  },
+  {
+   "club": "Feyenoord Rotterdam",
+   "season": "20/21",
+   "league": "NL1",
+   "recruitment": 1.109,
+   "n_signings": 5,
+   "position": 5,
+   "points": 59,
+   "pos_change": -2
+  },
+  {
+   "club": "FC Famalicão",
+   "season": "21/22",
+   "league": "PO1",
+   "recruitment": 1.465,
+   "n_signings": 9,
+   "position": 8,
+   "points": 39,
+   "pos_change": 1
+  },
+  {
+   "club": "US Sassuolo",
+   "season": "20/21",
+   "league": "IT1",
+   "recruitment": 1.548,
+   "n_signings": 8,
+   "position": 8,
+   "points": 62,
+   "pos_change": 0
+  },
+  {
+   "club": "Southampton FC",
+   "season": "21/22",
+   "league": "GB1",
+   "recruitment": 1.413,
+   "n_signings": 6,
+   "position": 15,
+   "points": 40,
+   "pos_change": 0
+  },
+  {
+   "club": "Sevilla FC",
+   "season": "21/22",
+   "league": "ES1",
+   "recruitment": 1.338,
+   "n_signings": 7,
+   "position": 4,
+   "points": 70,
+   "pos_change": 0
+  },
+  {
+   "club": "Real Sociedad",
+   "season": "23/24",
+   "league": "ES1",
+   "recruitment": 1.343,
+   "n_signings": 7,
+   "position": 6,
+   "points": 60,
+   "pos_change": -2
+  },
+  {
+   "club": "US Lecce",
+   "season": "25/26",
+   "league": "IT1",
+   "recruitment": 1.531,
+   "n_signings": 10,
+   "position": 17,
+   "points": 38,
+   "pos_change": 0
+  },
+  {
+   "club": "VfL Wolfsburg",
+   "season": "21/22",
+   "league": "L1",
+   "recruitment": 1.536,
+   "n_signings": 16,
+   "position": 12,
+   "points": 42,
+   "pos_change": -8
+  },
+  {
+   "club": "Liverpool FC",
+   "season": "24/25",
+   "league": "GB1",
+   "recruitment": 1.112,
+   "n_signings": 4,
+   "position": 1,
+   "points": 84,
+   "pos_change": 2
+  },
+  {
+   "club": "FC Barcelona",
+   "season": "20/21",
+   "league": "ES1",
+   "recruitment": 1.326,
+   "n_signings": 7,
+   "position": 3,
+   "points": 79,
+   "pos_change": -1
+  },
+  {
+   "club": "1.FC Union Berlin",
+   "season": "23/24",
+   "league": "L1",
+   "recruitment": 1.513,
+   "n_signings": 15,
+   "position": 15,
+   "points": 33,
+   "pos_change": -11
+  },
+  {
+   "club": "Arsenal FC",
+   "season": "22/23",
+   "league": "GB1",
+   "recruitment": 1.46,
+   "n_signings": 10,
+   "position": 2,
+   "points": 84,
+   "pos_change": 3
+  },
+  {
+   "club": "Angers SCO",
+   "season": "19/20",
+   "league": "FR1",
+   "recruitment": 1.17,
+   "n_signings": 7,
+   "position": 11,
+   "points": 39,
+   "pos_change": 2
+  },
+  {
+   "club": "AS Saint-Étienne",
+   "season": "21/22",
+   "league": "FR1",
+   "recruitment": 0.646,
+   "n_signings": 3,
+   "position": 18,
+   "points": 32,
+   "pos_change": -7
+  },
+  {
+   "club": "Levante UD",
+   "season": "21/22",
+   "league": "ES1",
+   "recruitment": 1.32,
+   "n_signings": 8,
+   "position": 19,
+   "points": 35,
+   "pos_change": -5
+  },
+  {
+   "club": "ESTAC Troyes",
+   "season": "22/23",
+   "league": "FR1",
+   "recruitment": 1.346,
+   "n_signings": 11,
+   "position": 19,
+   "points": 24,
+   "pos_change": -4
+  },
+  {
+   "club": "Celta de Vigo",
+   "season": "20/21",
+   "league": "ES1",
+   "recruitment": 0.785,
+   "n_signings": 3,
+   "position": 8,
+   "points": 53,
+   "pos_change": 9
+  },
+  {
+   "club": "Torino FC",
+   "season": "21/22",
+   "league": "IT1",
+   "recruitment": 1.173,
+   "n_signings": 4,
+   "position": 10,
+   "points": 50,
+   "pos_change": 7
+  },
+  {
+   "club": "Sheffield United",
+   "season": "19/20",
+   "league": "GB1",
+   "recruitment": 1.343,
+   "n_signings": 9,
+   "position": 9,
+   "points": 54,
+   "pos_change": null
+  },
+  {
+   "club": "Boavista FC",
+   "season": "24/25",
+   "league": "PO1",
+   "recruitment": 1.3,
+   "n_signings": 10,
+   "position": 18,
+   "points": 24,
+   "pos_change": -3
+  },
+  {
+   "club": "1.FSV Mainz 05",
+   "season": "25/26",
+   "league": "L1",
+   "recruitment": 1.265,
+   "n_signings": 9,
+   "position": 10,
+   "points": 40,
+   "pos_change": -4
+  },
+  {
+   "club": "1.FC Heidenheim 1846",
+   "season": "25/26",
+   "league": "L1",
+   "recruitment": 0.29,
+   "n_signings": 2,
+   "position": 17,
+   "points": 26,
+   "pos_change": -1
+  },
+  {
+   "club": "ACF Fiorentina",
+   "season": "20/21",
+   "league": "IT1",
+   "recruitment": 1.36,
+   "n_signings": 9,
+   "position": 13,
+   "points": 40,
+   "pos_change": -3
+  },
+  {
+   "club": "AS Roma",
+   "season": "21/22",
+   "league": "IT1",
+   "recruitment": 1.438,
+   "n_signings": 15,
+   "position": 6,
+   "points": 63,
+   "pos_change": 1
+  },
+  {
+   "club": "Stade Rennais FC",
+   "season": "24/25",
+   "league": "FR1",
+   "recruitment": 1.387,
+   "n_signings": 19,
+   "position": 12,
+   "points": 41,
+   "pos_change": -2
+  },
+  {
+   "club": "FC Empoli",
+   "season": "24/25",
+   "league": "IT1",
+   "recruitment": 1.229,
+   "n_signings": 6,
+   "position": 18,
+   "points": 31,
+   "pos_change": -1
+  },
+  {
+   "club": "Aston Villa",
+   "season": "24/25",
+   "league": "GB1",
+   "recruitment": 1.322,
+   "n_signings": 11,
+   "position": 6,
+   "points": 66,
+   "pos_change": -2
+  },
+  {
+   "club": "Atlético de Madrid",
+   "season": "23/24",
+   "league": "ES1",
+   "recruitment": 1.176,
+   "n_signings": 9,
+   "position": 4,
+   "points": 76,
+   "pos_change": -1
+  },
+  {
+   "club": "Rio Ave FC",
+   "season": "23/24",
+   "league": "PO1",
+   "recruitment": 0.0,
+   "n_signings": 2,
+   "position": 11,
+   "points": 37,
+   "pos_change": 1
+  },
+  {
+   "club": "Ajax Amsterdam",
+   "season": "21/22",
+   "league": "NL1",
+   "recruitment": 0.964,
+   "n_signings": 6,
+   "position": 1,
+   "points": 83,
+   "pos_change": 0
+  },
+  {
+   "club": "Atlético de Madrid",
+   "season": "21/22",
+   "league": "ES1",
+   "recruitment": 1.117,
+   "n_signings": 7,
+   "position": 3,
+   "points": 71,
+   "pos_change": -2
+  },
+  {
+   "club": "Montpellier HSC",
+   "season": "24/25",
+   "league": "FR1",
+   "recruitment": 1.03,
+   "n_signings": 7,
+   "position": 18,
+   "points": 16,
+   "pos_change": -6
+  },
+  {
+   "club": "Valencia CF",
+   "season": "20/21",
+   "league": "ES1",
+   "recruitment": 0.532,
+   "n_signings": 3,
+   "position": 13,
+   "points": 43,
+   "pos_change": -4
+  },
+  {
+   "club": "Paris Saint-Germain",
+   "season": "20/21",
+   "league": "FR1",
+   "recruitment": 0.341,
+   "n_signings": 3,
+   "position": 2,
+   "points": 82,
+   "pos_change": -1
+  },
+  {
+   "club": "1.FC Köln",
+   "season": "20/21",
+   "league": "L1",
+   "recruitment": 0.907,
+   "n_signings": 5,
+   "position": 16,
+   "points": 33,
+   "pos_change": -2
+  },
+  {
+   "club": "Torino FC",
+   "season": "22/23",
+   "league": "IT1",
+   "recruitment": 1.248,
+   "n_signings": 10,
+   "position": 10,
+   "points": 53,
+   "pos_change": 0
+  },
+  {
+   "club": "Pisa Sporting Club",
+   "season": "25/26",
+   "league": "IT1",
+   "recruitment": 1.223,
+   "n_signings": 9,
+   "position": 20,
+   "points": 18,
+   "pos_change": null
+  },
+  {
+   "club": "PEC Zwolle",
+   "season": "20/21",
+   "league": "NL1",
+   "recruitment": 0.868,
+   "n_signings": 6,
+   "position": 13,
+   "points": 38,
+   "pos_change": 2
+  },
+  {
+   "club": "FC Augsburg",
+   "season": "21/22",
+   "league": "L1",
+   "recruitment": 0.744,
+   "n_signings": 4,
+   "position": 14,
+   "points": 38,
+   "pos_change": -1
+  },
+  {
+   "club": "Hellas Verona",
+   "season": "20/21",
+   "league": "IT1",
+   "recruitment": 1.191,
+   "n_signings": 9,
+   "position": 10,
+   "points": 45,
+   "pos_change": -1
+  },
+  {
+   "club": "Brighton & Hove Albion",
+   "season": "25/26",
+   "league": "GB1",
+   "recruitment": 1.164,
+   "n_signings": 9,
+   "position": 8,
+   "points": 53,
+   "pos_change": 0
+  },
+  {
+   "club": "CD Santa Clara",
+   "season": "25/26",
+   "league": "PO1",
+   "recruitment": 1.158,
+   "n_signings": 13,
+   "position": 13,
+   "points": 36,
+   "pos_change": -8
+  },
+  {
+   "club": "FC Utrecht",
+   "season": "20/21",
+   "league": "NL1",
+   "recruitment": 1.124,
+   "n_signings": 13,
+   "position": 6,
+   "points": 53,
+   "pos_change": 0
+  },
+  {
+   "club": "Cádiz CF",
+   "season": "23/24",
+   "league": "ES1",
+   "recruitment": 0.75,
+   "n_signings": 5,
+   "position": 18,
+   "points": 33,
+   "pos_change": -2
+  },
+  {
+   "club": "Aston Villa",
+   "season": "25/26",
+   "league": "GB1",
+   "recruitment": 0.879,
+   "n_signings": 7,
+   "position": 4,
+   "points": 65,
+   "pos_change": 2
+  },
+  {
+   "club": "Genoa CFC",
+   "season": "19/20",
+   "league": "IT1",
+   "recruitment": 1.139,
+   "n_signings": 15,
+   "position": 17,
+   "points": 39,
+   "pos_change": 0
+  },
+  {
+   "club": "Burnley FC",
+   "season": "20/21",
+   "league": "GB1",
+   "recruitment": 0.107,
+   "n_signings": 3,
+   "position": 17,
+   "points": 39,
+   "pos_change": -7
+  },
+  {
+   "club": "1.FSV Mainz 05",
+   "season": "20/21",
+   "league": "L1",
+   "recruitment": 0.171,
+   "n_signings": 3,
+   "position": 12,
+   "points": 39,
+   "pos_change": 1
+  },
+  {
+   "club": "Bologna FC 1909",
+   "season": "21/22",
+   "league": "IT1",
+   "recruitment": 1.008,
+   "n_signings": 11,
+   "position": 13,
+   "points": 46,
+   "pos_change": -1
+  },
+  {
+   "club": "AFC Bournemouth",
+   "season": "19/20",
+   "league": "GB1",
+   "recruitment": 0.594,
+   "n_signings": 5,
+   "position": 18,
+   "points": 34,
+   "pos_change": -4
+  },
+  {
+   "club": "Parma Calcio 1913",
+   "season": "19/20",
+   "league": "IT1",
+   "recruitment": 0.915,
+   "n_signings": 11,
+   "position": 11,
+   "points": 49,
+   "pos_change": 3
+  },
+  {
+   "club": "Newcastle United",
+   "season": "20/21",
+   "league": "GB1",
+   "recruitment": 0.359,
+   "n_signings": 4,
+   "position": 12,
+   "points": 45,
+   "pos_change": 1
+  },
+  {
+   "club": "Cagliari Calcio",
+   "season": "20/21",
+   "league": "IT1",
+   "recruitment": 0.658,
+   "n_signings": 6,
+   "position": 16,
+   "points": 37,
+   "pos_change": -2
+  },
+  {
+   "club": "Tottenham Hotspur",
+   "season": "19/20",
+   "league": "GB1",
+   "recruitment": 0.45,
+   "n_signings": 7,
+   "position": 6,
+   "points": 59,
+   "pos_change": -2
+  },
+  {
+   "club": "UC Sampdoria",
+   "season": "21/22",
+   "league": "IT1",
+   "recruitment": 0.466,
+   "n_signings": 7,
+   "position": 15,
+   "points": 36,
+   "pos_change": -6
+  },
+  {
+   "club": "Getafe CF",
+   "season": "19/20",
+   "league": "ES1",
+   "recruitment": 0.42,
+   "n_signings": 8,
+   "position": 8,
+   "points": 54,
+   "pos_change": -3
+  },
+  {
+   "club": "SS Lazio",
+   "season": "19/20",
+   "league": "IT1",
+   "recruitment": 0.62,
+   "n_signings": 11,
+   "position": 4,
+   "points": 78,
+   "pos_change": 4
+  },
+  {
+   "club": "Athletic Bilbao",
+   "season": "19/20",
+   "league": "ES1",
+   "recruitment": 0.0,
+   "n_signings": 5,
+   "position": 11,
+   "points": 51,
+   "pos_change": -3
+  },
+  {
+   "club": "FC St. Pauli",
+   "season": "24/25",
+   "league": "L1",
+   "recruitment": 0.135,
+   "n_signings": 7,
+   "position": 14,
+   "points": 32,
+   "pos_change": null
+  }
+ ],
+ "corr_recruitment_vs_position": -0.171,
+ "corr_recruitment_vs_improvement": 0.083,
+ "n_improvement": 799
+}

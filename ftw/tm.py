@@ -47,8 +47,8 @@ def league_clubs(client: Client, league, season: int) -> list[dict]:
     return out
 
 
-def league_matches(client: Client, league, season: int) -> dict[str, int]:
-    """Return {club_id: matches_played} from the final league table."""
+def league_standings(client: Client, league, season: int) -> dict[str, dict]:
+    """Return {club_id: {position, played, points}} from the final league table."""
     url = f"{BASE}/{league.slug}/tabelle/wettbewerb/{league.code}?saison_id={season}"
     soup = _soup(client, url)
     if soup is None:
@@ -56,17 +56,27 @@ def league_matches(client: Client, league, season: int) -> dict[str, int]:
     table = soup.select_one("table.items")
     if not table:
         return {}
-    out: dict[str, int] = {}
+    out: dict[str, dict] = {}
     for r in table.select("tbody tr"):
         tds = r.find_all("td", recursive=False)
-        if len(tds) < 4:
+        if len(tds) < 5:
             continue
         a = r.select_one("a[href*='/verein/']")
         cid = util.club_id_from_href(a.get("href")) if a else None
-        played = util.parse_int(tds[3].get_text(strip=True))
-        if cid and played:
-            out[cid] = played
+        if not cid:
+            continue
+        out[cid] = {
+            "position": util.parse_int(tds[0].get_text(strip=True)),
+            "played": util.parse_int(tds[3].get_text(strip=True)),
+            "points": util.parse_int(tds[-1].get_text(strip=True)),
+        }
     return out
+
+
+def league_matches(client: Client, league, season: int) -> dict[str, int]:
+    """Return {club_id: matches_played} (thin wrapper over league_standings)."""
+    return {cid: s["played"] for cid, s in league_standings(client, league, season).items()
+            if s.get("played")}
 
 
 # --- club performance (minutes / age / position) ----------------------------

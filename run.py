@@ -22,9 +22,20 @@ if sys.platform == "win32":
     except Exception:
         pass
 
+import json
+
 import config
 from ftw import analyze as analyze_mod
-from ftw import collect, report
+from ftw import collect, report, sensitivity, validity
+from ftw.http import DATA_DIR
+
+
+def _write_validity(ds, results):
+    out = validity.run(ds, results)
+    (DATA_DIR / "output").mkdir(parents=True, exist_ok=True)
+    with open(DATA_DIR / "output" / "validity.json", "w", encoding="utf-8") as f:
+        json.dump(out, f, ensure_ascii=False, indent=1)
+    return out
 
 
 def _leagues(arg: str | None):
@@ -48,6 +59,7 @@ def cmd_analyze(args):
     t0 = time.time()
     results = analyze_mod.analyze(ds)
     report.write_all(ds, results)
+    _write_validity(ds, results)
     print(f"Wrote data/output/ in {time.time()-t0:.1f}s. "
           f"Overall mean rating: {results['rollups']['overall_rating']}/10")
 
@@ -57,7 +69,31 @@ def cmd_all(args):
     ds = collect.build_dataset(leagues, workers=args.workers)
     results = analyze_mod.analyze(ds)
     report.write_all(ds, results)
+    _write_validity(ds, results)
     print(f"Done. Overall mean rating: {results['rollups']['overall_rating']}/10")
+
+
+def cmd_sensitivity(args):
+    ds = collect.load_dataset()
+    if ds is None:
+        print("No dataset found — run `python run.py collect` first.")
+        return
+    print("Running sensitivity analysis (re-scores at perturbed thresholds)...")
+    result = sensitivity.run(ds)
+    sensitivity.write_report(result, DATA_DIR / "output" / "sensitivity.md")
+    print("Wrote data/output/sensitivity.md")
+
+
+def cmd_validity(args):
+    ds = collect.load_dataset()
+    if ds is None:
+        print("No dataset found — run `python run.py collect` first.")
+        return
+    out = _write_validity(ds, None)
+    print(f"corr(recruitment, league position)   = {out['corr_recruitment_vs_position']} "
+          f"(negative = better recruitment → better finish)")
+    print(f"corr(recruitment, position improved) = {out['corr_recruitment_vs_improvement']} "
+          f"(positive = better recruitment → bigger improvement); n={out['n']}")
 
 
 def main():
@@ -68,8 +104,11 @@ def main():
         sp.add_argument("--leagues", help="comma-separated codes (default: all)")
         sp.add_argument("--workers", type=int, default=6)
     sub.add_parser("analyze")
+    sub.add_parser("sensitivity")
+    sub.add_parser("validity")
     args = p.parse_args()
-    {"collect": cmd_collect, "analyze": cmd_analyze, "all": cmd_all}[args.cmd](args)
+    {"collect": cmd_collect, "analyze": cmd_analyze, "all": cmd_all,
+     "sensitivity": cmd_sensitivity, "validity": cmd_validity}[args.cmd](args)
 
 
 if __name__ == "__main__":

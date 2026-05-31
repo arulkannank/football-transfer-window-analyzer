@@ -24,6 +24,12 @@ from .models import Signing
 EFF_CUTOFF = 0.30          # paying 30%+ below market value -> full efficiency credit
 MAX_WINDOW_SEASON = None   # set by pipeline to the last in-scope season
 
+# Tunable thresholds (exposed as module attributes so the sensitivity analysis
+# can perturb them without editing functions).
+STARTER_PIVOT = 2.5        # profit/mv-growth multiple for full starter credit
+STARTER_MINUTES_FULL = 0.90
+ROTATION_MINUTES_FULL = 0.40
+
 
 def _bonus_frac(ratio: float) -> float:
     """Fraction-of-max bonus for exceptional multiples (5x -> +0.25, 10x -> +0.5)."""
@@ -47,14 +53,14 @@ def _ratio_unit(ratio: float | None, *, rotation: bool) -> float | None:
         base = min(ratio, 1.0)
         base = max(base, 0.0)
     else:
-        base = (ratio - 1.0) / 1.5
+        base = (ratio - 1.0) / (STARTER_PIVOT - 1.0)
         base = min(base, 1.0)
         base = max(base, -1.0)
     return base + _bonus_frac(ratio)
 
 
 def _minutes_frac(share: float, *, rotation: bool) -> float:
-    full = 0.40 if rotation else 0.90
+    full = ROTATION_MINUTES_FULL if rotation else STARTER_MINUTES_FULL
     return max(0.0, min(share / full, 1.0))
 
 

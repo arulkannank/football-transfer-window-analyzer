@@ -59,8 +59,50 @@ def _insignificant(s: Signing, avg_spend: float | None) -> bool:
     return share < INSIGNIFICANT_MINUTES_SHARE
 
 
+SHRINKAGE_K = 4.0   # pseudo-weight pulling small windows toward the league prior
+
+
+def compute_starter_baselines(ds: Dataset, starter_share: float | None = None) -> dict:
+    """Per (league, season, slot) average rating over STARTERS only.
+
+    A "starter" reached `starter_share` of available minutes. This is a higher,
+    more discriminating bar than averaging every squad player, so "rating
+    improvement" only rewards beating a genuine starter. Falls back to the
+    all-players average for a slot that happens to have no qualifying starter.
+    """
+    thr = config.STARTER_MINUTES_SHARE if starter_share is None else starter_share
+    starter: dict = {}   # key -> [num, den]
+    allp: dict = {}
+    for (cid, s), roster in ds.rosters.items():
+        lg = ds.club_league.get((cid, s))
+        if not lg or (lg, s) not in ds.ratings_index:
+            continue
+        avail = ds.available_minutes(cid, s, lg)
+        cname = ds.club_name.get(cid, "")
+        for p in roster:
+            if p.minutes <= 0 or not avail:
+                continue
+            r = ds.rating(lg, s, p.name, cname)
+            if r is None:
+                continue
+            key = (lg, s, p.group)
+            a = allp.setdefault(key, [0.0, 0.0])
+            a[0] += r * p.minutes
+            a[1] += p.minutes
+            if p.minutes / avail >= thr:
+                b = starter.setdefault(key, [0.0, 0.0])
+                b[0] += r * p.minutes
+                b[1] += p.minutes
+    out = {}
+    for key, (num, den) in allp.items():
+        sn, sd = starter.get(key, [0.0, 0.0])
+        out[key] = round((sn / sd) if sd > 0 else (num / den), 3)
+    return out
+
+
 def analyze(ds: Dataset, log=print) -> dict:
     last_season = max(ds.seasons)
+    ds.pos_rating_avg = compute_starter_baselines(ds)   # starter-level baseline
     avg_spend = classify.compute_avg_spend(ds)
     windows: list[dict] = []
     all_signings: list[Signing] = []
@@ -93,9 +135,37 @@ def analyze(ds: Dataset, log=print) -> dict:
             windows.append(_window_record(ds, club_id, season, window, sigs, flags))
 
     _apply_chronic(ds, windows)
-    rollups = _rollups(ds, windows, all_signings)
+    priors = _league_priors(all_signings)
+    _apply_shrinkage(windows, priors)
+    rollups = _rollups(ds, windows, all_signings, priors)
     log(f"Analyzed {len(all_signings)} signings across {len(windows)} windows.")
-    return {"windows": windows, "signings": all_signings, "rollups": rollups}
+    return {"windows": windows, "signings": all_signings, "rollups": rollups,
+            "league_priors": priors}
+
+
+def _shrink(raw: float | None, weight: float, prior: float, k: float = SHRINKAGE_K):
+    """Empirical-Bayes pull toward `prior` by `k` pseudo-observations."""
+    if raw is None or prior is None:
+        return raw
+    return round((weight * raw + k * prior) / (weight + k), 3)
+
+
+def _league_priors(signings: list[Signing]) -> dict:
+    """Weighted-mean transfer rating per league (the shrinkage target)."""
+    acc: dict = {}
+    for s in signings:
+        a = acc.setdefault(s.league, [0.0, 0.0])
+        a[0] += (s.overall_rating or 0) * s.weight
+        a[1] += s.weight
+    return {lg: round(num / den, 3) for lg, (num, den) in acc.items() if den}
+
+
+def _apply_shrinkage(windows: list[dict], priors: dict) -> None:
+    for w in windows:
+        prior = priors.get(w["league"])
+        weight = 2 * w["n_starter"] + w["n_rotation"]   # starter x2, rotation x1
+        w["window_rating_shrunk"] = _shrink(w["window_rating"], weight, prior)
+        w["league_prior"] = prior
 
 
 def _weighted(sigs: list[Signing]) -> float | None:
@@ -140,6 +210,8 @@ def _signing_summary(ds: Dataset, s: Signing) -> dict:
         "sold": getattr(s, "_sold", False),
         "sale_fee_eur": s.sale_fee_eur,
         "rating": s.overall_rating,
+        # P&L / efficiency rest on a market-value proxy when the fee is undisclosed
+        "fee_confidence": "known" if s.fee_known else "estimated",
         "breakdown": getattr(s, "_breakdown", {}),
         "seasons_evaluated": len(s.season_evals),
         "season_evals": s.season_evals,
@@ -187,37 +259,75 @@ def _avg(values: list[float]) -> float | None:
     return round(sum(vals) / len(vals), 3) if vals else None
 
 
-def _rollups(ds: Dataset, windows: list[dict], signings: list[Signing]) -> dict:
+def _tot_weight(sigs: list[Signing]) -> float:
+    return sum(s.weight for s in sigs)
+
+
+def _rollups(ds: Dataset, windows: list[dict], signings: list[Signing],
+             priors: dict) -> dict:
     def pool(sigs):
         return _weighted(sigs)
 
     by_club_season: dict = {}
     by_club: dict = {}
     by_league: dict = {}
+    by_slot: dict = {}
     for s in signings:
         by_club_season.setdefault((s.club_id, s.season), []).append(s)
         by_club.setdefault(s.club_id, []).append(s)
         by_league.setdefault(s.league, []).append(s)
+        by_slot.setdefault(s.group, []).append(s)
+
+    def club_league(sigs):                 # the club's (most common) league
+        return max(set(x.league for x in sigs), key=[x.league for x in sigs].count)
 
     club_season_rows = [{
         "club": ds.club_name.get(cid, cid), "club_id": cid, "season": season,
         "season_label": util.season_label(season),
         "league": ds.club_league.get((cid, season)),
         "n_signings": len(sigs), "rating": pool(sigs),
-    } for (cid, season), sigs in sorted(by_club_season.items(), key=lambda kv: -(pool(kv[1]) or 0))]
+        "rating_shrunk": _shrink(pool(sigs), _tot_weight(sigs),
+                                 priors.get(ds.club_league.get((cid, season)))),
+    } for (cid, season), sigs in by_club_season.items()]
+    club_season_rows.sort(key=lambda r: -(r["rating_shrunk"] or 0))
 
     club_rows = [{
         "club": ds.club_name.get(cid, cid), "club_id": cid,
         "n_signings": len(sigs), "rating": pool(sigs),
-    } for cid, sigs in sorted(by_club.items(), key=lambda kv: -(pool(kv[1]) or 0))]
+        "rating_shrunk": _shrink(pool(sigs), _tot_weight(sigs),
+                                 priors.get(club_league(sigs))),
+    } for cid, sigs in by_club.items()]
+    club_rows.sort(key=lambda r: -(r["rating_shrunk"] or 0))
 
-    league_rows = [{
-        "league": lg, "n_signings": len(sigs), "rating": pool(sigs),
-    } for lg, sigs in sorted(by_league.items(), key=lambda kv: -(pool(kv[1]) or 0))]
+    league_rows = sorted(
+        [{"league": lg, "n_signings": len(sigs), "rating": pool(sigs)}
+         for lg, sigs in by_league.items()],
+        key=lambda r: -(r["rating"] or 0))
+
+    # market efficiency by position
+    pos_rows = []
+    for slot, sigs in by_slot.items():
+        fees = [s.fee_eur for s in sigs if s.fee_known and s.fee_eur]
+        prem = [(s.mv_at_purchase - s.fee_eur) / s.mv_at_purchase
+                for s in sigs if s.fee_known and s.fee_eur and s.mv_at_purchase]
+        rats = [s.overall_rating for s in sigs if s.overall_rating is not None]
+        avg_fee = (sum(fees) / len(fees)) if fees else 0
+        pos_rows.append({
+            "slot": slot, "position": config.SLOT_NAMES.get(slot, slot),
+            "n_signings": len(sigs),
+            "avg_fee_m": round(avg_fee / 1e6, 2),
+            "avg_premium_pct": round(100 * sum(prem) / len(prem), 1) if prem else None,
+            "avg_rating": round(sum(rats) / len(rats), 2) if rats else None,
+            "rating_per_10m": round((sum(rats) / len(rats)) / (avg_fee / 1e7), 2)
+            if rats and avg_fee >= 1e6 else None,
+        })
+    pos_rows.sort(key=lambda r: -(r["avg_premium_pct"] or -999))
 
     return {
         "overall_rating": pool(signings),
         "by_club_season": club_season_rows,
         "by_club": club_rows,
         "by_league": league_rows,
+        "by_position": pos_rows,
+        "league_priors": priors,
     }

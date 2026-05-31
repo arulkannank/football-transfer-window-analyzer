@@ -26,6 +26,7 @@ def signings_df(results: dict, ds: Dataset) -> pd.DataFrame:
                 "sold": bool(s.get("sold")), "sale_fee_eur": s.get("sale_fee_eur"),
                 "seasons_evaluated": s.get("seasons_evaluated"),
                 "rating": s.get("rating"),
+                "fee_confidence": s.get("fee_confidence", "known"),
                 "sc_minutes": b.get("minutes"), "sc_profit_loss": b.get("profit_loss"),
                 "sc_rating": b.get("rating"), "sc_efficiency": b.get("efficiency"),
                 "sc_mv_growth": b.get("mv_growth"),
@@ -49,6 +50,7 @@ def windows_df(results: dict) -> pd.DataFrame:
             "window": w["window"], "n_signings": w["n_signings"],
             "n_starter": w["n_starter"], "n_rotation": w["n_rotation"],
             "window_rating": w["window_rating"],
+            "window_rating_shrunk": w.get("window_rating_shrunk"),
             "problems": ", ".join(w["problems"]),
             "problems_addressed": ", ".join(w["problems_addressed"]),
             "problems_unaddressed": ", ".join(w["problems_unaddressed"]),
@@ -63,23 +65,24 @@ def windows_df(results: dict) -> pd.DataFrame:
 
 
 def club_index(results: dict, ds: Dataset) -> pd.DataFrame:
-    """One row per club that made scored signings: name, league(s), n, weighted rating."""
-    by_club: dict[str, list] = {}
+    """One row per club: name, league(s), n, raw + shrunk rating, rank.
+
+    Ratings come from the rollup (single source of truth, already shrunk)."""
+    leagues: dict[str, set] = {}
     for s in results["signings"]:
-        by_club.setdefault(s.club_id, []).append(s)
+        if s.league:
+            leagues.setdefault(s.club_id, set()).add(s.league)
     rows = []
-    for cid, sigs in by_club.items():
-        num = sum((x.overall_rating or 0) * x.weight for x in sigs)
-        den = sum(x.weight for x in sigs)
-        leagues = sorted({x.league for x in sigs if x.league})
+    for r in results["rollups"]["by_club"]:
+        cid = r["club_id"]
         rows.append({
-            "club_id": cid, "club": ds.club_name.get(cid, cid),
-            "leagues": ", ".join(leagues),
-            "n_signings": len(sigs),
-            "rating": round(num / den, 3) if den else None,
+            "club_id": cid, "club": r["club"],
+            "leagues": ", ".join(sorted(leagues.get(cid, []))),
+            "n_signings": r["n_signings"], "rating": r["rating"],
+            "rating_shrunk": r["rating_shrunk"],
         })
-    df = pd.DataFrame(rows).sort_values("rating", ascending=False).reset_index(drop=True)
-    df["rank"] = df["rating"].rank(ascending=False, method="min").astype("Int64")
+    df = pd.DataFrame(rows).sort_values("rating_shrunk", ascending=False).reset_index(drop=True)
+    df["rank"] = df["rating_shrunk"].rank(ascending=False, method="min").astype("Int64")
     return df
 
 

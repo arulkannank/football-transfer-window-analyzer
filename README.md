@@ -14,23 +14,26 @@ python run.py all                                      # scrape everything + sco
 # or split the steps:
 python run.py collect --leagues GB1 --workers 6        # scrape one league -> data/dataset.pkl
 python run.py analyze                                  # score + write data/output/
+python run.py sensitivity                              # threshold robustness -> sensitivity.md
+python run.py validity                                 # recruitment-vs-results correlation
 
-streamlit run app.py                                   # interactive per-club report
+streamlit run app.py                                   # interactive app (3 views)
 ```
 
 ## Streamlit app (`app.py`)
 
-`streamlit run app.py` opens an interactive report. Pick a league + club in the
-sidebar and you get: average transfer rating (with league rank & vs-league
-delta), **best/worst signing**, **best/worst window**, spend / recouped / net
-spend, and tabs for —
+`streamlit run app.py` opens an interactive app with three views (sidebar):
 
-- **Overview**: rating-by-season trend, signings-by-type, spend-vs-rating scatter.
-- **Signings**: every signing with its full sub-score breakdown (sortable).
-- **Windows**: window-rating timeline + problem resolution / blended grade.
-- **Trading**: profit/loss on players bought and later sold.
-- **Squad problems**: flagged vs addressed vs chronic problem positions per window.
-- **By position**: rating and spend split by GK/DEF/MID/FWD.
+- **🏟️ Club report** — average transfer rating (league rank + vs-league delta),
+  **best/worst signing & window**, spend/recouped/net spend, and tabs for overview
+  charts, the full **signings** table (with sub-score breakdown + fee-confidence),
+  **windows** (raw + shrunk + problem resolution), **trading** P&L, **squad
+  problems**, and **by-position** rating/spend.
+- **🏆 League leaderboard** — clubs ranked by shrunk rating (filter by league /
+  min-signings), **market-efficiency-by-position** (fee vs market value, rating
+  per €10m), and an **external-validity** scatter (recruitment vs league finish).
+- **⚖️ Compare clubs** — pick 2–4 clubs and compare metrics, rating-by-position,
+  and rating-by-season side by side.
 
 Needs `data/dataset.pkl` (created by `python run.py collect`; bundled in this repo).
 
@@ -61,8 +64,10 @@ resumable — only cache misses hit the network.
 | `windows.csv` | one row per club-season-window: rating, problems, resolution, grade |
 | `signings.csv` | one row per scored transfer with the full sub-score breakdown |
 | `windows.json` | the same, nested, with per-season evaluations |
-| `rollups.json` | overall / by-league / by-club / by-club-season ratings |
+| `rollups.json` | overall / by-league / by-club / by-club-season ratings + by-position market efficiency |
 | `summary.md` | best/worst windows, league averages, standout signings |
+| `validity.json` | recruitment-vs-results correlations + scatter data |
+| `sensitivity.md` | rank stability when the rubric's thresholds are perturbed |
 
 ## How it works
 
@@ -128,7 +133,13 @@ change in `config.py` / the scoring module:
   COVID-curtailed 2019/20 and Ligue 1's 20→18 resize), not a fixed 38/34.
 - **"Available minutes"** counts **league** minutes only (cleanest denominator).
 - **Rating baseline for "improvement"** = the league's minutes-weighted average
-  rating for that position group that season.
+  rating that season **over actual starters** (players past the 65% minutes bar)
+  in that slot — a higher, more discriminating bar than averaging every squad player.
+- **Small samples are shrunk**: window/club ratings are pulled toward the league
+  mean by `SHRINKAGE_K` pseudo-observations, so a one-signing window can't swing to
+  0 or 10 on a single player.
+- **Undisclosed fees (~25%)** fall back to a market-value proxy for P&L/efficiency
+  and are flagged `fee_confidence = estimated`.
 - **Market efficiency cutoff** = ±30% vs market value for full ±credit.
 - **Average spend per transfer** = club's total fees ÷ number of incoming
   transfers (frees count as €0), over the whole period.
