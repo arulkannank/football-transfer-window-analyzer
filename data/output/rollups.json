@@ -1,0 +1,9599 @@
+{
+ "overall_rating": 2.75,
+ "by_club_season": [
+  {
+   "club": "SC Heerenveen",
+   "club_id": "306",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "NL1",
+   "n_signings": 6,
+   "rating": 6.533
+  },
+  {
+   "club": "FC Toulouse",
+   "club_id": "415",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "FR1",
+   "n_signings": 6,
+   "rating": 6.49
+  },
+  {
+   "club": "FC Lorient",
+   "club_id": "1158",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "FR1",
+   "n_signings": 3,
+   "rating": 6.459
+  },
+  {
+   "club": "Vitesse Arnhem",
+   "club_id": "499",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "NL1",
+   "n_signings": 4,
+   "rating": 6.188
+  },
+  {
+   "club": "Boavista FC",
+   "club_id": "2503",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "PO1",
+   "n_signings": 8,
+   "rating": 5.922
+  },
+  {
+   "club": "TSG 1899 Hoffenheim",
+   "club_id": "533",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "L1",
+   "n_signings": 4,
+   "rating": 5.757
+  },
+  {
+   "club": "PEC Zwolle",
+   "club_id": "1269",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "NL1",
+   "n_signings": 4,
+   "rating": 5.735
+  },
+  {
+   "club": "Angers SCO",
+   "club_id": "1420",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "FR1",
+   "n_signings": 7,
+   "rating": 5.587
+  },
+  {
+   "club": "Udinese Calcio",
+   "club_id": "410",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "IT1",
+   "n_signings": 8,
+   "rating": 5.576
+  },
+  {
+   "club": "1.FC Heidenheim 1846",
+   "club_id": "2036",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "L1",
+   "n_signings": 5,
+   "rating": 5.502
+  },
+  {
+   "club": "Girona FC",
+   "club_id": "12321",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "ES1",
+   "n_signings": 7,
+   "rating": 5.466
+  },
+  {
+   "club": "Atlético de Madrid",
+   "club_id": "13",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "ES1",
+   "n_signings": 7,
+   "rating": 5.406
+  },
+  {
+   "club": "Arsenal FC",
+   "club_id": "11",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "GB1",
+   "n_signings": 4,
+   "rating": 5.397
+  },
+  {
+   "club": "RCD Mallorca",
+   "club_id": "237",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "ES1",
+   "n_signings": 8,
+   "rating": 5.397
+  },
+  {
+   "club": "CA Osasuna",
+   "club_id": "331",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "ES1",
+   "n_signings": 3,
+   "rating": 5.36
+  },
+  {
+   "club": "Real Madrid",
+   "club_id": "418",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "ES1",
+   "n_signings": 6,
+   "rating": 5.329
+  },
+  {
+   "club": "FC Twente Enschede",
+   "club_id": "317",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "NL1",
+   "n_signings": 9,
+   "rating": 5.255
+  },
+  {
+   "club": "FC Twente Enschede",
+   "club_id": "317",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "NL1",
+   "n_signings": 3,
+   "rating": 5.134
+  },
+  {
+   "club": "FC Famalicão",
+   "club_id": "3329",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "PO1",
+   "n_signings": 7,
+   "rating": 5.071
+  },
+  {
+   "club": "Borussia Dortmund",
+   "club_id": "16",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "L1",
+   "n_signings": 4,
+   "rating": 5.052
+  },
+  {
+   "club": "FC Groningen",
+   "club_id": "202",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "NL1",
+   "n_signings": 5,
+   "rating": 4.984
+  },
+  {
+   "club": "Cagliari Calcio",
+   "club_id": "1390",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "IT1",
+   "n_signings": 7,
+   "rating": 4.921
+  },
+  {
+   "club": "Angers SCO",
+   "club_id": "1420",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "FR1",
+   "n_signings": 5,
+   "rating": 4.907
+  },
+  {
+   "club": "Montpellier HSC",
+   "club_id": "969",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "FR1",
+   "n_signings": 6,
+   "rating": 4.863
+  },
+  {
+   "club": "RC Lens",
+   "club_id": "826",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "FR1",
+   "n_signings": 7,
+   "rating": 4.857
+  },
+  {
+   "club": "Boavista FC",
+   "club_id": "2503",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "PO1",
+   "n_signings": 3,
+   "rating": 4.856
+  },
+  {
+   "club": "Stade Rennais FC",
+   "club_id": "273",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "FR1",
+   "n_signings": 10,
+   "rating": 4.848
+  },
+  {
+   "club": "SC Braga",
+   "club_id": "1075",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "PO1",
+   "n_signings": 11,
+   "rating": 4.841
+  },
+  {
+   "club": "Liverpool FC",
+   "club_id": "31",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "GB1",
+   "n_signings": 6,
+   "rating": 4.823
+  },
+  {
+   "club": "VfL Bochum",
+   "club_id": "80",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "L1",
+   "n_signings": 6,
+   "rating": 4.82
+  },
+  {
+   "club": "VfB Stuttgart",
+   "club_id": "79",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "L1",
+   "n_signings": 11,
+   "rating": 4.764
+  },
+  {
+   "club": "Borussia Dortmund",
+   "club_id": "16",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "L1",
+   "n_signings": 6,
+   "rating": 4.761
+  },
+  {
+   "club": "Borussia Mönchengladbach",
+   "club_id": "18",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "L1",
+   "n_signings": 4,
+   "rating": 4.747
+  },
+  {
+   "club": "CD Tondela",
+   "club_id": "7179",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "PO1",
+   "n_signings": 6,
+   "rating": 4.73
+  },
+  {
+   "club": "Rayo Vallecano",
+   "club_id": "367",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "ES1",
+   "n_signings": 7,
+   "rating": 4.68
+  },
+  {
+   "club": "Valencia CF",
+   "club_id": "1049",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "ES1",
+   "n_signings": 7,
+   "rating": 4.654
+  },
+  {
+   "club": "CA Osasuna",
+   "club_id": "331",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "ES1",
+   "n_signings": 6,
+   "rating": 4.645
+  },
+  {
+   "club": "FC Paços de Ferreira",
+   "club_id": "2995",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "PO1",
+   "n_signings": 9,
+   "rating": 4.641
+  },
+  {
+   "club": "Elche CF",
+   "club_id": "1531",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "ES1",
+   "n_signings": 10,
+   "rating": 4.63
+  },
+  {
+   "club": "FC Famalicão",
+   "club_id": "3329",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "PO1",
+   "n_signings": 12,
+   "rating": 4.623
+  },
+  {
+   "club": "Go Ahead Eagles",
+   "club_id": "1435",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "NL1",
+   "n_signings": 12,
+   "rating": 4.62
+  },
+  {
+   "club": "Real Sociedad",
+   "club_id": "681",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "ES1",
+   "n_signings": 4,
+   "rating": 4.619
+  },
+  {
+   "club": "Avs Futebol",
+   "club_id": "110302",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "PO1",
+   "n_signings": 14,
+   "rating": 4.618
+  },
+  {
+   "club": "SC Cambuur Leeuwarden",
+   "club_id": "133",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "NL1",
+   "n_signings": 8,
+   "rating": 4.616
+  },
+  {
+   "club": "Real Sociedad",
+   "club_id": "681",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "ES1",
+   "n_signings": 9,
+   "rating": 4.609
+  },
+  {
+   "club": "Real Sociedad",
+   "club_id": "681",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "ES1",
+   "n_signings": 10,
+   "rating": 4.606
+  },
+  {
+   "club": "VVV-Venlo",
+   "club_id": "1426",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "NL1",
+   "n_signings": 9,
+   "rating": 4.591
+  },
+  {
+   "club": "SC Heerenveen",
+   "club_id": "306",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "NL1",
+   "n_signings": 8,
+   "rating": 4.588
+  },
+  {
+   "club": "Chelsea FC",
+   "club_id": "631",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "GB1",
+   "n_signings": 5,
+   "rating": 4.554
+  },
+  {
+   "club": "AJ Auxerre",
+   "club_id": "290",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "FR1",
+   "n_signings": 12,
+   "rating": 4.521
+  },
+  {
+   "club": "AFC Bournemouth",
+   "club_id": "989",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "GB1",
+   "n_signings": 10,
+   "rating": 4.505
+  },
+  {
+   "club": "Atlético de Madrid",
+   "club_id": "13",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "ES1",
+   "n_signings": 6,
+   "rating": 4.454
+  },
+  {
+   "club": "Le Havre AC",
+   "club_id": "738",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "FR1",
+   "n_signings": 11,
+   "rating": 4.449
+  },
+  {
+   "club": "NAC Breda",
+   "club_id": "132",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "NL1",
+   "n_signings": 9,
+   "rating": 4.447
+  },
+  {
+   "club": "US Sassuolo",
+   "club_id": "6574",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "IT1",
+   "n_signings": 12,
+   "rating": 4.423
+  },
+  {
+   "club": "VVV-Venlo",
+   "club_id": "1426",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "NL1",
+   "n_signings": 11,
+   "rating": 4.416
+  },
+  {
+   "club": "Willem II Tilburg",
+   "club_id": "403",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "NL1",
+   "n_signings": 9,
+   "rating": 4.416
+  },
+  {
+   "club": "VfB Stuttgart",
+   "club_id": "79",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "L1",
+   "n_signings": 8,
+   "rating": 4.394
+  },
+  {
+   "club": "Vitesse Arnhem",
+   "club_id": "499",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "NL1",
+   "n_signings": 6,
+   "rating": 4.393
+  },
+  {
+   "club": "Heracles Almelo",
+   "club_id": "1304",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "NL1",
+   "n_signings": 9,
+   "rating": 4.39
+  },
+  {
+   "club": "FC Nantes",
+   "club_id": "995",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "FR1",
+   "n_signings": 3,
+   "rating": 4.378
+  },
+  {
+   "club": "AS Roma",
+   "club_id": "12",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "IT1",
+   "n_signings": 11,
+   "rating": 4.374
+  },
+  {
+   "club": "Willem II Tilburg",
+   "club_id": "403",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "NL1",
+   "n_signings": 4,
+   "rating": 4.362
+  },
+  {
+   "club": "West Ham United",
+   "club_id": "379",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "GB1",
+   "n_signings": 7,
+   "rating": 4.347
+  },
+  {
+   "club": "Fulham FC",
+   "club_id": "931",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "GB1",
+   "n_signings": 10,
+   "rating": 4.341
+  },
+  {
+   "club": "Valencia CF",
+   "club_id": "1049",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "ES1",
+   "n_signings": 11,
+   "rating": 4.332
+  },
+  {
+   "club": "Le Havre AC",
+   "club_id": "738",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "FR1",
+   "n_signings": 10,
+   "rating": 4.331
+  },
+  {
+   "club": "Rayo Vallecano",
+   "club_id": "367",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "ES1",
+   "n_signings": 6,
+   "rating": 4.327
+  },
+  {
+   "club": "SC Heerenveen",
+   "club_id": "306",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "NL1",
+   "n_signings": 11,
+   "rating": 4.314
+  },
+  {
+   "club": "Ajax Amsterdam",
+   "club_id": "610",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "NL1",
+   "n_signings": 10,
+   "rating": 4.296
+  },
+  {
+   "club": "Manchester United",
+   "club_id": "985",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "GB1",
+   "n_signings": 5,
+   "rating": 4.295
+  },
+  {
+   "club": "Celta de Vigo",
+   "club_id": "940",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "ES1",
+   "n_signings": 10,
+   "rating": 4.284
+  },
+  {
+   "club": "AZ Alkmaar",
+   "club_id": "1090",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "NL1",
+   "n_signings": 13,
+   "rating": 4.259
+  },
+  {
+   "club": "Olympique Marseille",
+   "club_id": "244",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "FR1",
+   "n_signings": 12,
+   "rating": 4.259
+  },
+  {
+   "club": "SC Freiburg",
+   "club_id": "60",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "L1",
+   "n_signings": 6,
+   "rating": 4.251
+  },
+  {
+   "club": "FC Twente Enschede",
+   "club_id": "317",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "NL1",
+   "n_signings": 9,
+   "rating": 4.245
+  },
+  {
+   "club": "VfL Wolfsburg",
+   "club_id": "82",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "L1",
+   "n_signings": 9,
+   "rating": 4.242
+  },
+  {
+   "club": "Aston Villa",
+   "club_id": "405",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "GB1",
+   "n_signings": 5,
+   "rating": 4.235
+  },
+  {
+   "club": "Juventus FC",
+   "club_id": "506",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "IT1",
+   "n_signings": 12,
+   "rating": 4.226
+  },
+  {
+   "club": "FC Twente Enschede",
+   "club_id": "317",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "NL1",
+   "n_signings": 7,
+   "rating": 4.225
+  },
+  {
+   "club": "CD Santa Clara",
+   "club_id": "2423",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "PO1",
+   "n_signings": 11,
+   "rating": 4.206
+  },
+  {
+   "club": "FC Porto",
+   "club_id": "720",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "PO1",
+   "n_signings": 14,
+   "rating": 4.203
+  },
+  {
+   "club": "CD Leganés",
+   "club_id": "1244",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "ES1",
+   "n_signings": 13,
+   "rating": 4.186
+  },
+  {
+   "club": "FC Barcelona",
+   "club_id": "131",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "ES1",
+   "n_signings": 11,
+   "rating": 4.178
+  },
+  {
+   "club": "Real Betis Balompié",
+   "club_id": "150",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "ES1",
+   "n_signings": 6,
+   "rating": 4.177
+  },
+  {
+   "club": "Arsenal FC",
+   "club_id": "11",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "GB1",
+   "n_signings": 8,
+   "rating": 4.157
+  },
+  {
+   "club": "Paris FC",
+   "club_id": "10004",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "FR1",
+   "n_signings": 11,
+   "rating": 4.154
+  },
+  {
+   "club": "SC Farense",
+   "club_id": "4294",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "PO1",
+   "n_signings": 17,
+   "rating": 4.148
+  },
+  {
+   "club": "FC Arouca",
+   "club_id": "8024",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "PO1",
+   "n_signings": 11,
+   "rating": 4.143
+  },
+  {
+   "club": "Manchester City",
+   "club_id": "281",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "GB1",
+   "n_signings": 4,
+   "rating": 4.135
+  },
+  {
+   "club": "SC Braga",
+   "club_id": "1075",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "PO1",
+   "n_signings": 6,
+   "rating": 4.118
+  },
+  {
+   "club": "Villarreal CF",
+   "club_id": "1050",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "ES1",
+   "n_signings": 6,
+   "rating": 4.112
+  },
+  {
+   "club": "Leeds United",
+   "club_id": "399",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "GB1",
+   "n_signings": 10,
+   "rating": 4.094
+  },
+  {
+   "club": "Real Betis Balompié",
+   "club_id": "150",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "ES1",
+   "n_signings": 6,
+   "rating": 4.085
+  },
+  {
+   "club": "Levante UD",
+   "club_id": "3368",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "ES1",
+   "n_signings": 13,
+   "rating": 4.069
+  },
+  {
+   "club": "PEC Zwolle",
+   "club_id": "1269",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "NL1",
+   "n_signings": 9,
+   "rating": 4.065
+  },
+  {
+   "club": "Sporting CP",
+   "club_id": "336",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "PO1",
+   "n_signings": 10,
+   "rating": 4.054
+  },
+  {
+   "club": "Levante UD",
+   "club_id": "3368",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "ES1",
+   "n_signings": 9,
+   "rating": 4.049
+  },
+  {
+   "club": "AS Monaco",
+   "club_id": "162",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "FR1",
+   "n_signings": 8,
+   "rating": 4.047
+  },
+  {
+   "club": "Sevilla FC",
+   "club_id": "368",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "ES1",
+   "n_signings": 9,
+   "rating": 4.043
+  },
+  {
+   "club": "Sparta Rotterdam",
+   "club_id": "468",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "NL1",
+   "n_signings": 13,
+   "rating": 4.036
+  },
+  {
+   "club": "FC Paços de Ferreira",
+   "club_id": "2995",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "PO1",
+   "n_signings": 7,
+   "rating": 4.035
+  },
+  {
+   "club": "Newcastle United",
+   "club_id": "762",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "GB1",
+   "n_signings": 5,
+   "rating": 4.032
+  },
+  {
+   "club": "Excelsior Rotterdam",
+   "club_id": "798",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "NL1",
+   "n_signings": 10,
+   "rating": 4.03
+  },
+  {
+   "club": "Sunderland AFC",
+   "club_id": "289",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "GB1",
+   "n_signings": 18,
+   "rating": 4.013
+  },
+  {
+   "club": "LOSC Lille",
+   "club_id": "1082",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "FR1",
+   "n_signings": 12,
+   "rating": 4.007
+  },
+  {
+   "club": "Nîmes Olympique",
+   "club_id": "1160",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "FR1",
+   "n_signings": 7,
+   "rating": 4.004
+  },
+  {
+   "club": "FC Girondins Bordeaux",
+   "club_id": "40",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "FR1",
+   "n_signings": 9,
+   "rating": 4.004
+  },
+  {
+   "club": "Bayern Munich",
+   "club_id": "27",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "L1",
+   "n_signings": 11,
+   "rating": 4.001
+  },
+  {
+   "club": "Real Valladolid CF",
+   "club_id": "366",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "ES1",
+   "n_signings": 15,
+   "rating": 3.999
+  },
+  {
+   "club": "CA Osasuna",
+   "club_id": "331",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "ES1",
+   "n_signings": 6,
+   "rating": 3.995
+  },
+  {
+   "club": "RKC Waalwijk",
+   "club_id": "235",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "NL1",
+   "n_signings": 15,
+   "rating": 3.991
+  },
+  {
+   "club": "Sparta Rotterdam",
+   "club_id": "468",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "NL1",
+   "n_signings": 5,
+   "rating": 3.985
+  },
+  {
+   "club": "Montpellier HSC",
+   "club_id": "969",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "FR1",
+   "n_signings": 10,
+   "rating": 3.983
+  },
+  {
+   "club": "Arsenal FC",
+   "club_id": "11",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "GB1",
+   "n_signings": 5,
+   "rating": 3.978
+  },
+  {
+   "club": "FC Nantes",
+   "club_id": "995",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "FR1",
+   "n_signings": 5,
+   "rating": 3.973
+  },
+  {
+   "club": "CS Marítimo",
+   "club_id": "1301",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "PO1",
+   "n_signings": 11,
+   "rating": 3.968
+  },
+  {
+   "club": "Bayern Munich",
+   "club_id": "27",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "L1",
+   "n_signings": 5,
+   "rating": 3.968
+  },
+  {
+   "club": "PSV Eindhoven",
+   "club_id": "383",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "NL1",
+   "n_signings": 12,
+   "rating": 3.968
+  },
+  {
+   "club": "Burnley FC",
+   "club_id": "1132",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "GB1",
+   "n_signings": 14,
+   "rating": 3.941
+  },
+  {
+   "club": "RKC Waalwijk",
+   "club_id": "235",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "NL1",
+   "n_signings": 10,
+   "rating": 3.916
+  },
+  {
+   "club": "Moreirense FC",
+   "club_id": "979",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "PO1",
+   "n_signings": 11,
+   "rating": 3.907
+  },
+  {
+   "club": "FC Empoli",
+   "club_id": "749",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "IT1",
+   "n_signings": 13,
+   "rating": 3.899
+  },
+  {
+   "club": "GD Estoril Praia",
+   "club_id": "1465",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "PO1",
+   "n_signings": 18,
+   "rating": 3.893
+  },
+  {
+   "club": "Valencia CF",
+   "club_id": "1049",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "ES1",
+   "n_signings": 8,
+   "rating": 3.885
+  },
+  {
+   "club": "NEC Nijmegen",
+   "club_id": "467",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "NL1",
+   "n_signings": 12,
+   "rating": 3.868
+  },
+  {
+   "club": "AZ Alkmaar",
+   "club_id": "1090",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "NL1",
+   "n_signings": 7,
+   "rating": 3.853
+  },
+  {
+   "club": "Celta de Vigo",
+   "club_id": "940",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "ES1",
+   "n_signings": 11,
+   "rating": 3.852
+  },
+  {
+   "club": "FC Augsburg",
+   "club_id": "167",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "L1",
+   "n_signings": 11,
+   "rating": 3.841
+  },
+  {
+   "club": "Feyenoord Rotterdam",
+   "club_id": "234",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "NL1",
+   "n_signings": 14,
+   "rating": 3.832
+  },
+  {
+   "club": "Bayer 04 Leverkusen",
+   "club_id": "15",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "L1",
+   "n_signings": 8,
+   "rating": 3.819
+  },
+  {
+   "club": "PSV Eindhoven",
+   "club_id": "383",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "NL1",
+   "n_signings": 10,
+   "rating": 3.804
+  },
+  {
+   "club": "SC Farense",
+   "club_id": "4294",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "PO1",
+   "n_signings": 18,
+   "rating": 3.801
+  },
+  {
+   "club": "Genoa CFC",
+   "club_id": "252",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "IT1",
+   "n_signings": 5,
+   "rating": 3.797
+  },
+  {
+   "club": "NEC Nijmegen",
+   "club_id": "467",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "NL1",
+   "n_signings": 7,
+   "rating": 3.794
+  },
+  {
+   "club": "Nîmes Olympique",
+   "club_id": "1160",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "FR1",
+   "n_signings": 10,
+   "rating": 3.79
+  },
+  {
+   "club": "Willem II Tilburg",
+   "club_id": "403",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "NL1",
+   "n_signings": 9,
+   "rating": 3.785
+  },
+  {
+   "club": "Deportivo Alavés",
+   "club_id": "1108",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "ES1",
+   "n_signings": 9,
+   "rating": 3.78
+  },
+  {
+   "club": "1.FC Union Berlin",
+   "club_id": "89",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "L1",
+   "n_signings": 8,
+   "rating": 3.779
+  },
+  {
+   "club": "Real Betis Balompié",
+   "club_id": "150",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "ES1",
+   "n_signings": 16,
+   "rating": 3.772
+  },
+  {
+   "club": "Juventus FC",
+   "club_id": "506",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "IT1",
+   "n_signings": 16,
+   "rating": 3.772
+  },
+  {
+   "club": "UD Almería",
+   "club_id": "3302",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "ES1",
+   "n_signings": 10,
+   "rating": 3.765
+  },
+  {
+   "club": "Ipswich Town",
+   "club_id": "677",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "GB1",
+   "n_signings": 13,
+   "rating": 3.763
+  },
+  {
+   "club": "RCD Mallorca",
+   "club_id": "237",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "ES1",
+   "n_signings": 10,
+   "rating": 3.761
+  },
+  {
+   "club": "Eintracht Frankfurt",
+   "club_id": "24",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "L1",
+   "n_signings": 22,
+   "rating": 3.759
+  },
+  {
+   "club": "AC Milan",
+   "club_id": "5",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "IT1",
+   "n_signings": 9,
+   "rating": 3.758
+  },
+  {
+   "club": "Benevento Calcio",
+   "club_id": "4171",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "IT1",
+   "n_signings": 9,
+   "rating": 3.75
+  },
+  {
+   "club": "Bayer 04 Leverkusen",
+   "club_id": "15",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "L1",
+   "n_signings": 8,
+   "rating": 3.735
+  },
+  {
+   "club": "Hamburger SV",
+   "club_id": "41",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "L1",
+   "n_signings": 13,
+   "rating": 3.735
+  },
+  {
+   "club": "Elche CF",
+   "club_id": "1531",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "ES1",
+   "n_signings": 13,
+   "rating": 3.733
+  },
+  {
+   "club": "Liverpool FC",
+   "club_id": "31",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "GB1",
+   "n_signings": 3,
+   "rating": 3.733
+  },
+  {
+   "club": "Nottingham Forest",
+   "club_id": "703",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "GB1",
+   "n_signings": 13,
+   "rating": 3.728
+  },
+  {
+   "club": "LOSC Lille",
+   "club_id": "1082",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "FR1",
+   "n_signings": 14,
+   "rating": 3.722
+  },
+  {
+   "club": "Paris Saint-Germain",
+   "club_id": "583",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "FR1",
+   "n_signings": 6,
+   "rating": 3.707
+  },
+  {
+   "club": "PEC Zwolle",
+   "club_id": "1269",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "NL1",
+   "n_signings": 8,
+   "rating": 3.699
+  },
+  {
+   "club": "FC Toulouse",
+   "club_id": "415",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "FR1",
+   "n_signings": 10,
+   "rating": 3.696
+  },
+  {
+   "club": "FC Porto",
+   "club_id": "720",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "PO1",
+   "n_signings": 8,
+   "rating": 3.693
+  },
+  {
+   "club": "1.FC Union Berlin",
+   "club_id": "89",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "L1",
+   "n_signings": 8,
+   "rating": 3.687
+  },
+  {
+   "club": "Real Madrid",
+   "club_id": "418",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "ES1",
+   "n_signings": 3,
+   "rating": 3.681
+  },
+  {
+   "club": "Real Madrid",
+   "club_id": "418",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "ES1",
+   "n_signings": 6,
+   "rating": 3.678
+  },
+  {
+   "club": "AS Monaco",
+   "club_id": "162",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "FR1",
+   "n_signings": 8,
+   "rating": 3.671
+  },
+  {
+   "club": "Stade Brestois 29",
+   "club_id": "3911",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "FR1",
+   "n_signings": 8,
+   "rating": 3.67
+  },
+  {
+   "club": "FC Nantes",
+   "club_id": "995",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "FR1",
+   "n_signings": 9,
+   "rating": 3.669
+  },
+  {
+   "club": "AC Ajaccio",
+   "club_id": "1147",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "FR1",
+   "n_signings": 10,
+   "rating": 3.659
+  },
+  {
+   "club": "Everton FC",
+   "club_id": "29",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "GB1",
+   "n_signings": 5,
+   "rating": 3.657
+  },
+  {
+   "club": "Burnley FC",
+   "club_id": "1132",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "GB1",
+   "n_signings": 7,
+   "rating": 3.652
+  },
+  {
+   "club": "Casa Pia AC",
+   "club_id": "3268",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "PO1",
+   "n_signings": 13,
+   "rating": 3.652
+  },
+  {
+   "club": "FC Empoli",
+   "club_id": "749",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "IT1",
+   "n_signings": 12,
+   "rating": 3.65
+  },
+  {
+   "club": "AJ Auxerre",
+   "club_id": "290",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "FR1",
+   "n_signings": 9,
+   "rating": 3.649
+  },
+  {
+   "club": "Crystal Palace",
+   "club_id": "873",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "GB1",
+   "n_signings": 7,
+   "rating": 3.648
+  },
+  {
+   "club": "Eintracht Frankfurt",
+   "club_id": "24",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "L1",
+   "n_signings": 9,
+   "rating": 3.635
+  },
+  {
+   "club": "OGC Nice",
+   "club_id": "417",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "FR1",
+   "n_signings": 7,
+   "rating": 3.63
+  },
+  {
+   "club": "VfL Bochum",
+   "club_id": "80",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "L1",
+   "n_signings": 9,
+   "rating": 3.625
+  },
+  {
+   "club": "FC Emmen",
+   "club_id": "1283",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "NL1",
+   "n_signings": 15,
+   "rating": 3.618
+  },
+  {
+   "club": "Levante UD",
+   "club_id": "3368",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "ES1",
+   "n_signings": 7,
+   "rating": 3.615
+  },
+  {
+   "club": "Bologna FC 1909",
+   "club_id": "1025",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "IT1",
+   "n_signings": 14,
+   "rating": 3.611
+  },
+  {
+   "club": "FC Metz",
+   "club_id": "347",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "FR1",
+   "n_signings": 6,
+   "rating": 3.611
+  },
+  {
+   "club": "AZ Alkmaar",
+   "club_id": "1090",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "NL1",
+   "n_signings": 7,
+   "rating": 3.606
+  },
+  {
+   "club": "Crystal Palace",
+   "club_id": "873",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "GB1",
+   "n_signings": 5,
+   "rating": 3.605
+  },
+  {
+   "club": "Sevilla FC",
+   "club_id": "368",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "ES1",
+   "n_signings": 10,
+   "rating": 3.598
+  },
+  {
+   "club": "PEC Zwolle",
+   "club_id": "1269",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "NL1",
+   "n_signings": 10,
+   "rating": 3.596
+  },
+  {
+   "club": "Amiens SC",
+   "club_id": "1416",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "FR1",
+   "n_signings": 12,
+   "rating": 3.593
+  },
+  {
+   "club": "Sparta Rotterdam",
+   "club_id": "468",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "NL1",
+   "n_signings": 10,
+   "rating": 3.592
+  },
+  {
+   "club": "Bologna FC 1909",
+   "club_id": "1025",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "IT1",
+   "n_signings": 14,
+   "rating": 3.59
+  },
+  {
+   "club": "Elche CF",
+   "club_id": "1531",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "ES1",
+   "n_signings": 12,
+   "rating": 3.59
+  },
+  {
+   "club": "Stade Brestois 29",
+   "club_id": "3911",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "FR1",
+   "n_signings": 5,
+   "rating": 3.589
+  },
+  {
+   "club": "Real Betis Balompié",
+   "club_id": "150",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "ES1",
+   "n_signings": 14,
+   "rating": 3.588
+  },
+  {
+   "club": "Celta de Vigo",
+   "club_id": "940",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "ES1",
+   "n_signings": 9,
+   "rating": 3.588
+  },
+  {
+   "club": "Everton FC",
+   "club_id": "29",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "GB1",
+   "n_signings": 9,
+   "rating": 3.583
+  },
+  {
+   "club": "Real Valladolid CF",
+   "club_id": "366",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "ES1",
+   "n_signings": 16,
+   "rating": 3.577
+  },
+  {
+   "club": "Girona FC",
+   "club_id": "12321",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "ES1",
+   "n_signings": 9,
+   "rating": 3.575
+  },
+  {
+   "club": "SSC Napoli",
+   "club_id": "6195",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "IT1",
+   "n_signings": 13,
+   "rating": 3.575
+  },
+  {
+   "club": "Crystal Palace",
+   "club_id": "873",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "GB1",
+   "n_signings": 7,
+   "rating": 3.567
+  },
+  {
+   "club": "Dijon FCO",
+   "club_id": "2969",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "FR1",
+   "n_signings": 11,
+   "rating": 3.566
+  },
+  {
+   "club": "RB Leipzig",
+   "club_id": "23826",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "L1",
+   "n_signings": 9,
+   "rating": 3.564
+  },
+  {
+   "club": "Tottenham Hotspur",
+   "club_id": "148",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "GB1",
+   "n_signings": 9,
+   "rating": 3.563
+  },
+  {
+   "club": "Cádiz CF",
+   "club_id": "2687",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "ES1",
+   "n_signings": 10,
+   "rating": 3.562
+  },
+  {
+   "club": "Getafe CF",
+   "club_id": "3709",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "ES1",
+   "n_signings": 6,
+   "rating": 3.561
+  },
+  {
+   "club": "Stade Brestois 29",
+   "club_id": "3911",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "FR1",
+   "n_signings": 8,
+   "rating": 3.56
+  },
+  {
+   "club": "Ajax Amsterdam",
+   "club_id": "610",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "NL1",
+   "n_signings": 14,
+   "rating": 3.559
+  },
+  {
+   "club": "LOSC Lille",
+   "club_id": "1082",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "FR1",
+   "n_signings": 10,
+   "rating": 3.548
+  },
+  {
+   "club": "Spezia Calcio",
+   "club_id": "3522",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "IT1",
+   "n_signings": 13,
+   "rating": 3.539
+  },
+  {
+   "club": "Go Ahead Eagles",
+   "club_id": "1435",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "NL1",
+   "n_signings": 9,
+   "rating": 3.536
+  },
+  {
+   "club": "Borussia Mönchengladbach",
+   "club_id": "18",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "L1",
+   "n_signings": 10,
+   "rating": 3.536
+  },
+  {
+   "club": "Villarreal CF",
+   "club_id": "1050",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "ES1",
+   "n_signings": 12,
+   "rating": 3.532
+  },
+  {
+   "club": "Newcastle United",
+   "club_id": "762",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "GB1",
+   "n_signings": 7,
+   "rating": 3.528
+  },
+  {
+   "club": "FC Porto",
+   "club_id": "720",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "PO1",
+   "n_signings": 10,
+   "rating": 3.513
+  },
+  {
+   "club": "Brighton & Hove Albion",
+   "club_id": "1237",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "GB1",
+   "n_signings": 8,
+   "rating": 3.512
+  },
+  {
+   "club": "RC Strasbourg Alsace",
+   "club_id": "667",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "FR1",
+   "n_signings": 5,
+   "rating": 3.506
+  },
+  {
+   "club": "Montpellier HSC",
+   "club_id": "969",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "FR1",
+   "n_signings": 9,
+   "rating": 3.503
+  },
+  {
+   "club": "Heracles Almelo",
+   "club_id": "1304",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "NL1",
+   "n_signings": 10,
+   "rating": 3.495
+  },
+  {
+   "club": "CD Tondela",
+   "club_id": "7179",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "PO1",
+   "n_signings": 6,
+   "rating": 3.485
+  },
+  {
+   "club": "Moreirense FC",
+   "club_id": "979",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "PO1",
+   "n_signings": 12,
+   "rating": 3.485
+  },
+  {
+   "club": "Sporting CP",
+   "club_id": "336",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "PO1",
+   "n_signings": 10,
+   "rating": 3.483
+  },
+  {
+   "club": "Vitória Guimarães SC",
+   "club_id": "2420",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "PO1",
+   "n_signings": 12,
+   "rating": 3.482
+  },
+  {
+   "club": "RC Strasbourg Alsace",
+   "club_id": "667",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "FR1",
+   "n_signings": 8,
+   "rating": 3.47
+  },
+  {
+   "club": "SC Heerenveen",
+   "club_id": "306",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "NL1",
+   "n_signings": 11,
+   "rating": 3.453
+  },
+  {
+   "club": "Excelsior Rotterdam",
+   "club_id": "798",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "NL1",
+   "n_signings": 8,
+   "rating": 3.447
+  },
+  {
+   "club": "SC Braga",
+   "club_id": "1075",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "PO1",
+   "n_signings": 10,
+   "rating": 3.446
+  },
+  {
+   "club": "Celta de Vigo",
+   "club_id": "940",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "ES1",
+   "n_signings": 7,
+   "rating": 3.441
+  },
+  {
+   "club": "SC Braga",
+   "club_id": "1075",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "PO1",
+   "n_signings": 9,
+   "rating": 3.436
+  },
+  {
+   "club": "PSV Eindhoven",
+   "club_id": "383",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "NL1",
+   "n_signings": 9,
+   "rating": 3.435
+  },
+  {
+   "club": "ACF Fiorentina",
+   "club_id": "430",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "IT1",
+   "n_signings": 7,
+   "rating": 3.435
+  },
+  {
+   "club": "OGC Nice",
+   "club_id": "417",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "FR1",
+   "n_signings": 7,
+   "rating": 3.434
+  },
+  {
+   "club": "Angers SCO",
+   "club_id": "1420",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "FR1",
+   "n_signings": 7,
+   "rating": 3.432
+  },
+  {
+   "club": "ESTAC Troyes",
+   "club_id": "1095",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "FR1",
+   "n_signings": 15,
+   "rating": 3.43
+  },
+  {
+   "club": "Brentford FC",
+   "club_id": "1148",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "GB1",
+   "n_signings": 7,
+   "rating": 3.429
+  },
+  {
+   "club": "PEC Zwolle",
+   "club_id": "1269",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "NL1",
+   "n_signings": 7,
+   "rating": 3.425
+  },
+  {
+   "club": "FC Utrecht",
+   "club_id": "200",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "NL1",
+   "n_signings": 13,
+   "rating": 3.421
+  },
+  {
+   "club": "1.FC Köln",
+   "club_id": "3",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "L1",
+   "n_signings": 9,
+   "rating": 3.42
+  },
+  {
+   "club": "1.FC Köln",
+   "club_id": "3",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "L1",
+   "n_signings": 12,
+   "rating": 3.42
+  },
+  {
+   "club": "Moreirense FC",
+   "club_id": "979",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "PO1",
+   "n_signings": 18,
+   "rating": 3.42
+  },
+  {
+   "club": "AC Milan",
+   "club_id": "5",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "IT1",
+   "n_signings": 14,
+   "rating": 3.409
+  },
+  {
+   "club": "LOSC Lille",
+   "club_id": "1082",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "FR1",
+   "n_signings": 4,
+   "rating": 3.403
+  },
+  {
+   "club": "Angers SCO",
+   "club_id": "1420",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "FR1",
+   "n_signings": 7,
+   "rating": 3.392
+  },
+  {
+   "club": "Real Oviedo",
+   "club_id": "2497",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "ES1",
+   "n_signings": 9,
+   "rating": 3.385
+  },
+  {
+   "club": "West Ham United",
+   "club_id": "379",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "GB1",
+   "n_signings": 16,
+   "rating": 3.383
+  },
+  {
+   "club": "Atlético de Madrid",
+   "club_id": "13",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "ES1",
+   "n_signings": 14,
+   "rating": 3.38
+  },
+  {
+   "club": "Everton FC",
+   "club_id": "29",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "GB1",
+   "n_signings": 8,
+   "rating": 3.376
+  },
+  {
+   "club": "Brescia Calcio (- 2025)",
+   "club_id": "19",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "IT1",
+   "n_signings": 10,
+   "rating": 3.373
+  },
+  {
+   "club": "Stade Brestois 29",
+   "club_id": "3911",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "FR1",
+   "n_signings": 7,
+   "rating": 3.363
+  },
+  {
+   "club": "Borussia Dortmund",
+   "club_id": "16",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "L1",
+   "n_signings": 4,
+   "rating": 3.358
+  },
+  {
+   "club": "Leicester City",
+   "club_id": "1003",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "GB1",
+   "n_signings": 4,
+   "rating": 3.355
+  },
+  {
+   "club": "Stade Brestois 29",
+   "club_id": "3911",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "FR1",
+   "n_signings": 6,
+   "rating": 3.349
+  },
+  {
+   "club": "US Lecce",
+   "club_id": "1005",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "IT1",
+   "n_signings": 14,
+   "rating": 3.344
+  },
+  {
+   "club": "West Ham United",
+   "club_id": "379",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "GB1",
+   "n_signings": 8,
+   "rating": 3.34
+  },
+  {
+   "club": "Gil Vicente FC",
+   "club_id": "2424",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "PO1",
+   "n_signings": 13,
+   "rating": 3.339
+  },
+  {
+   "club": "Bologna FC 1909",
+   "club_id": "1025",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "IT1",
+   "n_signings": 7,
+   "rating": 3.335
+  },
+  {
+   "club": "Inter Milan",
+   "club_id": "46",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "IT1",
+   "n_signings": 11,
+   "rating": 3.332
+  },
+  {
+   "club": "Granada CF",
+   "club_id": "16795",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "ES1",
+   "n_signings": 7,
+   "rating": 3.331
+  },
+  {
+   "club": "Arsenal FC",
+   "club_id": "11",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "GB1",
+   "n_signings": 7,
+   "rating": 3.327
+  },
+  {
+   "club": "FC Alverca",
+   "club_id": "2521",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "PO1",
+   "n_signings": 24,
+   "rating": 3.324
+  },
+  {
+   "club": "Manchester United",
+   "club_id": "985",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "GB1",
+   "n_signings": 5,
+   "rating": 3.324
+  },
+  {
+   "club": "Real Sociedad",
+   "club_id": "681",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "ES1",
+   "n_signings": 4,
+   "rating": 3.322
+  },
+  {
+   "club": "SS Lazio",
+   "club_id": "398",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "IT1",
+   "n_signings": 10,
+   "rating": 3.318
+  },
+  {
+   "club": "Dijon FCO",
+   "club_id": "2969",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "FR1",
+   "n_signings": 7,
+   "rating": 3.317
+  },
+  {
+   "club": "Casa Pia AC",
+   "club_id": "3268",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "PO1",
+   "n_signings": 15,
+   "rating": 3.315
+  },
+  {
+   "club": "Olympique Marseille",
+   "club_id": "244",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "FR1",
+   "n_signings": 19,
+   "rating": 3.31
+  },
+  {
+   "club": "Atalanta BC",
+   "club_id": "800",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "IT1",
+   "n_signings": 8,
+   "rating": 3.305
+  },
+  {
+   "club": "Gil Vicente FC",
+   "club_id": "2424",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "PO1",
+   "n_signings": 17,
+   "rating": 3.304
+  },
+  {
+   "club": "SSC Napoli",
+   "club_id": "6195",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "IT1",
+   "n_signings": 5,
+   "rating": 3.303
+  },
+  {
+   "club": "TSG 1899 Hoffenheim",
+   "club_id": "533",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "L1",
+   "n_signings": 15,
+   "rating": 3.299
+  },
+  {
+   "club": "Olympique Marseille",
+   "club_id": "244",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "FR1",
+   "n_signings": 7,
+   "rating": 3.297
+  },
+  {
+   "club": "FC Lorient",
+   "club_id": "1158",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "FR1",
+   "n_signings": 15,
+   "rating": 3.296
+  },
+  {
+   "club": "Aston Villa",
+   "club_id": "405",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "GB1",
+   "n_signings": 8,
+   "rating": 3.281
+  },
+  {
+   "club": "Leeds United",
+   "club_id": "399",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "GB1",
+   "n_signings": 8,
+   "rating": 3.28
+  },
+  {
+   "club": "1.FC Union Berlin",
+   "club_id": "89",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "L1",
+   "n_signings": 12,
+   "rating": 3.275
+  },
+  {
+   "club": "UD Las Palmas",
+   "club_id": "472",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "ES1",
+   "n_signings": 12,
+   "rating": 3.272
+  },
+  {
+   "club": "Stade Brestois 29",
+   "club_id": "3911",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "FR1",
+   "n_signings": 8,
+   "rating": 3.269
+  },
+  {
+   "club": "Fortuna Sittard",
+   "club_id": "385",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "NL1",
+   "n_signings": 11,
+   "rating": 3.265
+  },
+  {
+   "club": "SC Freiburg",
+   "club_id": "60",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "L1",
+   "n_signings": 7,
+   "rating": 3.263
+  },
+  {
+   "club": "Brighton & Hove Albion",
+   "club_id": "1237",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "GB1",
+   "n_signings": 7,
+   "rating": 3.261
+  },
+  {
+   "club": "Stade Reims",
+   "club_id": "1421",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "FR1",
+   "n_signings": 11,
+   "rating": 3.257
+  },
+  {
+   "club": "Juventus FC",
+   "club_id": "506",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "IT1",
+   "n_signings": 9,
+   "rating": 3.257
+  },
+  {
+   "club": "Borussia Dortmund",
+   "club_id": "16",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "L1",
+   "n_signings": 7,
+   "rating": 3.255
+  },
+  {
+   "club": "Moreirense FC",
+   "club_id": "979",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "PO1",
+   "n_signings": 11,
+   "rating": 3.255
+  },
+  {
+   "club": "NEC Nijmegen",
+   "club_id": "467",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "NL1",
+   "n_signings": 11,
+   "rating": 3.249
+  },
+  {
+   "club": "FC Barcelona",
+   "club_id": "131",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "ES1",
+   "n_signings": 10,
+   "rating": 3.243
+  },
+  {
+   "club": "OGC Nice",
+   "club_id": "417",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "FR1",
+   "n_signings": 7,
+   "rating": 3.241
+  },
+  {
+   "club": "VfB Stuttgart",
+   "club_id": "79",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "L1",
+   "n_signings": 11,
+   "rating": 3.239
+  },
+  {
+   "club": "Athletic Bilbao",
+   "club_id": "621",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "ES1",
+   "n_signings": 7,
+   "rating": 3.238
+  },
+  {
+   "club": "FC Augsburg",
+   "club_id": "167",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "L1",
+   "n_signings": 6,
+   "rating": 3.237
+  },
+  {
+   "club": "GD Chaves",
+   "club_id": "3325",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "PO1",
+   "n_signings": 18,
+   "rating": 3.23
+  },
+  {
+   "club": "FC Augsburg",
+   "club_id": "167",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "L1",
+   "n_signings": 14,
+   "rating": 3.228
+  },
+  {
+   "club": "SL Benfica",
+   "club_id": "294",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "PO1",
+   "n_signings": 16,
+   "rating": 3.228
+  },
+  {
+   "club": "Real Sociedad",
+   "club_id": "681",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "ES1",
+   "n_signings": 5,
+   "rating": 3.228
+  },
+  {
+   "club": "Athletic Bilbao",
+   "club_id": "621",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "ES1",
+   "n_signings": 3,
+   "rating": 3.227
+  },
+  {
+   "club": "AS Monaco",
+   "club_id": "162",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "FR1",
+   "n_signings": 10,
+   "rating": 3.225
+  },
+  {
+   "club": "SC Freiburg",
+   "club_id": "60",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "L1",
+   "n_signings": 8,
+   "rating": 3.214
+  },
+  {
+   "club": "FC Twente Enschede",
+   "club_id": "317",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "NL1",
+   "n_signings": 6,
+   "rating": 3.213
+  },
+  {
+   "club": "Stade Reims",
+   "club_id": "1421",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "FR1",
+   "n_signings": 11,
+   "rating": 3.205
+  },
+  {
+   "club": "RC Lens",
+   "club_id": "826",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "FR1",
+   "n_signings": 8,
+   "rating": 3.198
+  },
+  {
+   "club": "FC Groningen",
+   "club_id": "202",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "NL1",
+   "n_signings": 10,
+   "rating": 3.193
+  },
+  {
+   "club": "Stade Rennais FC",
+   "club_id": "273",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "FR1",
+   "n_signings": 10,
+   "rating": 3.192
+  },
+  {
+   "club": "Moreirense FC",
+   "club_id": "979",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "PO1",
+   "n_signings": 7,
+   "rating": 3.182
+  },
+  {
+   "club": "US Lecce",
+   "club_id": "1005",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "IT1",
+   "n_signings": 16,
+   "rating": 3.179
+  },
+  {
+   "club": "FC Metz",
+   "club_id": "347",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "FR1",
+   "n_signings": 12,
+   "rating": 3.174
+  },
+  {
+   "club": "CD Santa Clara",
+   "club_id": "2423",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "PO1",
+   "n_signings": 13,
+   "rating": 3.172
+  },
+  {
+   "club": "Brighton & Hove Albion",
+   "club_id": "1237",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "GB1",
+   "n_signings": 6,
+   "rating": 3.169
+  },
+  {
+   "club": "SL Benfica",
+   "club_id": "294",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "PO1",
+   "n_signings": 11,
+   "rating": 3.169
+  },
+  {
+   "club": "Heracles Almelo",
+   "club_id": "1304",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "NL1",
+   "n_signings": 7,
+   "rating": 3.166
+  },
+  {
+   "club": "Sporting CP",
+   "club_id": "336",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "PO1",
+   "n_signings": 7,
+   "rating": 3.166
+  },
+  {
+   "club": "AS Monaco",
+   "club_id": "162",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "FR1",
+   "n_signings": 8,
+   "rating": 3.164
+  },
+  {
+   "club": "Fulham FC",
+   "club_id": "931",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "GB1",
+   "n_signings": 9,
+   "rating": 3.162
+  },
+  {
+   "club": "SV Werder Bremen",
+   "club_id": "86",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "L1",
+   "n_signings": 8,
+   "rating": 3.161
+  },
+  {
+   "club": "Leicester City",
+   "club_id": "1003",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "GB1",
+   "n_signings": 5,
+   "rating": 3.16
+  },
+  {
+   "club": "Vitesse Arnhem",
+   "club_id": "499",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "NL1",
+   "n_signings": 3,
+   "rating": 3.154
+  },
+  {
+   "club": "Leicester City",
+   "club_id": "1003",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "GB1",
+   "n_signings": 5,
+   "rating": 3.151
+  },
+  {
+   "club": "Borussia Dortmund",
+   "club_id": "16",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "L1",
+   "n_signings": 8,
+   "rating": 3.147
+  },
+  {
+   "club": "Eintracht Frankfurt",
+   "club_id": "24",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "L1",
+   "n_signings": 12,
+   "rating": 3.146
+  },
+  {
+   "club": "Chelsea FC",
+   "club_id": "631",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "GB1",
+   "n_signings": 15,
+   "rating": 3.145
+  },
+  {
+   "club": "FC Barcelona",
+   "club_id": "131",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "ES1",
+   "n_signings": 7,
+   "rating": 3.142
+  },
+  {
+   "club": "1.FC Köln",
+   "club_id": "3",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "L1",
+   "n_signings": 11,
+   "rating": 3.14
+  },
+  {
+   "club": "FC Famalicão",
+   "club_id": "3329",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "PO1",
+   "n_signings": 9,
+   "rating": 3.131
+  },
+  {
+   "club": "Stade Rennais FC",
+   "club_id": "273",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "FR1",
+   "n_signings": 13,
+   "rating": 3.127
+  },
+  {
+   "club": "CA Osasuna",
+   "club_id": "331",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "ES1",
+   "n_signings": 6,
+   "rating": 3.125
+  },
+  {
+   "club": "FC Nantes",
+   "club_id": "995",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "FR1",
+   "n_signings": 13,
+   "rating": 3.124
+  },
+  {
+   "club": "Fortuna Sittard",
+   "club_id": "385",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "NL1",
+   "n_signings": 12,
+   "rating": 3.123
+  },
+  {
+   "club": "Boavista FC",
+   "club_id": "2503",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "PO1",
+   "n_signings": 16,
+   "rating": 3.12
+  },
+  {
+   "club": "Manchester City",
+   "club_id": "281",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "GB1",
+   "n_signings": 10,
+   "rating": 3.119
+  },
+  {
+   "club": "Rio Ave FC",
+   "club_id": "2425",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "PO1",
+   "n_signings": 8,
+   "rating": 3.117
+  },
+  {
+   "club": "Hertha BSC",
+   "club_id": "44",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "L1",
+   "n_signings": 10,
+   "rating": 3.117
+  },
+  {
+   "club": "1.FSV Mainz 05",
+   "club_id": "39",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "L1",
+   "n_signings": 8,
+   "rating": 3.114
+  },
+  {
+   "club": "Aston Villa",
+   "club_id": "405",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "GB1",
+   "n_signings": 8,
+   "rating": 3.113
+  },
+  {
+   "club": "West Bromwich Albion",
+   "club_id": "984",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "GB1",
+   "n_signings": 10,
+   "rating": 3.112
+  },
+  {
+   "club": "Deportivo Alavés",
+   "club_id": "1108",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "ES1",
+   "n_signings": 12,
+   "rating": 3.11
+  },
+  {
+   "club": "Villarreal CF",
+   "club_id": "1050",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "ES1",
+   "n_signings": 12,
+   "rating": 3.105
+  },
+  {
+   "club": "Stade Rennais FC",
+   "club_id": "273",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "FR1",
+   "n_signings": 9,
+   "rating": 3.104
+  },
+  {
+   "club": "B SAD (2018-2024)",
+   "club_id": "2457",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "PO1",
+   "n_signings": 9,
+   "rating": 3.1
+  },
+  {
+   "club": "Crystal Palace",
+   "club_id": "873",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "GB1",
+   "n_signings": 9,
+   "rating": 3.097
+  },
+  {
+   "club": "FC Empoli",
+   "club_id": "749",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "IT1",
+   "n_signings": 15,
+   "rating": 3.096
+  },
+  {
+   "club": "CA Osasuna",
+   "club_id": "331",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "ES1",
+   "n_signings": 7,
+   "rating": 3.089
+  },
+  {
+   "club": "Villarreal CF",
+   "club_id": "1050",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "ES1",
+   "n_signings": 9,
+   "rating": 3.087
+  },
+  {
+   "club": "Montpellier HSC",
+   "club_id": "969",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "FR1",
+   "n_signings": 3,
+   "rating": 3.086
+  },
+  {
+   "club": "Go Ahead Eagles",
+   "club_id": "1435",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "NL1",
+   "n_signings": 9,
+   "rating": 3.081
+  },
+  {
+   "club": "Stade Reims",
+   "club_id": "1421",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "FR1",
+   "n_signings": 13,
+   "rating": 3.079
+  },
+  {
+   "club": "Southampton FC",
+   "club_id": "180",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "GB1",
+   "n_signings": 4,
+   "rating": 3.078
+  },
+  {
+   "club": "Olympique Lyon",
+   "club_id": "1041",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "FR1",
+   "n_signings": 14,
+   "rating": 3.076
+  },
+  {
+   "club": "Moreirense FC",
+   "club_id": "979",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "PO1",
+   "n_signings": 8,
+   "rating": 3.076
+  },
+  {
+   "club": "FC Twente Enschede",
+   "club_id": "317",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "NL1",
+   "n_signings": 9,
+   "rating": 3.073
+  },
+  {
+   "club": "FC Arouca",
+   "club_id": "8024",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "PO1",
+   "n_signings": 10,
+   "rating": 3.072
+  },
+  {
+   "club": "Torino FC",
+   "club_id": "416",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "IT1",
+   "n_signings": 7,
+   "rating": 3.068
+  },
+  {
+   "club": "RCD Mallorca",
+   "club_id": "237",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "ES1",
+   "n_signings": 10,
+   "rating": 3.067
+  },
+  {
+   "club": "FC Groningen",
+   "club_id": "202",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "NL1",
+   "n_signings": 6,
+   "rating": 3.06
+  },
+  {
+   "club": "FC Girondins Bordeaux",
+   "club_id": "40",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "FR1",
+   "n_signings": 8,
+   "rating": 3.057
+  },
+  {
+   "club": "Olympique Lyon",
+   "club_id": "1041",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "FR1",
+   "n_signings": 10,
+   "rating": 3.055
+  },
+  {
+   "club": "Heracles Almelo",
+   "club_id": "1304",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "NL1",
+   "n_signings": 10,
+   "rating": 3.054
+  },
+  {
+   "club": "NEC Nijmegen",
+   "club_id": "467",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "NL1",
+   "n_signings": 12,
+   "rating": 3.054
+  },
+  {
+   "club": "Bayer 04 Leverkusen",
+   "club_id": "15",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "L1",
+   "n_signings": 7,
+   "rating": 3.053
+  },
+  {
+   "club": "Celta de Vigo",
+   "club_id": "940",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "ES1",
+   "n_signings": 13,
+   "rating": 3.053
+  },
+  {
+   "club": "NEC Nijmegen",
+   "club_id": "467",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "NL1",
+   "n_signings": 6,
+   "rating": 3.052
+  },
+  {
+   "club": "Fortuna Sittard",
+   "club_id": "385",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "NL1",
+   "n_signings": 14,
+   "rating": 3.048
+  },
+  {
+   "club": "AC Milan",
+   "club_id": "5",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "IT1",
+   "n_signings": 13,
+   "rating": 3.048
+  },
+  {
+   "club": "Granada CF",
+   "club_id": "16795",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "ES1",
+   "n_signings": 9,
+   "rating": 3.046
+  },
+  {
+   "club": "RC Strasbourg Alsace",
+   "club_id": "667",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "FR1",
+   "n_signings": 17,
+   "rating": 3.046
+  },
+  {
+   "club": "Sparta Rotterdam",
+   "club_id": "468",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "NL1",
+   "n_signings": 12,
+   "rating": 3.043
+  },
+  {
+   "club": "Fortuna Sittard",
+   "club_id": "385",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "NL1",
+   "n_signings": 16,
+   "rating": 3.041
+  },
+  {
+   "club": "Manchester United",
+   "club_id": "985",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "GB1",
+   "n_signings": 5,
+   "rating": 3.038
+  },
+  {
+   "club": "Arsenal FC",
+   "club_id": "11",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "GB1",
+   "n_signings": 7,
+   "rating": 3.036
+  },
+  {
+   "club": "Newcastle United",
+   "club_id": "762",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "GB1",
+   "n_signings": 8,
+   "rating": 3.035
+  },
+  {
+   "club": "Getafe CF",
+   "club_id": "3709",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "ES1",
+   "n_signings": 4,
+   "rating": 3.034
+  },
+  {
+   "club": "LOSC Lille",
+   "club_id": "1082",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "FR1",
+   "n_signings": 11,
+   "rating": 3.032
+  },
+  {
+   "club": "Rio Ave FC",
+   "club_id": "2425",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "PO1",
+   "n_signings": 8,
+   "rating": 3.029
+  },
+  {
+   "club": "Eintracht Frankfurt",
+   "club_id": "24",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "L1",
+   "n_signings": 11,
+   "rating": 3.028
+  },
+  {
+   "club": "FC Schalke 04",
+   "club_id": "33",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "L1",
+   "n_signings": 7,
+   "rating": 3.028
+  },
+  {
+   "club": "Go Ahead Eagles",
+   "club_id": "1435",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "NL1",
+   "n_signings": 16,
+   "rating": 3.025
+  },
+  {
+   "club": "Fulham FC",
+   "club_id": "931",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "GB1",
+   "n_signings": 9,
+   "rating": 3.023
+  },
+  {
+   "club": "Luton Town",
+   "club_id": "1031",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "GB1",
+   "n_signings": 14,
+   "rating": 3.017
+  },
+  {
+   "club": "Real Madrid",
+   "club_id": "418",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "ES1",
+   "n_signings": 6,
+   "rating": 3.013
+  },
+  {
+   "club": "Brentford FC",
+   "club_id": "1148",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "GB1",
+   "n_signings": 9,
+   "rating": 3.011
+  },
+  {
+   "club": "AS Roma",
+   "club_id": "12",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "IT1",
+   "n_signings": 12,
+   "rating": 3.01
+  },
+  {
+   "club": "SS Lazio",
+   "club_id": "398",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "IT1",
+   "n_signings": 8,
+   "rating": 3.01
+  },
+  {
+   "club": "SL Benfica",
+   "club_id": "294",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "PO1",
+   "n_signings": 9,
+   "rating": 3.006
+  },
+  {
+   "club": "ACF Fiorentina",
+   "club_id": "430",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "IT1",
+   "n_signings": 17,
+   "rating": 3.006
+  },
+  {
+   "club": "AS Roma",
+   "club_id": "12",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "IT1",
+   "n_signings": 7,
+   "rating": 3.003
+  },
+  {
+   "club": "Holstein Kiel",
+   "club_id": "269",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "L1",
+   "n_signings": 8,
+   "rating": 2.994
+  },
+  {
+   "club": "TSG 1899 Hoffenheim",
+   "club_id": "533",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "L1",
+   "n_signings": 6,
+   "rating": 2.994
+  },
+  {
+   "club": "1.FC Heidenheim 1846",
+   "club_id": "2036",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "L1",
+   "n_signings": 9,
+   "rating": 2.988
+  },
+  {
+   "club": "FC Crotone",
+   "club_id": "4083",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "IT1",
+   "n_signings": 10,
+   "rating": 2.987
+  },
+  {
+   "club": "SL Benfica",
+   "club_id": "294",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "PO1",
+   "n_signings": 13,
+   "rating": 2.984
+  },
+  {
+   "club": "FC Utrecht",
+   "club_id": "200",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "NL1",
+   "n_signings": 14,
+   "rating": 2.978
+  },
+  {
+   "club": "Vitória Guimarães SC",
+   "club_id": "2420",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "PO1",
+   "n_signings": 12,
+   "rating": 2.977
+  },
+  {
+   "club": "Rayo Vallecano",
+   "club_id": "367",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "ES1",
+   "n_signings": 5,
+   "rating": 2.977
+  },
+  {
+   "club": "UD Las Palmas",
+   "club_id": "472",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "ES1",
+   "n_signings": 10,
+   "rating": 2.976
+  },
+  {
+   "club": "RC Lens",
+   "club_id": "826",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "FR1",
+   "n_signings": 10,
+   "rating": 2.976
+  },
+  {
+   "club": "Fulham FC",
+   "club_id": "931",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "GB1",
+   "n_signings": 8,
+   "rating": 2.974
+  },
+  {
+   "club": "Hertha BSC",
+   "club_id": "44",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "L1",
+   "n_signings": 10,
+   "rating": 2.969
+  },
+  {
+   "club": "Real Madrid",
+   "club_id": "418",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "ES1",
+   "n_signings": 5,
+   "rating": 2.966
+  },
+  {
+   "club": "Almere City FC",
+   "club_id": "723",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "NL1",
+   "n_signings": 15,
+   "rating": 2.966
+  },
+  {
+   "club": "LOSC Lille",
+   "club_id": "1082",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "FR1",
+   "n_signings": 8,
+   "rating": 2.965
+  },
+  {
+   "club": "FC Utrecht",
+   "club_id": "200",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "NL1",
+   "n_signings": 6,
+   "rating": 2.961
+  },
+  {
+   "club": "Bayern Munich",
+   "club_id": "27",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "L1",
+   "n_signings": 8,
+   "rating": 2.961
+  },
+  {
+   "club": "FC St. Pauli",
+   "club_id": "35",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "L1",
+   "n_signings": 13,
+   "rating": 2.958
+  },
+  {
+   "club": "Rayo Vallecano",
+   "club_id": "367",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "ES1",
+   "n_signings": 6,
+   "rating": 2.957
+  },
+  {
+   "club": "NAC Breda",
+   "club_id": "132",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "NL1",
+   "n_signings": 9,
+   "rating": 2.955
+  },
+  {
+   "club": "Clermont Foot 63",
+   "club_id": "3524",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "FR1",
+   "n_signings": 13,
+   "rating": 2.949
+  },
+  {
+   "club": "Valencia CF",
+   "club_id": "1049",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "ES1",
+   "n_signings": 11,
+   "rating": 2.947
+  },
+  {
+   "club": "Inter Milan",
+   "club_id": "46",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "IT1",
+   "n_signings": 7,
+   "rating": 2.943
+  },
+  {
+   "club": "Le Havre AC",
+   "club_id": "738",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "FR1",
+   "n_signings": 11,
+   "rating": 2.941
+  },
+  {
+   "club": "RC Strasbourg Alsace",
+   "club_id": "667",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "FR1",
+   "n_signings": 8,
+   "rating": 2.935
+  },
+  {
+   "club": "FC Emmen",
+   "club_id": "1283",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "NL1",
+   "n_signings": 13,
+   "rating": 2.934
+  },
+  {
+   "club": "AFC Bournemouth",
+   "club_id": "989",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "GB1",
+   "n_signings": 11,
+   "rating": 2.927
+  },
+  {
+   "club": "Portimonense SAD",
+   "club_id": "7378",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "PO1",
+   "n_signings": 10,
+   "rating": 2.926
+  },
+  {
+   "club": "Sheffield United",
+   "club_id": "350",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "GB1",
+   "n_signings": 7,
+   "rating": 2.925
+  },
+  {
+   "club": "Athletic Bilbao",
+   "club_id": "621",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "ES1",
+   "n_signings": 9,
+   "rating": 2.925
+  },
+  {
+   "club": "Hertha BSC",
+   "club_id": "44",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "L1",
+   "n_signings": 10,
+   "rating": 2.923
+  },
+  {
+   "club": "RCD Espanyol Barcelona",
+   "club_id": "714",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "ES1",
+   "n_signings": 17,
+   "rating": 2.923
+  },
+  {
+   "club": "AS Monaco",
+   "club_id": "162",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "FR1",
+   "n_signings": 7,
+   "rating": 2.922
+  },
+  {
+   "club": "Athletic Bilbao",
+   "club_id": "621",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "ES1",
+   "n_signings": 4,
+   "rating": 2.921
+  },
+  {
+   "club": "OGC Nice",
+   "club_id": "417",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "FR1",
+   "n_signings": 15,
+   "rating": 2.911
+  },
+  {
+   "club": "CD Santa Clara",
+   "club_id": "2423",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "PO1",
+   "n_signings": 12,
+   "rating": 2.909
+  },
+  {
+   "club": "FC Lorient",
+   "club_id": "1158",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "FR1",
+   "n_signings": 9,
+   "rating": 2.905
+  },
+  {
+   "club": "Vitória Guimarães SC",
+   "club_id": "2420",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "PO1",
+   "n_signings": 9,
+   "rating": 2.9
+  },
+  {
+   "club": "GD Estoril Praia",
+   "club_id": "1465",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "PO1",
+   "n_signings": 8,
+   "rating": 2.899
+  },
+  {
+   "club": "US Cremonese",
+   "club_id": "2239",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "IT1",
+   "n_signings": 18,
+   "rating": 2.897
+  },
+  {
+   "club": "AS Saint-Étienne",
+   "club_id": "618",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "FR1",
+   "n_signings": 12,
+   "rating": 2.889
+  },
+  {
+   "club": "FC Metz",
+   "club_id": "347",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "FR1",
+   "n_signings": 11,
+   "rating": 2.888
+  },
+  {
+   "club": "Inter Milan",
+   "club_id": "46",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "IT1",
+   "n_signings": 9,
+   "rating": 2.888
+  },
+  {
+   "club": "Wolverhampton Wanderers",
+   "club_id": "543",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "GB1",
+   "n_signings": 10,
+   "rating": 2.879
+  },
+  {
+   "club": "Cagliari Calcio",
+   "club_id": "1390",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "IT1",
+   "n_signings": 20,
+   "rating": 2.872
+  },
+  {
+   "club": "RC Lens",
+   "club_id": "826",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "FR1",
+   "n_signings": 24,
+   "rating": 2.872
+  },
+  {
+   "club": "Como 1907",
+   "club_id": "1047",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "IT1",
+   "n_signings": 16,
+   "rating": 2.871
+  },
+  {
+   "club": "1.FC Union Berlin",
+   "club_id": "89",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "L1",
+   "n_signings": 12,
+   "rating": 2.871
+  },
+  {
+   "club": "ADO Den Haag",
+   "club_id": "1268",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "NL1",
+   "n_signings": 5,
+   "rating": 2.87
+  },
+  {
+   "club": "VfB Stuttgart",
+   "club_id": "79",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "L1",
+   "n_signings": 20,
+   "rating": 2.867
+  },
+  {
+   "club": "FC Famalicão",
+   "club_id": "3329",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "PO1",
+   "n_signings": 9,
+   "rating": 2.865
+  },
+  {
+   "club": "Hellas Verona",
+   "club_id": "276",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "IT1",
+   "n_signings": 21,
+   "rating": 2.861
+  },
+  {
+   "club": "FC Vizela",
+   "club_id": "6912",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "PO1",
+   "n_signings": 14,
+   "rating": 2.861
+  },
+  {
+   "club": "SPAL",
+   "club_id": "2722",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "IT1",
+   "n_signings": 11,
+   "rating": 2.858
+  },
+  {
+   "club": "Genoa CFC",
+   "club_id": "252",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "IT1",
+   "n_signings": 19,
+   "rating": 2.855
+  },
+  {
+   "club": "FC Porto",
+   "club_id": "720",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "PO1",
+   "n_signings": 10,
+   "rating": 2.854
+  },
+  {
+   "club": "Feyenoord Rotterdam",
+   "club_id": "234",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "NL1",
+   "n_signings": 14,
+   "rating": 2.85
+  },
+  {
+   "club": "Borussia Dortmund",
+   "club_id": "16",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "L1",
+   "n_signings": 12,
+   "rating": 2.845
+  },
+  {
+   "club": "AZ Alkmaar",
+   "club_id": "1090",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "NL1",
+   "n_signings": 11,
+   "rating": 2.843
+  },
+  {
+   "club": "Brighton & Hove Albion",
+   "club_id": "1237",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "GB1",
+   "n_signings": 11,
+   "rating": 2.843
+  },
+  {
+   "club": "RB Leipzig",
+   "club_id": "23826",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "L1",
+   "n_signings": 8,
+   "rating": 2.842
+  },
+  {
+   "club": "Portimonense SAD",
+   "club_id": "7378",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "PO1",
+   "n_signings": 11,
+   "rating": 2.84
+  },
+  {
+   "club": "Villarreal CF",
+   "club_id": "1050",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "ES1",
+   "n_signings": 18,
+   "rating": 2.834
+  },
+  {
+   "club": "Borussia Mönchengladbach",
+   "club_id": "18",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "L1",
+   "n_signings": 6,
+   "rating": 2.831
+  },
+  {
+   "club": "Wolverhampton Wanderers",
+   "club_id": "543",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "GB1",
+   "n_signings": 8,
+   "rating": 2.829
+  },
+  {
+   "club": "RCD Mallorca",
+   "club_id": "237",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "ES1",
+   "n_signings": 5,
+   "rating": 2.826
+  },
+  {
+   "club": "RCD Espanyol Barcelona",
+   "club_id": "714",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "ES1",
+   "n_signings": 7,
+   "rating": 2.824
+  },
+  {
+   "club": "Ajax Amsterdam",
+   "club_id": "610",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "NL1",
+   "n_signings": 7,
+   "rating": 2.822
+  },
+  {
+   "club": "Feyenoord Rotterdam",
+   "club_id": "234",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "NL1",
+   "n_signings": 15,
+   "rating": 2.817
+  },
+  {
+   "club": "Athletic Bilbao",
+   "club_id": "621",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "ES1",
+   "n_signings": 8,
+   "rating": 2.817
+  },
+  {
+   "club": "Chelsea FC",
+   "club_id": "631",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "GB1",
+   "n_signings": 4,
+   "rating": 2.816
+  },
+  {
+   "club": "SC Braga",
+   "club_id": "1075",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "PO1",
+   "n_signings": 12,
+   "rating": 2.811
+  },
+  {
+   "club": "Hellas Verona",
+   "club_id": "276",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "IT1",
+   "n_signings": 14,
+   "rating": 2.81
+  },
+  {
+   "club": "Udinese Calcio",
+   "club_id": "410",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "IT1",
+   "n_signings": 15,
+   "rating": 2.803
+  },
+  {
+   "club": "Girona FC",
+   "club_id": "12321",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "ES1",
+   "n_signings": 15,
+   "rating": 2.802
+  },
+  {
+   "club": "FC Arouca",
+   "club_id": "8024",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "PO1",
+   "n_signings": 15,
+   "rating": 2.801
+  },
+  {
+   "club": "Rio Ave FC",
+   "club_id": "2425",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "PO1",
+   "n_signings": 15,
+   "rating": 2.794
+  },
+  {
+   "club": "RC Strasbourg Alsace",
+   "club_id": "667",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "FR1",
+   "n_signings": 3,
+   "rating": 2.794
+  },
+  {
+   "club": "FC Volendam",
+   "club_id": "724",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "NL1",
+   "n_signings": 7,
+   "rating": 2.794
+  },
+  {
+   "club": "Paris Saint-Germain",
+   "club_id": "583",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "FR1",
+   "n_signings": 16,
+   "rating": 2.793
+  },
+  {
+   "club": "Brentford FC",
+   "club_id": "1148",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "GB1",
+   "n_signings": 8,
+   "rating": 2.791
+  },
+  {
+   "club": "Paris Saint-Germain",
+   "club_id": "583",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "FR1",
+   "n_signings": 10,
+   "rating": 2.788
+  },
+  {
+   "club": "SV Darmstadt 98",
+   "club_id": "105",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "L1",
+   "n_signings": 4,
+   "rating": 2.787
+  },
+  {
+   "club": "PSV Eindhoven",
+   "club_id": "383",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "NL1",
+   "n_signings": 9,
+   "rating": 2.784
+  },
+  {
+   "club": "PSV Eindhoven",
+   "club_id": "383",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "NL1",
+   "n_signings": 9,
+   "rating": 2.783
+  },
+  {
+   "club": "CF Estrela Amadora",
+   "club_id": "2431",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "PO1",
+   "n_signings": 14,
+   "rating": 2.78
+  },
+  {
+   "club": "Bologna FC 1909",
+   "club_id": "1025",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "IT1",
+   "n_signings": 11,
+   "rating": 2.779
+  },
+  {
+   "club": "AZ Alkmaar",
+   "club_id": "1090",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "NL1",
+   "n_signings": 10,
+   "rating": 2.777
+  },
+  {
+   "club": "Manchester United",
+   "club_id": "985",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "GB1",
+   "n_signings": 11,
+   "rating": 2.776
+  },
+  {
+   "club": "AS Saint-Étienne",
+   "club_id": "618",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "FR1",
+   "n_signings": 11,
+   "rating": 2.775
+  },
+  {
+   "club": "West Ham United",
+   "club_id": "379",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "GB1",
+   "n_signings": 8,
+   "rating": 2.774
+  },
+  {
+   "club": "Manchester United",
+   "club_id": "985",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "GB1",
+   "n_signings": 8,
+   "rating": 2.772
+  },
+  {
+   "club": "Sporting CP",
+   "club_id": "336",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "PO1",
+   "n_signings": 7,
+   "rating": 2.766
+  },
+  {
+   "club": "Arminia Bielefeld",
+   "club_id": "10",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "L1",
+   "n_signings": 6,
+   "rating": 2.765
+  },
+  {
+   "club": "SC Farense",
+   "club_id": "4294",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "PO1",
+   "n_signings": 12,
+   "rating": 2.765
+  },
+  {
+   "club": "Real Betis Balompié",
+   "club_id": "150",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "ES1",
+   "n_signings": 5,
+   "rating": 2.764
+  },
+  {
+   "club": "Casa Pia AC",
+   "club_id": "3268",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "PO1",
+   "n_signings": 11,
+   "rating": 2.759
+  },
+  {
+   "club": "OGC Nice",
+   "club_id": "417",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "FR1",
+   "n_signings": 10,
+   "rating": 2.756
+  },
+  {
+   "club": "SSC Napoli",
+   "club_id": "6195",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "IT1",
+   "n_signings": 14,
+   "rating": 2.753
+  },
+  {
+   "club": "Atalanta BC",
+   "club_id": "800",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "IT1",
+   "n_signings": 11,
+   "rating": 2.751
+  },
+  {
+   "club": "Bayer 04 Leverkusen",
+   "club_id": "15",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "L1",
+   "n_signings": 20,
+   "rating": 2.743
+  },
+  {
+   "club": "Vitória Guimarães SC",
+   "club_id": "2420",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "PO1",
+   "n_signings": 11,
+   "rating": 2.739
+  },
+  {
+   "club": "Frosinone Calcio",
+   "club_id": "8970",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "IT1",
+   "n_signings": 18,
+   "rating": 2.739
+  },
+  {
+   "club": "Inter Milan",
+   "club_id": "46",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "IT1",
+   "n_signings": 8,
+   "rating": 2.738
+  },
+  {
+   "club": "SC Cambuur Leeuwarden",
+   "club_id": "133",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "NL1",
+   "n_signings": 6,
+   "rating": 2.736
+  },
+  {
+   "club": "FC Toulouse",
+   "club_id": "415",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "FR1",
+   "n_signings": 12,
+   "rating": 2.732
+  },
+  {
+   "club": "Leeds United",
+   "club_id": "399",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "GB1",
+   "n_signings": 11,
+   "rating": 2.728
+  },
+  {
+   "club": "VfL Wolfsburg",
+   "club_id": "82",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "L1",
+   "n_signings": 15,
+   "rating": 2.728
+  },
+  {
+   "club": "Eintracht Frankfurt",
+   "club_id": "24",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "L1",
+   "n_signings": 9,
+   "rating": 2.726
+  },
+  {
+   "club": "Atalanta BC",
+   "club_id": "800",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "IT1",
+   "n_signings": 11,
+   "rating": 2.726
+  },
+  {
+   "club": "Hellas Verona",
+   "club_id": "276",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "IT1",
+   "n_signings": 22,
+   "rating": 2.724
+  },
+  {
+   "club": "Como 1907",
+   "club_id": "1047",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "IT1",
+   "n_signings": 27,
+   "rating": 2.723
+  },
+  {
+   "club": "FC Porto",
+   "club_id": "720",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "PO1",
+   "n_signings": 9,
+   "rating": 2.722
+  },
+  {
+   "club": "AZ Alkmaar",
+   "club_id": "1090",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "NL1",
+   "n_signings": 11,
+   "rating": 2.721
+  },
+  {
+   "club": "Wolverhampton Wanderers",
+   "club_id": "543",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "GB1",
+   "n_signings": 8,
+   "rating": 2.72
+  },
+  {
+   "club": "Boavista FC",
+   "club_id": "2503",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "PO1",
+   "n_signings": 8,
+   "rating": 2.719
+  },
+  {
+   "club": "Paris Saint-Germain",
+   "club_id": "583",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "FR1",
+   "n_signings": 6,
+   "rating": 2.715
+  },
+  {
+   "club": "FC Emmen",
+   "club_id": "1283",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "NL1",
+   "n_signings": 13,
+   "rating": 2.713
+  },
+  {
+   "club": "VfL Bochum",
+   "club_id": "80",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "L1",
+   "n_signings": 11,
+   "rating": 2.713
+  },
+  {
+   "club": "FC Augsburg",
+   "club_id": "167",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "L1",
+   "n_signings": 12,
+   "rating": 2.712
+  },
+  {
+   "club": "Granada CF",
+   "club_id": "16795",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "ES1",
+   "n_signings": 12,
+   "rating": 2.711
+  },
+  {
+   "club": "RKC Waalwijk",
+   "club_id": "235",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "NL1",
+   "n_signings": 9,
+   "rating": 2.711
+  },
+  {
+   "club": "Tottenham Hotspur",
+   "club_id": "148",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "GB1",
+   "n_signings": 11,
+   "rating": 2.704
+  },
+  {
+   "club": "RCD Espanyol Barcelona",
+   "club_id": "714",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "ES1",
+   "n_signings": 16,
+   "rating": 2.7
+  },
+  {
+   "club": "Sheffield United",
+   "club_id": "350",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "GB1",
+   "n_signings": 9,
+   "rating": 2.699
+  },
+  {
+   "club": "RKC Waalwijk",
+   "club_id": "235",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "NL1",
+   "n_signings": 11,
+   "rating": 2.697
+  },
+  {
+   "club": "GD Estoril Praia",
+   "club_id": "1465",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "PO1",
+   "n_signings": 14,
+   "rating": 2.696
+  },
+  {
+   "club": "Borussia Dortmund",
+   "club_id": "16",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "L1",
+   "n_signings": 11,
+   "rating": 2.689
+  },
+  {
+   "club": "CA Osasuna",
+   "club_id": "331",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "ES1",
+   "n_signings": 5,
+   "rating": 2.686
+  },
+  {
+   "club": "Feyenoord Rotterdam",
+   "club_id": "234",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "NL1",
+   "n_signings": 11,
+   "rating": 2.678
+  },
+  {
+   "club": "Olympique Lyon",
+   "club_id": "1041",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "FR1",
+   "n_signings": 6,
+   "rating": 2.677
+  },
+  {
+   "club": "Athletic Bilbao",
+   "club_id": "621",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "ES1",
+   "n_signings": 7,
+   "rating": 2.671
+  },
+  {
+   "club": "FC Groningen",
+   "club_id": "202",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "NL1",
+   "n_signings": 15,
+   "rating": 2.67
+  },
+  {
+   "club": "Vitória Guimarães SC",
+   "club_id": "2420",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "PO1",
+   "n_signings": 12,
+   "rating": 2.669
+  },
+  {
+   "club": "PSV Eindhoven",
+   "club_id": "383",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "NL1",
+   "n_signings": 9,
+   "rating": 2.669
+  },
+  {
+   "club": "Boavista FC",
+   "club_id": "2503",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "PO1",
+   "n_signings": 8,
+   "rating": 2.667
+  },
+  {
+   "club": "Tottenham Hotspur",
+   "club_id": "148",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "GB1",
+   "n_signings": 6,
+   "rating": 2.664
+  },
+  {
+   "club": "B SAD (2018-2024)",
+   "club_id": "2457",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "PO1",
+   "n_signings": 14,
+   "rating": 2.664
+  },
+  {
+   "club": "Rio Ave FC",
+   "club_id": "2425",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "PO1",
+   "n_signings": 18,
+   "rating": 2.663
+  },
+  {
+   "club": "Newcastle United",
+   "club_id": "762",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "GB1",
+   "n_signings": 9,
+   "rating": 2.662
+  },
+  {
+   "club": "US Sassuolo",
+   "club_id": "6574",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "IT1",
+   "n_signings": 10,
+   "rating": 2.66
+  },
+  {
+   "club": "Udinese Calcio",
+   "club_id": "410",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "IT1",
+   "n_signings": 17,
+   "rating": 2.659
+  },
+  {
+   "club": "Go Ahead Eagles",
+   "club_id": "1435",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "NL1",
+   "n_signings": 7,
+   "rating": 2.658
+  },
+  {
+   "club": "Torino FC",
+   "club_id": "416",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "IT1",
+   "n_signings": 16,
+   "rating": 2.658
+  },
+  {
+   "club": "Brentford FC",
+   "club_id": "1148",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "GB1",
+   "n_signings": 8,
+   "rating": 2.656
+  },
+  {
+   "club": "SS Lazio",
+   "club_id": "398",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "IT1",
+   "n_signings": 9,
+   "rating": 2.655
+  },
+  {
+   "club": "RC Lens",
+   "club_id": "826",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "FR1",
+   "n_signings": 11,
+   "rating": 2.655
+  },
+  {
+   "club": "Bologna FC 1909",
+   "club_id": "1025",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "IT1",
+   "n_signings": 11,
+   "rating": 2.651
+  },
+  {
+   "club": "Gil Vicente FC",
+   "club_id": "2424",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "PO1",
+   "n_signings": 17,
+   "rating": 2.65
+  },
+  {
+   "club": "Gil Vicente FC",
+   "club_id": "2424",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "PO1",
+   "n_signings": 10,
+   "rating": 2.648
+  },
+  {
+   "club": "RB Leipzig",
+   "club_id": "23826",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "L1",
+   "n_signings": 10,
+   "rating": 2.644
+  },
+  {
+   "club": "Deportivo Alavés",
+   "club_id": "1108",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "ES1",
+   "n_signings": 14,
+   "rating": 2.641
+  },
+  {
+   "club": "Heracles Almelo",
+   "club_id": "1304",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "NL1",
+   "n_signings": 13,
+   "rating": 2.641
+  },
+  {
+   "club": "Stade Reims",
+   "club_id": "1421",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "FR1",
+   "n_signings": 12,
+   "rating": 2.64
+  },
+  {
+   "club": "SSC Napoli",
+   "club_id": "6195",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "IT1",
+   "n_signings": 10,
+   "rating": 2.639
+  },
+  {
+   "club": "Parma Calcio 1913",
+   "club_id": "130",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "IT1",
+   "n_signings": 15,
+   "rating": 2.638
+  },
+  {
+   "club": "West Ham United",
+   "club_id": "379",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "GB1",
+   "n_signings": 7,
+   "rating": 2.634
+  },
+  {
+   "club": "Casa Pia AC",
+   "club_id": "3268",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "PO1",
+   "n_signings": 12,
+   "rating": 2.632
+  },
+  {
+   "club": "FC Vizela",
+   "club_id": "6912",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "PO1",
+   "n_signings": 12,
+   "rating": 2.632
+  },
+  {
+   "club": "Hertha BSC",
+   "club_id": "44",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "L1",
+   "n_signings": 14,
+   "rating": 2.628
+  },
+  {
+   "club": "AC Monza",
+   "club_id": "2919",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "IT1",
+   "n_signings": 18,
+   "rating": 2.624
+  },
+  {
+   "club": "Arminia Bielefeld",
+   "club_id": "10",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "L1",
+   "n_signings": 15,
+   "rating": 2.621
+  },
+  {
+   "club": "Portimonense SAD",
+   "club_id": "7378",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "PO1",
+   "n_signings": 19,
+   "rating": 2.621
+  },
+  {
+   "club": "FC Augsburg",
+   "club_id": "167",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "L1",
+   "n_signings": 16,
+   "rating": 2.613
+  },
+  {
+   "club": "1.FC Köln",
+   "club_id": "3",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "L1",
+   "n_signings": 10,
+   "rating": 2.61
+  },
+  {
+   "club": "PSV Eindhoven",
+   "club_id": "383",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "NL1",
+   "n_signings": 11,
+   "rating": 2.61
+  },
+  {
+   "club": "SC Heerenveen",
+   "club_id": "306",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "NL1",
+   "n_signings": 10,
+   "rating": 2.609
+  },
+  {
+   "club": "Borussia Mönchengladbach",
+   "club_id": "18",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "L1",
+   "n_signings": 5,
+   "rating": 2.606
+  },
+  {
+   "club": "RB Leipzig",
+   "club_id": "23826",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "L1",
+   "n_signings": 9,
+   "rating": 2.605
+  },
+  {
+   "club": "VfB Stuttgart",
+   "club_id": "79",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "L1",
+   "n_signings": 10,
+   "rating": 2.596
+  },
+  {
+   "club": "FC Lorient",
+   "club_id": "1158",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "FR1",
+   "n_signings": 11,
+   "rating": 2.589
+  },
+  {
+   "club": "SL Benfica",
+   "club_id": "294",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "PO1",
+   "n_signings": 14,
+   "rating": 2.581
+  },
+  {
+   "club": "Manchester City",
+   "club_id": "281",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "GB1",
+   "n_signings": 8,
+   "rating": 2.58
+  },
+  {
+   "club": "West Ham United",
+   "club_id": "379",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "GB1",
+   "n_signings": 5,
+   "rating": 2.58
+  },
+  {
+   "club": "Borussia Mönchengladbach",
+   "club_id": "18",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "L1",
+   "n_signings": 8,
+   "rating": 2.578
+  },
+  {
+   "club": "SC Freiburg",
+   "club_id": "60",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "L1",
+   "n_signings": 8,
+   "rating": 2.578
+  },
+  {
+   "club": "Bologna FC 1909",
+   "club_id": "1025",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "IT1",
+   "n_signings": 15,
+   "rating": 2.576
+  },
+  {
+   "club": "CD Tondela",
+   "club_id": "7179",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "PO1",
+   "n_signings": 13,
+   "rating": 2.573
+  },
+  {
+   "club": "ACF Fiorentina",
+   "club_id": "430",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "IT1",
+   "n_signings": 17,
+   "rating": 2.566
+  },
+  {
+   "club": "Genoa CFC",
+   "club_id": "252",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "IT1",
+   "n_signings": 20,
+   "rating": 2.564
+  },
+  {
+   "club": "AFC Bournemouth",
+   "club_id": "989",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "GB1",
+   "n_signings": 7,
+   "rating": 2.564
+  },
+  {
+   "club": "AC Milan",
+   "club_id": "5",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "IT1",
+   "n_signings": 14,
+   "rating": 2.559
+  },
+  {
+   "club": "SpVgg Greuther Fürth",
+   "club_id": "65",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "L1",
+   "n_signings": 13,
+   "rating": 2.555
+  },
+  {
+   "club": "Norwich City",
+   "club_id": "1123",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "GB1",
+   "n_signings": 9,
+   "rating": 2.554
+  },
+  {
+   "club": "Olympique Lyon",
+   "club_id": "1041",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "FR1",
+   "n_signings": 18,
+   "rating": 2.548
+  },
+  {
+   "club": "Liverpool FC",
+   "club_id": "31",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "GB1",
+   "n_signings": 5,
+   "rating": 2.545
+  },
+  {
+   "club": "Sporting CP",
+   "club_id": "336",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "PO1",
+   "n_signings": 12,
+   "rating": 2.545
+  },
+  {
+   "club": "Bayer 04 Leverkusen",
+   "club_id": "15",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "L1",
+   "n_signings": 6,
+   "rating": 2.544
+  },
+  {
+   "club": "Olympique Lyon",
+   "club_id": "1041",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "FR1",
+   "n_signings": 10,
+   "rating": 2.537
+  },
+  {
+   "club": "Willem II Tilburg",
+   "club_id": "403",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "NL1",
+   "n_signings": 7,
+   "rating": 2.537
+  },
+  {
+   "club": "Almere City FC",
+   "club_id": "723",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "NL1",
+   "n_signings": 4,
+   "rating": 2.536
+  },
+  {
+   "club": "Inter Milan",
+   "club_id": "46",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "IT1",
+   "n_signings": 12,
+   "rating": 2.535
+  },
+  {
+   "club": "Udinese Calcio",
+   "club_id": "410",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "IT1",
+   "n_signings": 14,
+   "rating": 2.534
+  },
+  {
+   "club": "AS Monaco",
+   "club_id": "162",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "FR1",
+   "n_signings": 15,
+   "rating": 2.527
+  },
+  {
+   "club": "Paris Saint-Germain",
+   "club_id": "583",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "FR1",
+   "n_signings": 10,
+   "rating": 2.526
+  },
+  {
+   "club": "US Salernitana 1919",
+   "club_id": "380",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "IT1",
+   "n_signings": 13,
+   "rating": 2.525
+  },
+  {
+   "club": "FC Schalke 04",
+   "club_id": "33",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "L1",
+   "n_signings": 20,
+   "rating": 2.524
+  },
+  {
+   "club": "1.FC Köln",
+   "club_id": "3",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "L1",
+   "n_signings": 9,
+   "rating": 2.521
+  },
+  {
+   "club": "RC Strasbourg Alsace",
+   "club_id": "667",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "FR1",
+   "n_signings": 14,
+   "rating": 2.518
+  },
+  {
+   "club": "Newcastle United",
+   "club_id": "762",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "GB1",
+   "n_signings": 5,
+   "rating": 2.518
+  },
+  {
+   "club": "FC Lorient",
+   "club_id": "1158",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "FR1",
+   "n_signings": 8,
+   "rating": 2.51
+  },
+  {
+   "club": "Torino FC",
+   "club_id": "416",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "IT1",
+   "n_signings": 13,
+   "rating": 2.502
+  },
+  {
+   "club": "Liverpool FC",
+   "club_id": "31",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "GB1",
+   "n_signings": 7,
+   "rating": 2.501
+  },
+  {
+   "club": "Valencia CF",
+   "club_id": "1049",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "ES1",
+   "n_signings": 6,
+   "rating": 2.499
+  },
+  {
+   "club": "Paris Saint-Germain",
+   "club_id": "583",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "FR1",
+   "n_signings": 6,
+   "rating": 2.499
+  },
+  {
+   "club": "Juventus FC",
+   "club_id": "506",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "IT1",
+   "n_signings": 10,
+   "rating": 2.495
+  },
+  {
+   "club": "Getafe CF",
+   "club_id": "3709",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "ES1",
+   "n_signings": 9,
+   "rating": 2.494
+  },
+  {
+   "club": "Real Betis Balompié",
+   "club_id": "150",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "ES1",
+   "n_signings": 15,
+   "rating": 2.491
+  },
+  {
+   "club": "Portimonense SAD",
+   "club_id": "7378",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "PO1",
+   "n_signings": 10,
+   "rating": 2.49
+  },
+  {
+   "club": "SSC Napoli",
+   "club_id": "6195",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "IT1",
+   "n_signings": 19,
+   "rating": 2.487
+  },
+  {
+   "club": "Atlético de Madrid",
+   "club_id": "13",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "ES1",
+   "n_signings": 10,
+   "rating": 2.482
+  },
+  {
+   "club": "SC Braga",
+   "club_id": "1075",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "PO1",
+   "n_signings": 10,
+   "rating": 2.481
+  },
+  {
+   "club": "Olympique Marseille",
+   "club_id": "244",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "FR1",
+   "n_signings": 16,
+   "rating": 2.478
+  },
+  {
+   "club": "Portimonense SAD",
+   "club_id": "7378",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "PO1",
+   "n_signings": 12,
+   "rating": 2.478
+  },
+  {
+   "club": "FC Groningen",
+   "club_id": "202",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "NL1",
+   "n_signings": 13,
+   "rating": 2.475
+  },
+  {
+   "club": "VfL Bochum",
+   "club_id": "80",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "L1",
+   "n_signings": 10,
+   "rating": 2.473
+  },
+  {
+   "club": "CD Tondela",
+   "club_id": "7179",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "PO1",
+   "n_signings": 13,
+   "rating": 2.472
+  },
+  {
+   "club": "Atalanta BC",
+   "club_id": "800",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "IT1",
+   "n_signings": 14,
+   "rating": 2.472
+  },
+  {
+   "club": "Southampton FC",
+   "club_id": "180",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "GB1",
+   "n_signings": 16,
+   "rating": 2.47
+  },
+  {
+   "club": "1.FC Union Berlin",
+   "club_id": "89",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "L1",
+   "n_signings": 10,
+   "rating": 2.469
+  },
+  {
+   "club": "Spezia Calcio",
+   "club_id": "3522",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "IT1",
+   "n_signings": 25,
+   "rating": 2.465
+  },
+  {
+   "club": "Chelsea FC",
+   "club_id": "631",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "GB1",
+   "n_signings": 20,
+   "rating": 2.463
+  },
+  {
+   "club": "CD Nacional",
+   "club_id": "982",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "PO1",
+   "n_signings": 13,
+   "rating": 2.455
+  },
+  {
+   "club": "Clermont Foot 63",
+   "club_id": "3524",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "FR1",
+   "n_signings": 8,
+   "rating": 2.453
+  },
+  {
+   "club": "SC Freiburg",
+   "club_id": "60",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "L1",
+   "n_signings": 9,
+   "rating": 2.452
+  },
+  {
+   "club": "Spezia Calcio",
+   "club_id": "3522",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "IT1",
+   "n_signings": 13,
+   "rating": 2.446
+  },
+  {
+   "club": "Juventus FC",
+   "club_id": "506",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "IT1",
+   "n_signings": 10,
+   "rating": 2.443
+  },
+  {
+   "club": "Sevilla FC",
+   "club_id": "368",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "ES1",
+   "n_signings": 9,
+   "rating": 2.442
+  },
+  {
+   "club": "FC Toulouse",
+   "club_id": "415",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "FR1",
+   "n_signings": 6,
+   "rating": 2.442
+  },
+  {
+   "club": "Deportivo Alavés",
+   "club_id": "1108",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "ES1",
+   "n_signings": 7,
+   "rating": 2.44
+  },
+  {
+   "club": "Olympique Marseille",
+   "club_id": "244",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "FR1",
+   "n_signings": 15,
+   "rating": 2.44
+  },
+  {
+   "club": "FC Famalicão",
+   "club_id": "3329",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "PO1",
+   "n_signings": 11,
+   "rating": 2.438
+  },
+  {
+   "club": "Vitória Setúbal FC",
+   "club_id": "1085",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "PO1",
+   "n_signings": 8,
+   "rating": 2.437
+  },
+  {
+   "club": "1.FSV Mainz 05",
+   "club_id": "39",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "L1",
+   "n_signings": 12,
+   "rating": 2.428
+  },
+  {
+   "club": "FC Arouca",
+   "club_id": "8024",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "PO1",
+   "n_signings": 14,
+   "rating": 2.428
+  },
+  {
+   "club": "TSG 1899 Hoffenheim",
+   "club_id": "533",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "L1",
+   "n_signings": 10,
+   "rating": 2.424
+  },
+  {
+   "club": "Gil Vicente FC",
+   "club_id": "2424",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "PO1",
+   "n_signings": 19,
+   "rating": 2.422
+  },
+  {
+   "club": "US Salernitana 1919",
+   "club_id": "380",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "IT1",
+   "n_signings": 29,
+   "rating": 2.417
+  },
+  {
+   "club": "FC Vizela",
+   "club_id": "6912",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "PO1",
+   "n_signings": 7,
+   "rating": 2.407
+  },
+  {
+   "club": "Stade Brestois 29",
+   "club_id": "3911",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "FR1",
+   "n_signings": 10,
+   "rating": 2.404
+  },
+  {
+   "club": "Sparta Rotterdam",
+   "club_id": "468",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "NL1",
+   "n_signings": 8,
+   "rating": 2.401
+  },
+  {
+   "club": "CS Marítimo",
+   "club_id": "1301",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "PO1",
+   "n_signings": 11,
+   "rating": 2.397
+  },
+  {
+   "club": "Everton FC",
+   "club_id": "29",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "GB1",
+   "n_signings": 5,
+   "rating": 2.396
+  },
+  {
+   "club": "Ajax Amsterdam",
+   "club_id": "610",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "NL1",
+   "n_signings": 15,
+   "rating": 2.394
+  },
+  {
+   "club": "Hellas Verona",
+   "club_id": "276",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "IT1",
+   "n_signings": 14,
+   "rating": 2.39
+  },
+  {
+   "club": "Cagliari Calcio",
+   "club_id": "1390",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "IT1",
+   "n_signings": 11,
+   "rating": 2.389
+  },
+  {
+   "club": "Aston Villa",
+   "club_id": "405",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "GB1",
+   "n_signings": 15,
+   "rating": 2.388
+  },
+  {
+   "club": "ADO Den Haag",
+   "club_id": "1268",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "NL1",
+   "n_signings": 18,
+   "rating": 2.385
+  },
+  {
+   "club": "Sporting CP",
+   "club_id": "336",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "PO1",
+   "n_signings": 16,
+   "rating": 2.385
+  },
+  {
+   "club": "FC Porto",
+   "club_id": "720",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "PO1",
+   "n_signings": 15,
+   "rating": 2.382
+  },
+  {
+   "club": "Rio Ave FC",
+   "club_id": "2425",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "PO1",
+   "n_signings": 11,
+   "rating": 2.377
+  },
+  {
+   "club": "Getafe CF",
+   "club_id": "3709",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "ES1",
+   "n_signings": 11,
+   "rating": 2.375
+  },
+  {
+   "club": "Crystal Palace",
+   "club_id": "873",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "GB1",
+   "n_signings": 5,
+   "rating": 2.373
+  },
+  {
+   "club": "Burnley FC",
+   "club_id": "1132",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "GB1",
+   "n_signings": 4,
+   "rating": 2.372
+  },
+  {
+   "club": "Feyenoord Rotterdam",
+   "club_id": "234",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "NL1",
+   "n_signings": 7,
+   "rating": 2.367
+  },
+  {
+   "club": "SC Telstar",
+   "club_id": "1434",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "NL1",
+   "n_signings": 8,
+   "rating": 2.366
+  },
+  {
+   "club": "Burnley FC",
+   "club_id": "1132",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "GB1",
+   "n_signings": 14,
+   "rating": 2.363
+  },
+  {
+   "club": "AC Monza",
+   "club_id": "2919",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "IT1",
+   "n_signings": 12,
+   "rating": 2.362
+  },
+  {
+   "club": "AFC Bournemouth",
+   "club_id": "989",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "GB1",
+   "n_signings": 11,
+   "rating": 2.362
+  },
+  {
+   "club": "Montpellier HSC",
+   "club_id": "969",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "FR1",
+   "n_signings": 6,
+   "rating": 2.348
+  },
+  {
+   "club": "FC Utrecht",
+   "club_id": "200",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "NL1",
+   "n_signings": 14,
+   "rating": 2.347
+  },
+  {
+   "club": "ACF Fiorentina",
+   "club_id": "430",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "IT1",
+   "n_signings": 17,
+   "rating": 2.341
+  },
+  {
+   "club": "Hellas Verona",
+   "club_id": "276",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "IT1",
+   "n_signings": 22,
+   "rating": 2.339
+  },
+  {
+   "club": "ACF Fiorentina",
+   "club_id": "430",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "IT1",
+   "n_signings": 10,
+   "rating": 2.339
+  },
+  {
+   "club": "Fortuna Sittard",
+   "club_id": "385",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "NL1",
+   "n_signings": 14,
+   "rating": 2.335
+  },
+  {
+   "club": "SD Huesca",
+   "club_id": "5358",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "ES1",
+   "n_signings": 10,
+   "rating": 2.333
+  },
+  {
+   "club": "SC Braga",
+   "club_id": "1075",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "PO1",
+   "n_signings": 12,
+   "rating": 2.332
+  },
+  {
+   "club": "Atalanta BC",
+   "club_id": "800",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "IT1",
+   "n_signings": 7,
+   "rating": 2.332
+  },
+  {
+   "club": "Liverpool FC",
+   "club_id": "31",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "GB1",
+   "n_signings": 4,
+   "rating": 2.324
+  },
+  {
+   "club": "Gil Vicente FC",
+   "club_id": "2424",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "PO1",
+   "n_signings": 13,
+   "rating": 2.32
+  },
+  {
+   "club": "US Lecce",
+   "club_id": "1005",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "IT1",
+   "n_signings": 17,
+   "rating": 2.316
+  },
+  {
+   "club": "Manchester City",
+   "club_id": "281",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "GB1",
+   "n_signings": 7,
+   "rating": 2.316
+  },
+  {
+   "club": "CF Estrela Amadora",
+   "club_id": "2431",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "PO1",
+   "n_signings": 30,
+   "rating": 2.309
+  },
+  {
+   "club": "SV Werder Bremen",
+   "club_id": "86",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "L1",
+   "n_signings": 3,
+   "rating": 2.309
+  },
+  {
+   "club": "1.FSV Mainz 05",
+   "club_id": "39",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "L1",
+   "n_signings": 8,
+   "rating": 2.306
+  },
+  {
+   "club": "Feyenoord Rotterdam",
+   "club_id": "234",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "NL1",
+   "n_signings": 16,
+   "rating": 2.302
+  },
+  {
+   "club": "Paris Saint-Germain",
+   "club_id": "583",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "FR1",
+   "n_signings": 7,
+   "rating": 2.297
+  },
+  {
+   "club": "Bayern Munich",
+   "club_id": "27",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "L1",
+   "n_signings": 10,
+   "rating": 2.295
+  },
+  {
+   "club": "RC Lens",
+   "club_id": "826",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "FR1",
+   "n_signings": 15,
+   "rating": 2.294
+  },
+  {
+   "club": "Real Sociedad",
+   "club_id": "681",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "ES1",
+   "n_signings": 12,
+   "rating": 2.293
+  },
+  {
+   "club": "Atalanta BC",
+   "club_id": "800",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "IT1",
+   "n_signings": 11,
+   "rating": 2.289
+  },
+  {
+   "club": "CD Nacional",
+   "club_id": "982",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "PO1",
+   "n_signings": 13,
+   "rating": 2.287
+  },
+  {
+   "club": "Avs Futebol",
+   "club_id": "110302",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "PO1",
+   "n_signings": 17,
+   "rating": 2.283
+  },
+  {
+   "club": "Watford FC",
+   "club_id": "1010",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "GB1",
+   "n_signings": 7,
+   "rating": 2.282
+  },
+  {
+   "club": "UC Sampdoria",
+   "club_id": "1038",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "IT1",
+   "n_signings": 13,
+   "rating": 2.281
+  },
+  {
+   "club": "Udinese Calcio",
+   "club_id": "410",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "IT1",
+   "n_signings": 10,
+   "rating": 2.275
+  },
+  {
+   "club": "Real Valladolid CF",
+   "club_id": "366",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "ES1",
+   "n_signings": 6,
+   "rating": 2.272
+  },
+  {
+   "club": "Juventus FC",
+   "club_id": "506",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "IT1",
+   "n_signings": 8,
+   "rating": 2.272
+  },
+  {
+   "club": "Olympique Marseille",
+   "club_id": "244",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "FR1",
+   "n_signings": 15,
+   "rating": 2.271
+  },
+  {
+   "club": "Sevilla FC",
+   "club_id": "368",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "ES1",
+   "n_signings": 10,
+   "rating": 2.267
+  },
+  {
+   "club": "Elche CF",
+   "club_id": "1531",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "ES1",
+   "n_signings": 9,
+   "rating": 2.266
+  },
+  {
+   "club": "Angers SCO",
+   "club_id": "1420",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "FR1",
+   "n_signings": 16,
+   "rating": 2.265
+  },
+  {
+   "club": "Granada CF",
+   "club_id": "16795",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "ES1",
+   "n_signings": 16,
+   "rating": 2.265
+  },
+  {
+   "club": "Tottenham Hotspur",
+   "club_id": "148",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "GB1",
+   "n_signings": 9,
+   "rating": 2.262
+  },
+  {
+   "club": "Nottingham Forest",
+   "club_id": "703",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "GB1",
+   "n_signings": 27,
+   "rating": 2.261
+  },
+  {
+   "club": "Chelsea FC",
+   "club_id": "631",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "GB1",
+   "n_signings": 7,
+   "rating": 2.253
+  },
+  {
+   "club": "AS Roma",
+   "club_id": "12",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "IT1",
+   "n_signings": 14,
+   "rating": 2.252
+  },
+  {
+   "club": "UD Almería",
+   "club_id": "3302",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "ES1",
+   "n_signings": 15,
+   "rating": 2.252
+  },
+  {
+   "club": "Manchester City",
+   "club_id": "281",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "GB1",
+   "n_signings": 8,
+   "rating": 2.25
+  },
+  {
+   "club": "SSC Napoli",
+   "club_id": "6195",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "IT1",
+   "n_signings": 5,
+   "rating": 2.249
+  },
+  {
+   "club": "TSG 1899 Hoffenheim",
+   "club_id": "533",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "L1",
+   "n_signings": 8,
+   "rating": 2.248
+  },
+  {
+   "club": "Juventus FC",
+   "club_id": "506",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "IT1",
+   "n_signings": 10,
+   "rating": 2.247
+  },
+  {
+   "club": "Deportivo Alavés",
+   "club_id": "1108",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "ES1",
+   "n_signings": 6,
+   "rating": 2.245
+  },
+  {
+   "club": "Deportivo Alavés",
+   "club_id": "1108",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "ES1",
+   "n_signings": 10,
+   "rating": 2.242
+  },
+  {
+   "club": "Sevilla FC",
+   "club_id": "368",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "ES1",
+   "n_signings": 16,
+   "rating": 2.24
+  },
+  {
+   "club": "Olympique Lyon",
+   "club_id": "1041",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "FR1",
+   "n_signings": 13,
+   "rating": 2.235
+  },
+  {
+   "club": "Manchester United",
+   "club_id": "985",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "GB1",
+   "n_signings": 8,
+   "rating": 2.233
+  },
+  {
+   "club": "Cádiz CF",
+   "club_id": "2687",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "ES1",
+   "n_signings": 14,
+   "rating": 2.228
+  },
+  {
+   "club": "FC Famalicão",
+   "club_id": "3329",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "PO1",
+   "n_signings": 14,
+   "rating": 2.225
+  },
+  {
+   "club": "CF Estrela Amadora",
+   "club_id": "2431",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "PO1",
+   "n_signings": 21,
+   "rating": 2.22
+  },
+  {
+   "club": "VfL Wolfsburg",
+   "club_id": "82",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "L1",
+   "n_signings": 6,
+   "rating": 2.218
+  },
+  {
+   "club": "1.FSV Mainz 05",
+   "club_id": "39",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "L1",
+   "n_signings": 8,
+   "rating": 2.216
+  },
+  {
+   "club": "Udinese Calcio",
+   "club_id": "410",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "IT1",
+   "n_signings": 9,
+   "rating": 2.207
+  },
+  {
+   "club": "GD Estoril Praia",
+   "club_id": "1465",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "PO1",
+   "n_signings": 10,
+   "rating": 2.19
+  },
+  {
+   "club": "RCD Mallorca",
+   "club_id": "237",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "ES1",
+   "n_signings": 7,
+   "rating": 2.189
+  },
+  {
+   "club": "FC Augsburg",
+   "club_id": "167",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "L1",
+   "n_signings": 8,
+   "rating": 2.183
+  },
+  {
+   "club": "Bayern Munich",
+   "club_id": "27",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "L1",
+   "n_signings": 9,
+   "rating": 2.183
+  },
+  {
+   "club": "1.FC Union Berlin",
+   "club_id": "89",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "L1",
+   "n_signings": 19,
+   "rating": 2.175
+  },
+  {
+   "club": "Fortuna Düsseldorf",
+   "club_id": "38",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "L1",
+   "n_signings": 11,
+   "rating": 2.173
+  },
+  {
+   "club": "Vitória Guimarães SC",
+   "club_id": "2420",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "PO1",
+   "n_signings": 14,
+   "rating": 2.161
+  },
+  {
+   "club": "Ajax Amsterdam",
+   "club_id": "610",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "NL1",
+   "n_signings": 16,
+   "rating": 2.159
+  },
+  {
+   "club": "Atlético de Madrid",
+   "club_id": "13",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "ES1",
+   "n_signings": 8,
+   "rating": 2.156
+  },
+  {
+   "club": "SD Eibar",
+   "club_id": "1533",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "ES1",
+   "n_signings": 11,
+   "rating": 2.155
+  },
+  {
+   "club": "Torino FC",
+   "club_id": "416",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "IT1",
+   "n_signings": 12,
+   "rating": 2.155
+  },
+  {
+   "club": "FC Metz",
+   "club_id": "347",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "FR1",
+   "n_signings": 11,
+   "rating": 2.154
+  },
+  {
+   "club": "Sparta Rotterdam",
+   "club_id": "468",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "NL1",
+   "n_signings": 10,
+   "rating": 2.149
+  },
+  {
+   "club": "Crystal Palace",
+   "club_id": "873",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "GB1",
+   "n_signings": 8,
+   "rating": 2.147
+  },
+  {
+   "club": "Villarreal CF",
+   "club_id": "1050",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "ES1",
+   "n_signings": 9,
+   "rating": 2.145
+  },
+  {
+   "club": "Wolverhampton Wanderers",
+   "club_id": "543",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "GB1",
+   "n_signings": 12,
+   "rating": 2.138
+  },
+  {
+   "club": "US Sassuolo",
+   "club_id": "6574",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "IT1",
+   "n_signings": 15,
+   "rating": 2.129
+  },
+  {
+   "club": "Southampton FC",
+   "club_id": "180",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "GB1",
+   "n_signings": 4,
+   "rating": 2.127
+  },
+  {
+   "club": "Celta de Vigo",
+   "club_id": "940",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "ES1",
+   "n_signings": 12,
+   "rating": 2.126
+  },
+  {
+   "club": "US Sassuolo",
+   "club_id": "6574",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "IT1",
+   "n_signings": 13,
+   "rating": 2.124
+  },
+  {
+   "club": "Wolverhampton Wanderers",
+   "club_id": "543",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "GB1",
+   "n_signings": 9,
+   "rating": 2.12
+  },
+  {
+   "club": "Genoa CFC",
+   "club_id": "252",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "IT1",
+   "n_signings": 26,
+   "rating": 2.119
+  },
+  {
+   "club": "Udinese Calcio",
+   "club_id": "410",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "IT1",
+   "n_signings": 14,
+   "rating": 2.118
+  },
+  {
+   "club": "Girona FC",
+   "club_id": "12321",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "ES1",
+   "n_signings": 8,
+   "rating": 2.117
+  },
+  {
+   "club": "FC Nantes",
+   "club_id": "995",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "FR1",
+   "n_signings": 14,
+   "rating": 2.111
+  },
+  {
+   "club": "Clermont Foot 63",
+   "club_id": "3524",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "FR1",
+   "n_signings": 10,
+   "rating": 2.105
+  },
+  {
+   "club": "Everton FC",
+   "club_id": "29",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "GB1",
+   "n_signings": 8,
+   "rating": 2.104
+  },
+  {
+   "club": "Cádiz CF",
+   "club_id": "2687",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "ES1",
+   "n_signings": 15,
+   "rating": 2.102
+  },
+  {
+   "club": "Manchester City",
+   "club_id": "281",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "GB1",
+   "n_signings": 7,
+   "rating": 2.101
+  },
+  {
+   "club": "AS Roma",
+   "club_id": "12",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "IT1",
+   "n_signings": 12,
+   "rating": 2.099
+  },
+  {
+   "club": "Ajax Amsterdam",
+   "club_id": "610",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "NL1",
+   "n_signings": 18,
+   "rating": 2.095
+  },
+  {
+   "club": "Liverpool FC",
+   "club_id": "31",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "GB1",
+   "n_signings": 9,
+   "rating": 2.093
+  },
+  {
+   "club": "SV Werder Bremen",
+   "club_id": "86",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "L1",
+   "n_signings": 10,
+   "rating": 2.085
+  },
+  {
+   "club": "FC Nantes",
+   "club_id": "995",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "FR1",
+   "n_signings": 8,
+   "rating": 2.084
+  },
+  {
+   "club": "Genoa CFC",
+   "club_id": "252",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "IT1",
+   "n_signings": 18,
+   "rating": 2.079
+  },
+  {
+   "club": "CA Osasuna",
+   "club_id": "331",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "ES1",
+   "n_signings": 13,
+   "rating": 2.079
+  },
+  {
+   "club": "Watford FC",
+   "club_id": "1010",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "GB1",
+   "n_signings": 17,
+   "rating": 2.078
+  },
+  {
+   "club": "SS Lazio",
+   "club_id": "398",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "IT1",
+   "n_signings": 11,
+   "rating": 2.078
+  },
+  {
+   "club": "Brighton & Hove Albion",
+   "club_id": "1237",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "GB1",
+   "n_signings": 9,
+   "rating": 2.077
+  },
+  {
+   "club": "Stade Reims",
+   "club_id": "1421",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "FR1",
+   "n_signings": 11,
+   "rating": 2.073
+  },
+  {
+   "club": "Venezia FC",
+   "club_id": "607",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "IT1",
+   "n_signings": 17,
+   "rating": 2.068
+  },
+  {
+   "club": "FC Arouca",
+   "club_id": "8024",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "PO1",
+   "n_signings": 12,
+   "rating": 2.066
+  },
+  {
+   "club": "Inter Milan",
+   "club_id": "46",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "IT1",
+   "n_signings": 15,
+   "rating": 2.065
+  },
+  {
+   "club": "Atlético de Madrid",
+   "club_id": "13",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "ES1",
+   "n_signings": 9,
+   "rating": 2.059
+  },
+  {
+   "club": "US Lecce",
+   "club_id": "1005",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "IT1",
+   "n_signings": 18,
+   "rating": 2.055
+  },
+  {
+   "club": "Brentford FC",
+   "club_id": "1148",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "GB1",
+   "n_signings": 7,
+   "rating": 2.052
+  },
+  {
+   "club": "Borussia Mönchengladbach",
+   "club_id": "18",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "L1",
+   "n_signings": 6,
+   "rating": 2.05
+  },
+  {
+   "club": "VfB Stuttgart",
+   "club_id": "79",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "L1",
+   "n_signings": 9,
+   "rating": 2.05
+  },
+  {
+   "club": "Desportivo Aves (- 2020)",
+   "club_id": "3336",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "PO1",
+   "n_signings": 20,
+   "rating": 2.049
+  },
+  {
+   "club": "FC Volendam",
+   "club_id": "724",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "NL1",
+   "n_signings": 5,
+   "rating": 2.046
+  },
+  {
+   "club": "SV Werder Bremen",
+   "club_id": "86",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "L1",
+   "n_signings": 10,
+   "rating": 2.044
+  },
+  {
+   "club": "CD Santa Clara",
+   "club_id": "2423",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "PO1",
+   "n_signings": 17,
+   "rating": 2.042
+  },
+  {
+   "club": "ACF Fiorentina",
+   "club_id": "430",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "IT1",
+   "n_signings": 10,
+   "rating": 2.041
+  },
+  {
+   "club": "Wolverhampton Wanderers",
+   "club_id": "543",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "GB1",
+   "n_signings": 10,
+   "rating": 2.034
+  },
+  {
+   "club": "OGC Nice",
+   "club_id": "417",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "FR1",
+   "n_signings": 7,
+   "rating": 2.033
+  },
+  {
+   "club": "Crystal Palace",
+   "club_id": "873",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "GB1",
+   "n_signings": 7,
+   "rating": 2.033
+  },
+  {
+   "club": "AC Milan",
+   "club_id": "5",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "IT1",
+   "n_signings": 13,
+   "rating": 2.031
+  },
+  {
+   "club": "RC Strasbourg Alsace",
+   "club_id": "667",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "FR1",
+   "n_signings": 10,
+   "rating": 2.03
+  },
+  {
+   "club": "Arsenal FC",
+   "club_id": "11",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "GB1",
+   "n_signings": 7,
+   "rating": 2.02
+  },
+  {
+   "club": "Brighton & Hove Albion",
+   "club_id": "1237",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "GB1",
+   "n_signings": 13,
+   "rating": 2.018
+  },
+  {
+   "club": "RCD Mallorca",
+   "club_id": "237",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "ES1",
+   "n_signings": 13,
+   "rating": 2.008
+  },
+  {
+   "club": "Real Valladolid CF",
+   "club_id": "366",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "ES1",
+   "n_signings": 12,
+   "rating": 2.004
+  },
+  {
+   "club": "GD Chaves",
+   "club_id": "3325",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "PO1",
+   "n_signings": 14,
+   "rating": 2.001
+  },
+  {
+   "club": "CD Leganés",
+   "club_id": "1244",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "ES1",
+   "n_signings": 10,
+   "rating": 1.996
+  },
+  {
+   "club": "FC Barcelona",
+   "club_id": "131",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "ES1",
+   "n_signings": 13,
+   "rating": 1.994
+  },
+  {
+   "club": "FC Paços de Ferreira",
+   "club_id": "2995",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "PO1",
+   "n_signings": 9,
+   "rating": 1.993
+  },
+  {
+   "club": "FC Nantes",
+   "club_id": "995",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "FR1",
+   "n_signings": 11,
+   "rating": 1.992
+  },
+  {
+   "club": "Bayern Munich",
+   "club_id": "27",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "L1",
+   "n_signings": 8,
+   "rating": 1.991
+  },
+  {
+   "club": "FC Utrecht",
+   "club_id": "200",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "NL1",
+   "n_signings": 8,
+   "rating": 1.986
+  },
+  {
+   "club": "Parma Calcio 1913",
+   "club_id": "130",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "IT1",
+   "n_signings": 21,
+   "rating": 1.981
+  },
+  {
+   "club": "Parma Calcio 1913",
+   "club_id": "130",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "IT1",
+   "n_signings": 9,
+   "rating": 1.98
+  },
+  {
+   "club": "AC Monza",
+   "club_id": "2919",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "IT1",
+   "n_signings": 13,
+   "rating": 1.978
+  },
+  {
+   "club": "Getafe CF",
+   "club_id": "3709",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "ES1",
+   "n_signings": 9,
+   "rating": 1.978
+  },
+  {
+   "club": "Southampton FC",
+   "club_id": "180",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "GB1",
+   "n_signings": 6,
+   "rating": 1.969
+  },
+  {
+   "club": "RB Leipzig",
+   "club_id": "23826",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "L1",
+   "n_signings": 9,
+   "rating": 1.968
+  },
+  {
+   "club": "AS Monaco",
+   "club_id": "162",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "FR1",
+   "n_signings": 4,
+   "rating": 1.964
+  },
+  {
+   "club": "Tottenham Hotspur",
+   "club_id": "148",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "GB1",
+   "n_signings": 8,
+   "rating": 1.96
+  },
+  {
+   "club": "Cagliari Calcio",
+   "club_id": "1390",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "IT1",
+   "n_signings": 12,
+   "rating": 1.958
+  },
+  {
+   "club": "Stade Rennais FC",
+   "club_id": "273",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "FR1",
+   "n_signings": 11,
+   "rating": 1.956
+  },
+  {
+   "club": "Inter Milan",
+   "club_id": "46",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "IT1",
+   "n_signings": 12,
+   "rating": 1.947
+  },
+  {
+   "club": "Vitória Guimarães SC",
+   "club_id": "2420",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "PO1",
+   "n_signings": 6,
+   "rating": 1.933
+  },
+  {
+   "club": "AS Saint-Étienne",
+   "club_id": "618",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "FR1",
+   "n_signings": 9,
+   "rating": 1.931
+  },
+  {
+   "club": "1.FC Union Berlin",
+   "club_id": "89",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "L1",
+   "n_signings": 15,
+   "rating": 1.93
+  },
+  {
+   "club": "FC Volendam",
+   "club_id": "724",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "NL1",
+   "n_signings": 11,
+   "rating": 1.929
+  },
+  {
+   "club": "SC Paderborn 07",
+   "club_id": "127",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "L1",
+   "n_signings": 11,
+   "rating": 1.919
+  },
+  {
+   "club": "US Salernitana 1919",
+   "club_id": "380",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "IT1",
+   "n_signings": 25,
+   "rating": 1.919
+  },
+  {
+   "club": "Leicester City",
+   "club_id": "1003",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "GB1",
+   "n_signings": 6,
+   "rating": 1.917
+  },
+  {
+   "club": "RCD Espanyol Barcelona",
+   "club_id": "714",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "ES1",
+   "n_signings": 13,
+   "rating": 1.914
+  },
+  {
+   "club": "Nottingham Forest",
+   "club_id": "703",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "GB1",
+   "n_signings": 11,
+   "rating": 1.913
+  },
+  {
+   "club": "CS Marítimo",
+   "club_id": "1301",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "PO1",
+   "n_signings": 16,
+   "rating": 1.91
+  },
+  {
+   "club": "Valencia CF",
+   "club_id": "1049",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "ES1",
+   "n_signings": 5,
+   "rating": 1.902
+  },
+  {
+   "club": "Aston Villa",
+   "club_id": "405",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "GB1",
+   "n_signings": 9,
+   "rating": 1.895
+  },
+  {
+   "club": "VfL Wolfsburg",
+   "club_id": "82",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "L1",
+   "n_signings": 7,
+   "rating": 1.894
+  },
+  {
+   "club": "Cagliari Calcio",
+   "club_id": "1390",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "IT1",
+   "n_signings": 13,
+   "rating": 1.893
+  },
+  {
+   "club": "Villarreal CF",
+   "club_id": "1050",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "ES1",
+   "n_signings": 8,
+   "rating": 1.879
+  },
+  {
+   "club": "Sporting CP",
+   "club_id": "336",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "PO1",
+   "n_signings": 11,
+   "rating": 1.876
+  },
+  {
+   "club": "LOSC Lille",
+   "club_id": "1082",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "FR1",
+   "n_signings": 11,
+   "rating": 1.871
+  },
+  {
+   "club": "SC Freiburg",
+   "club_id": "60",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "L1",
+   "n_signings": 5,
+   "rating": 1.87
+  },
+  {
+   "club": "AS Roma",
+   "club_id": "12",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "IT1",
+   "n_signings": 19,
+   "rating": 1.862
+  },
+  {
+   "club": "SS Lazio",
+   "club_id": "398",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "IT1",
+   "n_signings": 10,
+   "rating": 1.861
+  },
+  {
+   "club": "RB Leipzig",
+   "club_id": "23826",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "L1",
+   "n_signings": 6,
+   "rating": 1.859
+  },
+  {
+   "club": "CD Nacional",
+   "club_id": "982",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "PO1",
+   "n_signings": 14,
+   "rating": 1.853
+  },
+  {
+   "club": "GD Estoril Praia",
+   "club_id": "1465",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "PO1",
+   "n_signings": 13,
+   "rating": 1.851
+  },
+  {
+   "club": "Stade Rennais FC",
+   "club_id": "273",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "FR1",
+   "n_signings": 13,
+   "rating": 1.851
+  },
+  {
+   "club": "SC Heerenveen",
+   "club_id": "306",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "NL1",
+   "n_signings": 12,
+   "rating": 1.85
+  },
+  {
+   "club": "Torino FC",
+   "club_id": "416",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "IT1",
+   "n_signings": 11,
+   "rating": 1.841
+  },
+  {
+   "club": "SV Werder Bremen",
+   "club_id": "86",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "L1",
+   "n_signings": 4,
+   "rating": 1.841
+  },
+  {
+   "club": "FC Metz",
+   "club_id": "347",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "FR1",
+   "n_signings": 11,
+   "rating": 1.836
+  },
+  {
+   "club": "West Ham United",
+   "club_id": "379",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "GB1",
+   "n_signings": 11,
+   "rating": 1.833
+  },
+  {
+   "club": "RB Leipzig",
+   "club_id": "23826",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "L1",
+   "n_signings": 14,
+   "rating": 1.832
+  },
+  {
+   "club": "Olympique Lyon",
+   "club_id": "1041",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "FR1",
+   "n_signings": 11,
+   "rating": 1.827
+  },
+  {
+   "club": "AZ Alkmaar",
+   "club_id": "1090",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "NL1",
+   "n_signings": 8,
+   "rating": 1.827
+  },
+  {
+   "club": "CS Marítimo",
+   "club_id": "1301",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "PO1",
+   "n_signings": 8,
+   "rating": 1.826
+  },
+  {
+   "club": "US Sassuolo",
+   "club_id": "6574",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "IT1",
+   "n_signings": 11,
+   "rating": 1.824
+  },
+  {
+   "club": "Leicester City",
+   "club_id": "1003",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "GB1",
+   "n_signings": 8,
+   "rating": 1.817
+  },
+  {
+   "club": "Rayo Vallecano",
+   "club_id": "367",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "ES1",
+   "n_signings": 4,
+   "rating": 1.809
+  },
+  {
+   "club": "FC Toulouse",
+   "club_id": "415",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "FR1",
+   "n_signings": 7,
+   "rating": 1.806
+  },
+  {
+   "club": "Eintracht Frankfurt",
+   "club_id": "24",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "L1",
+   "n_signings": 8,
+   "rating": 1.805
+  },
+  {
+   "club": "UC Sampdoria",
+   "club_id": "1038",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "IT1",
+   "n_signings": 19,
+   "rating": 1.798
+  },
+  {
+   "club": "Genoa CFC",
+   "club_id": "252",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "IT1",
+   "n_signings": 21,
+   "rating": 1.793
+  },
+  {
+   "club": "Heracles Almelo",
+   "club_id": "1304",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "NL1",
+   "n_signings": 11,
+   "rating": 1.79
+  },
+  {
+   "club": "OGC Nice",
+   "club_id": "417",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "FR1",
+   "n_signings": 10,
+   "rating": 1.789
+  },
+  {
+   "club": "Southampton FC",
+   "club_id": "180",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "GB1",
+   "n_signings": 14,
+   "rating": 1.78
+  },
+  {
+   "club": "Sparta Rotterdam",
+   "club_id": "468",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "NL1",
+   "n_signings": 9,
+   "rating": 1.776
+  },
+  {
+   "club": "Real Betis Balompié",
+   "club_id": "150",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "ES1",
+   "n_signings": 9,
+   "rating": 1.774
+  },
+  {
+   "club": "Everton FC",
+   "club_id": "29",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "GB1",
+   "n_signings": 7,
+   "rating": 1.773
+  },
+  {
+   "club": "Getafe CF",
+   "club_id": "3709",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "ES1",
+   "n_signings": 10,
+   "rating": 1.773
+  },
+  {
+   "club": "1.FSV Mainz 05",
+   "club_id": "39",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "L1",
+   "n_signings": 12,
+   "rating": 1.771
+  },
+  {
+   "club": "Levante UD",
+   "club_id": "3368",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "ES1",
+   "n_signings": 8,
+   "rating": 1.77
+  },
+  {
+   "club": "SS Lazio",
+   "club_id": "398",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "IT1",
+   "n_signings": 8,
+   "rating": 1.765
+  },
+  {
+   "club": "FC Girondins Bordeaux",
+   "club_id": "40",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "FR1",
+   "n_signings": 3,
+   "rating": 1.764
+  },
+  {
+   "club": "TSG 1899 Hoffenheim",
+   "club_id": "533",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "L1",
+   "n_signings": 13,
+   "rating": 1.757
+  },
+  {
+   "club": "Venezia FC",
+   "club_id": "607",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "IT1",
+   "n_signings": 19,
+   "rating": 1.755
+  },
+  {
+   "club": "Torino FC",
+   "club_id": "416",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "IT1",
+   "n_signings": 8,
+   "rating": 1.752
+  },
+  {
+   "club": "AC Milan",
+   "club_id": "5",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "IT1",
+   "n_signings": 13,
+   "rating": 1.751
+  },
+  {
+   "club": "US Cremonese",
+   "club_id": "2239",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "IT1",
+   "n_signings": 19,
+   "rating": 1.749
+  },
+  {
+   "club": "Feyenoord Rotterdam",
+   "club_id": "234",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "NL1",
+   "n_signings": 8,
+   "rating": 1.743
+  },
+  {
+   "club": "Sevilla FC",
+   "club_id": "368",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "ES1",
+   "n_signings": 10,
+   "rating": 1.733
+  },
+  {
+   "club": "ACF Fiorentina",
+   "club_id": "430",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "IT1",
+   "n_signings": 15,
+   "rating": 1.733
+  },
+  {
+   "club": "PEC Zwolle",
+   "club_id": "1269",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "NL1",
+   "n_signings": 7,
+   "rating": 1.732
+  },
+  {
+   "club": "Leeds United",
+   "club_id": "399",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "GB1",
+   "n_signings": 8,
+   "rating": 1.726
+  },
+  {
+   "club": "FC Barcelona",
+   "club_id": "131",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "ES1",
+   "n_signings": 6,
+   "rating": 1.722
+  },
+  {
+   "club": "FC Twente Enschede",
+   "club_id": "317",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "NL1",
+   "n_signings": 7,
+   "rating": 1.718
+  },
+  {
+   "club": "VfL Wolfsburg",
+   "club_id": "82",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "L1",
+   "n_signings": 10,
+   "rating": 1.715
+  },
+  {
+   "club": "TSG 1899 Hoffenheim",
+   "club_id": "533",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "L1",
+   "n_signings": 10,
+   "rating": 1.703
+  },
+  {
+   "club": "Arsenal FC",
+   "club_id": "11",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "GB1",
+   "n_signings": 10,
+   "rating": 1.702
+  },
+  {
+   "club": "Excelsior Rotterdam",
+   "club_id": "798",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "NL1",
+   "n_signings": 11,
+   "rating": 1.701
+  },
+  {
+   "club": "FC Barcelona",
+   "club_id": "131",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "ES1",
+   "n_signings": 11,
+   "rating": 1.692
+  },
+  {
+   "club": "Atalanta BC",
+   "club_id": "800",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "IT1",
+   "n_signings": 14,
+   "rating": 1.691
+  },
+  {
+   "club": "B SAD (2018-2024)",
+   "club_id": "2457",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "PO1",
+   "n_signings": 13,
+   "rating": 1.688
+  },
+  {
+   "club": "Fortuna Sittard",
+   "club_id": "385",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "NL1",
+   "n_signings": 15,
+   "rating": 1.685
+  },
+  {
+   "club": "FC Utrecht",
+   "club_id": "200",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "NL1",
+   "n_signings": 12,
+   "rating": 1.68
+  },
+  {
+   "club": "Bayern Munich",
+   "club_id": "27",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "L1",
+   "n_signings": 8,
+   "rating": 1.668
+  },
+  {
+   "club": "AS Roma",
+   "club_id": "12",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "IT1",
+   "n_signings": 17,
+   "rating": 1.659
+  },
+  {
+   "club": "ESTAC Troyes",
+   "club_id": "1095",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "FR1",
+   "n_signings": 12,
+   "rating": 1.644
+  },
+  {
+   "club": "Gil Vicente FC",
+   "club_id": "2424",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "PO1",
+   "n_signings": 13,
+   "rating": 1.632
+  },
+  {
+   "club": "FC Schalke 04",
+   "club_id": "33",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "L1",
+   "n_signings": 7,
+   "rating": 1.626
+  },
+  {
+   "club": "Brighton & Hove Albion",
+   "club_id": "1237",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "GB1",
+   "n_signings": 9,
+   "rating": 1.623
+  },
+  {
+   "club": "Real Sociedad",
+   "club_id": "681",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "ES1",
+   "n_signings": 8,
+   "rating": 1.619
+  },
+  {
+   "club": "FC Famalicão",
+   "club_id": "3329",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "PO1",
+   "n_signings": 11,
+   "rating": 1.612
+  },
+  {
+   "club": "Aston Villa",
+   "club_id": "405",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "GB1",
+   "n_signings": 8,
+   "rating": 1.608
+  },
+  {
+   "club": "Hellas Verona",
+   "club_id": "276",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "IT1",
+   "n_signings": 21,
+   "rating": 1.604
+  },
+  {
+   "club": "Atlético de Madrid",
+   "club_id": "13",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "ES1",
+   "n_signings": 11,
+   "rating": 1.587
+  },
+  {
+   "club": "Fortuna Sittard",
+   "club_id": "385",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "NL1",
+   "n_signings": 9,
+   "rating": 1.582
+  },
+  {
+   "club": "RKC Waalwijk",
+   "club_id": "235",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "NL1",
+   "n_signings": 10,
+   "rating": 1.566
+  },
+  {
+   "club": "Olympique Marseille",
+   "club_id": "244",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "FR1",
+   "n_signings": 3,
+   "rating": 1.561
+  },
+  {
+   "club": "Torino FC",
+   "club_id": "416",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "IT1",
+   "n_signings": 12,
+   "rating": 1.561
+  },
+  {
+   "club": "Newcastle United",
+   "club_id": "762",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "GB1",
+   "n_signings": 5,
+   "rating": 1.551
+  },
+  {
+   "club": "Nottingham Forest",
+   "club_id": "703",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "GB1",
+   "n_signings": 16,
+   "rating": 1.52
+  },
+  {
+   "club": "Borussia Mönchengladbach",
+   "club_id": "18",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "L1",
+   "n_signings": 5,
+   "rating": 1.518
+  },
+  {
+   "club": "Real Madrid",
+   "club_id": "418",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "ES1",
+   "n_signings": 12,
+   "rating": 1.515
+  },
+  {
+   "club": "Bayer 04 Leverkusen",
+   "club_id": "15",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "L1",
+   "n_signings": 5,
+   "rating": 1.495
+  },
+  {
+   "club": "SC Heerenveen",
+   "club_id": "306",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "NL1",
+   "n_signings": 3,
+   "rating": 1.495
+  },
+  {
+   "club": "UC Sampdoria",
+   "club_id": "1038",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "IT1",
+   "n_signings": 13,
+   "rating": 1.487
+  },
+  {
+   "club": "Fulham FC",
+   "club_id": "931",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "GB1",
+   "n_signings": 4,
+   "rating": 1.47
+  },
+  {
+   "club": "SD Eibar",
+   "club_id": "1533",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "ES1",
+   "n_signings": 3,
+   "rating": 1.469
+  },
+  {
+   "club": "Eintracht Frankfurt",
+   "club_id": "24",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "L1",
+   "n_signings": 12,
+   "rating": 1.468
+  },
+  {
+   "club": "RCD Espanyol Barcelona",
+   "club_id": "714",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "ES1",
+   "n_signings": 9,
+   "rating": 1.463
+  },
+  {
+   "club": "Parma Calcio 1913",
+   "club_id": "130",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "IT1",
+   "n_signings": 18,
+   "rating": 1.459
+  },
+  {
+   "club": "AC Milan",
+   "club_id": "5",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "IT1",
+   "n_signings": 10,
+   "rating": 1.442
+  },
+  {
+   "club": "Chelsea FC",
+   "club_id": "631",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "GB1",
+   "n_signings": 16,
+   "rating": 1.42
+  },
+  {
+   "club": "Manchester City",
+   "club_id": "281",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "GB1",
+   "n_signings": 9,
+   "rating": 1.416
+  },
+  {
+   "club": "Everton FC",
+   "club_id": "29",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "GB1",
+   "n_signings": 9,
+   "rating": 1.403
+  },
+  {
+   "club": "US Lecce",
+   "club_id": "1005",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "IT1",
+   "n_signings": 11,
+   "rating": 1.398
+  },
+  {
+   "club": "Wolverhampton Wanderers",
+   "club_id": "543",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "GB1",
+   "n_signings": 9,
+   "rating": 1.393
+  },
+  {
+   "club": "Manchester United",
+   "club_id": "985",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "GB1",
+   "n_signings": 7,
+   "rating": 1.391
+  },
+  {
+   "club": "Boavista FC",
+   "club_id": "2503",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "PO1",
+   "n_signings": 10,
+   "rating": 1.39
+  },
+  {
+   "club": "Stade Rennais FC",
+   "club_id": "273",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "FR1",
+   "n_signings": 21,
+   "rating": 1.386
+  },
+  {
+   "club": "VfL Wolfsburg",
+   "club_id": "82",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "L1",
+   "n_signings": 7,
+   "rating": 1.385
+  },
+  {
+   "club": "1.FSV Mainz 05",
+   "club_id": "39",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "L1",
+   "n_signings": 9,
+   "rating": 1.374
+  },
+  {
+   "club": "VfL Wolfsburg",
+   "club_id": "82",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "L1",
+   "n_signings": 16,
+   "rating": 1.374
+  },
+  {
+   "club": "SV Werder Bremen",
+   "club_id": "86",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "L1",
+   "n_signings": 8,
+   "rating": 1.365
+  },
+  {
+   "club": "Cagliari Calcio",
+   "club_id": "1390",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "IT1",
+   "n_signings": 8,
+   "rating": 1.361
+  },
+  {
+   "club": "Sevilla FC",
+   "club_id": "368",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "ES1",
+   "n_signings": 7,
+   "rating": 1.354
+  },
+  {
+   "club": "SL Benfica",
+   "club_id": "294",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "PO1",
+   "n_signings": 11,
+   "rating": 1.348
+  },
+  {
+   "club": "Aston Villa",
+   "club_id": "405",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "GB1",
+   "n_signings": 12,
+   "rating": 1.347
+  },
+  {
+   "club": "AJ Auxerre",
+   "club_id": "290",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "FR1",
+   "n_signings": 7,
+   "rating": 1.341
+  },
+  {
+   "club": "Bayer 04 Leverkusen",
+   "club_id": "15",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "L1",
+   "n_signings": 4,
+   "rating": 1.335
+  },
+  {
+   "club": "FC Barcelona",
+   "club_id": "131",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "ES1",
+   "n_signings": 8,
+   "rating": 1.294
+  },
+  {
+   "club": "SL Benfica",
+   "club_id": "294",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "PO1",
+   "n_signings": 9,
+   "rating": 1.293
+  },
+  {
+   "club": "Stade Reims",
+   "club_id": "1421",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "FR1",
+   "n_signings": 4,
+   "rating": 1.289
+  },
+  {
+   "club": "Hellas Verona",
+   "club_id": "276",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "IT1",
+   "n_signings": 16,
+   "rating": 1.279
+  },
+  {
+   "club": "SSC Napoli",
+   "club_id": "6195",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "IT1",
+   "n_signings": 11,
+   "rating": 1.277
+  },
+  {
+   "club": "Getafe CF",
+   "club_id": "3709",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "ES1",
+   "n_signings": 9,
+   "rating": 1.266
+  },
+  {
+   "club": "FC Paços de Ferreira",
+   "club_id": "2995",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "PO1",
+   "n_signings": 10,
+   "rating": 1.26
+  },
+  {
+   "club": "Chelsea FC",
+   "club_id": "631",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "GB1",
+   "n_signings": 12,
+   "rating": 1.255
+  },
+  {
+   "club": "CD Santa Clara",
+   "club_id": "2423",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "PO1",
+   "n_signings": 10,
+   "rating": 1.213
+  },
+  {
+   "club": "Tottenham Hotspur",
+   "club_id": "148",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "GB1",
+   "n_signings": 7,
+   "rating": 1.195
+  },
+  {
+   "club": "CD Santa Clara",
+   "club_id": "2423",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "PO1",
+   "n_signings": 16,
+   "rating": 1.195
+  },
+  {
+   "club": "FC Empoli",
+   "club_id": "749",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "IT1",
+   "n_signings": 7,
+   "rating": 1.19
+  },
+  {
+   "club": "Montpellier HSC",
+   "club_id": "969",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "FR1",
+   "n_signings": 7,
+   "rating": 1.169
+  },
+  {
+   "club": "Sheffield United",
+   "club_id": "350",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "GB1",
+   "n_signings": 11,
+   "rating": 1.168
+  },
+  {
+   "club": "AFC Bournemouth",
+   "club_id": "989",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "GB1",
+   "n_signings": 6,
+   "rating": 1.157
+  },
+  {
+   "club": "US Sassuolo",
+   "club_id": "6574",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "IT1",
+   "n_signings": 8,
+   "rating": 1.125
+  },
+  {
+   "club": "FC St. Pauli",
+   "club_id": "35",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "L1",
+   "n_signings": 10,
+   "rating": 1.124
+  },
+  {
+   "club": "SC Freiburg",
+   "club_id": "60",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "L1",
+   "n_signings": 6,
+   "rating": 1.121
+  },
+  {
+   "club": "Vitesse Arnhem",
+   "club_id": "499",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "NL1",
+   "n_signings": 9,
+   "rating": 1.083
+  },
+  {
+   "club": "Bologna FC 1909",
+   "club_id": "1025",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "IT1",
+   "n_signings": 11,
+   "rating": 1.055
+  },
+  {
+   "club": "FC Utrecht",
+   "club_id": "200",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "NL1",
+   "n_signings": 13,
+   "rating": 1.035
+  },
+  {
+   "club": "Ajax Amsterdam",
+   "club_id": "610",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "NL1",
+   "n_signings": 6,
+   "rating": 1.03
+  },
+  {
+   "club": "Pisa Sporting Club",
+   "club_id": "4172",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "IT1",
+   "n_signings": 16,
+   "rating": 1.022
+  },
+  {
+   "club": "Angers SCO",
+   "club_id": "1420",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "FR1",
+   "n_signings": 7,
+   "rating": 0.996
+  },
+  {
+   "club": "AS Saint-Étienne",
+   "club_id": "618",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "FR1",
+   "n_signings": 5,
+   "rating": 0.994
+  },
+  {
+   "club": "Valencia CF",
+   "club_id": "1049",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "ES1",
+   "n_signings": 11,
+   "rating": 0.977
+  },
+  {
+   "club": "Celta de Vigo",
+   "club_id": "940",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "ES1",
+   "n_signings": 5,
+   "rating": 0.952
+  },
+  {
+   "club": "UC Sampdoria",
+   "club_id": "1038",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "IT1",
+   "n_signings": 12,
+   "rating": 0.944
+  },
+  {
+   "club": "Norwich City",
+   "club_id": "1123",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "GB1",
+   "n_signings": 7,
+   "rating": 0.911
+  },
+  {
+   "club": "1.FC Köln",
+   "club_id": "3",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "L1",
+   "n_signings": 7,
+   "rating": 0.908
+  },
+  {
+   "club": "Newcastle United",
+   "club_id": "762",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "GB1",
+   "n_signings": 5,
+   "rating": 0.877
+  },
+  {
+   "club": "Cádiz CF",
+   "club_id": "2687",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "ES1",
+   "n_signings": 5,
+   "rating": 0.861
+  },
+  {
+   "club": "Vitesse Arnhem",
+   "club_id": "499",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "NL1",
+   "n_signings": 6,
+   "rating": 0.821
+  },
+  {
+   "club": "FC Porto",
+   "club_id": "720",
+   "season": 2022,
+   "season_label": "22/23",
+   "league": "PO1",
+   "n_signings": 10,
+   "rating": 0.805
+  },
+  {
+   "club": "Liverpool FC",
+   "club_id": "31",
+   "season": 2024,
+   "season_label": "24/25",
+   "league": "GB1",
+   "n_signings": 4,
+   "rating": 0.634
+  },
+  {
+   "club": "Burnley FC",
+   "club_id": "1132",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "GB1",
+   "n_signings": 3,
+   "rating": 0.61
+  },
+  {
+   "club": "SS Lazio",
+   "club_id": "398",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "IT1",
+   "n_signings": 16,
+   "rating": 0.591
+  },
+  {
+   "club": "FC Augsburg",
+   "club_id": "167",
+   "season": 2021,
+   "season_label": "21/22",
+   "league": "L1",
+   "n_signings": 7,
+   "rating": 0.542
+  },
+  {
+   "club": "1.FC Heidenheim 1846",
+   "club_id": "2036",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "L1",
+   "n_signings": 2,
+   "rating": 0.517
+  },
+  {
+   "club": "RKC Waalwijk",
+   "club_id": "235",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "NL1",
+   "n_signings": 7,
+   "rating": 0.463
+  },
+  {
+   "club": "FC Groningen",
+   "club_id": "202",
+   "season": 2025,
+   "season_label": "25/26",
+   "league": "NL1",
+   "n_signings": 4,
+   "rating": 0.349
+  },
+  {
+   "club": "Tottenham Hotspur",
+   "club_id": "148",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "GB1",
+   "n_signings": 9,
+   "rating": 0.289
+  },
+  {
+   "club": "1.FSV Mainz 05",
+   "club_id": "39",
+   "season": 2020,
+   "season_label": "20/21",
+   "league": "L1",
+   "n_signings": 4,
+   "rating": 0.153
+  },
+  {
+   "club": "Rio Ave FC",
+   "club_id": "2425",
+   "season": 2023,
+   "season_label": "23/24",
+   "league": "PO1",
+   "n_signings": 3,
+   "rating": 0.116
+  },
+  {
+   "club": "Athletic Bilbao",
+   "club_id": "621",
+   "season": 2019,
+   "season_label": "19/20",
+   "league": "ES1",
+   "n_signings": 5,
+   "rating": 0.016
+  }
+ ],
+ "by_club": [
+  {
+   "club": "VVV-Venlo",
+   "club_id": "1426",
+   "n_signings": 20,
+   "rating": 4.49
+  },
+  {
+   "club": "Paris FC",
+   "club_id": "10004",
+   "n_signings": 11,
+   "rating": 4.154
+  },
+  {
+   "club": "Sunderland AFC",
+   "club_id": "289",
+   "n_signings": 18,
+   "rating": 4.013
+  },
+  {
+   "club": "Nîmes Olympique",
+   "club_id": "1160",
+   "n_signings": 17,
+   "rating": 3.882
+  },
+  {
+   "club": "Le Havre AC",
+   "club_id": "738",
+   "n_signings": 32,
+   "rating": 3.855
+  },
+  {
+   "club": "Ipswich Town",
+   "club_id": "677",
+   "n_signings": 13,
+   "rating": 3.763
+  },
+  {
+   "club": "SC Cambuur Leeuwarden",
+   "club_id": "133",
+   "n_signings": 14,
+   "rating": 3.755
+  },
+  {
+   "club": "Benevento Calcio",
+   "club_id": "4171",
+   "n_signings": 9,
+   "rating": 3.75
+  },
+  {
+   "club": "Hamburger SV",
+   "club_id": "41",
+   "n_signings": 13,
+   "rating": 3.735
+  },
+  {
+   "club": "Willem II Tilburg",
+   "club_id": "403",
+   "n_signings": 29,
+   "rating": 3.723
+  },
+  {
+   "club": "FC Twente Enschede",
+   "club_id": "317",
+   "n_signings": 50,
+   "rating": 3.722
+  },
+  {
+   "club": "NAC Breda",
+   "club_id": "132",
+   "n_signings": 18,
+   "rating": 3.679
+  },
+  {
+   "club": "SC Farense",
+   "club_id": "4294",
+   "n_signings": 47,
+   "rating": 3.676
+  },
+  {
+   "club": "AC Ajaccio",
+   "club_id": "1147",
+   "n_signings": 10,
+   "rating": 3.659
+  },
+  {
+   "club": "Amiens SC",
+   "club_id": "1416",
+   "n_signings": 12,
+   "rating": 3.593
+  },
+  {
+   "club": "Elche CF",
+   "club_id": "1531",
+   "n_signings": 44,
+   "rating": 3.585
+  },
+  {
+   "club": "PEC Zwolle",
+   "club_id": "1269",
+   "n_signings": 45,
+   "rating": 3.584
+  },
+  {
+   "club": "SC Heerenveen",
+   "club_id": "306",
+   "n_signings": 61,
+   "rating": 3.528
+  },
+  {
+   "club": "Rayo Vallecano",
+   "club_id": "367",
+   "n_signings": 28,
+   "rating": 3.51
+  },
+  {
+   "club": "Dijon FCO",
+   "club_id": "2969",
+   "n_signings": 18,
+   "rating": 3.469
+  },
+  {
+   "club": "Levante UD",
+   "club_id": "3368",
+   "n_signings": 37,
+   "rating": 3.436
+  },
+  {
+   "club": "Moreirense FC",
+   "club_id": "979",
+   "n_signings": 67,
+   "rating": 3.424
+  },
+  {
+   "club": "NEC Nijmegen",
+   "club_id": "467",
+   "n_signings": 48,
+   "rating": 3.417
+  },
+  {
+   "club": "1.FC Heidenheim 1846",
+   "club_id": "2036",
+   "n_signings": 16,
+   "rating": 3.413
+  },
+  {
+   "club": "Go Ahead Eagles",
+   "club_id": "1435",
+   "n_signings": 53,
+   "rating": 3.4
+  },
+  {
+   "club": "Real Oviedo",
+   "club_id": "2497",
+   "n_signings": 9,
+   "rating": 3.385
+  },
+  {
+   "club": "Real Sociedad",
+   "club_id": "681",
+   "n_signings": 52,
+   "rating": 3.379
+  },
+  {
+   "club": "Brescia Calcio (- 2025)",
+   "club_id": "19",
+   "n_signings": 10,
+   "rating": 3.373
+  },
+  {
+   "club": "FC Alverca",
+   "club_id": "2521",
+   "n_signings": 24,
+   "rating": 3.324
+  },
+  {
+   "club": "Borussia Dortmund",
+   "club_id": "16",
+   "n_signings": 52,
+   "rating": 3.318
+  },
+  {
+   "club": "AJ Auxerre",
+   "club_id": "290",
+   "n_signings": 28,
+   "rating": 3.316
+  },
+  {
+   "club": "Girona FC",
+   "club_id": "12321",
+   "n_signings": 39,
+   "rating": 3.305
+  },
+  {
+   "club": "Avs Futebol",
+   "club_id": "110302",
+   "n_signings": 31,
+   "rating": 3.271
+  },
+  {
+   "club": "SC Braga",
+   "club_id": "1075",
+   "n_signings": 70,
+   "rating": 3.264
+  },
+  {
+   "club": "Stade Brestois 29",
+   "club_id": "3911",
+   "n_signings": 52,
+   "rating": 3.263
+  },
+  {
+   "club": "VfB Stuttgart",
+   "club_id": "79",
+   "n_signings": 69,
+   "rating": 3.254
+  },
+  {
+   "club": "FC Toulouse",
+   "club_id": "415",
+   "n_signings": 41,
+   "rating": 3.247
+  },
+  {
+   "club": "Fulham FC",
+   "club_id": "931",
+   "n_signings": 40,
+   "rating": 3.242
+  },
+  {
+   "club": "FC Girondins Bordeaux",
+   "club_id": "40",
+   "n_signings": 20,
+   "rating": 3.236
+  },
+  {
+   "club": "LOSC Lille",
+   "club_id": "1082",
+   "n_signings": 70,
+   "rating": 3.235
+  },
+  {
+   "club": "CA Osasuna",
+   "club_id": "331",
+   "n_signings": 46,
+   "rating": 3.22
+  },
+  {
+   "club": "Montpellier HSC",
+   "club_id": "969",
+   "n_signings": 41,
+   "rating": 3.214
+  },
+  {
+   "club": "Boavista FC",
+   "club_id": "2503",
+   "n_signings": 53,
+   "rating": 3.185
+  },
+  {
+   "club": "PSV Eindhoven",
+   "club_id": "383",
+   "n_signings": 69,
+   "rating": 3.173
+  },
+  {
+   "club": "Real Betis Balompié",
+   "club_id": "150",
+   "n_signings": 71,
+   "rating": 3.161
+  },
+  {
+   "club": "FC Empoli",
+   "club_id": "749",
+   "n_signings": 47,
+   "rating": 3.155
+  },
+  {
+   "club": "Celta de Vigo",
+   "club_id": "940",
+   "n_signings": 67,
+   "rating": 3.154
+  },
+  {
+   "club": "AZ Alkmaar",
+   "club_id": "1090",
+   "n_signings": 67,
+   "rating": 3.152
+  },
+  {
+   "club": "UD Las Palmas",
+   "club_id": "472",
+   "n_signings": 22,
+   "rating": 3.148
+  },
+  {
+   "club": "VfL Bochum",
+   "club_id": "80",
+   "n_signings": 36,
+   "rating": 3.139
+  },
+  {
+   "club": "RCD Mallorca",
+   "club_id": "237",
+   "n_signings": 53,
+   "rating": 3.137
+  },
+  {
+   "club": "FC Emmen",
+   "club_id": "1283",
+   "n_signings": 41,
+   "rating": 3.13
+  },
+  {
+   "club": "Casa Pia AC",
+   "club_id": "3268",
+   "n_signings": 51,
+   "rating": 3.116
+  },
+  {
+   "club": "West Bromwich Albion",
+   "club_id": "984",
+   "n_signings": 10,
+   "rating": 3.112
+  },
+  {
+   "club": "Arsenal FC",
+   "club_id": "11",
+   "n_signings": 48,
+   "rating": 3.1
+  },
+  {
+   "club": "FC Lorient",
+   "club_id": "1158",
+   "n_signings": 46,
+   "rating": 3.099
+  },
+  {
+   "club": "Angers SCO",
+   "club_id": "1420",
+   "n_signings": 49,
+   "rating": 3.098
+  },
+  {
+   "club": "CD Leganés",
+   "club_id": "1244",
+   "n_signings": 23,
+   "rating": 3.091
+  },
+  {
+   "club": "AS Monaco",
+   "club_id": "162",
+   "n_signings": 60,
+   "rating": 3.087
+  },
+  {
+   "club": "Real Valladolid CF",
+   "club_id": "366",
+   "n_signings": 49,
+   "rating": 3.079
+  },
+  {
+   "club": "Juventus FC",
+   "club_id": "506",
+   "n_signings": 75,
+   "rating": 3.048
+  },
+  {
+   "club": "FC Famalicão",
+   "club_id": "3329",
+   "n_signings": 73,
+   "rating": 3.037
+  },
+  {
+   "club": "Valencia CF",
+   "club_id": "1049",
+   "n_signings": 59,
+   "rating": 3.03
+  },
+  {
+   "club": "Luton Town",
+   "club_id": "1031",
+   "n_signings": 14,
+   "rating": 3.017
+  },
+  {
+   "club": "Excelsior Rotterdam",
+   "club_id": "798",
+   "n_signings": 29,
+   "rating": 3.013
+  },
+  {
+   "club": "Burnley FC",
+   "club_id": "1132",
+   "n_signings": 42,
+   "rating": 3.004
+  },
+  {
+   "club": "Heracles Almelo",
+   "club_id": "1304",
+   "n_signings": 60,
+   "rating": 2.994
+  },
+  {
+   "club": "Holstein Kiel",
+   "club_id": "269",
+   "n_signings": 8,
+   "rating": 2.994
+  },
+  {
+   "club": "Leeds United",
+   "club_id": "399",
+   "n_signings": 37,
+   "rating": 2.988
+  },
+  {
+   "club": "FC Crotone",
+   "club_id": "4083",
+   "n_signings": 10,
+   "rating": 2.987
+  },
+  {
+   "club": "CD Tondela",
+   "club_id": "7179",
+   "n_signings": 38,
+   "rating": 2.987
+  },
+  {
+   "club": "Real Madrid",
+   "club_id": "418",
+   "n_signings": 38,
+   "rating": 2.986
+  },
+  {
+   "club": "Sparta Rotterdam",
+   "club_id": "468",
+   "n_signings": 67,
+   "rating": 2.966
+  },
+  {
+   "club": "RC Lens",
+   "club_id": "826",
+   "n_signings": 75,
+   "rating": 2.954
+  },
+  {
+   "club": "West Ham United",
+   "club_id": "379",
+   "n_signings": 62,
+   "rating": 2.946
+  },
+  {
+   "club": "Villarreal CF",
+   "club_id": "1050",
+   "n_signings": 74,
+   "rating": 2.928
+  },
+  {
+   "club": "Eintracht Frankfurt",
+   "club_id": "24",
+   "n_signings": 83,
+   "rating": 2.911
+  },
+  {
+   "club": "Crystal Palace",
+   "club_id": "873",
+   "n_signings": 48,
+   "rating": 2.901
+  },
+  {
+   "club": "Hertha BSC",
+   "club_id": "44",
+   "n_signings": 44,
+   "rating": 2.886
+  },
+  {
+   "club": "Olympique Marseille",
+   "club_id": "244",
+   "n_signings": 87,
+   "rating": 2.882
+  },
+  {
+   "club": "UD Almería",
+   "club_id": "3302",
+   "n_signings": 25,
+   "rating": 2.877
+  },
+  {
+   "club": "FC Porto",
+   "club_id": "720",
+   "n_signings": 76,
+   "rating": 2.874
+  },
+  {
+   "club": "Atlético de Madrid",
+   "club_id": "13",
+   "n_signings": 65,
+   "rating": 2.873
+  },
+  {
+   "club": "FC Arouca",
+   "club_id": "8024",
+   "n_signings": 62,
+   "rating": 2.867
+  },
+  {
+   "club": "Almere City FC",
+   "club_id": "723",
+   "n_signings": 19,
+   "rating": 2.865
+  },
+  {
+   "club": "SPAL",
+   "club_id": "2722",
+   "n_signings": 11,
+   "rating": 2.858
+  },
+  {
+   "club": "RC Strasbourg Alsace",
+   "club_id": "667",
+   "n_signings": 65,
+   "rating": 2.825
+  },
+  {
+   "club": "Sporting CP",
+   "club_id": "336",
+   "n_signings": 73,
+   "rating": 2.82
+  },
+  {
+   "club": "GD Estoril Praia",
+   "club_id": "1465",
+   "n_signings": 63,
+   "rating": 2.819
+  },
+  {
+   "club": "Borussia Mönchengladbach",
+   "club_id": "18",
+   "n_signings": 44,
+   "rating": 2.816
+  },
+  {
+   "club": "Bologna FC 1909",
+   "club_id": "1025",
+   "n_signings": 83,
+   "rating": 2.812
+  },
+  {
+   "club": "Bayer 04 Leverkusen",
+   "club_id": "15",
+   "n_signings": 58,
+   "rating": 2.811
+  },
+  {
+   "club": "Brentford FC",
+   "club_id": "1148",
+   "n_signings": 39,
+   "rating": 2.795
+  },
+  {
+   "club": "SV Darmstadt 98",
+   "club_id": "105",
+   "n_signings": 4,
+   "rating": 2.787
+  },
+  {
+   "club": "Como 1907",
+   "club_id": "1047",
+   "n_signings": 43,
+   "rating": 2.779
+  },
+  {
+   "club": "OGC Nice",
+   "club_id": "417",
+   "n_signings": 63,
+   "rating": 2.779
+  },
+  {
+   "club": "1.FC Köln",
+   "club_id": "3",
+   "n_signings": 58,
+   "rating": 2.777
+  },
+  {
+   "club": "Deportivo Alavés",
+   "club_id": "1108",
+   "n_signings": 58,
+   "rating": 2.771
+  },
+  {
+   "club": "AFC Bournemouth",
+   "club_id": "989",
+   "n_signings": 45,
+   "rating": 2.77
+  },
+  {
+   "club": "FC Groningen",
+   "club_id": "202",
+   "n_signings": 53,
+   "rating": 2.765
+  },
+  {
+   "club": "Feyenoord Rotterdam",
+   "club_id": "234",
+   "n_signings": 85,
+   "rating": 2.758
+  },
+  {
+   "club": "FC Paços de Ferreira",
+   "club_id": "2995",
+   "n_signings": 35,
+   "rating": 2.758
+  },
+  {
+   "club": "Stade Reims",
+   "club_id": "1421",
+   "n_signings": 62,
+   "rating": 2.75
+  },
+  {
+   "club": "Paris Saint-Germain",
+   "club_id": "583",
+   "n_signings": 61,
+   "rating": 2.747
+  },
+  {
+   "club": "Manchester United",
+   "club_id": "985",
+   "n_signings": 49,
+   "rating": 2.741
+  },
+  {
+   "club": "Vitória Guimarães SC",
+   "club_id": "2420",
+   "n_signings": 76,
+   "rating": 2.74
+  },
+  {
+   "club": "Frosinone Calcio",
+   "club_id": "8970",
+   "n_signings": 18,
+   "rating": 2.739
+  },
+  {
+   "club": "FC Nantes",
+   "club_id": "995",
+   "n_signings": 63,
+   "rating": 2.739
+  },
+  {
+   "club": "Spezia Calcio",
+   "club_id": "3522",
+   "n_signings": 51,
+   "rating": 2.723
+  },
+  {
+   "club": "Udinese Calcio",
+   "club_id": "410",
+   "n_signings": 87,
+   "rating": 2.713
+  },
+  {
+   "club": "Newcastle United",
+   "club_id": "762",
+   "n_signings": 44,
+   "rating": 2.713
+  },
+  {
+   "club": "Granada CF",
+   "club_id": "16795",
+   "n_signings": 44,
+   "rating": 2.706
+  },
+  {
+   "club": "FC Augsburg",
+   "club_id": "167",
+   "n_signings": 74,
+   "rating": 2.702
+  },
+  {
+   "club": "1.FC Union Berlin",
+   "club_id": "89",
+   "n_signings": 84,
+   "rating": 2.699
+  },
+  {
+   "club": "SC Freiburg",
+   "club_id": "60",
+   "n_signings": 49,
+   "rating": 2.684
+  },
+  {
+   "club": "GD Chaves",
+   "club_id": "3325",
+   "n_signings": 32,
+   "rating": 2.682
+  },
+  {
+   "club": "RKC Waalwijk",
+   "club_id": "235",
+   "n_signings": 62,
+   "rating": 2.681
+  },
+  {
+   "club": "Bayern Munich",
+   "club_id": "27",
+   "n_signings": 59,
+   "rating": 2.68
+  },
+  {
+   "club": "FC Vizela",
+   "club_id": "6912",
+   "n_signings": 33,
+   "rating": 2.678
+  },
+  {
+   "club": "Liverpool FC",
+   "club_id": "31",
+   "n_signings": 38,
+   "rating": 2.676
+  },
+  {
+   "club": "Arminia Bielefeld",
+   "club_id": "10",
+   "n_signings": 21,
+   "rating": 2.661
+  },
+  {
+   "club": "Portimonense SAD",
+   "club_id": "7378",
+   "n_signings": 62,
+   "rating": 2.658
+  },
+  {
+   "club": "FC Metz",
+   "club_id": "347",
+   "n_signings": 51,
+   "rating": 2.647
+  },
+  {
+   "club": "Gil Vicente FC",
+   "club_id": "2424",
+   "n_signings": 102,
+   "rating": 2.642
+  },
+  {
+   "club": "Ajax Amsterdam",
+   "club_id": "610",
+   "n_signings": 86,
+   "rating": 2.631
+  },
+  {
+   "club": "Rio Ave FC",
+   "club_id": "2425",
+   "n_signings": 63,
+   "rating": 2.613
+  },
+  {
+   "club": "TSG 1899 Hoffenheim",
+   "club_id": "533",
+   "n_signings": 66,
+   "rating": 2.608
+  },
+  {
+   "club": "ESTAC Troyes",
+   "club_id": "1095",
+   "n_signings": 27,
+   "rating": 2.606
+  },
+  {
+   "club": "SL Benfica",
+   "club_id": "294",
+   "n_signings": 83,
+   "rating": 2.594
+  },
+  {
+   "club": "SSC Napoli",
+   "club_id": "6195",
+   "n_signings": 77,
+   "rating": 2.594
+  },
+  {
+   "club": "Athletic Bilbao",
+   "club_id": "621",
+   "n_signings": 43,
+   "rating": 2.586
+  },
+  {
+   "club": "Vitesse Arnhem",
+   "club_id": "499",
+   "n_signings": 28,
+   "rating": 2.585
+  },
+  {
+   "club": "Fortuna Sittard",
+   "club_id": "385",
+   "n_signings": 91,
+   "rating": 2.571
+  },
+  {
+   "club": "Stade Rennais FC",
+   "club_id": "273",
+   "n_signings": 87,
+   "rating": 2.567
+  },
+  {
+   "club": "Inter Milan",
+   "club_id": "46",
+   "n_signings": 74,
+   "rating": 2.556
+  },
+  {
+   "club": "Olympique Lyon",
+   "club_id": "1041",
+   "n_signings": 82,
+   "rating": 2.555
+  },
+  {
+   "club": "SpVgg Greuther Fürth",
+   "club_id": "65",
+   "n_signings": 13,
+   "rating": 2.555
+  },
+  {
+   "club": "AC Milan",
+   "club_id": "5",
+   "n_signings": 86,
+   "rating": 2.546
+  },
+  {
+   "club": "Everton FC",
+   "club_id": "29",
+   "n_signings": 51,
+   "rating": 2.54
+  },
+  {
+   "club": "Brighton & Hove Albion",
+   "club_id": "1237",
+   "n_signings": 63,
+   "rating": 2.538
+  },
+  {
+   "club": "Clermont Foot 63",
+   "club_id": "3524",
+   "n_signings": 31,
+   "rating": 2.537
+  },
+  {
+   "club": "Leicester City",
+   "club_id": "1003",
+   "n_signings": 28,
+   "rating": 2.527
+  },
+  {
+   "club": "Sevilla FC",
+   "club_id": "368",
+   "n_signings": 71,
+   "rating": 2.521
+  },
+  {
+   "club": "Cagliari Calcio",
+   "club_id": "1390",
+   "n_signings": 71,
+   "rating": 2.489
+  },
+  {
+   "club": "ADO Den Haag",
+   "club_id": "1268",
+   "n_signings": 23,
+   "rating": 2.486
+  },
+  {
+   "club": "US Lecce",
+   "club_id": "1005",
+   "n_signings": 76,
+   "rating": 2.477
+  },
+  {
+   "club": "CS Marítimo",
+   "club_id": "1301",
+   "n_signings": 46,
+   "rating": 2.476
+  },
+  {
+   "club": "FC Barcelona",
+   "club_id": "131",
+   "n_signings": 66,
+   "rating": 2.469
+  },
+  {
+   "club": "ACF Fiorentina",
+   "club_id": "430",
+   "n_signings": 93,
+   "rating": 2.458
+  },
+  {
+   "club": "Atalanta BC",
+   "club_id": "800",
+   "n_signings": 76,
+   "rating": 2.449
+  },
+  {
+   "club": "Vitória Setúbal FC",
+   "club_id": "1085",
+   "n_signings": 8,
+   "rating": 2.437
+  },
+  {
+   "club": "Manchester City",
+   "club_id": "281",
+   "n_signings": 53,
+   "rating": 2.435
+  },
+  {
+   "club": "RB Leipzig",
+   "club_id": "23826",
+   "n_signings": 65,
+   "rating": 2.434
+  },
+  {
+   "club": "RCD Espanyol Barcelona",
+   "club_id": "714",
+   "n_signings": 62,
+   "rating": 2.421
+  },
+  {
+   "club": "AS Roma",
+   "club_id": "12",
+   "n_signings": 92,
+   "rating": 2.418
+  },
+  {
+   "club": "US Sassuolo",
+   "club_id": "6574",
+   "n_signings": 69,
+   "rating": 2.41
+  },
+  {
+   "club": "FC Schalke 04",
+   "club_id": "33",
+   "n_signings": 34,
+   "rating": 2.409
+  },
+  {
+   "club": "B SAD (2018-2024)",
+   "club_id": "2457",
+   "n_signings": 36,
+   "rating": 2.393
+  },
+  {
+   "club": "Aston Villa",
+   "club_id": "405",
+   "n_signings": 65,
+   "rating": 2.384
+  },
+  {
+   "club": "CF Estrela Amadora",
+   "club_id": "2431",
+   "n_signings": 65,
+   "rating": 2.371
+  },
+  {
+   "club": "SC Telstar",
+   "club_id": "1434",
+   "n_signings": 8,
+   "rating": 2.366
+  },
+  {
+   "club": "AS Saint-Étienne",
+   "club_id": "618",
+   "n_signings": 37,
+   "rating": 2.36
+  },
+  {
+   "club": "CD Santa Clara",
+   "club_id": "2423",
+   "n_signings": 79,
+   "rating": 2.355
+  },
+  {
+   "club": "AC Monza",
+   "club_id": "2919",
+   "n_signings": 43,
+   "rating": 2.353
+  },
+  {
+   "club": "SD Huesca",
+   "club_id": "5358",
+   "n_signings": 10,
+   "rating": 2.333
+  },
+  {
+   "club": "Chelsea FC",
+   "club_id": "631",
+   "n_signings": 79,
+   "rating": 2.327
+  },
+  {
+   "club": "Nottingham Forest",
+   "club_id": "703",
+   "n_signings": 67,
+   "rating": 2.327
+  },
+  {
+   "club": "Genoa CFC",
+   "club_id": "252",
+   "n_signings": 109,
+   "rating": 2.326
+  },
+  {
+   "club": "Cádiz CF",
+   "club_id": "2687",
+   "n_signings": 44,
+   "rating": 2.315
+  },
+  {
+   "club": "FC Utrecht",
+   "club_id": "200",
+   "n_signings": 80,
+   "rating": 2.302
+  },
+  {
+   "club": "US Cremonese",
+   "club_id": "2239",
+   "n_signings": 37,
+   "rating": 2.291
+  },
+  {
+   "club": "Hellas Verona",
+   "club_id": "276",
+   "n_signings": 130,
+   "rating": 2.287
+  },
+  {
+   "club": "Wolverhampton Wanderers",
+   "club_id": "543",
+   "n_signings": 66,
+   "rating": 2.284
+  },
+  {
+   "club": "US Salernitana 1919",
+   "club_id": "380",
+   "n_signings": 67,
+   "rating": 2.266
+  },
+  {
+   "club": "Getafe CF",
+   "club_id": "3709",
+   "n_signings": 58,
+   "rating": 2.232
+  },
+  {
+   "club": "Torino FC",
+   "club_id": "416",
+   "n_signings": 79,
+   "rating": 2.215
+  },
+  {
+   "club": "FC Volendam",
+   "club_id": "724",
+   "n_signings": 23,
+   "rating": 2.205
+  },
+  {
+   "club": "Southampton FC",
+   "club_id": "180",
+   "n_signings": 44,
+   "rating": 2.2
+  },
+  {
+   "club": "CD Nacional",
+   "club_id": "982",
+   "n_signings": 40,
+   "rating": 2.187
+  },
+  {
+   "club": "FC St. Pauli",
+   "club_id": "35",
+   "n_signings": 23,
+   "rating": 2.184
+  },
+  {
+   "club": "VfL Wolfsburg",
+   "club_id": "82",
+   "n_signings": 70,
+   "rating": 2.178
+  },
+  {
+   "club": "Fortuna Düsseldorf",
+   "club_id": "38",
+   "n_signings": 11,
+   "rating": 2.173
+  },
+  {
+   "club": "Watford FC",
+   "club_id": "1010",
+   "n_signings": 24,
+   "rating": 2.137
+  },
+  {
+   "club": "Sheffield United",
+   "club_id": "350",
+   "n_signings": 27,
+   "rating": 2.137
+  },
+  {
+   "club": "SV Werder Bremen",
+   "club_id": "86",
+   "n_signings": 43,
+   "rating": 2.113
+  },
+  {
+   "club": "Tottenham Hotspur",
+   "club_id": "148",
+   "n_signings": 59,
+   "rating": 2.089
+  },
+  {
+   "club": "Desportivo Aves (- 2020)",
+   "club_id": "3336",
+   "n_signings": 20,
+   "rating": 2.049
+  },
+  {
+   "club": "1.FSV Mainz 05",
+   "club_id": "39",
+   "n_signings": 61,
+   "rating": 2.044
+  },
+  {
+   "club": "SS Lazio",
+   "club_id": "398",
+   "n_signings": 72,
+   "rating": 2.007
+  },
+  {
+   "club": "SD Eibar",
+   "club_id": "1533",
+   "n_signings": 14,
+   "rating": 2.002
+  },
+  {
+   "club": "Parma Calcio 1913",
+   "club_id": "130",
+   "n_signings": 63,
+   "rating": 2.0
+  },
+  {
+   "club": "SC Paderborn 07",
+   "club_id": "127",
+   "n_signings": 11,
+   "rating": 1.919
+  },
+  {
+   "club": "Venezia FC",
+   "club_id": "607",
+   "n_signings": 36,
+   "rating": 1.9
+  },
+  {
+   "club": "Norwich City",
+   "club_id": "1123",
+   "n_signings": 16,
+   "rating": 1.865
+  },
+  {
+   "club": "UC Sampdoria",
+   "club_id": "1038",
+   "n_signings": 57,
+   "rating": 1.641
+  },
+  {
+   "club": "Pisa Sporting Club",
+   "club_id": "4172",
+   "n_signings": 16,
+   "rating": 1.022
+  }
+ ],
+ "by_league": [
+  {
+   "league": "NL1",
+   "n_signings": 1229,
+   "rating": 2.999
+  },
+  {
+   "league": "FR1",
+   "n_signings": 1298,
+   "rating": 2.936
+  },
+  {
+   "league": "ES1",
+   "n_signings": 1271,
+   "rating": 2.899
+  },
+  {
+   "league": "PO1",
+   "n_signings": 1508,
+   "rating": 2.803
+  },
+  {
+   "league": "L1",
+   "n_signings": 1169,
+   "rating": 2.689
+  },
+  {
+   "league": "GB1",
+   "n_signings": 1189,
+   "rating": 2.615
+  },
+  {
+   "league": "IT1",
+   "n_signings": 1867,
+   "rating": 2.449
+  }
+ ]
+}
