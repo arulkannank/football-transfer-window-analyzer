@@ -2,59 +2,58 @@
 
 - Windows analysed (with signings): **1601**
 - Signings scored: **7861**
-- Overall mean transfer rating: **2.908/10**
-- Empirical-Bayes shrinkage k ≈ **32.3** (estimated from variance components; club identity explains little of the signing-to-signing variance, so club ratings carry **wide** bootstrap intervals — read small leaderboard gaps with caution).
+- Overall mean transfer rating: **2.818/10**
+- Empirical-Bayes shrinkage k ≈ **27.4** (estimated from variance components; club identity explains little of the signing-to-signing variance, so club ratings carry **wide** bootstrap intervals — read small leaderboard gaps with caution).
 
 ## League averages (weighted transfer rating /10)
 | League | Signings | Rating |
 |---|---:|---:|
-| Eredivisie | 1072 | 3.231 |
-| Ligue 1 | 1099 | 3.17 |
-| Liga Portugal | 1286 | 3.072 |
-| LaLiga | 1087 | 2.888 |
-| Bundesliga | 925 | 2.868 |
-| Premier League | 1014 | 2.722 |
-| Serie A | 1378 | 2.482 |
+| Eredivisie | 1072 | 3.079 |
+| Ligue 1 | 1099 | 3.011 |
+| Liga Portugal | 1286 | 3.002 |
+| LaLiga | 1087 | 2.83 |
+| Bundesliga | 925 | 2.772 |
+| Premier League | 1014 | 2.652 |
+| Serie A | 1378 | 2.432 |
 
 > Scale note: every incoming transfer is scored, minutes are 60% of the weight, and most signings are squad depth — so window/club means sit low in absolute terms. Elite single signings reach 8–10; flops sit near 0.
 
 ## Best 20 windows (≥3 signings)
 | League | Club | Season | Window | N | Rating | Problems addressed |
 |---|---|---|---|---:|---:|---|
+| Eredivisie | Go Ahead Eagles | 21/22 | summer | 6 | 9.2 | - |
 | Eredivisie | SC Heerenveen | 21/22 | summer | 4 | 8.58 | RB |
-| Ligue 1 | Montpellier HSC | 19/20 | summer | 4 | 8.537 | - |
 | Ligue 1 | Angers SCO | 24/25 | summer | 6 | 8.194 | - |
-| Eredivisie | Go Ahead Eagles | 21/22 | summer | 6 | 8.174 | - |
+| Bundesliga | VfL Bochum | 21/22 | summer | 4 | 8.155 | - |
 | Premier League | Leicester City | 20/21 | summer | 3 | 7.673 | - |
-| Bundesliga | Eintracht Frankfurt | 25/26 | summer | 4 | 7.662 | W |
-| Ligue 1 | Stade Rennais FC | 25/26 | summer | 6 | 7.16 | CB,MID |
-| Bundesliga | VfL Bochum | 21/22 | summer | 4 | 7.067 | - |
+| Liga Portugal | CF Estrela Amadora | 23/24 | winter | 4 | 7.356 | - |
 | Eredivisie | SC Heerenveen | 19/20 | summer | 4 | 7.015 | RB,W |
-| Eredivisie | FC Groningen | 20/21 | summer | 4 | 6.601 | CF,W |
-| Eredivisie | PEC Zwolle | 23/24 | summer | 6 | 6.42 | - |
-| Eredivisie | SC Heerenveen | 25/26 | summer | 7 | 6.258 | CF,MID,W |
+| Liga Portugal | GD Estoril Praia | 21/22 | summer | 7 | 6.741 | - |
+| LaLiga | CD Leganés | 24/25 | summer | 11 | 6.696 | - |
+| Bundesliga | Arminia Bielefeld | 20/21 | summer | 4 | 6.686 | - |
+| Liga Portugal | Avs Futebol | 24/25 | summer | 11 | 6.566 | - |
+| Eredivisie | SC Heerenveen | 25/26 | summer | 7 | 6.309 | CF,MID,W |
 | Ligue 1 | AJ Auxerre | 22/23 | summer | 8 | 6.237 | - |
-| Liga Portugal | GD Estoril Praia | 21/22 | summer | 7 | 6.226 | - |
-| Eredivisie | NAC Breda | 24/25 | summer | 6 | 6.198 | - |
 | Liga Portugal | Sporting CP | 21/22 | summer | 3 | 6.192 | MID |
-| Bundesliga | VfB Stuttgart | 24/25 | summer | 11 | 5.997 | RB,W |
+| Liga Portugal | Casa Pia AC | 22/23 | summer | 7 | 6.065 | - |
+| Eredivisie | PEC Zwolle | 23/24 | summer | 6 | 6.053 | - |
+| Liga Portugal | FC Vizela | 21/22 | summer | 8 | 6.016 | - |
 | LaLiga | Levante UD | 25/26 | summer | 6 | 5.985 | - |
-| LaLiga | CD Leganés | 24/25 | summer | 11 | 5.957 | - |
-| Eredivisie | Ajax Amsterdam | 20/21 | summer | 6 | 5.927 | MID |
+| Ligue 1 | Stade Rennais FC | 25/26 | summer | 6 | 5.936 | CB,MID |
+| Eredivisie | NAC Breda | 24/25 | summer | 6 | 5.802 | - |
 
 ## Worst 20 windows (≥3 signings)
 | League | Club | Season | Window | N | Rating | Unaddressed problems |
 |---|---|---|---|---:|---:|---|
-| Eredivisie | FC Volendam | 22/23 | winter | 3 | 0.0 | - |
 | LaLiga | Athletic Bilbao | 19/20 | summer | 5 | 0.0 | - |
 | LaLiga | Real Valladolid CF | 19/20 | winter | 3 | 0.0 | RB,W |
 | Bundesliga | FC St. Pauli | 24/25 | summer | 4 | 0.0 | - |
 | Premier League | Burnley FC | 20/21 | summer | 3 | 0.107 | LB,W |
 | Bundesliga | Arminia Bielefeld | 21/22 | winter | 3 | 0.137 | - |
-| Serie A | US Lecce | 22/23 | winter | 3 | 0.167 | - |
 | Bundesliga | 1.FSV Mainz 05 | 20/21 | summer | 3 | 0.171 | LB,W |
 | Premier League | Tottenham Hotspur | 19/20 | summer | 4 | 0.223 | CB |
 | Ligue 1 | Olympique Lyon | 22/23 | winter | 3 | 0.239 | RB |
+| Ligue 1 | Olympique Marseille | 22/23 | winter | 3 | 0.27 | LB,RB |
 | Serie A | US Salernitana 1919 | 23/24 | winter | 3 | 0.304 | GK,MID,RB,W |
 | Bundesliga | FC St. Pauli | 24/25 | winter | 3 | 0.314 | - |
 | Ligue 1 | Paris Saint-Germain | 20/21 | summer | 3 | 0.341 | CB,LB,RB,W |
@@ -64,6 +63,7 @@
 | Serie A | Cagliari Calcio | 25/26 | winter | 6 | 0.467 | GK |
 | Liga Portugal | FC Arouca | 22/23 | winter | 3 | 0.513 | CB,MID |
 | LaLiga | Valencia CF | 20/21 | summer | 3 | 0.532 | LB,RB,W |
+| Serie A | Spezia Calcio | 22/23 | winter | 4 | 0.537 | LB,MID,W |
 | Ligue 1 | LOSC Lille | 23/24 | winter | 3 | 0.541 | LB,RB |
 
 ## Best 25 starter signings
@@ -77,8 +77,6 @@
 | Cristo | FC Arouca | 23/24 | starter | €0 | Y | €6.0m | 9.722 |
 | Federico Baschirotto | US Lecce | 22/23 | starter | €280k | Y | €3.0m | 9.699 |
 | David Raum | TSG 1899 Hoffenheim | 21/22 | starter | €0 | Y | €26.0m | 9.693 |
-| Max Balard | NAC Breda | 24/25 | starter | €0 | N |  | 9.682 |
-| Anselmo García MacNulty | PEC Zwolle | 23/24 | starter | €0 | N |  | 9.676 |
 | Zian Flemming | Fortuna Sittard | 20/21 | starter | €200k | Y | €2.5m | 9.631 |
 | Srdjan Babic | UD Almería | 22/23 | starter | €1.1m | Y | €5.0m | 9.551 |
 | Fredrik Aursnes | Feyenoord Rotterdam | 21/22 | starter | €750k | Y | €13.0m | 9.536 |
@@ -93,32 +91,34 @@
 | Javi Guerra | Valencia CF | 23/24 | starter |  | N |  | 9.117 |
 | Jesús Ramírez | CD Nacional | 25/26 | starter | €600k | N |  | 9.092 |
 | Mohammed Salisu | Real Valladolid CF | 19/20 | starter |  | Y | €12.0m | 9.086 |
+| Wout Faes | Stade Reims | 19/20 | starter | €3.0m | Y | €17.0m | 9.074 |
 | Jeffrey de Lange | Go Ahead Eagles | 22/23 | starter |  | Y | €2.0m | 9.072 |
+| Viktor Gyökeres | Sporting CP | 23/24 | starter | €24.0m | Y | €66.9m | 9.043 |
 
 ## Best 20 trades (bought, then sold)
 *profit/loss realised — minutes still dominate the score*
 | Player | Club | Season | Type | Fee | Sold | Sale | Rating |
 |---|---|---|---|---:|:--:|---:|---:|
 | Malo Gusto | Olympique Lyon | 21/22 | rotation |  | Y | €30.0m | 10.0 |
-| Bafodé Diakité | LOSC Lille | 22/23 | rotation | €3.0m | Y | €35.0m | 10.0 |
 | Younes Namli | PEC Zwolle | 23/24 | rotation | €0 | Y |  | 10.0 |
-| Wout Faes | Stade Reims | 19/20 | rotation | €3.0m | Y | €17.0m | 10.0 |
 | Edmond Tapsoba | Vitória Guimarães SC | 19/20 | rotation |  | Y | €20.2m | 10.0 |
-| Pierre-Emerick Aubameyang | Olympique Marseille | 23/24 | rotation | €0 | Y | €9.0m | 10.0 |
+| Clayton | Casa Pia AC | 22/23 | rotation | €0 | Y | €3.0m | 10.0 |
 | Ivan Provedel | Spezia Calcio | 20/21 | rotation | €0 | Y | €2.5m | 10.0 |
 | André Onana | Inter Milan | 22/23 | rotation | €0 | Y | €50.2m | 10.0 |
-| Lisandro Martínez | Ajax Amsterdam | 19/20 | rotation | €7.0m | Y | €57.4m | 10.0 |
 | Sergiño Dest | Ajax Amsterdam | 19/20 | rotation |  | Y | €21.0m | 10.0 |
-| Antony | Ajax Amsterdam | 20/21 | rotation | €15.8m | Y | €95.0m | 10.0 |
-| Jurriën Timber | Ajax Amsterdam | 20/21 | rotation |  | Y | €40.0m | 10.0 |
-| Luis Díaz | FC Porto | 19/20 | rotation | €7.2m | Y | €49.0m | 10.0 |
 | Samuel Portugal | Portimonense SAD | 20/21 | starter |  | Y | €4.0m | 10.0 |
 | Konstantinos Mavropanos | VfB Stuttgart | 22/23 | rotation | €3.2m | Y | €20.0m | 10.0 |
 | Hiroki Ito | VfB Stuttgart | 22/23 | rotation | €400k | Y | €23.5m | 10.0 |
-| Nick Woltemade | VfB Stuttgart | 24/25 | rotation | €0 | Y | €75.0m | 10.0 |
 | Jonathan Clauss | RC Lens | 20/21 | rotation | €0 | Y | €7.5m | 10.0 |
-| Nathan Zézé | FC Nantes | 23/24 | rotation |  | Y | €20.0m | 10.0 |
+| Loïc Badé | RC Lens | 20/21 | rotation | €0 | Y | €17.0m | 10.0 |
+| Isac Lidberg | Go Ahead Eagles | 21/22 | rotation | €0 | Y | €600k | 9.993 |
 | Leandro Silva | FC Arouca | 21/22 | rotation | €0 | Y |  | 9.969 |
+| Luiz Júnior | FC Famalicão | 20/21 | starter |  | Y | €12.0m | 9.934 |
+| Nico González | FC Barcelona | 21/22 | rotation |  | Y | €21.2m | 9.907 |
+| Malik Tillman | PSV Eindhoven | 24/25 | rotation | €12.0m | Y | €35.0m | 9.828 |
+| Vangelis Pavlidis | Willem II Tilburg | 19/20 | starter | €250k | Y | €2.5m | 9.821 |
+| Wataru Endo | VfB Stuttgart | 20/21 | starter | €1.7m | Y | €20.0m | 9.788 |
+| Pedro Gonçalves | FC Famalicão | 19/20 | starter | €1.3m | Y | €13.5m | 9.774 |
 
 ## Worst 20 big-money signings (fee ≥ €25m)
 | Player | Club | Season | Type | Fee | Sold | Sale | Rating |

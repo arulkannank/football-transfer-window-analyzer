@@ -18,7 +18,13 @@ python run.py sensitivity                              # threshold robustness ->
 python run.py validity                                 # recruitment-vs-results correlation
 
 streamlit run app.py                                   # interactive app (3 views)
+
+pip install -r requirements-dev.txt && pytest          # 37 unit + integration tests
 ```
+
+Tests cover parsing, the statistics helpers, the scoring rubric (sold/not-sold,
+redistribution, post-sale spell bounding), classification, problem detection, and
+an end-to-end synthetic run; they run in CI on every push.
 
 ## Streamlit app (`app.py`)
 

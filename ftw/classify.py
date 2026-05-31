@@ -40,8 +40,17 @@ def compute_avg_spend(ds: Dataset) -> dict[str, float]:
     return {c: (sum(v) / len(v)) for c, v in spend.items() if v}
 
 
+REGULAR_SHARE = 0.40   # a departing player worth "replacing" was at least a regular
+
+
 def departed_groups(ds: Dataset, club_id: str, season: int) -> dict[str, int]:
-    """{group: count} of players sold by the club across both windows of season."""
+    """{slot: count} of *regulars* sold by the club across both windows of season.
+
+    Only counts a sale as creating a replacement need if the departing player was
+    at least a rotation-regular (>=40% of minutes) the prior season — otherwise
+    selling fringe players would make almost every signing a 'replacement'."""
+    prev = season - 1
+    avail = ds.available_minutes(club_id, prev)
     out: dict[str, int] = {}
     for window in config.WINDOWS:
         tr = ds.transfers.get((club_id, season, window))
@@ -50,9 +59,10 @@ def departed_groups(ds: Dataset, club_id: str, season: int) -> dict[str, int]:
         for d in tr.get("departures", []):
             if d.get("fee", {}).get("loan"):
                 continue                      # a loan-out isn't a sale to replace
-            g = d.get("group")
-            if g:
-                out[g] = out.get(g, 0) + 1
+            p = ds.player_in_roster(d["pid"], club_id, prev)
+            if not p or not avail or p.minutes / avail < REGULAR_SHARE:
+                continue
+            out[p.group] = out.get(p.group, 0) + 1
     return out
 
 
@@ -95,9 +105,11 @@ def classify(signing: Signing, flags: dict[str, ProblemFlag],
     if rotation_option:
         labels.append("rotation_option")
 
-    # rubric bucket: a clear need (addresses/improves a problem) is always starter-type
-    is_rotation = (not addresses and not improves) and (
-        rotation_option or (cheap and not replaces))
+    # rubric bucket: a starter-type need — addressing/improving a problem OR
+    # replacing a sold player — is never rotation. Otherwise a covered/cheap/older
+    # depth buy in a non-problem slot is rotation.
+    is_rotation = (not addresses and not improves and not replaces) and (
+        rotation_option or cheap)
     signing.classification = labels or ["squad_addition"]
     signing.addressed_problem = addresses
     signing.is_starter_signing = not is_rotation
