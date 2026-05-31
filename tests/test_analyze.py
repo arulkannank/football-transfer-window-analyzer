@@ -1,7 +1,36 @@
+import pytest
 from conftest import player, rating_index
 
 from ftw import analyze
 from ftw.dataset import Dataset
+
+
+def test_is_internal_promotion():
+    assert analyze.is_internal_promotion("Real Madrid Castilla", "Real Madrid")
+    assert analyze.is_internal_promotion("FC Barcelona Atlètic", "FC Barcelona")
+    assert analyze.is_internal_promotion("Man City U21", "Manchester City")
+    assert not analyze.is_internal_promotion("AS Monaco", "Real Madrid")
+    assert not analyze.is_internal_promotion("Sevilla FC", "FC Barcelona")
+    assert not analyze.is_internal_promotion(None, "Real Madrid")
+
+
+def _win(season, window):
+    return {"club_id": "100", "club": "X", "league": "GB1", "season": season,
+            "season_label": "", "window": window, "n_signings": 1, "n_starter": 1,
+            "n_rotation": 0, "weight_sum": 2.0, "window_rating": 5.0, "problems": ["CB"],
+            "validated_problems": ["CB"], "problems_addressed": [],
+            "problems_unaddressed": ["CB"], "signings": [], "chronic_unaddressed": [],
+            "problem_resolution": None, "window_grade": None}
+
+
+def test_chronic_penalty():
+    windows = [_win(2020, "summer"), _win(2020, "winter")]   # same unfixed problem twice
+    analyze._apply_chronic(None, windows)
+    assert windows[0]["chronic_unaddressed"] == []          # streak 1 < threshold
+    assert windows[0]["window_rating"] == 5.0               # no penalty yet
+    assert windows[1]["chronic_unaddressed"] == ["CB"]      # streak 2 -> chronic
+    assert windows[1]["window_rating"] == pytest.approx(4.25)   # 5.0 - 0.75 penalty
+    assert windows[1]["window_rating_raw"] == 5.0
 
 
 def fee(eur, known=True, loan=False, free=False):

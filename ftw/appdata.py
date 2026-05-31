@@ -52,6 +52,7 @@ def windows_df(results: dict) -> pd.DataFrame:
             "window": w["window"], "n_signings": w["n_signings"],
             "n_starter": w["n_starter"], "n_rotation": w["n_rotation"],
             "window_rating": w["window_rating"],
+            "window_rating_raw": w.get("window_rating_raw"),
             "window_rating_shrunk": w.get("window_rating_shrunk"),
             "problems": ", ".join(w["problems"]),
             "problems_addressed": ", ".join(w["problems_addressed"]),

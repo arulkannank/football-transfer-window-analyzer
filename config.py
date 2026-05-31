@@ -70,6 +70,14 @@ SLOT_NAMES = {
 }
 
 
+# Transfermarkt occasionally records a stale/odd MAIN position for a player that
+# every TM page then repeats (e.g. Matheus Nunes is logged as "Right-Back" though
+# he is a central midfielder). Override such cases by player id -> correct position.
+POSITION_OVERRIDES: dict[str, str] = {
+    "601883": "Defensive Midfield",   # Matheus Nunes (TM main pos = Right-Back)
+}
+
+
 def to_slot(position: str) -> str:
     if not position:
         return "MID"
@@ -133,6 +141,7 @@ LOW_RATING_THRESHOLD = 6.70       # slot avg SofaScore rating below this
 # the window rating.
 CHRONIC_WINDOW_THRESHOLD = 2
 PENALTY_PER_CHRONIC_POSITION = 15.0  # points off problem-resolution sub-score per chronic position
+CHRONIC_RATING_PENALTY = 0.75        # points off the window rating (/10) per chronic unaddressed slot
 
 # ----- normalization knobs -----
 FEE_FLOOR_EUR = 1_000_000.0    # avoids divide-by-near-zero for cheap/free deals

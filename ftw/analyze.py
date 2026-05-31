@@ -18,6 +18,31 @@ from .models import Signing
 
 HIT_THRESHOLD = 5.0   # a signing "hits" (contributes meaningfully) at rating >= 5
 
+# Reserve/academy-team name markers used to spot an internal promotion.
+_RESERVE_MARKERS = ("castilla", "atletic", "u23", "u21", "u20", "u19", "u18", "u17",
+                    "sub-23", "sub-21", "youth", "jugend", "juvenil", "reserve",
+                    " ii", "yth", "academy", "b-team", "b ii")
+_DROP_TOKENS = {"fc", "cf", "ac", "afc", "sc", "ssc", "as", "rc", "rcd", "ud", "cd",
+                "club", "de", "real", "ii", "b", "u21", "u19", "u23", "u18", "u20", "sad"}
+
+
+def is_internal_promotion(from_name: str | None, club_name: str | None) -> bool:
+    """A player promoted from the club's OWN reserve/academy team (e.g. Real Madrid
+    Castilla, FC Barcelona Atlètic, 'Man City U21') — not a market transfer."""
+    if not from_name or not club_name:
+        return False
+    f, c = util.norm_name(from_name), util.norm_name(club_name)
+    if not f or not c:
+        return False
+    if c in f or f in c:                       # parent name embedded in the reserve name
+        return True
+    if any(m in (" " + from_name.lower() + " ") for m in _RESERVE_MARKERS):
+        ctoks = set(c.split()) - _DROP_TOKENS
+        ftoks = set(f.split()) - _DROP_TOKENS
+        if ctoks and ftoks and (ctoks & ftoks):
+            return True
+    return False
+
 
 def _make_signing(ds: Dataset, club_id: str, season: int, window: str,
                   arrival: dict) -> Signing | None:
@@ -28,7 +53,11 @@ def _make_signing(ds: Dataset, club_id: str, season: int, window: str,
     age = arrival.get("age")
     if age is not None and age < 18:
         return None
-    # skip youth promotions / undocumented returns (no fee, no value or selling club)
+    # ignore promotions from the club's own reserve/academy team
+    if is_internal_promotion(arrival.get("counterpart_club_name"),
+                             ds.club_name.get(club_id)):
+        return None
+    # skip undocumented returns (no fee, no value or selling club)
     if not fee.get("known") and not (arrival.get("mv_at") and arrival.get("counterpart_club_id")):
         return None
     pid = arrival["pid"]
@@ -256,17 +285,21 @@ def _apply_chronic(ds: Dataset, windows: list[dict]) -> None:
                 if g not in w["validated_problems"]:
                     streak[g] = 0
             w["chronic_unaddressed"] = sorted(chronic)
+            # PENALISE the window rating for each chronic unaddressed problem: the
+            # club keeps failing to fix a long-standing weakness.
+            raw = w["window_rating"]
+            w["window_rating_raw"] = raw
+            if raw is not None and chronic:
+                w["window_rating"] = round(
+                    max(0.0, raw - config.CHRONIC_RATING_PENALTY * len(chronic)), 3)
             # problem-resolution sub-score (0..10) and blended window grade
             vp = w["validated_problems"]
-            if vp:
-                res = len(w["problems_addressed"]) / len(vp)
-            else:
-                res = 1.0
+            res = (len(w["problems_addressed"]) / len(vp)) if vp else 1.0
             pr = res * 10.0 - config.PENALTY_PER_CHRONIC_POSITION / 10.0 * len(chronic)
             w["problem_resolution"] = round(max(0.0, min(10.0, pr)), 2)
-            if w["window_rating"] is not None:
+            if raw is not None:                      # grade blends RAW recruitment + resolution
                 w["window_grade"] = round(
-                    config.META_RECRUITMENT_WEIGHT * w["window_rating"]
+                    config.META_RECRUITMENT_WEIGHT * raw
                     + config.META_PROBLEM_WEIGHT * w["problem_resolution"], 3)
 
 

@@ -236,15 +236,17 @@ def _windows_tab(cw, rated_w):
                      alt.Tooltip("window_rating_shrunk:Q", title="shrunk", format=".2f"),
                      "problems_addressed", "problems_unaddressed"]), width="stretch")
     show = cw.sort_values("order")[[
-        "season_label", "window", "n_signings", "window_rating", "window_rating_shrunk",
-        "problems", "problems_addressed", "problems_unaddressed", "chronic",
-        "problem_resolution", "window_grade"]].rename(columns={
+        "season_label", "window", "n_signings", "window_rating_raw", "window_rating",
+        "window_rating_shrunk", "problems", "problems_addressed", "problems_unaddressed",
+        "chronic", "problem_resolution", "window_grade"]].rename(columns={
             "season_label": "Season", "window": "Window", "n_signings": "N",
-            "window_rating": "Raw", "window_rating_shrunk": "Shrunk",
-            "problems": "Flagged", "problems_addressed": "Addressed",
-            "problems_unaddressed": "Unaddressed", "chronic": "Chronic",
-            "problem_resolution": "Prob.res", "window_grade": "Grade"})
+            "window_rating_raw": "Pre-pen.", "window_rating": "Rating",
+            "window_rating_shrunk": "Shrunk", "problems": "Flagged",
+            "problems_addressed": "Addressed", "problems_unaddressed": "Unaddressed",
+            "chronic": "Chronic", "problem_resolution": "Prob.res", "window_grade": "Grade"})
     st.dataframe(show, width="stretch", hide_index=True)
+    st.caption("**Rating** = recruitment rating after a **chronic penalty** (−0.75 per slot "
+               "left unaddressed for ≥2 consecutive windows); **Pre-pen.** is before it.")
 
 
 def _trading_tab(cs):

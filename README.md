@@ -167,8 +167,15 @@ change in `config.py` / the scoring module:
 - **Market efficiency cutoff** = ±30% vs market value for full ±credit.
 - **Average spend per transfer** = club's total fees ÷ number of incoming
   transfers (frees count as €0), over the whole period.
-- **All loan deals**, **players under 18**, and **youth promotions** are excluded
-  from scoring (loan-outs also don't count as a sale to be "replaced").
+- **All loan deals**, **players under 18**, **youth promotions**, and **internal
+  promotions from a club's own reserve/academy** (e.g. Real Madrid Castilla, FC
+  Barcelona Atlètic — detected from the from-club name) are excluded from scoring.
+- **Positions** come from Transfermarkt's main-position field, which is occasionally
+  stale (e.g. Matheus Nunes is logged as a right-back though he's a midfielder);
+  `config.POSITION_OVERRIDES` corrects known cases by player id.
+- **Chronic penalty**: a window loses `CHRONIC_RATING_PENALTY` (0.75) from its rating
+  for each validated problem position it leaves unaddressed for ≥2 consecutive
+  windows (the club keeps failing to fix a long-standing weakness).
 - **Insignificant buys are dropped**: a signing for < 0.2× the club's average
   spend who also played < 10% of available minutes over his spell is treated as
   squad-filler noise and excluded.

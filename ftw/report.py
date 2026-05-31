@@ -37,12 +37,13 @@ def write_all(ds: Dataset, results: dict, out_dir: Path = OUT_DIR) -> None:
     with open(out_dir / "windows.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["league", "club", "season", "window", "n_signings", "n_starter",
-                    "n_rotation", "window_rating", "problems", "problems_addressed",
-                    "problems_unaddressed", "chronic", "problem_resolution", "window_grade"])
+                    "n_rotation", "window_rating", "window_rating_pre_penalty", "problems",
+                    "problems_addressed", "problems_unaddressed", "chronic",
+                    "problem_resolution", "window_grade"])
         for r in windows:
             w.writerow([_lg(r["league"]), r["club"], r["season_label"], r["window"],
                         r["n_signings"], r["n_starter"], r["n_rotation"],
-                        r["window_rating"], "|".join(r["problems"]),
+                        r["window_rating"], r.get("window_rating_raw"), "|".join(r["problems"]),
                         "|".join(r["problems_addressed"]), "|".join(r["problems_unaddressed"]),
                         "|".join(r["chronic_unaddressed"]), r["problem_resolution"],
                         r["window_grade"]])
