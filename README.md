@@ -124,6 +124,24 @@ secondary `window_grade` blends recruitment with problem-resolution
 (`META_*` weights + a chronic-problem penalty for problems left unaddressed across
 consecutive windows). Ratings roll up to club-season, club and league.
 
+### Statistical treatment (`ftw/stats.py`, scipy-free)
+- **Empirical-Bayes shrinkage.** The shrinkage strength `k` is *estimated* from
+  variance components (k = within-club ÷ between-club variance ≈ 32, not a guess);
+  club ratings shrink toward the league mean and windows toward their club's
+  (already-shrunk) level — hierarchical partial pooling. The data say club identity
+  explains only ~3% of signing-to-signing variance, so most leaderboard gaps are noise.
+- **Bootstrap intervals.** 95% CIs on club ratings and **rank intervals** (the top
+  club's rank CI can span ~1–40) — a built-in humility check against the winner's curse.
+- **Two-part read.** Because the score is zero-inflated/bimodal, the app reports a
+  **hit rate** (share of signings ≥5/10) and **median** alongside the mean.
+- **Fee confidence.** Undisclosed-fee signings (P&L on a market-value proxy) are flagged.
+- **External validity** (`python run.py validity`): league position regressed on
+  recruitment rating controlling for spend + prior position, **cluster-robust** by club,
+  plus a **club-fixed-effects** version (β ≈ −0.3, t ≈ −3 → in years a club recruits
+  better than its own norm it finishes significantly higher).
+- **Sensitivity** (`python run.py sensitivity`): rankings are robust to the rubric's
+  thresholds (Spearman ρ 0.94–1.00).
+
 ## Interpretation decisions (tunable)
 
 The brief left several choices open; these are the defaults chosen, all easy to

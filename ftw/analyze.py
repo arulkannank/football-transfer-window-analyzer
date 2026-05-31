@@ -9,10 +9,14 @@ chronic-problem penalty).
 """
 from __future__ import annotations
 
+import numpy as np
+
 import config
-from . import classify, problems, scoring, util
+from . import classify, problems, scoring, stats, util
 from .dataset import Dataset
 from .models import Signing
+
+HIT_THRESHOLD = 5.0   # a signing "hits" (contributes meaningfully) at rating >= 5
 
 
 def _make_signing(ds: Dataset, club_id: str, season: int, window: str,
@@ -59,9 +63,6 @@ def _insignificant(s: Signing, avg_spend: float | None) -> bool:
     return share < INSIGNIFICANT_MINUTES_SHARE
 
 
-SHRINKAGE_K = 4.0   # pseudo-weight pulling small windows toward the league prior
-
-
 def compute_starter_baselines(ds: Dataset, starter_share: float | None = None) -> dict:
     """Per (league, season, slot) average rating over STARTERS only.
 
@@ -100,7 +101,7 @@ def compute_starter_baselines(ds: Dataset, starter_share: float | None = None) -
     return out
 
 
-def analyze(ds: Dataset, log=print) -> dict:
+def analyze(ds: Dataset, log=print, bootstrap: bool = True) -> dict:
     last_season = max(ds.seasons)
     ds.pos_rating_avg = compute_starter_baselines(ds)   # starter-level baseline
     avg_spend = classify.compute_avg_spend(ds)
@@ -136,18 +137,23 @@ def analyze(ds: Dataset, log=print) -> dict:
 
     _apply_chronic(ds, windows)
     priors = _league_priors(all_signings)
-    _apply_shrinkage(windows, priors)
-    rollups = _rollups(ds, windows, all_signings, priors)
-    log(f"Analyzed {len(all_signings)} signings across {len(windows)} windows.")
+    k = _data_driven_k(all_signings)
+    rollups = _rollups(ds, windows, all_signings, priors, k, bootstrap=bootstrap)
+    club_shrunk = {r["club_id"]: r["rating_shrunk"] for r in rollups["by_club"]}
+    _apply_shrinkage(windows, priors, club_shrunk, k)
+    log(f"Analyzed {len(all_signings)} signings across {len(windows)} windows "
+        f"(shrinkage k≈{k}).")
     return {"windows": windows, "signings": all_signings, "rollups": rollups,
-            "league_priors": priors}
+            "league_priors": priors, "shrinkage_k": k}
 
 
-def _shrink(raw: float | None, weight: float, prior: float, k: float = SHRINKAGE_K):
-    """Empirical-Bayes pull toward `prior` by `k` pseudo-observations."""
-    if raw is None or prior is None:
-        return raw
-    return round((weight * raw + k * prior) / (weight + k), 3)
+def _data_driven_k(signings: list[Signing], min_n: int = 5) -> float:
+    """Empirical-Bayes shrinkage strength from club-level variance components."""
+    byc: dict = {}
+    for s in signings:
+        byc.setdefault(s.club_id, []).append(s.overall_rating or 0.0)
+    groups = [v for v in byc.values() if len(v) >= min_n]
+    return round(stats.estimate_shrinkage_k(groups), 1)
 
 
 def _league_priors(signings: list[Signing]) -> dict:
@@ -160,12 +166,15 @@ def _league_priors(signings: list[Signing]) -> dict:
     return {lg: round(num / den, 3) for lg, (num, den) in acc.items() if den}
 
 
-def _apply_shrinkage(windows: list[dict], priors: dict) -> None:
+def _apply_shrinkage(windows: list[dict], priors: dict, club_shrunk: dict, k: float) -> None:
+    """Shrink each window toward its club's (already shrunk) level — hierarchical
+    partial pooling, so a 1-signing window can't swing on a single player."""
     for w in windows:
-        prior = priors.get(w["league"])
+        prior = club_shrunk.get(w["club_id"]) or priors.get(w["league"])
         weight = 2 * w["n_starter"] + w["n_rotation"]   # starter x2, rotation x1
-        w["window_rating_shrunk"] = _shrink(w["window_rating"], weight, prior)
-        w["league_prior"] = prior
+        w["window_rating_shrunk"] = stats.shrink(w["window_rating"], weight, prior, k)
+        w["shrink_target"] = prior
+        w["league_prior"] = priors.get(w["league"])
 
 
 def _weighted(sigs: list[Signing]) -> float | None:
@@ -263,8 +272,22 @@ def _tot_weight(sigs: list[Signing]) -> float:
     return sum(s.weight for s in sigs)
 
 
+def _hit_stats(sigs: list[Signing]) -> dict:
+    """Two-part view of a zero-inflated, bimodal score: how often a signing 'hits'
+    (rating >= HIT_THRESHOLD) and how good the hits are, plus the median."""
+    rs = [s.overall_rating for s in sigs if s.overall_rating is not None]
+    if not rs:
+        return {"hit_rate": None, "quality_given_hit": None, "median": None}
+    hits = [r for r in rs if r >= HIT_THRESHOLD]
+    return {
+        "hit_rate": round(len(hits) / len(rs), 3),
+        "quality_given_hit": round(float(np.mean(hits)), 2) if hits else None,
+        "median": round(float(np.median(rs)), 2),
+    }
+
+
 def _rollups(ds: Dataset, windows: list[dict], signings: list[Signing],
-             priors: dict) -> dict:
+             priors: dict, k: float, bootstrap: bool = True) -> dict:
     def pool(sigs):
         return _weighted(sigs)
 
@@ -286,17 +309,31 @@ def _rollups(ds: Dataset, windows: list[dict], signings: list[Signing],
         "season_label": util.season_label(season),
         "league": ds.club_league.get((cid, season)),
         "n_signings": len(sigs), "rating": pool(sigs),
-        "rating_shrunk": _shrink(pool(sigs), _tot_weight(sigs),
-                                 priors.get(ds.club_league.get((cid, season)))),
+        "rating_shrunk": stats.shrink(pool(sigs), _tot_weight(sigs),
+                                      priors.get(ds.club_league.get((cid, season))), k),
+        **_hit_stats(sigs),
     } for (cid, season), sigs in by_club_season.items()]
     club_season_rows.sort(key=lambda r: -(r["rating_shrunk"] or 0))
 
     club_rows = [{
-        "club": ds.club_name.get(cid, cid), "club_id": cid,
+        "club": ds.club_name.get(cid, cid), "club_id": cid, "league": club_league(sigs),
         "n_signings": len(sigs), "rating": pool(sigs),
-        "rating_shrunk": _shrink(pool(sigs), _tot_weight(sigs),
-                                 priors.get(club_league(sigs))),
+        "rating_shrunk": stats.shrink(pool(sigs), _tot_weight(sigs),
+                                      priors.get(club_league(sigs)), k),
+        **_hit_stats(sigs),
     } for cid, sigs in by_club.items()]
+
+    if bootstrap:
+        arrays = {cid: np.array([s.overall_rating or 0 for s in sigs])
+                  for cid, sigs in by_club.items()}
+        weights = {cid: np.array([s.weight for s in sigs])
+                   for cid, sigs in by_club.items()}
+        club_prior = {cid: priors.get(club_league(sigs)) or 0
+                      for cid, sigs in by_club.items()}
+        eligible = {cid for cid, sigs in by_club.items() if len(sigs) >= 10}
+        ci = stats.bootstrap_club_intervals(arrays, weights, club_prior, k, eligible)
+        for r in club_rows:
+            r.update(ci.get(r["club_id"], {}))
     club_rows.sort(key=lambda r: -(r["rating_shrunk"] or 0))
 
     league_rows = sorted(
@@ -330,4 +367,5 @@ def _rollups(ds: Dataset, windows: list[dict], signings: list[Signing],
         "by_league": league_rows,
         "by_position": pos_rows,
         "league_priors": priors,
+        "shrinkage_k": k,
     }

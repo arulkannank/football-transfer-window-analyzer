@@ -85,6 +85,10 @@ def _write_markdown(ds: Dataset, results: dict, path: Path) -> None:
     lines.append(f"- Windows analysed (with signings): **{len(rated)}**")
     lines.append(f"- Signings scored: **{len(results['signings'])}**")
     lines.append(f"- Overall mean transfer rating: **{rollups['overall_rating']}/10**")
+    lines.append(f"- Empirical-Bayes shrinkage k ≈ **{rollups.get('shrinkage_k')}** "
+                 "(estimated from variance components; club identity explains little of the "
+                 "signing-to-signing variance, so club ratings carry **wide** bootstrap "
+                 "intervals — read small leaderboard gaps with caution).")
     lines.append("")
 
     lines.append("## League averages (weighted transfer rating /10)")

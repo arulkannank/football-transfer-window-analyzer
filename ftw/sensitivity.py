@@ -6,10 +6,8 @@ the overall mean. High Spearman / high overlap => conclusions are robust.
 """
 from __future__ import annotations
 
-import pandas as pd
-
 import config
-from . import analyze as A, classify, scoring
+from . import analyze as A, classify, scoring, stats
 from .dataset import Dataset
 
 # (label, module, attribute, default, [low, high])
@@ -35,7 +33,7 @@ def _top(results: dict, n: int = 20) -> list:
 
 
 def run(ds: Dataset, log=print) -> dict:
-    base = A.analyze(ds, log=lambda *a, **k: None)
+    base = A.analyze(ds, log=lambda *a, **k: None, bootstrap=False)
     base_r, base_top = _club_ratings(base), set(_top(base))
     base_mean = base["rollups"]["overall_rating"]
     rows = []
@@ -43,13 +41,12 @@ def run(ds: Dataset, log=print) -> dict:
         for v in values:
             setattr(mod, name, v)
             try:
-                res = A.analyze(ds, log=lambda *a, **k: None)
+                res = A.analyze(ds, log=lambda *a, **k: None, bootstrap=False)
             finally:
                 setattr(mod, name, default)
             r = _club_ratings(res)
             common = [c for c in base_r if c in r]
-            rho = pd.Series([base_r[c] for c in common]).corr(
-                pd.Series([r[c] for c in common]), method="spearman")
+            rho = stats.spearman([base_r[c] for c in common], [r[c] for c in common]) or 0.0
             overlap = len(base_top & set(_top(res)))
             rows.append({
                 "param": label, "value": v, "default": default,

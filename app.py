@@ -91,8 +91,10 @@ def render_club():
     spend = cs.loc[cs["fee_eur"].notna(), "fee_eur"].sum()
     recouped = cs.loc[cs["sold"], "sale_fee_eur"].fillna(0).sum()
     k = st.columns(6)
+    ci_txt = (f"; 95% CI {crow['lo']:.1f}–{crow['hi']:.1f}" if pd.notna(crow.get("lo")) else "")
     k[0].metric("Avg transfer rating", f"{crow['rating']}/10",
-                help=f"Rank #{int(crow['rank'])} of {len(clubs)} (by shrunk rating)")
+                help=f"Rank #{int(crow['rank'])} of {len(clubs)} (shrunk rating{ci_txt}). "
+                     f"Hit rate {crow.get('hit_rate')} · median {crow.get('median')}")
     k[1].metric("Signings scored", int(crow["n_signings"]))
     k[2].metric("Starters / Rotation",
                 f"{int((cs['type']=='starter').sum())} / {int((cs['type']=='rotation').sum())}")
@@ -319,22 +321,40 @@ def render_leaderboard():
     pool["League"] = pool["leagues"].map(league_label)
 
     st.subheader("🏆 Recruitment leaderboard")
-    st.caption("Clubs ranked by **shrunk** weighted transfer rating (small samples pulled "
-               "toward the league mean).")
+    st.caption(f"Clubs ranked by **shrunk** weighted rating (empirical-Bayes k≈"
+               f"{results.get('shrinkage_k')}, pulled toward the league mean). Bars show "
+               "the 95% bootstrap CI — note how wide they are: with so much signing-to-"
+               "signing noise, most clubs are **not** statistically separable.")
     top = pool.sort_values("rating_shrunk", ascending=False).head(25)
-    st.altair_chart(alt.Chart(top).mark_bar().encode(
+    base = alt.Chart(top)
+    bars = base.mark_bar().encode(
         x=alt.X("rating_shrunk:Q", title="Shrunk rating /10"),
         y=alt.Y("club:N", sort="-x", title=None),
         color=alt.Color("League:N"),
         tooltip=["club", "League", "n_signings",
                  alt.Tooltip("rating:Q", title="raw"),
-                 alt.Tooltip("rating_shrunk:Q", title="shrunk")]),
-        width="stretch")
-    tbl = pool.sort_values("rating_shrunk", ascending=False)[
-        ["club", "League", "n_signings", "rating", "rating_shrunk"]].rename(columns={
-            "club": "Club", "n_signings": "Signings", "rating": "Raw", "rating_shrunk": "Rating"})
+                 alt.Tooltip("rating_shrunk:Q", title="shrunk"),
+                 alt.Tooltip("lo:Q", title="CI low"), alt.Tooltip("hi:Q", title="CI high"),
+                 alt.Tooltip("rank_lo:Q", title="rank ≥"), alt.Tooltip("rank_hi:Q", title="rank ≤")])
+    err = base.mark_rule(color="#444").encode(
+        y=alt.Y("club:N", sort="-x"), x="lo:Q", x2="hi:Q")
+    st.altair_chart(bars + err, width="stretch")
+    tbl = pool.sort_values("rating_shrunk", ascending=False)[[
+        "club", "League", "n_signings", "rating", "rating_shrunk", "lo", "hi",
+        "rank_lo", "rank_hi", "hit_rate", "median"]].copy()
+    tbl["95% CI"] = tbl.apply(lambda r: f"{r['lo']:.1f}–{r['hi']:.1f}"
+                              if pd.notna(r["lo"]) else "—", axis=1)
+    tbl["Rank CI"] = tbl.apply(lambda r: f"{int(r['rank_lo'])}–{int(r['rank_hi'])}"
+                               if pd.notna(r["rank_lo"]) else "—", axis=1)
+    tbl = tbl[["club", "League", "n_signings", "rating", "rating_shrunk", "95% CI",
+               "Rank CI", "hit_rate", "median"]].rename(columns={
+        "club": "Club", "n_signings": "N", "rating": "Raw", "rating_shrunk": "Rating",
+        "hit_rate": "Hit rate", "median": "Median"})
     st.dataframe(tbl, width="stretch", hide_index=True, column_config={
-        "Rating": st.column_config.ProgressColumn(min_value=0, max_value=6, format="%.2f")})
+        "Rating": st.column_config.ProgressColumn(min_value=0, max_value=6, format="%.2f"),
+        "Hit rate": st.column_config.ProgressColumn(min_value=0, max_value=1, format="%.0f%%")})
+    st.caption("**Hit rate** = share of signings scoring ≥5/10 (a two-part read of a "
+               "zero-inflated score); **Rank CI** = 95% bootstrap interval on league rank.")
 
     st.markdown("---")
     st.subheader("🧭 Market efficiency by position")
@@ -358,11 +378,25 @@ def render_leaderboard():
     vd = pd.DataFrame(val["data"])
     cp = val["corr_recruitment_vs_position"]
     ci = val["corr_recruitment_vs_improvement"]
+    reg = val.get("regression", {})
     st.caption(
-        f"Across **{val['n']}** club-seasons: recruitment-rating ↔ league-position "
-        f"Spearman ρ = **{cp}** (negative ⇒ better recruitment, better finish); "
-        f"recruitment ↔ position-improvement ρ = **{ci}** (positive ⇒ better recruitment, "
-        f"bigger climb).")
+        f"Across **{val['n']}** club-seasons: recruitment ↔ league-position Spearman ρ = "
+        f"**{cp}** (negative ⇒ better recruitment, better finish); ↔ position-improvement ρ = "
+        f"**{ci}**.")
+    if reg:
+        c = st.columns(2)
+        c[0].metric("β recruitment → position (controlled)", reg.get("pooled_beta"),
+                    help=f"OLS controlling for spend + prior position, cluster-robust by club. "
+                         f"t={reg.get('pooled_t')}, SE={reg.get('pooled_se')}. Negative & "
+                         f"significant ⇒ better recruitment → better finish.")
+        c[1].metric("β within-club (fixed effects)", reg.get("fe_beta"),
+                    help=f"Club fixed effects: in years a club recruits better than its own "
+                         f"norm, does it finish higher? t={reg.get('fe_t')}, SE={reg.get('fe_se')}, "
+                         f"n={reg.get('n')}.")
+        sig = "significant (t<−2)" if (reg.get("fe_t") or 0) < -2 else "weak"
+        st.caption(f"Even differencing out club quality (fixed effects), the recruitment "
+                   f"effect is **{sig}**: a +1 rating point ≈ **{abs(reg.get('fe_beta',0)):.2f}** "
+                   f"places better in the table.")
     if not vd.empty:
         vd["League"] = vd["league"].map(LEAGUE_NAME).fillna(vd["league"])
         st.altair_chart(alt.Chart(vd).mark_circle(opacity=0.55).encode(

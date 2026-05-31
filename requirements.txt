@@ -1,6 +1,7 @@
 curl_cffi>=0.7      # browser TLS impersonation (bypasses Transfermarkt/SofaScore blocks)
 beautifulsoup4>=4.12
 lxml>=5.0
+numpy>=1.24
 pandas>=2.0
 streamlit>=1.30
 altair>=5.0

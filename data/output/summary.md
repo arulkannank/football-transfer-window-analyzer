@@ -3,6 +3,7 @@
 - Windows analysed (with signings): **1601**
 - Signings scored: **7861**
 - Overall mean transfer rating: **2.908/10**
+- Empirical-Bayes shrinkage k ≈ **32.3** (estimated from variance components; club identity explains little of the signing-to-signing variance, so club ratings carry **wide** bootstrap intervals — read small leaderboard gaps with caution).
 
 ## League averages (weighted transfer rating /10)
 | League | Signings | Rating |

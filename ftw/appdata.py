@@ -72,15 +72,18 @@ def club_index(results: dict, ds: Dataset) -> pd.DataFrame:
     for s in results["signings"]:
         if s.league:
             leagues.setdefault(s.club_id, set()).add(s.league)
+    keep = ("lo", "hi", "rank_lo", "rank_hi", "hit_rate", "quality_given_hit", "median")
     rows = []
     for r in results["rollups"]["by_club"]:
         cid = r["club_id"]
-        rows.append({
+        row = {
             "club_id": cid, "club": r["club"],
             "leagues": ", ".join(sorted(leagues.get(cid, []))),
             "n_signings": r["n_signings"], "rating": r["rating"],
             "rating_shrunk": r["rating_shrunk"],
-        })
+        }
+        row.update({key: r.get(key) for key in keep})
+        rows.append(row)
     df = pd.DataFrame(rows).sort_values("rating_shrunk", ascending=False).reset_index(drop=True)
     df["rank"] = df["rating_shrunk"].rank(ascending=False, method="min").astype("Int64")
     return df
