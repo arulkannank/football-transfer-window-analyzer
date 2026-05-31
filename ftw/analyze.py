@@ -63,6 +63,11 @@ def _insignificant(s: Signing, avg_spend: float | None) -> bool:
     return share < INSIGNIFICANT_MINUTES_SHARE
 
 
+def _unrated(s: Signing) -> bool:
+    """No SofaScore rating in any spell season -> excluded (not redistributed)."""
+    return not any(e.get("player_rating") is not None for e in s.season_evals)
+
+
 def compute_starter_baselines(ds: Dataset, starter_share: float | None = None) -> dict:
     """Per (league, season, slot) average rating over STARTERS only.
 
@@ -125,7 +130,7 @@ def analyze(ds: Dataset, log=print, bootstrap: bool = True) -> dict:
                     continue
                 classify.classify(sg, flags, avg_spend.get(club_id), sold)
                 scoring.score_signing(ds, sg, last_season)
-                if _insignificant(sg, avg_spend.get(club_id)):
+                if _insignificant(sg, avg_spend.get(club_id)) or _unrated(sg):
                     continue
                 sigs.append(sg)
                 all_signings.append(sg)
@@ -171,7 +176,7 @@ def _apply_shrinkage(windows: list[dict], priors: dict, club_shrunk: dict, k: fl
     partial pooling, so a 1-signing window can't swing on a single player."""
     for w in windows:
         prior = club_shrunk.get(w["club_id"]) or priors.get(w["league"])
-        weight = 2 * w["n_starter"] + w["n_rotation"]   # starter x2, rotation x1
+        weight = w.get("weight_sum") or (2 * w["n_starter"] + w["n_rotation"])
         w["window_rating_shrunk"] = stats.shrink(w["window_rating"], weight, prior, k)
         w["shrink_target"] = prior
         w["league_prior"] = priors.get(w["league"])
@@ -196,6 +201,7 @@ def _window_record(ds: Dataset, club_id: str, season: int, window: str,
         "n_signings": len(sigs),
         "n_starter": sum(1 for s in sigs if s.is_starter_signing),
         "n_rotation": sum(1 for s in sigs if not s.is_starter_signing),
+        "weight_sum": round(sum(s.weight for s in sigs), 2),
         "window_rating": _weighted(sigs),
         "problems": sorted(problem_groups),
         "validated_problems": sorted(validated),
@@ -212,7 +218,8 @@ def _signing_summary(ds: Dataset, s: Signing) -> dict:
     return {
         "pid": s.pid, "name": s.name, "group": s.group,
         "type": "starter" if s.is_starter_signing else "rotation",
-        "weight": s.weight, "labels": s.classification,
+        "weight": s.weight, "successful_seasons": s.successful_seasons,
+        "longevity_multiplier": s.longevity_multiplier, "labels": s.classification,
         "fee_eur": s.fee_eur, "fee_known": s.fee_known, "is_free": s.is_free,
         "mv_at_purchase": s.mv_at_purchase,
         "from_club": ds.club_name.get(s.from_club_id or "", s.from_club_id),

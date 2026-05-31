@@ -19,6 +19,8 @@ def signings_df(results: dict, ds: Dataset) -> pd.DataFrame:
                 "season": w["season"], "season_label": w["season_label"],
                 "window": w["window"], "pid": s["pid"], "player": s["name"],
                 "group": s["group"], "type": s["type"], "weight": s["weight"],
+                "successful_seasons": s.get("successful_seasons"),
+                "longevity_multiplier": s.get("longevity_multiplier"),
                 "labels": ", ".join(s.get("labels", [])),
                 "fee_eur": s.get("fee_eur"), "is_free": s.get("is_free"),
                 "mv_at_purchase": s.get("mv_at_purchase"),

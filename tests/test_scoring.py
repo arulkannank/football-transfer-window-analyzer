@@ -74,4 +74,23 @@ def test_not_sold_redistribution(base_ds, make_signing):
     assert sg._sold is False
     assert "profit_loss" not in sg._breakdown                      # no P&L when not sold
     assert sg._breakdown["minutes"] == pytest.approx(6.5)          # redistributed max
+
+
+def test_longevity_multi_season(base_ds, make_signing):
+    sg = make_signing(season=2019, fee=50_000_000, mv=50_000_000)
+    sg.is_starter_signing = True
+    scoring.score_signing(base_ds, sg, 2021)                       # regular 3 seasons
+    assert sg.successful_seasons == 3
+    assert sg.longevity_multiplier == 2.0                          # 1 + 0.5*(3-1)
+    assert sg.weight == pytest.approx(4.0)                         # starter base 2 x 2.0
+
+
+def test_longevity_single_season(base_ds, make_signing):
+    _sale(base_ds, "100", 2020, "summer", 60_000_000, 50_000_000)  # sold after one season
+    sg = make_signing(season=2019, fee=50_000_000, mv=50_000_000)
+    sg.is_starter_signing = True
+    scoring.score_signing(base_ds, sg, 2021)
+    assert sg.successful_seasons == 1
+    assert sg.longevity_multiplier == 1.0
+    assert sg.weight == pytest.approx(2.0)
     assert 0.0 <= sg.overall_rating <= 10.0

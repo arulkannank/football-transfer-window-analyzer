@@ -30,6 +30,13 @@ STARTER_PIVOT = 2.5        # profit/mv-growth multiple for full starter credit
 STARTER_MINUTES_FULL = 0.90
 ROTATION_MINUTES_FULL = 0.40
 
+# Longevity weighting: a "successful season" = >= SUCCESS_MINUTES_SHARE of minutes;
+# each extra successful season adds LONGEVITY_PER_SEASON to the weight multiplier,
+# capped at LONGEVITY_CAP (so 1 season ->x1, 2 ->x1.5, 3 ->x2.0, 4+ ->x2.5).
+SUCCESS_MINUTES_SHARE = 0.40
+LONGEVITY_PER_SEASON = 0.5
+LONGEVITY_CAP = 2.5
+
 
 def _bonus_frac(ratio: float) -> float:
     """Fraction-of-max bonus for exceptional multiples (5x -> +0.25, 10x -> +0.5)."""
@@ -218,3 +225,14 @@ def score_signing(ds: Dataset, signing: Signing, last_season: int) -> None:
     signing.sale_date_iso = sale.get("season") if sold else None
     signing._breakdown = breakdown          # type: ignore[attr-defined]
     signing._sold = sold                    # type: ignore[attr-defined]
+
+    # Longevity: reward sustained success. A transfer that was a regular
+    # (>= SUCCESS_MINUTES_SHARE) for several seasons carries more weight in the
+    # club/window aggregates than a one-season success (the /10 score is unchanged).
+    n_success = sum(1 for e in evals
+                    if (e.get("minutes_share") or 0) >= SUCCESS_MINUTES_SHARE)
+    mult = min(1.0 + LONGEVITY_PER_SEASON * max(0, n_success - 1), LONGEVITY_CAP)
+    base_w = 2.0 if signing.is_starter_signing else 1.0
+    signing.successful_seasons = n_success
+    signing.longevity_multiplier = round(mult, 2)
+    signing.weight = round(base_w * mult, 3)

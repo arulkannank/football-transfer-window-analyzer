@@ -172,6 +172,12 @@ change in `config.py` / the scoring module:
 - **Insignificant buys are dropped**: a signing for < 0.2× the club's average
   spend who also played < 10% of available minutes over his spell is treated as
   squad-filler noise and excluded.
+- **Unrated signings are dropped**: a signing with no SofaScore rating in any spell
+  season is excluded entirely (rather than redistributing the rating component).
+- **Longevity weighting**: a transfer that was a regular (≥ 40% of minutes) for
+  several seasons carries more weight in the club/window/league aggregates than a
+  one-season success — ×1 for one good season up to ×2.5 for four (on top of the
+  starter ×2 / rotation ×1 base). The per-transfer /10 score is unchanged.
 - **Cost basis** for profit/loss = the transfer fee; if unknown, market value at
   purchase is used as a proxy.
 - A club **relegated out of the top-7** loses data coverage; that player's spell is

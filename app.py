@@ -201,15 +201,16 @@ def _overview(cs):
 def _signings_table(cs):
     cols = ["season_label", "window", "player", "group", "type", "labels", "fee_eur",
             "fee_confidence", "mv_at_purchase", "sold", "sale_fee_eur",
-            "seasons_evaluated", "rating", "sc_minutes", "sc_profit_loss", "sc_rating",
-            "sc_efficiency", "sc_mv_growth"]
+            "seasons_evaluated", "successful_seasons", "longevity_multiplier", "rating",
+            "sc_minutes", "sc_profit_loss", "sc_rating", "sc_efficiency", "sc_mv_growth"]
     show = cs[cols].sort_values("rating", ascending=False).rename(columns={
         "season_label": "Season", "window": "Window", "player": "Player", "group": "Pos",
         "type": "Type", "labels": "Classification", "fee_eur": "Fee",
         "fee_confidence": "Fee conf.", "mv_at_purchase": "MV in", "sold": "Sold",
-        "sale_fee_eur": "Sale fee", "seasons_evaluated": "Seasons", "rating": "Rating",
-        "sc_minutes": "minutes", "sc_profit_loss": "P/L", "sc_rating": "rating⁺",
-        "sc_efficiency": "effic.", "sc_mv_growth": "mv↑"})
+        "sale_fee_eur": "Sale fee", "seasons_evaluated": "Seasons",
+        "successful_seasons": "Good szns", "longevity_multiplier": "Longevity×",
+        "rating": "Rating", "sc_minutes": "minutes", "sc_profit_loss": "P/L",
+        "sc_rating": "rating⁺", "sc_efficiency": "effic.", "sc_mv_growth": "mv↑"})
     st.dataframe(show, width="stretch", hide_index=True, column_config={
         "Fee": st.column_config.NumberColumn(format="€%d"),
         "MV in": st.column_config.NumberColumn(format="€%d"),
@@ -217,7 +218,9 @@ def _signings_table(cs):
         "Rating": st.column_config.ProgressColumn(min_value=0, max_value=10, format="%.2f")})
     st.caption("Sub-scores (minutes/P&L/rating⁺/efficiency/mv↑) are points earned out of "
                "each component's max; they sum to the rating. *Fee conf. = estimated* means "
-               "the fee was undisclosed and P&L/efficiency use a market-value proxy.")
+               "the fee was undisclosed and P&L/efficiency use a market-value proxy. "
+               "**Longevity×** weights multi-season successes more in the club/window means "
+               "(×1 for one good season → ×2.5 for four).")
 
 
 def _windows_tab(cw, rated_w):

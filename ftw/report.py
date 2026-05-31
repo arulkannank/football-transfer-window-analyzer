@@ -51,7 +51,8 @@ def write_all(ds: Dataset, results: dict, out_dir: Path = OUT_DIR) -> None:
     with open(out_dir / "signings.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["league", "club", "season", "window", "player", "group", "type",
-                    "weight", "labels", "fee", "mv_at_purchase", "from_club", "sold",
+                    "weight", "successful_seasons", "longevity_mult", "labels", "fee",
+                    "mv_at_purchase", "from_club", "sold",
                     "sale_fee", "seasons_eval", "rating",
                     "minutes", "profit_loss", "rating_imp", "efficiency", "mv_growth"])
         for s in signings:
@@ -60,6 +61,7 @@ def write_all(ds: Dataset, results: dict, out_dir: Path = OUT_DIR) -> None:
                 _lg(s.league), ds.club_name.get(s.club_id, s.club_id),
                 f"{s.season % 100:02d}/{(s.season+1) % 100:02d}", s.window, s.name,
                 s.group, "starter" if s.is_starter_signing else "rotation", s.weight,
+                s.successful_seasons, s.longevity_multiplier,
                 "|".join(s.classification), _eur(s.fee_eur), _eur(s.mv_at_purchase),
                 ds.club_name.get(s.from_club_id or "", s.from_club_id or ""),
                 getattr(s, "_sold", False), _eur(s.sale_fee_eur), len(s.season_evals),

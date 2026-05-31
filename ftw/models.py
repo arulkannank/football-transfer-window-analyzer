@@ -77,6 +77,8 @@ class Signing:
     season_evals: list[dict] = field(default_factory=list)
     overall_rating: Optional[float] = None
     weight: float = 1.0
+    successful_seasons: int = 0          # spell seasons with >= SUCCESS_MINUTES_SHARE minutes
+    longevity_multiplier: float = 1.0    # boosts aggregation weight for multi-season success
 
     def to_dict(self) -> dict:
         return asdict(self)
