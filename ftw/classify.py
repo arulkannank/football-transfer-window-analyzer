@@ -46,6 +46,8 @@ def departed_groups(ds: Dataset, club_id: str, season: int) -> dict[str, int]:
         if not tr:
             continue
         for d in tr.get("departures", []):
+            if d.get("fee", {}).get("loan"):
+                continue                      # a loan-out isn't a sale to replace
             g = d.get("group")
             if g:
                 out[g] = out.get(g, 0) + 1

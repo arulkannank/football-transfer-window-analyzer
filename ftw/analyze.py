@@ -18,9 +18,13 @@ from .models import Signing
 def _make_signing(ds: Dataset, club_id: str, season: int, window: str,
                   arrival: dict) -> Signing | None:
     fee = arrival.get("fee", {})
-    # skip pure loans and youth promotions / undocumented returns
-    if fee.get("loan") and not fee.get("eur"):
+    # ignore all loan deals (paid or free) and players under 18
+    if fee.get("loan"):
         return None
+    age = arrival.get("age")
+    if age is not None and age < 18:
+        return None
+    # skip youth promotions / undocumented returns (no fee, no value or selling club)
     if not fee.get("known") and not (arrival.get("mv_at") and arrival.get("counterpart_club_id")):
         return None
     pid = arrival["pid"]

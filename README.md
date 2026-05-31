@@ -132,7 +132,8 @@ change in `config.py` / the scoring module:
 - **Market efficiency cutoff** = ±30% vs market value for full ±credit.
 - **Average spend per transfer** = club's total fees ÷ number of incoming
   transfers (frees count as €0), over the whole period.
-- **Loans** with no fee and **youth promotions** are excluded from scoring.
+- **All loan deals**, **players under 18**, and **youth promotions** are excluded
+  from scoring (loan-outs also don't count as a sale to be "replaced").
 - **Cost basis** for profit/loss = the transfer fee; if unknown, market value at
   purchase is used as a proxy.
 - A club **relegated out of the top-7** loses data coverage; that player's spell is
