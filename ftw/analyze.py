@@ -42,6 +42,23 @@ def _make_signing(ds: Dataset, club_id: str, season: int, window: str,
     )
 
 
+INSIGNIFICANT_FEE_RATIO = 0.20       # < 0.2x the club's average spend
+INSIGNIFICANT_MINUTES_SHARE = 0.10   # and < 10% of available minutes -> ignore
+
+
+def _insignificant(s: Signing, avg_spend: float | None) -> bool:
+    """A cheap buy (< 0.2x avg spend) who barely played (< 10% of available
+    minutes over his spell) is squad-filler noise -> drop it."""
+    if not s.fee_known or s.fee_eur is None or not avg_spend or avg_spend <= 0:
+        return False
+    if s.fee_eur >= INSIGNIFICANT_FEE_RATIO * avg_spend:
+        return False
+    total_min = sum(e["minutes"] for e in s.season_evals)
+    total_avail = sum(e["available"] for e in s.season_evals)
+    share = (total_min / total_avail) if total_avail else 0.0
+    return share < INSIGNIFICANT_MINUTES_SHARE
+
+
 def analyze(ds: Dataset, log=print) -> dict:
     last_season = max(ds.seasons)
     avg_spend = classify.compute_avg_spend(ds)
@@ -65,6 +82,8 @@ def analyze(ds: Dataset, log=print) -> dict:
                     continue
                 classify.classify(sg, flags, avg_spend.get(club_id), sold)
                 scoring.score_signing(ds, sg, last_season)
+                if _insignificant(sg, avg_spend.get(club_id)):
+                    continue
                 sigs.append(sg)
                 all_signings.append(sg)
             if not sigs:

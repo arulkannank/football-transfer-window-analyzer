@@ -134,6 +134,9 @@ change in `config.py` / the scoring module:
   transfers (frees count as €0), over the whole period.
 - **All loan deals**, **players under 18**, and **youth promotions** are excluded
   from scoring (loan-outs also don't count as a sale to be "replaced").
+- **Insignificant buys are dropped**: a signing for < 0.2× the club's average
+  spend who also played < 10% of available minutes over his spell is treated as
+  squad-filler noise and excluded.
 - **Cost basis** for profit/loss = the transfer fee; if unknown, market value at
   purchase is used as a proxy.
 - A club **relegated out of the top-7** loses data coverage; that player's spell is
