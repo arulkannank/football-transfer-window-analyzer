@@ -35,9 +35,10 @@ an end-to-end synthetic run; they run in CI on every push.
   charts, the full **signings** table (with sub-score breakdown + fee-confidence),
   **windows** (raw + shrunk + problem resolution), **trading** P&L, **squad
   problems**, and **by-position** rating/spend.
-- **🏆 League leaderboard** — clubs ranked by shrunk rating (filter by league /
-  min-signings), **market-efficiency-by-position** (fee vs market value, rating
-  per €10m), and an **external-validity** scatter (recruitment vs league finish).
+- **🏆 League leaderboard** — clubs ranked by shrunk rating, with a **Combined**
+  (single cross-league table) or **By league** (each league ranked separately)
+  layout, plus **market-efficiency-by-position** (fee vs market value, rating per
+  €10m) and an **external-validity** scatter (recruitment vs league finish).
 - **⚖️ Compare clubs** — pick 2–4 clubs and compare metrics, rating-by-position,
   and rating-by-season side by side.
 

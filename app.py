@@ -378,52 +378,87 @@ def _byposition_tab(cs):
 
 
 # ====================================================== LEAGUE LEADERBOARD ==
-def render_leaderboard():
-    with st.sidebar:
-        codes = sorted(clubs["leagues"].str.split(", ").explode().unique())
-        n2c = {LEAGUE_NAME.get(c, c): c for c in codes}
-        pick = st.selectbox("League", ["All leagues"] + list(n2c))
-        min_n = st.slider("Min. signings", 1, 40, 10)
-    pool = clubs if pick == "All leagues" else \
-        clubs[clubs["leagues"].str.contains(n2c[pick], regex=False)]
-    pool = pool[pool["n_signings"] >= min_n].copy()
-    pool["League"] = pool["leagues"].map(league_label)
-
-    st.subheader("🏆 Recruitment leaderboard")
-    st.caption(f"Clubs ranked by **shrunk** weighted rating (empirical-Bayes k≈"
-               f"{results.get('shrinkage_k')}, pulled toward the league mean). Bars show "
-               "the 95% bootstrap CI — note how wide they are: with so much signing-to-"
-               "signing noise, most clubs are **not** statistically separable.")
-    top = pool.sort_values("rating_shrunk", ascending=False).head(25)
+def _board_chart(sub, n=25, color_league=True):
+    top = sub.sort_values("rating_shrunk", ascending=False).head(n)
     base = alt.Chart(top)
+    color = alt.Color("League:N", legend=None) if color_league else alt.value("#4c78a8")
     bars = base.mark_bar().encode(
         x=alt.X("rating_shrunk:Q", title="Shrunk rating /10"),
-        y=alt.Y("club:N", sort="-x", title=None),
-        color=alt.Color("League:N"),
+        y=alt.Y("club:N", sort="-x", title=None), color=color,
         tooltip=["club", "League", "n_signings",
                  alt.Tooltip("rating:Q", title="raw"),
                  alt.Tooltip("rating_shrunk:Q", title="shrunk"),
                  alt.Tooltip("lo:Q", title="CI low"), alt.Tooltip("hi:Q", title="CI high"),
                  alt.Tooltip("rank_lo:Q", title="rank ≥"), alt.Tooltip("rank_hi:Q", title="rank ≤")])
-    err = base.mark_rule(color="#444").encode(
-        y=alt.Y("club:N", sort="-x"), x="lo:Q", x2="hi:Q")
-    st.altair_chart(bars + err, width="stretch")
-    tbl = pool.sort_values("rating_shrunk", ascending=False)[[
-        "club", "League", "n_signings", "rating", "rating_shrunk", "lo", "hi",
-        "rank_lo", "rank_hi", "hit_rate", "median"]].copy()
-    tbl["95% CI"] = tbl.apply(lambda r: f"{r['lo']:.1f}–{r['hi']:.1f}"
-                              if pd.notna(r["lo"]) else "—", axis=1)
-    tbl["Rank CI"] = tbl.apply(lambda r: f"{int(r['rank_lo'])}–{int(r['rank_hi'])}"
-                               if pd.notna(r["rank_lo"]) else "—", axis=1)
-    tbl = tbl[["club", "League", "n_signings", "rating", "rating_shrunk", "95% CI",
-               "Rank CI", "hit_rate", "median"]].rename(columns={
+    err = base.mark_rule(color="#444").encode(y=alt.Y("club:N", sort="-x"), x="lo:Q", x2="hi:Q")
+    return bars + err
+
+
+def _board_table(sub, within_rank=False):
+    t = sub.sort_values("rating_shrunk", ascending=False).copy()
+    if within_rank:
+        t.insert(0, "#", range(1, len(t) + 1))
+    t["95% CI"] = t.apply(lambda r: f"{r['lo']:.1f}–{r['hi']:.1f}"
+                          if pd.notna(r["lo"]) else "—", axis=1)
+    t["Rank CI"] = t.apply(lambda r: f"{int(r['rank_lo'])}–{int(r['rank_hi'])}"
+                           if pd.notna(r["rank_lo"]) else "—", axis=1)
+    cols = (["#"] if within_rank else []) + [
+        "club", "League", "n_signings", "rating", "rating_shrunk", "95% CI",
+        "Rank CI", "hit_rate", "median"]
+    t = t[cols].rename(columns={
         "club": "Club", "n_signings": "N", "rating": "Raw", "rating_shrunk": "Rating",
         "hit_rate": "Hit rate", "median": "Median"})
-    st.dataframe(tbl, width="stretch", hide_index=True, column_config={
+    st.dataframe(t, width="stretch", hide_index=True, column_config={
         "Rating": st.column_config.ProgressColumn(min_value=0, max_value=6, format="%.2f"),
         "Hit rate": st.column_config.ProgressColumn(min_value=0, max_value=1, format="%.0f%%")})
-    st.caption("**Hit rate** = share of signings scoring ≥5/10 (a two-part read of a "
-               "zero-inflated score); **Rank CI** = 95% bootstrap interval on league rank.")
+
+
+def render_leaderboard():
+    with st.sidebar:
+        layout = st.radio("Leaderboard layout", ["Combined", "By league"])
+        min_n = st.slider("Min. signings", 1, 40, 10)
+        codes_all = sorted(clubs["leagues"].str.split(", ").explode().unique())
+        if layout == "Combined":
+            n2c = {LEAGUE_NAME.get(c, c): c for c in codes_all}
+            pick = st.selectbox("League", ["All leagues"] + list(n2c))
+        else:
+            topn = st.slider("Top clubs per league", 5, 25, 10)
+    pool = clubs[clubs["n_signings"] >= min_n].copy()
+    pool["League"] = pool["leagues"].map(league_label)
+
+    shrink_note = (f"Clubs ranked by **shrunk** weighted rating (empirical-Bayes k≈"
+                   f"{results.get('shrinkage_k')}). Bars show the 95% bootstrap CI — note how "
+                   "wide they are: most clubs are **not** statistically separable.")
+
+    if layout == "Combined":
+        sub = pool if pick == "All leagues" else \
+            pool[pool["leagues"].str.contains(n2c[pick], regex=False)]
+        st.subheader("🏆 Recruitment leaderboard")
+        st.caption(shrink_note)
+        st.altair_chart(_board_chart(sub, 25), width="stretch")
+        _board_table(sub)
+        st.caption("**Hit rate** = share of signings scoring ≥5/10; **Rank CI** = 95% "
+                   "bootstrap interval on league rank.")
+    else:
+        st.subheader("🏆 Recruitment leaderboards — by league")
+        st.caption("Each league ranked on its own (" + shrink_note[0].lower() + shrink_note[1:] + ")")
+        present = sorted([c for c in codes_all], key=lambda c: -(priors.get(c) or 0))
+        la = pd.DataFrame([{"League": LEAGUE_NAME.get(c, c), "avg": priors.get(c)}
+                           for c in present if priors.get(c) is not None])
+        st.markdown("**League averages** (weighted transfer rating /10)")
+        st.altair_chart(alt.Chart(la).mark_bar().encode(
+            x=alt.X("avg:Q", title="League avg /10"), y=alt.Y("League:N", sort="-x", title=None),
+            color=alt.Color("League:N", legend=None),
+            tooltip=["League", alt.Tooltip("avg:Q", format=".3f")]), width="stretch")
+        for c in present:
+            subc = pool[pool["leagues"].str.contains(c, regex=False)]
+            if subc.empty:
+                continue
+            st.markdown(f"#### {LEAGUE_NAME.get(c, c)}  ·  league avg "
+                        f"{priors.get(c, '—')}/10  ·  {len(subc)} clubs")
+            st.altair_chart(_board_chart(subc, topn, color_league=False), width="stretch")
+            with st.expander(f"{LEAGUE_NAME.get(c, c)} — full table"):
+                _board_table(subc, within_rank=True)
 
     st.markdown("---")
     st.subheader("🧭 Market efficiency by position")
