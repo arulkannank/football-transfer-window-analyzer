@@ -23,7 +23,8 @@ from .dataset import Dataset
 from .models import Signing
 from .problems import ProblemFlag
 
-ROTATION_MIN_AGE = 24      # squad-player age floor for a rotation-option buy
+ROTATION_MIN_AGE = 24          # squad-player age floor for a rotation-option buy
+ROTATION_MAX_SPEND_RATIO = 1.2  # a transfer >= this x the club's avg spend is never rotation
 
 
 def compute_avg_spend(ds: Dataset) -> dict[str, float]:
@@ -97,8 +98,12 @@ def classify(signing: Signing, flags: dict[str, ProblemFlag],
     # league average -> a new signing in it is depth, not a starter need
     covered = bool(flag and flag.has_above_avg_incumbent)
 
+    # an expensive buy (>= 1.2x the club's average spend) is never rotation,
+    # even into a well-covered slot — the outlay signals a starter intent
+    expensive = bool(avg_spend and fee is not None
+                     and fee >= ROTATION_MAX_SPEND_RATIO * avg_spend)
     rotation_option = bool(
-        non_problem and (
+        non_problem and not expensive and (
             ((signing.age_at_signing or 0) > ROTATION_MIN_AGE and cheap)  # older, cheap depth
             or covered                                                    # slot well covered
         ))

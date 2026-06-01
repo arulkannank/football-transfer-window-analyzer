@@ -30,10 +30,17 @@ def test_cheap_old_non_problem_is_rotation():
 
 
 def test_covered_slot_is_rotation():
-    sg = signing(fee=40_000_000, age=23)           # expensive & young, but slot covered
+    sg = signing(fee=15_000_000, age=23)           # moderate fee, young, but slot covered
     classify.classify(sg, {"CF": flag(covered=True)}, AVG, {})
     assert not sg.is_starter_signing
     assert "rotation_option" in sg.classification
+
+
+def test_expensive_covered_is_starter():
+    sg = signing(fee=40_000_000, age=23)           # >= 1.2x avg (24m) -> never rotation
+    classify.classify(sg, {"CF": flag(covered=True)}, AVG, {})
+    assert sg.is_starter_signing
+    assert "rotation_option" not in sg.classification
 
 
 def test_significant_outlay_label_and_starter():

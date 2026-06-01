@@ -2,19 +2,19 @@
 
 - Windows analysed (with signings): **1515**
 - Signings scored: **6196**
-- Overall mean transfer rating: **3.435/10**
-- Empirical-Bayes shrinkage k ≈ **19.5** (estimated from variance components; club identity explains little of the signing-to-signing variance, so club ratings carry **wide** bootstrap intervals — read small leaderboard gaps with caution).
+- Overall mean transfer rating: **3.355/10**
+- Empirical-Bayes shrinkage k ≈ **16.7** (estimated from variance components; club identity explains little of the signing-to-signing variance, so club ratings carry **wide** bootstrap intervals — read small leaderboard gaps with caution).
 
 ## League averages (weighted transfer rating /10)
 | League | Signings | Rating |
 |---|---:|---:|
-| Eredivisie | 876 | 3.652 |
-| Ligue 1 | 879 | 3.626 |
-| Bundesliga | 699 | 3.559 |
-| LaLiga | 813 | 3.459 |
-| Liga Portugal | 1015 | 3.444 |
-| Premier League | 805 | 3.298 |
-| Serie A | 1109 | 3.102 |
+| Eredivisie | 876 | 3.619 |
+| Ligue 1 | 879 | 3.521 |
+| Bundesliga | 699 | 3.47 |
+| Liga Portugal | 1015 | 3.423 |
+| LaLiga | 813 | 3.39 |
+| Premier League | 805 | 3.188 |
+| Serie A | 1109 | 2.986 |
 
 > Scale note: every incoming transfer is scored, minutes are 60% of the weight, and most signings are squad depth — so window/club means sit low in absolute terms. Elite single signings reach 8–10; flops sit near 0.
 
@@ -57,6 +57,7 @@
 | Liga Portugal | CF Estrela Amadora | 24/25 | winter | 6 | 0.0 | CF,LB,RB |
 | Ligue 1 | Stade Reims | 24/25 | winter | 4 | 0.0 | CF,LB,W |
 | Ligue 1 | FC Lorient | 23/24 | summer | 5 | 0.0 | GK,W |
+| Eredivisie | AZ Alkmaar | 25/26 | winter | 3 | 0.0 | MID,RB |
 | Ligue 1 | Olympique Lyon | 22/23 | winter | 3 | 0.0 | RB |
 | Eredivisie | Vitesse Arnhem | 21/22 | summer | 3 | 0.005 | W |
 | Liga Portugal | B SAD (2018-2024) | 19/20 | winter | 3 | 0.044 | CF,MID,RB |
@@ -64,7 +65,6 @@
 | LaLiga | Elche CF | 22/23 | summer | 4 | 0.092 | CB,GK,MID,RB,W |
 | Bundesliga | Arminia Bielefeld | 21/22 | winter | 3 | 0.137 | - |
 | LaLiga | Sevilla FC | 24/25 | summer | 4 | 0.188 | GK,LB,RB |
-| Bundesliga | Hertha BSC | 21/22 | summer | 8 | 0.241 | CB,LB,RB |
 
 ## Best 25 starter signings
 | Player | Club | Season | Type | Fee | Sold | Sale | Rating |
@@ -103,22 +103,22 @@
 | Clayton | Casa Pia AC | 22/23 | rotation | €0 | Y | €3.0m | 10.0 |
 | Ivan Provedel | Spezia Calcio | 20/21 | rotation | €0 | Y | €2.5m | 10.0 |
 | André Onana | Inter Milan | 22/23 | rotation | €0 | Y | €50.2m | 10.0 |
-| Konstantinos Mavropanos | VfB Stuttgart | 22/23 | rotation | €3.2m | Y | €20.0m | 10.0 |
 | Hiroki Ito | VfB Stuttgart | 22/23 | rotation | €400k | Y | €23.5m | 10.0 |
 | Jonathan Clauss | RC Lens | 20/21 | rotation | €0 | Y | €7.5m | 10.0 |
 | Loïc Badé | RC Lens | 20/21 | rotation | €0 | Y | €17.0m | 10.0 |
 | Isac Lidberg | Go Ahead Eagles | 21/22 | rotation | €0 | Y | €600k | 9.993 |
 | Leandro Silva | FC Arouca | 21/22 | rotation | €0 | Y |  | 9.97 |
-| Malik Tillman | PSV Eindhoven | 24/25 | rotation | €12.0m | Y | €35.0m | 9.828 |
 | Vangelis Pavlidis | Willem II Tilburg | 19/20 | starter | €250k | Y | €2.5m | 9.821 |
 | Wataru Endo | VfB Stuttgart | 20/21 | starter | €1.7m | Y | €20.0m | 9.788 |
 | Pedro Gonçalves | FC Famalicão | 19/20 | starter | €1.3m | Y | €13.5m | 9.774 |
 | Arthur Gomes | GD Estoril Praia | 21/22 | rotation | €0 | Y | €2.9m | 9.771 |
 | Jean-Charles Castelletto | FC Nantes | 20/21 | rotation | €0 | Y | €4.0m | 9.76 |
-| Guglielmo Vicario | FC Empoli | 22/23 | rotation | €8.5m | Y | €18.5m | 9.755 |
 | Yuto Nagatomo | Olympique Marseille | 20/21 | rotation | €0 | Y |  | 9.734 |
 | Rafael Defendi | SC Farense | 20/21 | rotation | €0 | Y |  | 9.721 |
 | Jackson Martínez | Portimonense SAD | 19/20 | rotation | €0 | Y |  | 9.717 |
+| Baptiste Roux | Avs Futebol | 24/25 | rotation | €0 | Y |  | 9.713 |
+| Federico Baschirotto | US Lecce | 22/23 | starter | €280k | Y | €3.0m | 9.699 |
+| David Raum | TSG 1899 Hoffenheim | 21/22 | starter | €0 | Y | €26.0m | 9.693 |
 
 ## Worst 20 big-money signings (fee ≥ €25m)
 | Player | Club | Season | Type | Fee | Sold | Sale | Rating |
@@ -128,6 +128,7 @@
 | Nicolas Pépé | Arsenal FC | 19/20 | starter | €80.0m | Y | €0 | 0.0 |
 | Fábio Vieira | Arsenal FC | 22/23 | starter | €35.0m | N |  | 0.0 |
 | Marash Kumbulla | AS Roma | 21/22 | starter | €26.5m | N |  | 0.0 |
+| Neto | FC Barcelona | 19/20 | starter | €26.0m | Y | €0 | 0.0 |
 | Miralem Pjanić | FC Barcelona | 20/21 | starter | €60.0m | Y | €0 | 0.0 |
 | Ryan Sessegnon | Tottenham Hotspur | 19/20 | starter | €27.0m | Y | €0 | 0.0 |
 | Giovani Lo Celso | Tottenham Hotspur | 20/21 | starter | €32.0m | Y | €5.0m | 0.0 |
@@ -137,9 +138,8 @@
 | Elye Wahi | Eintracht Frankfurt | 24/25 | starter | €26.0m | N |  | 0.0 |
 | Sacha Boey | Bayern Munich | 23/24 | starter | €30.0m | N |  | 0.0 |
 | Kalvin Phillips | Manchester City | 22/23 | starter | €49.0m | N |  | 0.0 |
-| Vitor Reis | Manchester City | 24/25 | rotation | €37.0m | N |  | 0.0 |
+| Vitor Reis | Manchester City | 24/25 | starter | €37.0m | N |  | 0.0 |
 | Jean-Philippe Gbamin | Everton FC | 19/20 | starter | €25.0m | Y |  | 0.0 |
 | Tyler Dibling | Everton FC | 25/26 | starter | €40.5m | N |  | 0.0 |
 | Rony Lopes | Sevilla FC | 19/20 | starter | €25.0m | Y | €0 | 0.0 |
-| Niclas Füllkrug | West Ham United | 24/25 | starter | €27.0m | N |  | 0.0 |
-| Georginio Rutter | Leeds United | 22/23 | starter | €40.5m | N |  | 0.0 |
+| Nikola Vlašić | West Ham United | 21/22 | starter | €30.0m | Y | €10.6m | 0.0 |

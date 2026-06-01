@@ -60,6 +60,70 @@ priors = results.get("league_priors", {})
 st.title("⚽ Transfer Window Analyzer")
 st.caption("Top-7 European leagues · 2019/20 – 2025/26 · Transfermarkt + SofaScore")
 
+with st.expander("ℹ️ Column guide — what every column means and why it matters"):
+    st.markdown("""
+**Scope.** Every incoming transfer is scored **/10**. Excluded: loans, under-18s,
+youth & own-academy promotions, players with no rating, and insignificant buys
+(< 0.2× avg spend who barely played). Minutes are 60% of the score, so club/window
+means sit low in absolute terms — **ranking** is what matters.
+
+##### Headline metrics (Club report)
+| Metric | Meaning / significance |
+|---|---|
+| **Avg transfer rating** | Weighted mean /10 of the club's signings (starter ×2, rotation ×1, × longevity), **shrunk** toward the league mean. The club rank is by this. |
+| **Signings scored** | Number of transfers evaluated after the exclusions above. |
+| **Starters / Rotation** | Split by classification (starters carry double weight). |
+| **Spend on signings** | Total disclosed fees paid for the scored signings. |
+| **Recouped (sold)** | Sale fees received for those later sold. |
+| **Net spend** | Spend − Recouped. |
+
+##### Signings table
+| Column | Meaning / significance |
+|---|---|
+| **Season / Window** | When the player was bought (summer or winter window). |
+| **Pos** | Formation slot: GK · RB · LB · CB · MID · W (wingers) · CF. |
+| **Type** | *starter* (weight 2) or *rotation* (weight 1) in the aggregates. |
+| **Classification** | Why it's a starter/rotation: `addresses_problem` (bought into a flagged weak slot), `improves_problem` (slot rated below league), `replaces_sold` (a sold regular), `significant_outlay` (> 1.25× avg spend), `rotation_option` (depth), `squad_addition`. |
+| **Fee / MV in** | Fee paid vs Transfermarkt market value at purchase. |
+| **Fee conf.** | *known* = disclosed; *estimated* = undisclosed, so P&L & efficiency use a market-value proxy (lower confidence). |
+| **Sold / Sale fee** | Whether later sold by the club, and for how much. |
+| **Seasons** | Seasons the player was evaluated at the club. |
+| **Good szns** | "Successful" seasons (≥ 40% of available minutes). |
+| **Longevity×** | Weight multiplier for sustained success: ×1 (one good season) → ×2.5 (four+). Lasting signings count more than one-season hits. |
+| **Rating** | The transfer's /10 score (sum of the sub-scores below). |
+| **minutes** | Share of available league minutes, averaged across seasons (max **6**, or 6.5 if never sold). The dominant component. |
+| **P/L** | Profit/loss at sale: ≥ 2.5× cost → full **2**; bonuses at 5×/10×; blank (redistributed) if not sold. |
+| **rating⁺** | SofaScore rating minus the league **starter** average for that slot (max **1**, or 1.5 if not sold). |
+| **effic.** | Fee vs market value at purchase/sale — bought ≥ 30% below value → full **0.5**; overpaying is negative. |
+| **mv↑** | Market-value growth vs purchase (max **0.5**, or 1.5 if not sold). |
+
+##### Windows table
+| Column | Meaning / significance |
+|---|---|
+| **N** | Signings made that window. |
+| **Pre-pen. → Rating** | Window rating before → after the **chronic penalty** (−0.75 per slot left unaddressed ≥ 2 consecutive windows). |
+| **Shrunk** | Rating pulled toward the club's own level (tames 1-signing noise); used for best/worst-window ranking. |
+| **Flagged / Addressed / Unaddressed** | Problem slots that window and whether a signing addressed them. |
+| **Chronic** | Slots unaddressed for ≥ 2 consecutive windows (each triggers the penalty). |
+| **Prob.res** | Problem-resolution sub-score /10 (share of validated problems fixed, minus chronic). |
+| **Grade** | Blended recruitment (70%) + problem-resolution (30%). |
+
+##### League leaderboard
+| Column | Meaning / significance |
+|---|---|
+| **Raw → Rating** | Unshrunk weighted rating → **shrunk** rating (toward league mean, by an empirical-Bayes *k* estimated from the data). Rank is by the shrunk value. |
+| **95% CI** | Bootstrap confidence interval on the rating. |
+| **Rank CI** | Bootstrap 95% interval on the club's league rank — **wide intervals mean clubs aren't statistically separable** (club identity explains only ~3% of signing variance). |
+| **Hit rate** | Share of signings scoring ≥ 5/10 — a steadier "how often do they get it right" read of a zero-inflated score. |
+| **Median** | Median signing rating. |
+
+##### Market efficiency by position
+*Avg discount vs MV (%)* — mean (market value − fee) ÷ market value; **negative = clubs pay above** Transfermarkt value. *Rating per €10m* — average rating bought per €10m of fee (value for money by position).
+
+##### Does recruitment track results?
+*β recruitment → position* — regression of league finish on recruitment rating, controlling for spend & prior-season position, cluster-robust by club. **Negative ⇒ better recruitment → better finish.** *β within-club (fixed effects)* — same, differencing out club quality (does a club finish higher in years it recruits better than its own norm?).
+""")
+
 view = st.sidebar.radio("View", ["🏟️ Club report", "🏆 League leaderboard", "⚖️ Compare clubs"])
 st.sidebar.markdown("---")
 st.sidebar.caption("**Reading the scores:** every signing is scored /10 with minutes "

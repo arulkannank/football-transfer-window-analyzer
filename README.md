@@ -167,6 +167,10 @@ change in `config.py` / the scoring module:
 - **Market efficiency cutoff** = ±30% vs market value for full ±credit.
 - **Average spend per transfer** = club's total fees ÷ number of incoming
   transfers (frees count as €0), over the whole period.
+- **Expensive buys are never rotation**: a transfer ≥ `ROTATION_MAX_SPEND_RATIO`
+  (1.2×) the club's average spend is always classified starter-type, even into a
+  well-covered slot — the outlay signals starter intent.
+- The app's **"ℹ️ Column guide"** expander explains every column and metric.
 - **All loan deals**, **players under 18**, **youth promotions**, and **internal
   promotions from a club's own reserve/academy** (e.g. Real Madrid Castilla, FC
   Barcelona Atlètic — detected from the from-club name) are excluded from scoring.
