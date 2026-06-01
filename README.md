@@ -190,6 +190,13 @@ change in `config.py` / the scoring module:
   several seasons carries more weight in the club/window/league aggregates than a
   one-season success — ×1 for one good season up to ×2.5 for four (on top of the
   starter ×2 / rotation ×1 base). The per-transfer /10 score is unchanged.
+- **Value weighting**: a `value_multiplier` (up to ×2) amplifies **cheap successes**
+  and **expensive flops** — fee judged vs a blend of the club's and league's average
+  spend, success/flop vs the league average rating — so finding gems rewards a club
+  and overpaying for flops penalises it.
+- The Club view shows a dense auto-generated **Recruitment report** (strengths &
+  weaknesses): best/worst positions vs league, value-finding vs costly flops,
+  trading profit/loss, chronic unaddressed problems, and consistency.
 - **Cost basis** for profit/loss = the transfer fee; if unknown, market value at
   purchase is used as a proxy.
 - A club **relegated out of the top-7** loses data coverage; that player's spell is

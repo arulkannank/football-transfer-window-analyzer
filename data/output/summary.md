@@ -2,19 +2,19 @@
 
 - Windows analysed (with signings): **1515**
 - Signings scored: **6196**
-- Overall mean transfer rating: **3.355/10**
+- Overall mean transfer rating: **3.206/10**
 - Empirical-Bayes shrinkage k ≈ **16.7** (estimated from variance components; club identity explains little of the signing-to-signing variance, so club ratings carry **wide** bootstrap intervals — read small leaderboard gaps with caution).
 
 ## League averages (weighted transfer rating /10)
 | League | Signings | Rating |
 |---|---:|---:|
-| Eredivisie | 876 | 3.619 |
-| Ligue 1 | 879 | 3.521 |
-| Bundesliga | 699 | 3.47 |
-| Liga Portugal | 1015 | 3.423 |
-| LaLiga | 813 | 3.39 |
-| Premier League | 805 | 3.188 |
-| Serie A | 1109 | 2.986 |
+| Eredivisie | 876 | 3.657 |
+| Liga Portugal | 1015 | 3.518 |
+| Ligue 1 | 879 | 3.367 |
+| Bundesliga | 699 | 3.302 |
+| LaLiga | 813 | 3.235 |
+| Premier League | 805 | 2.891 |
+| Serie A | 1109 | 2.682 |
 
 > Scale note: every incoming transfer is scored, minutes are 60% of the weight, and most signings are squad depth — so window/club means sit low in absolute terms. Elite single signings reach 8–10; flops sit near 0.
 
@@ -22,32 +22,31 @@
 | League | Club | Season | Window | N | Rating | Problems addressed |
 |---|---|---|---|---:|---:|---|
 | Eredivisie | Go Ahead Eagles | 21/22 | summer | 6 | 9.308 | - |
-| Eredivisie | SC Heerenveen | 21/22 | summer | 4 | 8.639 | RB |
+| Eredivisie | SC Heerenveen | 21/22 | summer | 4 | 8.64 | RB |
 | Ligue 1 | Angers SCO | 24/25 | summer | 6 | 8.411 | - |
+| Ligue 1 | RC Lens | 20/21 | summer | 5 | 8.013 | - |
 | Bundesliga | VfL Bochum | 21/22 | summer | 4 | 7.972 | - |
-| Ligue 1 | RC Lens | 20/21 | summer | 5 | 7.884 | - |
-| Bundesliga | VfB Stuttgart | 20/21 | summer | 4 | 7.875 | - |
+| Bundesliga | VfB Stuttgart | 20/21 | summer | 4 | 7.962 | - |
 | Eredivisie | FC Emmen | 22/23 | summer | 5 | 7.806 | - |
+| Liga Portugal | CD Santa Clara | 24/25 | summer | 5 | 7.536 | - |
 | Eredivisie | SC Heerenveen | 19/20 | summer | 4 | 7.31 | RB,W |
 | Liga Portugal | CF Estrela Amadora | 23/24 | winter | 3 | 7.259 | - |
-| Liga Portugal | CD Santa Clara | 24/25 | summer | 5 | 7.192 | - |
+| Liga Portugal | Avs Futebol | 24/25 | summer | 10 | 7.153 | - |
+| Bundesliga | SV Werder Bremen | 22/23 | summer | 6 | 6.952 | - |
+| LaLiga | CD Leganés | 24/25 | summer | 11 | 6.812 | - |
 | Liga Portugal | GD Estoril Praia | 21/22 | summer | 5 | 6.75 | - |
-| Bundesliga | SV Werder Bremen | 22/23 | summer | 6 | 6.711 | - |
-| LaLiga | CD Leganés | 24/25 | summer | 11 | 6.696 | - |
-| Liga Portugal | Avs Futebol | 24/25 | summer | 10 | 6.524 | - |
-| Liga Portugal | Sporting CP | 23/24 | summer | 4 | 6.519 | CF,MID,RB |
-| Eredivisie | AZ Alkmaar | 20/21 | summer | 4 | 6.447 | CB,W |
-| Ligue 1 | AJ Auxerre | 22/23 | summer | 7 | 6.41 | - |
-| Eredivisie | SC Heerenveen | 25/26 | summer | 6 | 6.368 | CF,MID,W |
-| Serie A | Genoa CFC | 23/24 | summer | 7 | 6.334 | - |
-| Eredivisie | AZ Alkmaar | 23/24 | summer | 5 | 6.331 | W |
+| Bundesliga | SC Paderborn 07 | 19/20 | summer | 5 | 6.741 | - |
+| Liga Portugal | Moreirense FC | 23/24 | summer | 11 | 6.741 | - |
+| Ligue 1 | AJ Auxerre | 22/23 | summer | 7 | 6.712 | - |
+| Ligue 1 | FC Nantes | 20/21 | summer | 4 | 6.531 | RB |
+| Eredivisie | SC Heerenveen | 25/26 | summer | 6 | 6.488 | CF,MID,W |
+| Eredivisie | FC Twente Enschede | 21/22 | summer | 6 | 6.428 | CB,W |
 
 ## Worst 20 windows (≥3 signings)
 | League | Club | Season | Window | N | Rating | Unaddressed problems |
 |---|---|---|---|---:|---:|---|
 | Bundesliga | 1.FC Union Berlin | 23/24 | winter | 3 | 0.0 | LB,MID,RB,W |
 | Serie A | FC Empoli | 24/25 | winter | 3 | 0.0 | CB,CF,LB,RB,W |
-| LaLiga | RCD Espanyol Barcelona | 22/23 | winter | 3 | 0.0 | RB,W |
 | LaLiga | Real Sociedad | 23/24 | summer | 3 | 0.0 | LB,W |
 | LaLiga | Athletic Bilbao | 19/20 | summer | 4 | 0.0 | - |
 | Serie A | US Salernitana 1919 | 23/24 | winter | 3 | 0.0 | GK,MID,RB,W |
@@ -55,16 +54,17 @@
 | Serie A | Genoa CFC | 24/25 | winter | 3 | 0.0 | LB,W |
 | Ligue 1 | Olympique Marseille | 22/23 | winter | 3 | 0.0 | LB,RB |
 | Liga Portugal | CF Estrela Amadora | 24/25 | winter | 6 | 0.0 | CF,LB,RB |
+| Bundesliga | Eintracht Frankfurt | 24/25 | winter | 3 | 0.0 | LB,MID,RB,W |
 | Ligue 1 | Stade Reims | 24/25 | winter | 4 | 0.0 | CF,LB,W |
 | Ligue 1 | FC Lorient | 23/24 | summer | 5 | 0.0 | GK,W |
-| Eredivisie | AZ Alkmaar | 25/26 | winter | 3 | 0.0 | MID,RB |
+| LaLiga | Villarreal CF | 22/23 | summer | 4 | 0.0 | MID,W |
 | Ligue 1 | Olympique Lyon | 22/23 | winter | 3 | 0.0 | RB |
 | Eredivisie | Vitesse Arnhem | 21/22 | summer | 3 | 0.005 | W |
+| Eredivisie | Willem II Tilburg | 21/22 | winter | 3 | 0.024 | CB,GK,W |
+| LaLiga | Elche CF | 22/23 | summer | 4 | 0.024 | CB,GK,MID,RB,W |
+| LaLiga | RCD Espanyol Barcelona | 22/23 | winter | 3 | 0.035 | RB,W |
+| Serie A | US Sassuolo | 22/23 | summer | 7 | 0.039 | CB,LB,RB |
 | Liga Portugal | B SAD (2018-2024) | 19/20 | winter | 3 | 0.044 | CF,MID,RB |
-| LaLiga | Villarreal CF | 22/23 | summer | 4 | 0.057 | MID,W |
-| LaLiga | Elche CF | 22/23 | summer | 4 | 0.092 | CB,GK,MID,RB,W |
-| Bundesliga | Arminia Bielefeld | 21/22 | winter | 3 | 0.137 | - |
-| LaLiga | Sevilla FC | 24/25 | summer | 4 | 0.188 | GK,LB,RB |
 
 ## Best 25 starter signings
 | Player | Club | Season | Type | Fee | Sold | Sale | Rating |

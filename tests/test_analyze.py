@@ -14,6 +14,31 @@ def test_is_internal_promotion():
     assert not analyze.is_internal_promotion(None, "Real Madrid")
 
 
+def test_value_weighting():
+    from ftw.models import Signing
+
+    def mk(rating, fee):
+        s = Signing(pid="1", name="x", position="Centre-Forward", group="CF",
+                    age_at_signing=25, club_id="100", league="GB1", season=2020,
+                    window="summer", fee_eur=fee, fee_known=True, is_loan=False,
+                    is_free=False, mv_at_purchase=fee, from_club_id="200", date_iso=None)
+        s.overall_rating = rating
+        s.weight = 2.0
+        return s
+
+    priors = {"GB1": 3.0}
+    cavg, lavg = {"100": 10e6}, {"GB1": 10e6}        # blended avg spend = €10m
+    cheap_success, exp_flop = mk(8.0, 2e6), mk(1.0, 30e6)
+    exp_success, cheap_flop = mk(8.0, 30e6), mk(1.0, 2e6)
+    analyze._apply_value_weighting(
+        [cheap_success, exp_flop, exp_success, cheap_flop], priors, cavg, lavg)
+    assert cheap_success.value_multiplier > 1.0      # cheap gem -> rewarded
+    assert exp_flop.value_multiplier > 1.0           # expensive flop -> penalised
+    assert exp_success.value_multiplier == 1.0       # paid for quality -> neutral
+    assert cheap_flop.value_multiplier == 1.0        # low stakes -> neutral
+    assert cheap_success.weight == round(2.0 * cheap_success.value_multiplier, 3)
+
+
 def _win(season, window):
     return {"club_id": "100", "club": "X", "league": "GB1", "season": season,
             "season_label": "", "window": window, "n_signings": 1, "n_starter": 1,

@@ -79,6 +79,7 @@ class Signing:
     weight: float = 1.0
     successful_seasons: int = 0          # spell seasons with >= SUCCESS_MINUTES_SHARE minutes
     longevity_multiplier: float = 1.0    # boosts aggregation weight for multi-season success
+    value_multiplier: float = 1.0        # amplifies cheap successes & expensive flops
 
     def to_dict(self) -> dict:
         return asdict(self)

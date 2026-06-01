@@ -65,7 +65,8 @@ with st.expander("ℹ️ Column guide — what every column means and why it mat
 **Scope.** Every incoming transfer is scored **/10**. Excluded: loans, under-18s,
 youth & own-academy promotions, players with no rating, and insignificant buys
 (< 0.2× avg spend who barely played). Minutes are 60% of the score, so club/window
-means sit low in absolute terms — **ranking** is what matters.
+means sit low in absolute terms — **ranking** is what matters. The **Recruitment
+report** (Club view) auto-summarises each club's strengths and weaknesses.
 
 ##### Headline metrics (Club report)
 | Metric | Meaning / significance |
@@ -90,6 +91,7 @@ means sit low in absolute terms — **ranking** is what matters.
 | **Seasons** | Seasons the player was evaluated at the club. |
 | **Good szns** | "Successful" seasons (≥ 40% of available minutes). |
 | **Longevity×** | Weight multiplier for sustained success: ×1 (one good season) → ×2.5 (four+). Lasting signings count more than one-season hits. |
+| **Value×** | Weight multiplier (up to ×2) that amplifies **cheap successes** and **expensive flops** — fee judged vs the club+league average spend — so finding gems lifts the club's rating and overpaying for flops drags it harder. |
 | **Rating** | The transfer's /10 score (sum of the sub-scores below). |
 | **minutes** | Share of available league minutes, averaged across seasons (max **6**, or 6.5 if never sold). The dominant component. |
 | **P/L** | Profit/loss at sale: ≥ 2.5× cost → full **2**; bonuses at 5×/10×; blank (redistributed) if not sold. |
@@ -183,6 +185,8 @@ def render_club():
     _window_card(c3, "Best window", best_win, True)
     _window_card(c4, "Worst window", worst_win, False)
 
+    _strengths_weaknesses(cs, cw, crow)
+
     t = st.tabs(["📈 Overview", "📋 Signings", "🪟 Windows", "💷 Trading",
                  "🩺 Squad problems", "🧭 By position"])
     with t[0]:
@@ -197,6 +201,88 @@ def render_club():
         _problems_tab(cid)
     with t[5]:
         _byposition_tab(cs)
+
+
+def _compute_sw(cs, cw, prior, blended, by_pos):
+    """Return (strengths, weaknesses) bullet strings — dense and data-driven."""
+    S, W = [], []
+    if cs.empty:
+        return S, W
+    # position strength / weakness vs the global per-slot average
+    grp = (cs.assign(wr=cs["rating"] * cs["weight"]).groupby("group")
+           .agg(wr=("wr", "sum"), wt=("weight", "sum"), n=("rating", "size")))
+    grp["avg"] = grp["wr"] / grp["wt"]
+    best = worst = None
+    for slot, r in grp.iterrows():
+        if r["n"] >= 3 and slot in by_pos:
+            d = r["avg"] - by_pos[slot]
+            if best is None or d > best[1]:
+                best = (slot, d, r["avg"], r["n"])
+            if worst is None or d < worst[1]:
+                worst = (slot, d, r["avg"], r["n"])
+    if best and best[1] >= 0.6:
+        S.append(f"Recruits **{SLOT_NAMES[best[0]]}** well ({best[2]:.1f} vs "
+                 f"{by_pos[best[0]]:.1f} league-wide, n={int(best[3])})")
+    if worst and worst[1] <= -0.6:
+        W.append(f"Struggles in **{SLOT_NAMES[worst[0]]}** ({worst[2]:.1f} vs "
+                 f"{by_pos[worst[0]]:.1f}, n={int(worst[3])})")
+    # value: cheap successes vs expensive flops
+    if blended:
+        paid = cs[cs["fee_eur"].notna()]
+        gems = paid[(paid["fee_eur"] < blended) & (paid["rating"] >= prior + 2.0)]
+        if len(gems) >= 2:
+            ex = gems.sort_values("rating", ascending=False).iloc[0]
+            S.append(f"**Finds value**: {len(gems)} cheap signings well above par "
+                     f"(e.g. {ex['player']} {fmt_eur(ex['fee_eur'])} → {ex['rating']})")
+        flops = paid[(paid["fee_eur"] >= 1.5 * blended)
+                     & (paid["rating"] <= max(2.5, prior - 1.0))]
+        if len(flops) >= 1:
+            ex = flops.sort_values("rating").iloc[0]
+            W.append(f"**Costly flops**: {len(flops)} big buys underperformed "
+                     f"(e.g. {ex['player']} {fmt_eur(ex['fee_eur'])} → {ex['rating']}; "
+                     f"€{flops['fee_m'].sum():.0f}m total)")
+    # trading
+    sold = cs[cs["sold"]]
+    if not sold.empty:
+        profit = (sold["sale_m"] - sold["fee_m"]).sum()
+        if profit >= 20:
+            t = sold.assign(p=sold["sale_m"] - sold["fee_m"]).sort_values("p", ascending=False).iloc[0]
+            S.append(f"**Trades at a profit**: +€{profit:.0f}m on {len(sold)} resales "
+                     f"(e.g. {t['player']} {fmt_eur(t['fee_eur'])}→{fmt_eur(t['sale_fee_eur'])})")
+        elif profit <= -20:
+            W.append(f"**Loses on resale**: −€{abs(profit):.0f}m across {len(sold)} sales")
+    # chronic problems
+    chronic = set()
+    for c in cw["chronic"].dropna():
+        chronic.update(x for x in c.split(", ") if x)
+    if chronic:
+        W.append("**Never fixed**: " + ", ".join(SLOT_NAMES.get(g, g) for g in sorted(chronic))
+                 + " left unaddressed across windows")
+    # consistency
+    hit = (cs["rating"] >= 5).mean()
+    if hit >= 0.45:
+        S.append(f"**Consistent**: {hit:.0%} of signings land (≥5/10)")
+    elif hit <= 0.25:
+        W.append(f"**Hit-and-miss**: only {hit:.0%} of signings land (≥5/10)")
+    return S, W
+
+
+def _strengths_weaknesses(cs, cw, crow):
+    lg = crow["leagues"].split(", ")[0]
+    prior = priors.get(lg) or results["rollups"]["overall_rating"] or 3.0
+    club_avg = cs.loc[cs["fee_eur"].notna(), "fee_eur"].mean()
+    league_avg = sdf.loc[(sdf["league"] == lg) & sdf["fee_eur"].notna(), "fee_eur"].mean()
+    avgs = [x for x in (club_avg, league_avg) if pd.notna(x) and x > 0]
+    blended = (sum(avgs) / len(avgs)) if avgs else None
+    by_pos = {p["slot"]: p["avg_rating"] for p in results["rollups"]["by_position"]
+              if p["avg_rating"] is not None}
+    S, W = _compute_sw(cs, cw, prior, blended, by_pos)
+    st.markdown("### 📋 Recruitment report")
+    a, b = st.columns(2)
+    a.markdown("**💪 Strengths**\n\n" + ("\n".join(f"- {x}" for x in S)
+               if S else "- _No standout strengths in range._"))
+    b.markdown("**⚠️ Weaknesses**\n\n" + ("\n".join(f"- {x}" for x in W)
+               if W else "- _No glaring weaknesses in range._"))
 
 
 def _signing_card(col, title, row, good):
@@ -265,16 +351,18 @@ def _overview(cs):
 def _signings_table(cs):
     cols = ["season_label", "window", "player", "group", "type", "labels", "fee_eur",
             "fee_confidence", "mv_at_purchase", "sold", "sale_fee_eur",
-            "seasons_evaluated", "successful_seasons", "longevity_multiplier", "rating",
-            "sc_minutes", "sc_profit_loss", "sc_rating", "sc_efficiency", "sc_mv_growth"]
+            "seasons_evaluated", "successful_seasons", "longevity_multiplier",
+            "value_multiplier", "rating", "sc_minutes", "sc_profit_loss", "sc_rating",
+            "sc_efficiency", "sc_mv_growth"]
     show = cs[cols].sort_values("rating", ascending=False).rename(columns={
         "season_label": "Season", "window": "Window", "player": "Player", "group": "Pos",
         "type": "Type", "labels": "Classification", "fee_eur": "Fee",
         "fee_confidence": "Fee conf.", "mv_at_purchase": "MV in", "sold": "Sold",
         "sale_fee_eur": "Sale fee", "seasons_evaluated": "Seasons",
         "successful_seasons": "Good szns", "longevity_multiplier": "Longevity×",
-        "rating": "Rating", "sc_minutes": "minutes", "sc_profit_loss": "P/L",
-        "sc_rating": "rating⁺", "sc_efficiency": "effic.", "sc_mv_growth": "mv↑"})
+        "value_multiplier": "Value×", "rating": "Rating", "sc_minutes": "minutes",
+        "sc_profit_loss": "P/L", "sc_rating": "rating⁺", "sc_efficiency": "effic.",
+        "sc_mv_growth": "mv↑"})
     st.dataframe(show, width="stretch", hide_index=True, column_config={
         "Fee": st.column_config.NumberColumn(format="€%d"),
         "MV in": st.column_config.NumberColumn(format="€%d"),
@@ -283,8 +371,10 @@ def _signings_table(cs):
     st.caption("Sub-scores (minutes/P&L/rating⁺/efficiency/mv↑) are points earned out of "
                "each component's max; they sum to the rating. *Fee conf. = estimated* means "
                "the fee was undisclosed and P&L/efficiency use a market-value proxy. "
-               "**Longevity×** weights multi-season successes more in the club/window means "
-               "(×1 for one good season → ×2.5 for four).")
+               "**Longevity×** weights multi-season successes more (×1 for one good season → "
+               "×2.5 for four). **Value×** amplifies cheap successes and expensive flops "
+               "(relative to league + club spend), so finding gems / wasting money on flops "
+               "moves the club's rating more.")
 
 
 def _windows_tab(cw, rated_w):

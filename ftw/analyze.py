@@ -135,11 +135,53 @@ def compute_starter_baselines(ds: Dataset, starter_share: float | None = None) -
     return out
 
 
+# Value weighting: a cheap signing that succeeds, or an expensive one that flops,
+# matters more for judging recruitment. "Cheapness/expensiveness" is judged vs a
+# blend of the club's and the league's average spend; success/flop is vs the league
+# average rating. The multiplier amplifies the two surprising quadrants.
+VALUE_REWARD_K = 0.5
+VALUE_PENALTY_K = 0.5
+VALUE_MULT_CAP = 2.0
+
+
+def _league_avg_spend(ds: Dataset) -> dict:
+    acc: dict = {}
+    for (cid, season, window), tr in ds.transfers.items():
+        lg = ds.club_league.get((cid, season))
+        if not lg:
+            continue
+        for a in tr.get("arrivals", []):
+            if a.get("fee", {}).get("known"):
+                acc.setdefault(lg, []).append(a["fee"].get("eur") or 0)
+    return {lg: (sum(v) / len(v)) for lg, v in acc.items() if v}
+
+
+def _apply_value_weighting(signings: list[Signing], priors: dict,
+                           club_avg: dict, league_avg: dict) -> None:
+    for s in signings:
+        if not s.fee_known or s.fee_eur is None or s.overall_rating is None:
+            continue
+        avgs = [x for x in (club_avg.get(s.club_id), league_avg.get(s.league)) if x]
+        blended = (sum(avgs) / len(avgs)) if avgs else None
+        prior = priors.get(s.league)
+        if not blended or blended <= 0 or prior is None:
+            continue
+        e = max(-1.0, min(3.0, (s.fee_eur / blended) - 1.0))   # <0 cheap, >0 expensive
+        if s.overall_rating >= prior:                          # success
+            mult = 1.0 + VALUE_REWARD_K * max(0.0, -e)         # cheaper -> bigger reward
+        else:                                                  # flop
+            mult = 1.0 + VALUE_PENALTY_K * max(0.0, e)         # pricier -> bigger penalty
+        mult = min(VALUE_MULT_CAP, mult)
+        s.value_multiplier = round(mult, 2)
+        s.weight = round(s.weight * mult, 3)
+
+
 def analyze(ds: Dataset, log=print, bootstrap: bool = True) -> dict:
     last_season = max(ds.seasons)
     ds.pos_rating_avg = compute_starter_baselines(ds)   # starter-level baseline
     avg_spend = classify.compute_avg_spend(ds)
-    windows: list[dict] = []
+    league_spend = _league_avg_spend(ds)
+    blocks: list[tuple] = []          # (club_id, season, window, flags, sigs)
     all_signings: list[Signing] = []
 
     # iterate clubs that appear in any window season
@@ -163,11 +205,14 @@ def analyze(ds: Dataset, log=print, bootstrap: bool = True) -> dict:
                     continue
                 sigs.append(sg)
                 all_signings.append(sg)
-            if not sigs:
-                # still record diagnostics for problem tracking
-                windows.append(_window_record(ds, club_id, season, window, [], flags))
-                continue
-            windows.append(_window_record(ds, club_id, season, window, sigs, flags))
+            blocks.append((club_id, season, window, flags, sigs))
+
+    # value weighting (baseline prior from base x longevity weights), then build
+    # window records with the FINAL weights
+    _apply_value_weighting(all_signings, _league_priors(all_signings),
+                           avg_spend, league_spend)
+    windows = [_window_record(ds, cid, s, w, sigs, flags)
+               for (cid, s, w, flags, sigs) in blocks]
 
     _apply_chronic(ds, windows)
     priors = _league_priors(all_signings)
@@ -248,7 +293,8 @@ def _signing_summary(ds: Dataset, s: Signing) -> dict:
         "pid": s.pid, "name": s.name, "group": s.group,
         "type": "starter" if s.is_starter_signing else "rotation",
         "weight": s.weight, "successful_seasons": s.successful_seasons,
-        "longevity_multiplier": s.longevity_multiplier, "labels": s.classification,
+        "longevity_multiplier": s.longevity_multiplier,
+        "value_multiplier": s.value_multiplier, "labels": s.classification,
         "fee_eur": s.fee_eur, "fee_known": s.fee_known, "is_free": s.is_free,
         "mv_at_purchase": s.mv_at_purchase,
         "from_club": ds.club_name.get(s.from_club_id or "", s.from_club_id),
