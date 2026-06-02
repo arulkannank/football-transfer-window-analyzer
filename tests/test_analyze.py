@@ -39,6 +39,44 @@ def test_value_weighting():
     assert cheap_success.weight == round(2.0 * cheap_success.value_multiplier, 3)
 
 
+def _sig(rating, fee, mv=None, season=2020, window="summer", starter=True, evals=None):
+    from ftw.models import Signing
+    s = Signing(pid="9", name="x", position="Centre-Forward", group="CF", age_at_signing=28,
+                club_id="100", league="GB1", season=season, window=window, fee_eur=fee,
+                fee_known=True, is_loan=False, is_free=False, mv_at_purchase=mv or fee,
+                from_club_id="200", date_iso=None)
+    s.overall_rating = rating
+    s.weight = 2.0 if starter else 1.0
+    s.is_starter_signing = starter
+    s.season_evals = evals or []
+    return s
+
+
+def test_value_neutral_zone():
+    moderate = _sig(4.0, 2e6)            # 4 < 3+2 success bar, 4 > 3-0.5 flop bar -> neutral
+    analyze._apply_value_weighting([moderate], {"GB1": 3.0}, {"100": 10e6}, {"GB1": 10e6})
+    assert moderate.value_multiplier == 1.0
+    gem = _sig(6.0, 2e6)                 # clear success + cheap -> rewarded
+    analyze._apply_value_weighting([gem], {"GB1": 3.0}, {"100": 10e6}, {"GB1": 10e6})
+    assert gem.value_multiplier > 1.0
+
+
+def test_promotion_minutes_and_value():
+    ds = Dataset(seasons=[2019, 2020])
+    # plays >70% -> promote
+    hi = _sig(5.0, 1e6, mv=5e6, season=2019, starter=False,
+              evals=[{"season": 2019, "minutes_share": 0.82, "mv_end_of_season": 5e6}])
+    assert analyze._should_promote(ds, hi)
+    # market value surges >= 1.75x -> promote
+    surge = _sig(5.0, 1e6, mv=5e6, season=2019, starter=False,
+                 evals=[{"season": 2019, "minutes_share": 0.30, "mv_end_of_season": 12e6}])
+    assert analyze._should_promote(ds, surge)
+    # low minutes, flat value, no vacancy -> not promoted
+    no = _sig(5.0, 1e6, mv=5e6, season=2019, starter=False,
+              evals=[{"season": 2019, "minutes_share": 0.30, "mv_end_of_season": 5e6}])
+    assert not analyze._should_promote(ds, no)
+
+
 def _win(season, window):
     return {"club_id": "100", "club": "X", "league": "GB1", "season": season,
             "season_label": "", "window": window, "n_signings": 1, "n_starter": 1,

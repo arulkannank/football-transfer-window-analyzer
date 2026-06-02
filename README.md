@@ -157,6 +157,12 @@ change in `config.py` / the scoring module:
 - **Minutes denominator** = each club's *actual* league matches × 90 (handles
   COVID-curtailed 2019/20 and Ligue 1's 20→18 resize), not a fixed 38/34.
 - **"Available minutes"** counts **league** minutes only (cleanest denominator).
+  A **winter joiner / winter sale** only had ~half the season available, so its
+  joining/exit season's denominator is pro-rated (`WINTER_AVAILABLE_FRACTION`).
+- **Rotation → starter promotion**: a rotation buy is reclassified starter-type
+  (×2 weight, starter rubric) when its realised role shows it became a regular —
+  it plays >70% of minutes, its market value surges ≥ 1.75× purchase, or it fills
+  the slot of a sold regular with no separate replacement signed.
 - **Rating baseline for "improvement"** = the league's minutes-weighted average
   rating that season **over actual starters** (players past the 65% minutes bar)
   in that slot — a higher, more discriminating bar than averaging every squad player.

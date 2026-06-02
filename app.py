@@ -84,7 +84,7 @@ report** (Club view) auto-summarises each club's strengths and weaknesses.
 | **Season / Window** | When the player was bought (summer or winter window). |
 | **Pos** | Formation slot: GK · RB · LB · CB · MID · W (wingers) · CF. |
 | **Type** | *starter* (weight 2) or *rotation* (weight 1) in the aggregates. |
-| **Classification** | Why it's a starter/rotation: `addresses_problem` (bought into a flagged weak slot), `improves_problem` (slot rated below league), `replaces_sold` (a sold regular), `significant_outlay` (> 1.25× avg spend), `rotation_option` (depth), `squad_addition`. |
+| **Classification** | Why it's a starter/rotation: `addresses_problem` (bought into a flagged weak slot), `improves_problem` (slot rated below league), `replaces_sold` (a sold regular), `significant_outlay` (> 1.25× avg spend), `rotation_option` (depth), `promoted_to_starter` (a rotation buy reclassified as a starter because its realised role made it a regular — >70% minutes, surging value, or filling a sold incumbent's slot), `squad_addition`. |
 | **Fee / MV in** | Fee paid vs Transfermarkt market value at purchase. |
 | **Fee conf.** | *known* = disclosed; *estimated* = undisclosed, so P&L & efficiency use a market-value proxy (lower confidence). |
 | **Sold / Sale fee** | Whether later sold by the club, and for how much. |

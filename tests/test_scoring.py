@@ -85,6 +85,28 @@ def test_longevity_multi_season(base_ds, make_signing):
     assert sg.weight == pytest.approx(4.0)                         # starter base 2 x 2.0
 
 
+def test_winter_denominator(make_signing):
+    from conftest import player, rating_index
+    from ftw.dataset import Dataset
+    ds = Dataset(seasons=[2019, 2020])
+    c = "100"
+    ds.club_name[c] = "X"
+    for s, mins in [(2019, 1500), (2020, 3000)]:
+        ds.club_league[(c, s)] = "GB1"
+        ds.matches[(c, s)] = 38                      # full available = 3420
+        ds.rosters[(c, s)] = [player("9", "P", "Centre-Forward", mins, c, s)]
+        ds.squad_mv[(c, s)] = {"9": 40_000_000}
+        ds.pos_rating_avg[("GB1", s, "CF")] = 6.8
+        ds.ratings_index[("GB1", s)] = rating_index([("P", "X", 7.0)])
+    sg = make_signing(pid="9", name="P", club="100", season=2019, window="winter",
+                      fee=40_000_000, mv=40_000_000)
+    sg.is_starter_signing = True
+    scoring.score_signing(ds, sg, 2020)
+    e19 = next(e for e in sg.season_evals if e["season"] == 2019)
+    # winter joiner: 1500 / (3420 * 0.5) = 0.877, not the un-prorated 0.44
+    assert e19["minutes_share"] == pytest.approx(0.877, abs=0.01)
+
+
 def test_longevity_single_season(base_ds, make_signing):
     _sale(base_ds, "100", 2020, "summer", 60_000_000, 50_000_000)  # sold after one season
     sg = make_signing(season=2019, fee=50_000_000, mv=50_000_000)

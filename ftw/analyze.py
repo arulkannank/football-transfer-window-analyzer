@@ -142,6 +142,11 @@ def compute_starter_baselines(ds: Dataset, starter_share: float | None = None) -
 VALUE_REWARD_K = 0.5
 VALUE_PENALTY_K = 0.5
 VALUE_MULT_CAP = 2.0
+# Success/flop are judged with a margin around the league average so only CLEAR
+# hits get the cheap-gem reward and CLEAR flops get the expensive-flop penalty
+# (the league prior alone is a low, zero-inflated bar). Ratings between are neutral.
+VALUE_SUCCESS_MARGIN = 2.0     # rating >= prior + 2.0  -> a real success
+VALUE_FLOP_MARGIN = 0.5        # rating <= prior - 0.5  -> a clear flop
 
 
 def _league_avg_spend(ds: Dataset) -> dict:
@@ -167,13 +172,64 @@ def _apply_value_weighting(signings: list[Signing], priors: dict,
         if not blended or blended <= 0 or prior is None:
             continue
         e = max(-1.0, min(3.0, (s.fee_eur / blended) - 1.0))   # <0 cheap, >0 expensive
-        if s.overall_rating >= prior:                          # success
+        if s.overall_rating >= prior + VALUE_SUCCESS_MARGIN:   # clear success
             mult = 1.0 + VALUE_REWARD_K * max(0.0, -e)         # cheaper -> bigger reward
-        else:                                                  # flop
+        elif s.overall_rating <= prior - VALUE_FLOP_MARGIN:    # clear flop
             mult = 1.0 + VALUE_PENALTY_K * max(0.0, e)         # pricier -> bigger penalty
+        else:
+            mult = 1.0                                         # neutral zone
         mult = min(VALUE_MULT_CAP, mult)
         s.value_multiplier = round(mult, 2)
         s.weight = round(s.weight * mult, 3)
+
+
+# A rotation buy is promoted to starter-type when its realised role shows it became
+# a key player: it plays >70% of minutes, its market value surges, or it fills the
+# slot of a sold regular without a separate replacement being signed.
+PROMOTE_MINUTES_SHARE = 0.70
+PROMOTE_MV_RATIO = 1.75
+
+
+def _real_arrival_count(ds: Dataset, club: str, season: int, slot: str) -> int:
+    from config import to_slot
+    n = 0
+    for window in config.WINDOWS:
+        tr = ds.transfers.get((club, season, window))
+        if not tr:
+            continue
+        for a in tr.get("arrivals", []):
+            fee = a.get("fee", {})
+            if fee.get("loan") or to_slot(a.get("position", "")) != slot:
+                continue
+            if fee.get("known") or (a.get("mv_at") and a.get("counterpart_club_id")):
+                n += 1
+    return n
+
+
+def _filled_vacancy(ds: Dataset, sg: Signing) -> bool:
+    """During the spell a same-slot regular was sold without a separate replacement."""
+    s, last = sg.season, max(ds.seasons)
+    while s <= last:
+        if s > sg.season and not ds.player_in_roster(sg.pid, sg.club_id, s):
+            break
+        if (classify.departed_groups(ds, sg.club_id, s).get(sg.group, 0) > 0
+                and _real_arrival_count(ds, sg.club_id, s, sg.group) <= 1):
+            return True
+        s += 1
+    return False
+
+
+def _should_promote(ds: Dataset, sg: Signing) -> bool:
+    if sg.is_starter_signing:
+        return False
+    evals = sg.season_evals
+    if max((e.get("minutes_share") or 0 for e in evals), default=0.0) >= PROMOTE_MINUTES_SHARE:
+        return True
+    if sg.mv_at_purchase:
+        peak = max((e.get("mv_end_of_season") or 0 for e in evals), default=0)
+        if peak >= PROMOTE_MV_RATIO * sg.mv_at_purchase:
+            return True
+    return _filled_vacancy(ds, sg)
 
 
 def analyze(ds: Dataset, log=print, bootstrap: bool = True) -> dict:
@@ -201,6 +257,10 @@ def analyze(ds: Dataset, log=print, bootstrap: bool = True) -> dict:
                     continue
                 classify.classify(sg, flags, avg_spend.get(club_id), sold)
                 scoring.score_signing(ds, sg, last_season)
+                if _should_promote(ds, sg):           # rotation buy that became a starter
+                    sg.is_starter_signing = True
+                    sg.classification.append("promoted_to_starter")
+                    scoring.score_signing(ds, sg, last_season)   # re-score as a starter
                 if _insignificant(sg, avg_spend.get(club_id)) or _unrated(sg):
                     continue
                 sigs.append(sg)

@@ -37,6 +37,11 @@ SUCCESS_MINUTES_SHARE = 0.40
 LONGEVITY_PER_SEASON = 0.5
 LONGEVITY_CAP = 2.5
 
+# A winter joiner (or a player sold in winter) was only at the club for ~half the
+# season, so his minutes share is measured against ~half the available minutes
+# rather than the whole season.
+WINTER_AVAILABLE_FRACTION = 0.5
+
 
 def _bonus_frac(ratio: float) -> float:
     """Fraction-of-max bonus for exceptional multiples (5x -> +0.25, 10x -> +0.5)."""
@@ -132,6 +137,11 @@ def score_signing(ds: Dataset, signing: Signing, last_season: int) -> None:
     for s in seasons:
         league = ds.club_league.get((club, s)) or signing.league
         avail = ds.available_minutes(club, s, league)
+        # winter joiners (first season) and winter sales (last season) were only
+        # available for ~half the season — pro-rate the denominator accordingly.
+        if (s == signing.season and signing.window == "winter") or \
+           (sold and sale.get("window") == "winter" and s == sale.get("season")):
+            avail = avail * WINTER_AVAILABLE_FRACTION
         mins = ds.minutes_at(signing.pid, club, s)
         mins = mins if mins is not None else 0
         share = (mins / avail) if avail else 0.0
