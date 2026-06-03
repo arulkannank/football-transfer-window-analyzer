@@ -203,8 +203,11 @@ change in `config.py` / the scoring module:
 - The Club view shows a dense auto-generated **Recruitment report** (strengths &
   weaknesses): best/worst positions vs league, value-finding vs costly flops,
   trading profit/loss, chronic unaddressed problems, and consistency.
-- **Cost basis** for profit/loss = the transfer fee; if unknown, market value at
-  purchase is used as a proxy.
+- **Cost basis** for profit/loss = the transfer fee; if undisclosed, the market
+  value at purchase is used as a proxy — **except** for a player who was already in
+  the club's squad in an earlier season (academy graduate, or bought before the data
+  window): his arrival value is unreliable, so the purchase price is treated as
+  unknown and P&L is redistributed rather than assuming he was bought for €0.
 - A club **relegated out of the top-7** loses data coverage; that player's spell is
   evaluated only over the seasons we can see.
 ```

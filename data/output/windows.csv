@@ -47,7 +47,7 @@ Premier League,Luton Town,23/24,summer,10,10,0,3.894,3.894,,,,,10.0,5.726
 Premier League,Luton Town,23/24,winter,2,2,0,3.288,3.288,,,,,10.0,5.302
 Serie A,UC Sampdoria,19/20,summer,8,8,0,2.529,2.529,CB|RB|W,CB|RB|W,,,10.0,4.77
 Serie A,UC Sampdoria,19/20,winter,2,2,0,0.799,0.799,CB|RB|W,CB,RB|W,,5.0,2.059
-Serie A,UC Sampdoria,20/21,summer,6,6,0,2.468,3.218,CB|MID|W,CB|MID,W,W,5.17,3.804
+Serie A,UC Sampdoria,20/21,summer,6,6,0,2.701,3.451,CB|MID|W,CB|MID,W,W,5.17,3.967
 Serie A,UC Sampdoria,20/21,winter,0,0,0,,,CB|MID|W,,CB|MID|W,W,0.0,
 Serie A,UC Sampdoria,21/22,summer,3,3,0,0.816,0.816,CF|MID,CF|MID,,,10.0,3.571
 Serie A,UC Sampdoria,21/22,winter,1,1,0,0.0,0.0,CF|MID,CF,MID,,5.0,1.5
@@ -73,13 +73,13 @@ Serie A,Como 1907,25/26,summer,8,8,0,3.867,3.867,CF|GK|LB|MID|RB|W,LB|MID|RB|W,C
 Serie A,Como 1907,25/26,winter,1,1,0,0.134,1.634,CF|GK|LB|MID|RB|W,,CF|GK|LB|MID|RB|W,CF|GK,0.0,1.144
 LaLiga,Valencia CF,19/20,summer,6,6,0,1.347,1.347,CB|RB|W,CB|RB|W,,,10.0,3.943
 LaLiga,Valencia CF,19/20,winter,0,0,0,,,CB|RB|W,,CB|RB|W,,0.0,
-LaLiga,Valencia CF,20/21,summer,2,2,0,0.315,1.065,CB|GK|LB|MID|RB|W,GK|MID,CB|LB|RB|W,W,2.5,1.495
+LaLiga,Valencia CF,20/21,summer,2,2,0,1.692,2.442,CB|GK|LB|MID|RB|W,GK|MID,CB|LB|RB|W,W,2.5,2.459
 LaLiga,Valencia CF,20/21,winter,0,0,0,,,CB|GK|LB|MID|RB|W,,CB|GK|LB|MID|RB|W,CB|LB|RB|W,0.0,
 LaLiga,Valencia CF,21/22,summer,2,2,0,0.0,2.059,CB|MID|RB|W,RB,CB|MID|W,CB|MID|W,0.0,1.441
-LaLiga,Valencia CF,21/22,winter,4,4,0,4.578,5.328,CB|MID|RB|W,CB|MID,RB|W,W,3.5,4.78
+LaLiga,Valencia CF,21/22,winter,4,4,0,4.198,4.948,CB|MID|RB|W,CB|MID,RB|W,W,3.5,4.514
 LaLiga,Valencia CF,22/23,summer,4,4,0,3.845,3.845,CB|CF|GK|LB|MID|W,CF|MID|W,CB|GK|LB,,5.0,4.191
-LaLiga,Valencia CF,22/23,winter,1,1,0,5.564,7.064,CB|CF|GK|LB|MID|W,CB,CF|GK|LB|MID|W,GK|LB,0.0,4.945
-LaLiga,Valencia CF,23/24,summer,7,7,0,3.875,3.875,CB|CF|MID|RB|W,CB|CF|MID|W,RB,,8.0,5.112
+LaLiga,Valencia CF,22/23,winter,1,1,0,3.58,5.08,CB|CF|GK|LB|MID|W,CB,CF|GK|LB|MID|W,GK|LB,0.0,3.556
+LaLiga,Valencia CF,23/24,summer,7,7,0,3.798,3.798,CB|CF|MID|RB|W,CB|CF|MID|W,RB,,8.0,5.059
 LaLiga,Valencia CF,23/24,winter,2,2,0,5.605,6.355,CB|CF|MID|RB|W,CB,CF|MID|RB|W,RB,0.5,4.599
 LaLiga,Valencia CF,24/25,summer,2,2,0,2.721,4.221,CB|LB|MID|RB|W,W,CB|LB|MID|RB,MID|RB,0.0,2.955
 LaLiga,Valencia CF,24/25,winter,0,0,0,,,CB|LB|MID|RB|W,,CB|LB|MID|RB|W,CB|LB|MID|RB,0.0,
@@ -125,7 +125,7 @@ Ligue 1,LOSC Lille,22/23,summer,6,6,0,3.291,3.291,GK|LB|MID|W,LB|MID|W,GK,,7.5,4
 Ligue 1,LOSC Lille,22/23,winter,0,0,0,,,GK|LB|MID|W,,GK|LB|MID|W,GK,0.0,
 Ligue 1,LOSC Lille,23/24,summer,5,5,0,2.267,3.017,LB|RB|W,RB|W,LB,LB,5.17,3.663
 Ligue 1,LOSC Lille,23/24,winter,2,2,0,0.0,0.0,LB|RB|W,W,LB|RB,LB,1.83,0.549
-Ligue 1,LOSC Lille,24/25,summer,6,5,1,4.272,4.272,MID|W,MID|W,,,10.0,5.99
+Ligue 1,LOSC Lille,24/25,summer,6,5,1,4.371,4.371,MID|W,MID|W,,,10.0,6.06
 Ligue 1,LOSC Lille,24/25,winter,0,0,0,,,MID|W,,MID|W,,0.0,
 Ligue 1,LOSC Lille,25/26,summer,9,9,0,2.957,3.707,LB|MID|RB|W,LB|W,MID|RB,MID,5.17,4.146
 Ligue 1,LOSC Lille,25/26,winter,2,2,0,0.084,0.834,LB|MID|RB|W,W,LB|MID|RB,MID,1.83,1.133
@@ -133,9 +133,9 @@ Liga Portugal,Vitória Setúbal FC,19/20,summer,7,7,0,1.424,1.424,CB|GK|LB|MID|W
 Liga Portugal,Vitória Setúbal FC,19/20,winter,1,1,0,0.453,1.953,CB|GK|LB|MID|W,GK,CB|LB|MID|W,LB|W,0.0,1.367
 Eredivisie,AZ Alkmaar,19/20,summer,3,3,0,2.781,2.781,CF|LB|W,W,CF|LB,,3.33,2.946
 Eredivisie,AZ Alkmaar,19/20,winter,2,2,0,0.0,0.801,CF|LB|W,,CF|LB|W,CF|LB,0.0,0.561
-Eredivisie,AZ Alkmaar,20/21,summer,4,3,1,6.173,6.173,CB|W,CB|W,,,10.0,7.321
+Eredivisie,AZ Alkmaar,20/21,summer,4,3,1,5.866,5.866,CB|W,CB|W,,,10.0,7.106
 Eredivisie,AZ Alkmaar,20/21,winter,0,0,0,,,CB|W,,CB|W,,0.0,
-Eredivisie,AZ Alkmaar,21/22,summer,5,5,0,4.517,4.517,CB|RB|W,CB|RB,W,,10.0,6.162
+Eredivisie,AZ Alkmaar,21/22,summer,5,5,0,4.762,4.762,CB|RB|W,CB|RB,W,,10.0,6.333
 Eredivisie,AZ Alkmaar,21/22,winter,1,1,0,6.19,6.19,CB|RB|W,,CB|RB|W,,0.0,4.333
 Eredivisie,AZ Alkmaar,22/23,summer,4,4,0,2.9,2.9,W,W,,,10.0,5.03
 Eredivisie,AZ Alkmaar,22/23,winter,2,2,0,6.055,6.055,W,,W,,0.0,4.238
@@ -171,7 +171,7 @@ LaLiga,Deportivo Alavés,19/20,summer,4,4,0,4.259,4.259,LB|MID|W,MID|W,LB,,6.67,
 LaLiga,Deportivo Alavés,19/20,winter,1,1,0,2.338,3.088,LB|MID|W,,LB|MID|W,LB,0.0,2.162
 LaLiga,Deportivo Alavés,20/21,summer,1,1,0,1.666,3.166,LB|MID|RB|W,W,LB|MID|RB,LB|MID,0.0,2.216
 LaLiga,Deportivo Alavés,20/21,winter,0,0,0,,,LB|MID|RB|W,,LB|MID|RB|W,LB|MID|RB,0.0,
-LaLiga,Deportivo Alavés,21/22,summer,4,4,0,0.606,2.106,LB|MID|W,MID,LB|W,LB|W,0.33,1.573
+LaLiga,Deportivo Alavés,21/22,summer,4,4,0,1.033,2.533,LB|MID|W,MID,LB|W,LB|W,0.33,1.872
 LaLiga,Deportivo Alavés,21/22,winter,0,0,0,,,LB|MID|W,,LB|MID|W,LB|W,0.0,
 LaLiga,Deportivo Alavés,23/24,summer,5,5,0,4.738,4.738,,,,,10.0,6.317
 LaLiga,Deportivo Alavés,23/24,winter,1,1,0,8.905,8.905,,,,,10.0,9.233
@@ -221,7 +221,7 @@ Ligue 1,Nîmes Olympique,20/21,summer,7,7,0,4.158,4.158,MID|RB,MID|RB,,,10.0,5.9
 Ligue 1,Nîmes Olympique,20/21,winter,0,0,0,,,MID|RB,,MID|RB,,0.0,
 Serie A,AS Roma,19/20,summer,5,5,0,1.91,1.91,MID|RB|W,MID,RB|W,,5.0,2.837
 Serie A,AS Roma,19/20,winter,1,1,0,0.0,0.5,MID|RB|W,MID,RB|W,W,3.5,1.4
-Serie A,AS Roma,20/21,summer,6,6,0,2.885,2.885,MID|RB|W,MID|W,RB,,6.67,4.021
+Serie A,AS Roma,20/21,summer,6,6,0,3.194,3.194,MID|RB|W,MID|W,RB,,6.67,4.237
 Serie A,AS Roma,20/21,winter,1,1,0,1.606,2.356,MID|RB|W,W,MID|RB,RB,1.83,2.198
 Serie A,AS Roma,21/22,summer,7,7,0,1.765,1.765,CF|GK|LB|MID|W,CF|GK|LB,MID|W,,7.5,3.486
 Serie A,AS Roma,21/22,winter,0,0,0,,,CF|GK|LB|MID|W,,CF|GK|LB|MID|W,W,0.0,
@@ -230,7 +230,7 @@ Serie A,AS Roma,22/23,winter,1,1,0,0.0,0.0,LB|W,W,LB,LB,3.5,1.05
 Serie A,AS Roma,23/24,summer,3,3,0,3.768,4.518,CF|LB|MID|RB|W,MID,CF|LB|RB|W,LB,0.5,3.313
 Serie A,AS Roma,23/24,winter,1,1,0,0.0,1.39,CF|LB|MID|RB|W,MID,CF|LB|RB|W,CF|LB|RB|W,0.0,0.973
 Serie A,AS Roma,24/25,summer,9,9,0,2.537,2.537,GK|LB|MID|RB|W,LB|MID|RB|W,GK,,10.0,4.776
-Serie A,AS Roma,24/25,winter,3,3,0,0.972,0.972,GK|LB|MID|RB|W,GK|LB|RB,MID|W,,7.5,2.93
+Serie A,AS Roma,24/25,winter,3,3,0,0.665,0.665,GK|LB|MID|RB|W,GK|LB|RB,MID|W,,7.5,2.716
 Serie A,AS Roma,25/26,summer,2,2,0,3.166,3.166,MID|W,MID,W,,10.0,5.216
 Serie A,AS Roma,25/26,winter,1,1,0,0.834,0.834,MID|W,,MID|W,,0.0,0.584
 LaLiga,Girona FC,22/23,summer,4,3,1,4.698,4.698,,,,,10.0,6.289
@@ -269,23 +269,23 @@ Eredivisie,PEC Zwolle,20/21,summer,2,2,0,0.542,2.042,CB|GK|MID|RB|W,MID,CB|GK|RB
 Eredivisie,PEC Zwolle,20/21,winter,1,1,0,0.969,3.219,CB|GK|MID|RB|W,W,CB|GK|MID|RB,CB|GK|RB,0.0,2.253
 Eredivisie,PEC Zwolle,21/22,summer,9,9,0,4.057,4.057,CF|GK|MID|RB|W,CF|GK|MID|RB|W,,,10.0,5.84
 Eredivisie,PEC Zwolle,21/22,winter,1,1,0,2.45,2.45,CF|GK|MID|RB|W,,CF|GK|MID|RB|W,,0.0,1.715
-Eredivisie,PEC Zwolle,23/24,summer,5,5,0,4.817,4.817,,,,,10.0,6.372
+Eredivisie,PEC Zwolle,23/24,summer,5,5,0,5.022,5.022,,,,,10.0,6.515
 Eredivisie,PEC Zwolle,23/24,winter,1,1,0,2.223,2.223,,,,,10.0,4.556
 Eredivisie,PEC Zwolle,24/25,summer,4,4,0,2.988,2.988,LB|MID,LB|MID,,,10.0,5.092
 Eredivisie,PEC Zwolle,24/25,winter,0,0,0,,,LB|MID,,LB|MID,,0.0,
 Eredivisie,PEC Zwolle,25/26,summer,3,3,0,4.846,5.596,LB|RB|W,W,LB|RB,LB,1.83,4.466
-Eredivisie,PEC Zwolle,25/26,winter,1,1,0,2.126,3.626,LB|RB|W,W,LB|RB,LB|RB,0.33,2.637
+Eredivisie,PEC Zwolle,25/26,winter,1,1,0,3.459,4.959,LB|RB|W,W,LB|RB,LB|RB,0.33,3.57
 Bundesliga,SC Paderborn 07,19/20,summer,5,3,2,5.464,5.464,,,,,10.0,6.825
 Bundesliga,SC Paderborn 07,19/20,winter,1,1,0,5.168,5.168,,,,,10.0,6.618
-Eredivisie,FC Emmen,19/20,summer,8,8,0,5.08,5.08,CB|CF|MID|W,CB|CF|MID|W,,,10.0,6.556
-Eredivisie,FC Emmen,19/20,winter,2,2,0,5.583,5.583,CB|CF|MID|W,CB|MID,CF|W,,5.0,5.408
+Eredivisie,FC Emmen,19/20,summer,8,8,0,5.416,5.416,CB|CF|MID|W,CB|CF|MID|W,,,10.0,6.791
+Eredivisie,FC Emmen,19/20,winter,2,2,0,5.916,5.916,CB|CF|MID|W,CB|MID,CF|W,,5.0,5.641
 Eredivisie,FC Emmen,20/21,summer,5,4,1,3.538,4.288,CB|MID|W,MID,CB|W,W,1.83,3.551
 Eredivisie,FC Emmen,20/21,winter,4,4,0,3.168,3.918,CB|MID|W,MID|W,CB,CB,5.17,4.294
 Eredivisie,FC Emmen,22/23,summer,5,2,3,6.399,6.399,,,,,10.0,7.479
 Eredivisie,FC Emmen,22/23,winter,4,3,1,2.529,2.529,,,,,10.0,4.77
 LaLiga,Atlético de Madrid,19/20,summer,7,7,0,2.793,2.793,CB|LB|RB|W,CB|LB|RB,W,,10.0,4.955
 LaLiga,Atlético de Madrid,19/20,winter,0,0,0,,,CB|LB|RB|W,,CB|LB|RB|W,W,0.0,
-LaLiga,Atlético de Madrid,20/21,summer,5,5,0,3.353,3.353,CB|CF|RB|W,CF|W,CB|RB,,10.0,5.347
+LaLiga,Atlético de Madrid,20/21,summer,5,5,0,3.173,3.173,CB|CF|RB|W,CF|W,CB|RB,,10.0,5.221
 LaLiga,Atlético de Madrid,20/21,winter,1,1,0,1.76,1.76,CB|CF|RB|W,,CB|CF|RB|W,,0.0,1.232
 LaLiga,Atlético de Madrid,21/22,summer,2,2,0,2.755,2.755,LB|MID|W,MID|W,LB,,10.0,4.928
 LaLiga,Atlético de Madrid,21/22,winter,2,2,0,1.093,1.093,LB|MID|W,LB|MID,W,,10.0,3.765
@@ -367,7 +367,7 @@ Ligue 1,Angers SCO,20/21,summer,6,6,0,3.552,3.552,CF|LB|W,CF|LB|W,,,10.0,5.486
 Ligue 1,Angers SCO,20/21,winter,0,0,0,,,CF|LB|W,,CF|LB|W,,0.0,
 Ligue 1,Angers SCO,21/22,summer,3,3,0,5.22,6.72,CF|LB|MID|W,MID|W,CF|LB,CF|LB,2.0,5.304
 Ligue 1,Angers SCO,21/22,winter,2,2,0,3.047,4.547,CF|LB|MID|W,MID|W,CF|LB,CF|LB,2.0,3.783
-Ligue 1,Angers SCO,22/23,summer,10,10,0,3.107,3.107,CF|GK|W,CF|GK,W,,6.67,4.176
+Ligue 1,Angers SCO,22/23,summer,10,10,0,3.203,3.203,CF|GK|W,CF|GK,W,,6.67,4.243
 Ligue 1,Angers SCO,22/23,winter,1,1,0,1.425,2.175,CF|GK|W,,CF|GK|W,W,0.0,1.522
 Ligue 1,Angers SCO,24/25,summer,6,5,1,5.374,5.374,,,,,10.0,6.762
 Ligue 1,Angers SCO,24/25,winter,0,0,0,,,,,,,10.0,
@@ -441,13 +441,13 @@ Bundesliga,Bayer 04 Leverkusen,25/26,summer,11,11,0,3.032,3.032,CF|MID|W,CF|MID|
 Bundesliga,Bayer 04 Leverkusen,25/26,winter,0,0,0,,,CF|MID|W,,CF|MID|W,,0.0,
 LaLiga,Real Betis Balompié,19/20,summer,6,6,0,2.118,2.118,CF|LB|RB|W,CF|LB|W,RB,,10.0,4.483
 LaLiga,Real Betis Balompié,19/20,winter,2,2,0,1.901,2.651,CF|LB|RB|W,,CF|LB|RB|W,RB,0.0,1.856
-LaLiga,Real Betis Balompié,20/21,summer,5,5,0,2.707,3.457,CF|MID|W,W,CF|MID,CF,1.83,2.969
+LaLiga,Real Betis Balompié,20/21,summer,5,5,0,1.944,2.694,CF|MID|W,W,CF|MID,CF,1.83,2.435
 LaLiga,Real Betis Balompié,20/21,winter,0,0,0,,,CF|MID|W,,CF|MID|W,CF|MID,0.0,
-LaLiga,Real Betis Balompié,21/22,summer,5,5,0,2.713,3.463,CB|CF|GK|LB|W,CB|GK|LB|W,CF,CF,6.5,4.374
+LaLiga,Real Betis Balompié,21/22,summer,5,5,0,2.747,3.497,CB|CF|GK|LB|W,CB|GK|LB|W,CF,CF,6.5,4.398
 LaLiga,Real Betis Balompié,21/22,winter,0,0,0,,,CB|CF|GK|LB|W,,CB|CF|GK|LB|W,CF,0.0,
-LaLiga,Real Betis Balompié,22/23,summer,4,4,0,1.993,2.743,CB|CF|GK|RB|W,CB|CF|W,GK|RB,GK,8.5,4.47
+LaLiga,Real Betis Balompié,22/23,summer,4,4,0,1.372,2.122,CB|CF|GK|RB|W,CB|CF|W,GK|RB,GK,8.5,4.035
 LaLiga,Real Betis Balompié,22/23,winter,0,0,0,,,CB|CF|GK|RB|W,,CB|CF|GK|RB|W,GK,0.0,
-LaLiga,Real Betis Balompié,23/24,summer,8,8,0,3.149,3.149,CB|LB|RB|W,CB|RB|W,LB,,10.0,5.204
+LaLiga,Real Betis Balompié,23/24,summer,8,8,0,3.713,3.713,CB|LB|RB|W,CB|RB|W,LB,,10.0,5.599
 LaLiga,Real Betis Balompié,23/24,winter,6,6,0,3.91,3.91,CB|LB|RB|W,CB|W,LB|RB,,6.67,4.738
 LaLiga,Real Betis Balompié,24/25,summer,6,6,0,2.181,2.931,CB|LB|MID|RB|W,CB|LB|MID,RB|W,RB,6.0,3.852
 LaLiga,Real Betis Balompié,24/25,winter,3,3,0,5.564,5.564,CB|LB|MID|RB|W,RB|W,CB|LB|MID,,5.0,5.395
@@ -547,7 +547,7 @@ Eredivisie,FC Utrecht,20/21,summer,5,5,0,1.41,1.41,LB|MID|W,LB|W,MID,,10.0,3.987
 Eredivisie,FC Utrecht,20/21,winter,3,2,1,2.085,2.085,LB|MID|W,W,LB|MID,,5.0,2.959
 Eredivisie,FC Utrecht,21/22,summer,2,2,0,8.312,8.312,CB|MID|RB|W,MID,CB|RB|W,,10.0,8.818
 Eredivisie,FC Utrecht,21/22,winter,1,1,0,1.982,2.732,CB|MID|RB|W,,CB|MID|RB|W,W,0.0,1.912
-Eredivisie,FC Utrecht,22/23,summer,7,7,0,3.686,3.686,CB|GK|LB|MID|W,CB|MID|W,GK|LB,,10.0,5.58
+Eredivisie,FC Utrecht,22/23,summer,7,7,0,4.164,4.164,CB|GK|LB|MID|W,CB|MID|W,GK|LB,,10.0,5.915
 Eredivisie,FC Utrecht,22/23,winter,2,2,0,0.859,1.609,CB|GK|LB|MID|W,MID,CB|GK|LB|W,LB,1.83,1.675
 Eredivisie,FC Utrecht,23/24,summer,9,8,1,4.288,4.288,CB|LB|MID|W,CB|LB|MID|W,,,10.0,6.002
 Eredivisie,FC Utrecht,23/24,winter,2,2,0,2.287,2.287,CB|LB|MID|W,W,CB|LB|MID,,2.5,2.351
@@ -558,7 +558,7 @@ Eredivisie,FC Utrecht,25/26,winter,0,0,0,,,CF|MID|W,,CF|MID|W,,0.0,
 Eredivisie,FC Groningen,19/20,summer,7,7,0,4.36,4.36,CF|MID,CF|MID,,,10.0,6.052
 Eredivisie,FC Groningen,19/20,winter,0,0,0,,,CF|MID,,CF|MID,,0.0,
 Eredivisie,FC Groningen,20/21,summer,4,4,0,4.086,4.836,CF|MID|W,CF|W,MID,MID,5.17,4.936
-Eredivisie,FC Groningen,20/21,winter,1,1,0,2.727,3.477,CF|MID|W,,CF|MID|W,MID,0.0,2.434
+Eredivisie,FC Groningen,20/21,winter,1,1,0,5.263,6.013,CF|MID|W,,CF|MID|W,MID,0.0,4.209
 Eredivisie,FC Groningen,21/22,summer,10,10,0,3.706,3.706,CB|W,CB|W,,,10.0,5.594
 Eredivisie,FC Groningen,21/22,winter,1,1,0,0.0,0.0,CB|W,,CB|W,,0.0,0.0
 Eredivisie,FC Groningen,22/23,summer,6,6,0,1.493,1.493,RB|W,W,RB,,5.0,2.545
@@ -595,19 +595,19 @@ Eredivisie,RKC Waalwijk,19/20,summer,2,2,0,0.975,0.975,,,,,10.0,3.683
 Eredivisie,RKC Waalwijk,19/20,winter,1,1,0,1.69,1.69,,,,,10.0,4.183
 Eredivisie,RKC Waalwijk,20/21,summer,7,7,0,3.648,3.648,CF|LB|RB|W,CF|W,LB|RB,,5.0,4.054
 Eredivisie,RKC Waalwijk,20/21,winter,1,1,0,0.698,2.198,CF|LB|RB|W,,CF|LB|RB|W,LB|RB,0.0,1.539
-Eredivisie,RKC Waalwijk,21/22,summer,6,6,0,1.631,2.381,CB|CF|LB|W,CB|CF|LB,W,W,6.0,3.467
+Eredivisie,RKC Waalwijk,21/22,summer,6,6,0,1.87,2.62,CB|CF|LB|W,CB|CF|LB,W,W,6.0,3.634
 Eredivisie,RKC Waalwijk,21/22,winter,1,1,0,1.407,1.407,CB|CF|LB|W,W,CB|CF|LB,,2.5,1.735
 Eredivisie,RKC Waalwijk,22/23,summer,5,5,0,3.621,3.621,LB|W,W,LB,,10.0,5.535
 Eredivisie,RKC Waalwijk,22/23,winter,2,2,0,3.35,3.35,LB|W,W,LB,,10.0,5.345
 Eredivisie,RKC Waalwijk,23/24,summer,8,8,0,2.986,2.986,MID|W,MID|W,,,10.0,5.09
-Eredivisie,RKC Waalwijk,23/24,winter,1,1,0,1.794,1.794,MID|W,MID,W,,5.0,2.756
+Eredivisie,RKC Waalwijk,23/24,winter,1,1,0,3.128,3.128,MID|W,MID,W,,5.0,3.69
 Eredivisie,RKC Waalwijk,24/25,summer,11,11,0,4.398,4.398,CF|MID|W,CF|MID|W,,,10.0,6.079
 Eredivisie,RKC Waalwijk,24/25,winter,2,2,0,1.325,1.325,CF|MID|W,,CF|MID|W,,0.0,0.927
 LaLiga,RCD Mallorca,19/20,summer,6,4,2,4.481,4.481,,,,,10.0,6.137
 LaLiga,RCD Mallorca,19/20,winter,0,0,0,,,,,,,10.0,
 LaLiga,RCD Mallorca,21/22,summer,6,5,1,2.681,2.681,,,,,10.0,4.877
 LaLiga,RCD Mallorca,21/22,winter,2,2,0,2.211,2.211,,,,,10.0,4.548
-LaLiga,RCD Mallorca,22/23,summer,6,6,0,5.192,5.192,CB|CF|GK|LB|MID|W,CB|CF|GK|MID,LB|W,,6.67,5.635
+LaLiga,RCD Mallorca,22/23,summer,6,6,0,5.54,5.54,CB|CF|GK|LB|MID|W,CB|CF|GK|MID,LB|W,,6.67,5.879
 LaLiga,RCD Mallorca,22/23,winter,0,0,0,,,CB|CF|GK|LB|MID|W,,CB|CF|GK|LB|MID|W,LB|W,0.0,
 LaLiga,RCD Mallorca,23/24,summer,7,7,0,2.848,3.598,MID|W,MID,W,W,3.5,3.569
 LaLiga,RCD Mallorca,23/24,winter,0,0,0,,,MID|W,,MID|W,W,0.0,
@@ -643,7 +643,7 @@ Bundesliga,Eintracht Frankfurt,24/25,summer,5,5,0,4.892,4.892,LB|MID|RB|W,MID,LB
 Bundesliga,Eintracht Frankfurt,24/25,winter,3,3,0,0.0,2.092,LB|MID|RB|W,,LB|MID|RB|W,LB|RB|W,0.0,1.464
 Bundesliga,Eintracht Frankfurt,25/26,summer,4,4,0,3.437,4.187,LB|MID|W,W,LB|MID,MID,3.5,3.981
 Bundesliga,Eintracht Frankfurt,25/26,winter,2,2,0,0.759,1.509,LB|MID|W,W,LB|MID,MID,3.5,2.106
-Liga Portugal,Vitória Guimarães SC,19/20,summer,4,4,0,5.817,5.817,MID|W,MID|W,,,10.0,7.072
+Liga Portugal,Vitória Guimarães SC,19/20,summer,4,4,0,6.055,6.055,MID|W,MID|W,,,10.0,7.238
 Liga Portugal,Vitória Guimarães SC,19/20,winter,1,1,0,0.115,0.115,MID|W,,MID|W,,0.0,0.081
 Liga Portugal,Vitória Guimarães SC,20/21,summer,10,9,1,2.834,2.834,CB|CF|MID|W,CB|CF|MID|W,,,10.0,4.984
 Liga Portugal,Vitória Guimarães SC,20/21,winter,1,1,0,1.456,1.456,CB|CF|MID|W,W,CB|CF|MID,,3.33,2.018
@@ -659,7 +659,7 @@ Liga Portugal,Vitória Guimarães SC,25/26,summer,10,9,1,2.949,2.949,CB|CF|MID|R
 Liga Portugal,Vitória Guimarães SC,25/26,winter,1,1,0,0.0,0.0,CB|CF|MID|RB|W,CF,CB|MID|RB|W,,2.0,0.6
 Liga Portugal,CD Santa Clara,19/20,summer,5,4,1,5.486,5.486,CF|LB|MID|W,LB|MID,CF|W,,5.0,5.34
 Liga Portugal,CD Santa Clara,19/20,winter,4,4,0,2.452,2.452,CF|LB|MID|W,CF|MID|W,LB,,7.5,3.966
-Liga Portugal,CD Santa Clara,20/21,summer,5,5,0,3.703,4.453,LB|RB|W,W,LB|RB,LB,1.83,3.666
+Liga Portugal,CD Santa Clara,20/21,summer,5,5,0,3.632,4.382,LB|RB|W,W,LB|RB,LB,1.83,3.616
 Liga Portugal,CD Santa Clara,20/21,winter,4,4,0,3.41,4.91,LB|RB|W,W,LB|RB,LB|RB,0.33,3.536
 Liga Portugal,CD Santa Clara,21/22,summer,3,3,0,3.487,3.487,CF|LB|MID|W,LB|W,CF|MID,,5.0,3.941
 Liga Portugal,CD Santa Clara,21/22,winter,1,1,0,0.755,2.255,CF|LB|MID|W,W,CF|LB|MID,CF|MID,0.0,1.578
@@ -673,19 +673,19 @@ Liga Portugal,Gil Vicente FC,19/20,summer,11,9,2,3.63,3.63,,,,,10.0,5.541
 Liga Portugal,Gil Vicente FC,19/20,winter,2,0,2,7.128,7.128,,,,,10.0,7.99
 Liga Portugal,Gil Vicente FC,20/21,summer,4,4,0,2.138,2.138,CB|LB|MID|RB|W,LB|W,CB|MID|RB,,4.0,2.697
 Liga Portugal,Gil Vicente FC,20/21,winter,3,3,0,2.987,3.737,CB|LB|MID|RB|W,MID|RB,CB|LB|W,CB,2.5,3.366
-Liga Portugal,Gil Vicente FC,21/22,summer,15,15,0,3.706,3.706,CF|MID,CF|MID,,,10.0,5.594
+Liga Portugal,Gil Vicente FC,21/22,summer,15,15,0,3.613,3.613,CF|MID,CF|MID,,,10.0,5.529
 Liga Portugal,Gil Vicente FC,21/22,winter,0,0,0,,,CF|MID,,CF|MID,,0.0,
-Liga Portugal,Gil Vicente FC,22/23,summer,6,5,1,2.948,2.948,GK|W,GK,W,,10.0,5.064
+Liga Portugal,Gil Vicente FC,22/23,summer,6,5,1,3.082,3.082,GK|W,GK,W,,10.0,5.157
 Liga Portugal,Gil Vicente FC,22/23,winter,3,3,0,2.583,2.583,GK|W,W,GK,,10.0,4.808
 Liga Portugal,Gil Vicente FC,23/24,summer,4,4,0,4.821,4.821,CB|MID|RB|W,MID|RB,CB|W,,6.67,5.376
-Liga Portugal,Gil Vicente FC,23/24,winter,2,2,0,0.095,1.595,CB|MID|RB|W,RB,CB|MID|W,CB|W,0.33,1.215
+Liga Portugal,Gil Vicente FC,23/24,winter,2,2,0,1.268,2.768,CB|MID|RB|W,RB,CB|MID|W,CB|W,0.33,2.037
 Liga Portugal,Gil Vicente FC,24/25,summer,11,11,0,4.506,4.506,CF|MID|RB,CF|MID|RB,,,10.0,6.154
 Liga Portugal,Gil Vicente FC,24/25,winter,3,3,0,1.412,1.412,CF|MID|RB,CF|MID,RB,,6.67,2.989
 Liga Portugal,Gil Vicente FC,25/26,summer,7,7,0,5.247,5.247,CB|CF|MID|W,CB|MID|W,CF,,7.5,5.923
 Liga Portugal,Gil Vicente FC,25/26,winter,2,2,0,2.47,2.47,CB|CF|MID|W,CF,CB|MID|W,,2.5,2.479
 Liga Portugal,Rio Ave FC,19/20,summer,5,5,0,5.115,5.115,CB|CF|LB|MID|W,CF|LB|W,CB|MID,,6.0,5.38
 Liga Portugal,Rio Ave FC,19/20,winter,0,0,0,,,CB|CF|LB|MID|W,,CB|CF|LB|MID|W,CB|MID,0.0,
-Liga Portugal,Rio Ave FC,20/21,summer,3,3,0,3.898,4.648,RB|W,,RB|W,W,0.0,3.254
+Liga Portugal,Rio Ave FC,20/21,summer,3,3,0,4.719,5.469,RB|W,,RB|W,W,0.0,3.828
 Liga Portugal,Rio Ave FC,20/21,winter,2,2,0,2.31,3.06,RB|W,W,RB,RB,3.5,3.192
 Liga Portugal,Rio Ave FC,22/23,summer,8,4,4,4.013,4.013,,,,,10.0,5.809
 Liga Portugal,Rio Ave FC,22/23,winter,0,0,0,,,,,,,10.0,
@@ -713,7 +713,7 @@ Ligue 1,Olympique Marseille,23/24,summer,9,8,1,4.126,4.126,MID|W,MID|W,,,10.0,5.
 Ligue 1,Olympique Marseille,23/24,winter,3,3,0,1.856,1.856,MID|W,,MID|W,,0.0,1.299
 Ligue 1,Olympique Marseille,24/25,summer,8,8,0,2.67,2.67,LB|MID|W,MID|W,LB,,6.67,3.87
 Ligue 1,Olympique Marseille,24/25,winter,2,2,0,2.074,2.824,LB|MID|W,,LB|MID|W,LB,0.0,1.977
-Ligue 1,Olympique Marseille,25/26,summer,9,9,0,3.367,3.367,CB|CF|LB,CB|CF|LB,,,10.0,5.357
+Ligue 1,Olympique Marseille,25/26,summer,9,9,0,3.109,3.109,CB|CF|LB,CB|CF|LB,,,10.0,5.176
 Ligue 1,Olympique Marseille,25/26,winter,3,3,0,2.193,2.193,CB|CF|LB,,CB|CF|LB,,0.0,1.535
 Liga Portugal,B SAD (2018-2024),19/20,summer,5,5,0,2.356,2.356,CF|LB|MID|RB,CF,LB|MID|RB,,2.5,2.399
 Liga Portugal,B SAD (2018-2024),19/20,winter,3,3,0,1.434,2.934,CF|LB|MID|RB,LB,CF|MID|RB,MID|RB,0.0,2.054
@@ -769,7 +769,7 @@ Bundesliga,Bayern Munich,22/23,summer,4,4,0,3.027,3.027,MID|RB|W,MID|RB|W,,,10.0
 Bundesliga,Bayern Munich,22/23,winter,1,1,0,5.759,5.759,MID|RB|W,,MID|RB|W,,0.0,4.031
 Bundesliga,Bayern Munich,23/24,summer,4,4,0,4.324,4.324,CF|GK|MID|RB|W,CF|GK|RB,MID|W,,10.0,6.027
 Bundesliga,Bayern Munich,23/24,winter,1,1,0,0.0,0.0,CF|GK|MID|RB|W,RB,CF|GK|MID|W,,5.0,1.5
-Bundesliga,Bayern Munich,24/25,summer,4,4,0,2.702,2.702,CB|MID|RB|W,CB|MID|W,RB,,10.0,4.891
+Bundesliga,Bayern Munich,24/25,summer,4,4,0,2.907,2.907,CB|MID|RB|W,CB|MID|W,RB,,10.0,5.035
 Bundesliga,Bayern Munich,24/25,winter,1,1,0,3.306,4.056,CB|MID|RB|W,,CB|MID|RB|W,RB,0.0,2.839
 Bundesliga,Bayern Munich,25/26,summer,3,3,0,5.191,5.191,CB|GK|LB|MID|RB|W,CB|MID|W,GK|LB|RB,,10.0,6.634
 Bundesliga,Bayern Munich,25/26,winter,0,0,0,,,CB|GK|LB|MID|RB|W,,CB|GK|LB|MID|RB|W,GK,0.0,
@@ -813,7 +813,7 @@ Premier League,Manchester City,22/23,summer,5,4,1,3.388,3.388,CF|LB|MID|W,CF|LB|
 Premier League,Manchester City,22/23,winter,1,1,0,0.0,0.0,CF|LB|MID|W,MID,CF|LB|W,,5.0,1.5
 Premier League,Manchester City,23/24,summer,4,4,0,2.851,3.601,CB|LB|RB|W,CB|W,LB|RB,LB,5.17,4.072
 Premier League,Manchester City,23/24,winter,1,1,0,0.0,0.0,CB|LB|RB|W,,CB|LB|RB|W,LB|RB,0.0,0.0
-Premier League,Manchester City,24/25,summer,2,1,1,4.088,4.838,LB|W,W,LB,LB,8.5,5.937
+Premier League,Manchester City,24/25,summer,2,1,1,4.946,5.696,LB|W,W,LB,LB,8.5,6.537
 Premier League,Manchester City,24/25,winter,4,4,0,1.499,2.249,LB|W,,LB|W,LB,0.0,1.574
 Premier League,Manchester City,25/26,summer,5,5,0,3.039,3.039,LB|MID|RB|W,LB|MID,RB|W,,10.0,5.127
 Premier League,Manchester City,25/26,winter,2,2,0,5.727,6.477,LB|MID|RB|W,W,LB|MID|RB,RB,3.5,5.584
@@ -890,7 +890,7 @@ Eredivisie,SC Heerenveen,20/21,winter,5,5,0,1.551,2.301,CF|RB,,CF|RB,RB,0.0,1.61
 Eredivisie,SC Heerenveen,21/22,summer,4,3,1,5.76,5.76,MID|RB|W,RB,MID|W,,3.33,5.031
 Eredivisie,SC Heerenveen,21/22,winter,4,4,0,5.127,5.877,MID|RB|W,MID,RB|W,W,1.83,4.663
 Eredivisie,SC Heerenveen,22/23,summer,5,5,0,2.761,3.511,CF|GK|LB|MID|W,GK|LB|MID,CF|W,W,6.0,4.258
-Eredivisie,SC Heerenveen,22/23,winter,5,5,0,2.395,2.395,CF|GK|LB|MID|W,CF|W,GK|LB|MID,,5.0,3.176
+Eredivisie,SC Heerenveen,22/23,winter,5,5,0,2.829,2.829,CF|GK|LB|MID|W,CF|W,GK|LB|MID,,5.0,3.48
 Eredivisie,SC Heerenveen,23/24,summer,3,3,0,1.403,1.403,CB|GK|W,GK,CB|W,,3.33,1.981
 Eredivisie,SC Heerenveen,23/24,winter,0,0,0,,,CB|GK|W,,CB|GK|W,CB|W,0.0,
 Eredivisie,SC Heerenveen,24/25,summer,6,6,0,3.838,4.588,GK|W,W,GK,GK,3.5,4.262
@@ -951,7 +951,7 @@ LaLiga,CA Osasuna,21/22,summer,4,4,0,3.609,4.359,CB|CF|LB|MID|W,CB|CF,LB|MID|W,W
 LaLiga,CA Osasuna,21/22,winter,0,0,0,,,CB|CF|LB|MID|W,,CB|CF|LB|MID|W,LB|MID|W,0.0,
 LaLiga,CA Osasuna,22/23,summer,3,3,0,0.75,2.25,CB|CF|W,,CB|CF|W,CF|W,0.0,1.575
 LaLiga,CA Osasuna,22/23,winter,0,0,0,,,CB|CF|W,,CB|CF|W,CF|W,0.0,
-LaLiga,CA Osasuna,23/24,summer,3,3,0,3.264,3.264,CB|CF|GK|LB|RB|W,CB|CF|W,GK|LB|RB,,6.0,4.085
+LaLiga,CA Osasuna,23/24,summer,3,3,0,3.352,3.352,CB|CF|GK|LB|RB|W,CB|CF|W,GK|LB|RB,,6.0,4.146
 LaLiga,CA Osasuna,23/24,winter,0,0,0,,,CB|CF|GK|LB|RB|W,,CB|CF|GK|LB|RB|W,LB|RB,0.0,
 LaLiga,CA Osasuna,24/25,summer,2,2,0,4.989,5.739,LB|MID|W,LB,MID|W,W,1.83,4.566
 LaLiga,CA Osasuna,24/25,winter,0,0,0,,,LB|MID|W,,LB|MID|W,MID|W,0.0,
@@ -981,7 +981,7 @@ Liga Portugal,Sporting CP,19/20,summer,5,5,0,1.542,1.542,CB|CF|MID|RB|W,CB|CF|MI
 Liga Portugal,Sporting CP,19/20,winter,1,1,0,2.664,2.664,CB|CF|MID|RB|W,CF,CB|MID|RB|W,,10.0,4.865
 Liga Portugal,Sporting CP,20/21,summer,5,5,0,4.287,5.037,CB|CF|MID|RB|W,CB|W,CF|MID|RB,RB,2.5,4.276
 Liga Portugal,Sporting CP,20/21,winter,2,2,0,1.954,2.704,CB|CF|MID|RB|W,CF|RB,CB|MID|W,MID,2.5,2.643
-Liga Portugal,Sporting CP,21/22,summer,3,3,0,2.061,2.061,CF|MID|W,MID,CF|W,,5.0,2.943
+Liga Portugal,Sporting CP,21/22,summer,3,3,0,2.505,2.505,CF|MID|W,MID,CF|W,,5.0,3.253
 Liga Portugal,Sporting CP,21/22,winter,2,2,0,2.068,2.068,CF|MID|W,CF|W,MID,,10.0,4.448
 Liga Portugal,Sporting CP,22/23,summer,7,7,0,2.321,2.321,MID|RB|W,MID|RB|W,,,10.0,4.625
 Liga Portugal,Sporting CP,22/23,winter,2,2,0,4.642,4.642,MID|RB|W,RB,MID|W,,10.0,6.249
@@ -1031,9 +1031,9 @@ Ligue 1,Clermont Foot 63,22/23,summer,7,7,0,5.442,5.442,CB|GK|MID|W,CB|GK|MID|W,
 Ligue 1,Clermont Foot 63,22/23,winter,0,0,0,,,CB|GK|MID|W,,CB|GK|MID|W,,0.0,
 Ligue 1,Clermont Foot 63,23/24,summer,6,5,1,2.997,2.997,MID|RB|W,MID|W,RB,,6.67,4.099
 Ligue 1,Clermont Foot 63,23/24,winter,0,0,0,,,MID|RB|W,,MID|RB|W,RB,0.0,
-LaLiga,Real Valladolid CF,19/20,summer,3,3,0,4.331,4.331,CF|RB|W,CF|W,RB,,6.67,5.033
+LaLiga,Real Valladolid CF,19/20,summer,3,3,0,3.838,3.838,CF|RB|W,CF|W,RB,,6.67,4.688
 LaLiga,Real Valladolid CF,19/20,winter,2,2,0,0.0,0.0,CF|RB|W,CF,RB|W,RB,1.83,0.549
-LaLiga,Real Valladolid CF,20/21,summer,10,10,0,3.751,3.751,LB|MID|W,LB|MID|W,,,10.0,5.626
+LaLiga,Real Valladolid CF,20/21,summer,10,10,0,3.631,3.631,LB|MID|W,LB|MID|W,,,10.0,5.542
 LaLiga,Real Valladolid CF,20/21,winter,0,0,0,,,LB|MID|W,,LB|MID|W,,0.0,
 LaLiga,Real Valladolid CF,22/23,summer,9,5,4,4.779,4.779,,,,,10.0,6.345
 LaLiga,Real Valladolid CF,22/23,winter,3,2,1,6.078,6.078,,,,,10.0,7.255
@@ -1067,7 +1067,7 @@ LaLiga,Getafe CF,19/20,summer,4,4,0,0.749,0.749,LB|MID|W,MID,LB|W,,3.33,1.523
 LaLiga,Getafe CF,19/20,winter,1,1,0,0.0,0.0,LB|MID|W,,LB|MID|W,LB|W,0.0,0.0
 LaLiga,Getafe CF,20/21,summer,2,2,0,4.004,5.504,CB|MID|W,,CB|MID|W,MID|W,0.0,3.853
 LaLiga,Getafe CF,20/21,winter,0,0,0,,,CB|MID|W,,CB|MID|W,CB|MID|W,0.0,
-LaLiga,Getafe CF,21/22,summer,5,5,0,1.01,1.01,CB|CF|MID|W,CB|CF|MID|W,,,10.0,3.707
+LaLiga,Getafe CF,21/22,summer,5,5,0,1.053,1.053,CB|CF|MID|W,CB|CF|MID|W,,,10.0,3.737
 LaLiga,Getafe CF,21/22,winter,0,0,0,,,CB|CF|MID|W,,CB|CF|MID|W,,0.0,
 LaLiga,Getafe CF,22/23,summer,5,5,0,2.458,3.208,W,,W,W,0.0,2.246
 LaLiga,Getafe CF,22/23,winter,0,0,0,,,W,,W,W,0.0,
@@ -1119,7 +1119,7 @@ Eredivisie,Fortuna Sittard,20/21,summer,9,9,0,5.137,5.137,CB|W,CB|W,,,10.0,6.596
 Eredivisie,Fortuna Sittard,20/21,winter,2,2,0,0.488,0.488,CB|W,W,CB,,5.0,1.842
 Eredivisie,Fortuna Sittard,21/22,summer,5,5,0,4.236,4.236,RB|W,RB|W,,,10.0,5.965
 Eredivisie,Fortuna Sittard,21/22,winter,4,4,0,3.596,3.596,RB|W,,RB|W,,0.0,2.517
-Eredivisie,Fortuna Sittard,22/23,summer,10,9,1,3.784,3.784,CB|W,CB|W,,,10.0,5.649
+Eredivisie,Fortuna Sittard,22/23,summer,10,9,1,3.835,3.835,CB|W,CB|W,,,10.0,5.684
 Eredivisie,Fortuna Sittard,22/23,winter,1,1,0,0.0,0.0,CB|W,CB,W,,5.0,1.5
 Eredivisie,Fortuna Sittard,23/24,summer,8,8,0,2.986,2.986,CB|MID|W,MID|W,CB,,10.0,5.09
 Eredivisie,Fortuna Sittard,23/24,winter,2,2,0,3.43,3.43,CB|MID|W,W,CB|MID,,5.0,3.901
@@ -1161,7 +1161,7 @@ Serie A,SS Lazio,20/21,summer,5,5,0,0.0,0.694,CB|MID|W,MID,CB|W,W,8.5,3.036
 Serie A,SS Lazio,20/21,winter,1,1,0,0.511,1.261,CB|MID|W,CB,MID|W,W,8.5,3.433
 Serie A,SS Lazio,21/22,summer,5,5,0,2.012,2.012,CB|MID|W,MID|W,CB,,6.67,3.409
 Serie A,SS Lazio,21/22,winter,0,0,0,,,CB|MID|W,,CB|MID|W,CB,0.0,
-Serie A,SS Lazio,22/23,summer,8,8,0,3.929,3.929,GK|LB|MID|W,GK|MID|W,LB,,7.5,5.0
+Serie A,SS Lazio,22/23,summer,8,8,0,4.047,4.047,GK|LB|MID|W,GK|MID|W,LB,,7.5,5.083
 Serie A,SS Lazio,22/23,winter,0,0,0,,,GK|LB|MID|W,,GK|LB|MID|W,LB,0.0,
 Serie A,SS Lazio,23/24,summer,4,4,0,2.159,2.909,LB|MID,MID,LB,LB,3.5,3.086
 Serie A,SS Lazio,23/24,winter,0,0,0,,,LB|MID,,LB|MID,LB,0.0,
@@ -1227,13 +1227,13 @@ Ligue 1,FC Toulouse,19/20,summer,2,2,0,2.062,2.062,CB|CF|LB|MID,CB|CF,LB|MID,,5.
 Ligue 1,FC Toulouse,19/20,winter,1,1,0,1.853,3.353,CB|CF|LB|MID,CB,CF|LB|MID,LB|MID,0.0,2.347
 Ligue 1,FC Toulouse,22/23,summer,6,6,0,3.664,3.664,,,,,10.0,5.565
 Ligue 1,FC Toulouse,22/23,winter,3,3,0,3.903,3.903,,,,,10.0,5.732
-Ligue 1,FC Toulouse,23/24,summer,8,8,0,3.825,3.825,LB|W,W,LB,,5.0,4.178
+Ligue 1,FC Toulouse,23/24,summer,8,8,0,3.648,3.648,LB|W,W,LB,,5.0,4.054
 Ligue 1,FC Toulouse,23/24,winter,2,2,0,4.538,5.288,LB|W,W,LB,LB,3.5,4.752
 Ligue 1,FC Toulouse,24/25,summer,4,4,0,5.56,5.56,MID|RB|W,RB,MID|W,,3.33,4.891
-Ligue 1,FC Toulouse,24/25,winter,2,2,0,5.982,6.732,MID|RB|W,W,MID|RB,MID,1.83,5.261
+Ligue 1,FC Toulouse,24/25,winter,2,2,0,4.679,5.429,MID|RB|W,W,MID|RB,MID,1.83,4.349
 Ligue 1,FC Toulouse,25/26,summer,5,5,0,2.124,2.124,CF|MID,CF|MID,,,10.0,4.487
 Ligue 1,FC Toulouse,25/26,winter,1,1,0,1.941,1.941,CF|MID,CF,MID,,5.0,2.859
-Serie A,Torino FC,19/20,summer,8,8,0,2.229,2.229,LB|W,LB|W,,,10.0,4.56
+Serie A,Torino FC,19/20,summer,8,8,0,1.747,1.747,LB|W,LB|W,,,10.0,4.223
 Serie A,Torino FC,19/20,winter,1,1,0,0.0,0.0,LB|W,,LB|W,,0.0,0.0
 Serie A,Torino FC,20/21,summer,4,4,0,0.838,1.588,LB|MID|W,LB|MID,W,W,5.17,2.663
 Serie A,Torino FC,20/21,winter,1,1,0,1.932,2.682,LB|MID|W,,LB|MID|W,W,0.0,1.877
@@ -1284,8 +1284,8 @@ Liga Portugal,SC Farense,20/21,winter,3,3,0,4.393,4.393,,,,,10.0,6.075
 Liga Portugal,SC Farense,23/24,summer,8,3,5,4.339,4.339,,,,,10.0,6.037
 Liga Portugal,SC Farense,23/24,winter,0,0,0,,,,,,,10.0,
 Liga Portugal,SC Farense,24/25,summer,13,13,0,2.921,2.921,CB|MID,CB|MID,,,10.0,5.045
-Liga Portugal,SC Farense,24/25,winter,2,2,0,2.274,2.274,CB|MID,CB,MID,,5.0,3.092
-Serie A,ACF Fiorentina,19/20,summer,8,7,1,2.237,2.237,RB|W,W,RB,,5.0,3.066
+Liga Portugal,SC Farense,24/25,winter,2,2,0,2.941,2.941,CB|MID,CB,MID,,5.0,3.559
+Serie A,ACF Fiorentina,19/20,summer,8,7,1,2.438,2.438,RB|W,W,RB,,5.0,3.207
 Serie A,ACF Fiorentina,19/20,winter,1,1,0,0.486,1.236,RB|W,,RB|W,RB,0.0,0.865
 Serie A,ACF Fiorentina,20/21,summer,7,7,0,1.51,1.51,CF|MID|W,CF|MID|W,,,10.0,4.057
 Serie A,ACF Fiorentina,20/21,winter,2,2,0,1.373,1.373,CF|MID|W,CF|MID,W,,6.67,2.962
@@ -1293,7 +1293,7 @@ Serie A,ACF Fiorentina,21/22,summer,3,3,0,2.614,3.364,RB|W,RB,W,W,3.5,3.405
 Serie A,ACF Fiorentina,21/22,winter,2,2,0,1.703,1.703,RB|W,W,RB,,5.0,2.692
 Serie A,ACF Fiorentina,22/23,summer,4,4,0,3.736,3.736,CF|MID|RB|W,CF|MID|RB,W,,7.5,4.865
 Serie A,ACF Fiorentina,22/23,winter,3,3,0,0.792,0.792,CF|MID|RB|W,MID|W,CF|RB,,5.0,2.054
-Serie A,ACF Fiorentina,23/24,summer,7,7,0,2.047,2.047,CB|CF|MID|W,CF|MID,CB|W,,5.0,2.933
+Serie A,ACF Fiorentina,23/24,summer,7,7,0,1.851,1.851,CB|CF|MID|W,CF|MID,CB|W,,5.0,2.796
 Serie A,ACF Fiorentina,23/24,winter,0,0,0,,,CB|CF|MID|W,,CB|CF|MID|W,CB|W,0.0,
 Serie A,ACF Fiorentina,24/25,summer,6,6,0,2.374,3.124,CF|MID|RB|W,CF|MID,RB|W,W,5.17,3.738
 Serie A,ACF Fiorentina,24/25,winter,2,2,0,2.408,3.158,CF|MID|RB|W,MID,CF|RB|W,W,1.83,2.76
@@ -1309,13 +1309,13 @@ Bundesliga,Hertha BSC,22/23,summer,6,6,0,2.09,2.84,CB|CF|LB|MID|W,CB|CF|MID,LB|W
 Bundesliga,Hertha BSC,22/23,winter,2,2,0,1.503,3.003,CB|CF|LB|MID|W,CF|MID,CB|LB|W,LB|W,1.0,2.402
 Serie A,Inter Milan,19/20,summer,5,4,1,1.938,1.938,LB|MID|RB,,LB|MID|RB,,0.0,1.357
 Serie A,Inter Milan,19/20,winter,2,2,0,2.323,3.073,LB|MID|RB,MID|RB,LB,LB,10.0,5.151
-Serie A,Inter Milan,20/21,summer,7,6,1,2.761,2.761,LB|MID|RB|W,LB|MID|RB,W,,10.0,4.933
+Serie A,Inter Milan,20/21,summer,7,6,1,2.907,2.907,LB|MID|RB|W,LB|MID|RB,W,,10.0,5.035
 Serie A,Inter Milan,20/21,winter,0,0,0,,,LB|MID|RB|W,,LB|MID|RB|W,W,0.0,
 Serie A,Inter Milan,21/22,summer,5,5,0,3.029,3.779,LB|MID|W,MID,LB|W,W,3.5,3.695
 Serie A,Inter Milan,21/22,winter,0,0,0,,,LB|MID|W,,LB|MID|W,LB|W,0.0,
 Serie A,Inter Milan,22/23,summer,4,4,0,3.187,3.187,LB|RB|W,LB,RB|W,,10.0,5.231
 Serie A,Inter Milan,22/23,winter,0,0,0,,,LB|RB|W,,LB|RB|W,RB,0.0,
-Serie A,Inter Milan,23/24,summer,7,7,0,4.125,4.125,CB|GK|LB|MID|W,CB|GK|MID,LB|W,,10.0,5.887
+Serie A,Inter Milan,23/24,summer,7,7,0,4.223,4.223,CB|GK|LB|MID|W,CB|GK|MID,LB|W,,10.0,5.956
 Serie A,Inter Milan,23/24,winter,1,1,0,0.455,0.455,CB|GK|LB|MID|W,W,CB|GK|LB|MID,,5.0,1.819
 Serie A,Inter Milan,24/25,summer,7,5,2,1.968,1.968,LB|W,LB,W,,10.0,4.378
 Serie A,Inter Milan,24/25,winter,0,0,0,,,LB|W,,LB|W,W,0.0,
@@ -1323,7 +1323,7 @@ Serie A,Inter Milan,25/26,summer,5,5,0,2.358,2.358,CB|LB|MID|RB|W,MID|W,CB|LB|RB
 Serie A,Inter Milan,25/26,winter,0,0,0,,,CB|LB|MID|RB|W,,CB|LB|MID|RB|W,,0.0,
 Eredivisie,NEC Nijmegen,21/22,summer,4,4,0,5.164,5.164,,,,,10.0,6.615
 Eredivisie,NEC Nijmegen,21/22,winter,1,1,0,0.0,0.0,,,,,10.0,3.0
-Eredivisie,NEC Nijmegen,22/23,summer,6,6,0,4.944,4.944,CF|MID,CF|MID,,,10.0,6.461
+Eredivisie,NEC Nijmegen,22/23,summer,6,6,0,5.175,5.175,CF|MID,CF|MID,,,10.0,6.622
 Eredivisie,NEC Nijmegen,22/23,winter,0,0,0,,,CF|MID,,CF|MID,,0.0,
 Eredivisie,NEC Nijmegen,23/24,summer,7,7,0,4.357,4.357,CB|W,CB|W,,,10.0,6.05
 Eredivisie,NEC Nijmegen,23/24,winter,3,3,0,2.821,2.821,CB|W,W,CB,,10.0,4.975
@@ -1335,9 +1335,9 @@ Eredivisie,Sparta Rotterdam,19/20,summer,2,2,0,5.907,5.907,,,,,10.0,7.135
 Eredivisie,Sparta Rotterdam,19/20,winter,1,1,0,2.171,2.171,,,,,10.0,4.52
 Eredivisie,Sparta Rotterdam,20/21,summer,8,8,0,2.736,2.736,CF|GK|MID|RB|W,CF|GK|W,MID|RB,,6.0,3.715
 Eredivisie,Sparta Rotterdam,20/21,winter,0,0,0,,,CF|GK|MID|RB|W,,CF|GK|MID|RB|W,MID|RB,0.0,
-Eredivisie,Sparta Rotterdam,21/22,summer,4,4,0,3.131,3.881,LB|MID|RB|W,LB|MID|RB,W,W,6.0,4.517
+Eredivisie,Sparta Rotterdam,21/22,summer,4,4,0,3.317,4.067,LB|MID|RB|W,LB|MID|RB,W,W,6.0,4.647
 Eredivisie,Sparta Rotterdam,21/22,winter,1,1,0,0.0,0.169,LB|MID|RB|W,,LB|MID|RB|W,W,0.0,0.118
-Eredivisie,Sparta Rotterdam,22/23,summer,8,8,0,4.43,5.93,LB|MID|RB|W,MID|W,LB|RB,LB|RB,2.0,4.751
+Eredivisie,Sparta Rotterdam,22/23,summer,8,8,0,4.75,6.25,LB|MID|RB|W,MID|W,LB|RB,LB|RB,2.0,4.975
 Eredivisie,Sparta Rotterdam,22/23,winter,1,1,0,0.15,1.65,LB|MID|RB|W,,LB|MID|RB|W,LB|RB,0.0,1.155
 Eredivisie,Sparta Rotterdam,23/24,summer,7,7,0,3.916,3.916,CB|W,CB|W,,,10.0,5.741
 Eredivisie,Sparta Rotterdam,23/24,winter,1,1,0,5.121,5.121,CB|W,W,CB,,10.0,6.585
@@ -1351,7 +1351,7 @@ LaLiga,UD Las Palmas,24/25,summer,9,9,0,3.27,3.27,CF|RB|W,CF|RB,W,,6.67,4.29
 LaLiga,UD Las Palmas,24/25,winter,0,0,0,,,CF|RB|W,,CF|RB|W,W,0.0,
 Eredivisie,Vitesse Arnhem,19/20,summer,3,3,0,2.573,2.573,CB|W,CB,W,,5.0,3.301
 Eredivisie,Vitesse Arnhem,19/20,winter,2,2,0,1.109,1.859,CB|W,,CB|W,W,0.0,1.301
-Eredivisie,Vitesse Arnhem,20/21,summer,2,2,0,4.395,5.145,MID|RB|W,MID,RB|W,W,1.83,4.15
+Eredivisie,Vitesse Arnhem,20/21,summer,2,2,0,4.728,5.478,MID|RB|W,MID,RB|W,W,1.83,4.384
 Eredivisie,Vitesse Arnhem,20/21,winter,1,1,0,0.915,2.415,MID|RB|W,,MID|RB|W,RB|W,0.0,1.69
 Eredivisie,Vitesse Arnhem,21/22,summer,3,3,0,0.005,0.755,MID|RB|W,MID|RB,W,W,10.0,3.529
 Eredivisie,Vitesse Arnhem,21/22,winter,0,0,0,,,MID|RB|W,,MID|RB|W,W,0.0,
@@ -1375,13 +1375,13 @@ Serie A,AC Milan,25/26,summer,10,10,0,3.148,3.148,CB|CF|MID|RB,CB|CF|MID|RB,,,10
 Serie A,AC Milan,25/26,winter,0,0,0,,,CB|CF|MID|RB,,CB|CF|MID|RB,,0.0,
 Serie A,Juventus FC,19/20,summer,8,7,1,2.867,2.867,CB|MID|RB|W,CB|MID,RB|W,,10.0,5.007
 Serie A,Juventus FC,19/20,winter,1,1,0,0.926,1.676,CB|MID|RB|W,MID,CB|RB|W,W,8.5,3.723
-Serie A,Juventus FC,20/21,summer,3,3,0,0.147,0.897,MID|RB|W,MID,RB|W,W,1.83,1.177
-Serie A,Juventus FC,20/21,winter,2,2,0,0.0,1.357,MID|RB|W,MID,RB|W,RB|W,0.33,1.049
+Serie A,Juventus FC,20/21,summer,3,3,0,0.0,0.569,MID|RB|W,MID,RB|W,W,1.83,0.947
+Serie A,Juventus FC,20/21,winter,2,2,0,0.0,0.446,MID|RB|W,MID,RB|W,RB|W,0.33,0.411
 Serie A,Juventus FC,21/22,summer,2,2,0,2.154,2.904,CB|LB|MID|RB|W,MID,CB|LB|RB|W,RB,1.0,2.333
 Serie A,Juventus FC,21/22,winter,4,4,0,1.726,3.226,CB|LB|MID|RB|W,CB|MID|W,LB|RB,LB|RB,4.5,3.608
-Serie A,Juventus FC,22/23,summer,8,8,0,2.637,3.387,CB|LB|MID|RB|W,CB|LB|MID|W,RB,RB,6.5,4.321
-Serie A,Juventus FC,22/23,winter,1,1,0,4.204,4.954,CB|LB|MID|RB|W,W,CB|LB|MID|RB,RB,0.5,3.618
-Serie A,Juventus FC,23/24,summer,4,4,0,0.732,2.232,CF|LB|MID|RB|W,CF|MID,LB|RB|W,LB|RB,1.0,1.862
+Serie A,Juventus FC,22/23,summer,8,8,0,2.426,3.176,CB|LB|MID|RB|W,CB|LB|MID|W,RB,RB,6.5,4.173
+Serie A,Juventus FC,22/23,winter,1,1,0,1.693,2.443,CB|LB|MID|RB|W,W,CB|LB|MID|RB,RB,0.5,1.86
+Serie A,Juventus FC,23/24,summer,4,4,0,0.514,2.014,CF|LB|MID|RB|W,CF|MID,LB|RB|W,LB|RB,1.0,1.71
 Serie A,Juventus FC,23/24,winter,3,2,1,4.506,6.006,CF|LB|MID|RB|W,W,CF|LB|MID|RB,LB|RB,0.0,4.204
 Serie A,Juventus FC,24/25,summer,8,8,0,2.822,2.822,RB|W,RB|W,,,10.0,4.975
 Serie A,Juventus FC,24/25,winter,1,1,0,2.189,2.189,RB|W,RB,W,,5.0,3.032
@@ -1395,7 +1395,7 @@ Bundesliga,TSG 1899 Hoffenheim,21/22,summer,3,3,0,5.368,6.118,CB|LB|RB|W,LB,CB|R
 Bundesliga,TSG 1899 Hoffenheim,21/22,winter,0,0,0,,,CB|LB|RB|W,,CB|LB|RB|W,CB|RB|W,0.0,
 Bundesliga,TSG 1899 Hoffenheim,22/23,summer,4,4,0,0.649,2.149,MID|RB|W,MID,RB|W,RB|W,0.33,1.603
 Bundesliga,TSG 1899 Hoffenheim,22/23,winter,1,1,0,1.422,2.922,MID|RB|W,,MID|RB|W,RB|W,0.0,2.045
-Bundesliga,TSG 1899 Hoffenheim,23/24,summer,6,6,0,0.851,1.601,CB|CF|MID|RB|W,CB|CF|MID|W,RB,RB,6.5,3.071
+Bundesliga,TSG 1899 Hoffenheim,23/24,summer,6,6,0,0.996,1.746,CB|CF|MID|RB|W,CB|CF|MID|W,RB,RB,6.5,3.172
 Bundesliga,TSG 1899 Hoffenheim,23/24,winter,0,0,0,,,CB|CF|MID|RB|W,,CB|CF|MID|RB|W,RB,0.0,
 Bundesliga,TSG 1899 Hoffenheim,24/25,summer,7,7,0,1.72,1.72,CB|LB|RB|W,CB|RB|W,LB,,10.0,4.204
 Bundesliga,TSG 1899 Hoffenheim,24/25,winter,2,2,0,2.458,3.208,CB|LB|RB|W,W,CB|LB|RB,LB,1.83,2.795
@@ -1448,7 +1448,7 @@ Bundesliga,SC Freiburg,25/26,winter,0,0,0,,,CF|MID|RB,,CF|MID|RB,MID,0.0,
 Serie A,Venezia FC,21/22,summer,7,5,2,3.419,3.419,,,,,10.0,5.393
 Serie A,Venezia FC,21/22,winter,5,4,1,2.906,2.906,,,,,10.0,5.034
 Serie A,Venezia FC,24/25,summer,8,7,1,2.261,2.261,,,,,10.0,4.583
-Serie A,Venezia FC,24/25,winter,3,3,0,4.561,4.561,,,,,10.0,6.193
+Serie A,Venezia FC,24/25,winter,3,3,0,5.118,5.118,,,,,10.0,6.583
 Eredivisie,Ajax Amsterdam,19/20,summer,5,5,0,4.376,4.376,CF,,CF,,0.0,3.063
 Eredivisie,Ajax Amsterdam,19/20,winter,0,0,0,,,CF,,CF,CF,0.0,
 Eredivisie,Ajax Amsterdam,20/21,summer,5,4,1,2.754,3.504,CF|MID,MID,CF,CF,3.5,3.503
@@ -1471,7 +1471,7 @@ Ligue 1,AS Saint-Étienne,21/22,summer,0,0,0,,,CB|CF|LB|MID|RB|W,,CB|CF|LB|MID|R
 Ligue 1,AS Saint-Étienne,21/22,winter,2,2,0,0.119,2.369,CB|CF|LB|MID|RB|W,CB|W,CF|LB|MID|RB,CF|MID|RB,0.0,1.658
 Ligue 1,AS Saint-Étienne,24/25,summer,6,5,1,3.237,3.237,,,,,10.0,5.266
 Ligue 1,AS Saint-Étienne,24/25,winter,0,0,0,,,,,,,10.0,
-Serie A,SSC Napoli,19/20,summer,9,8,1,2.916,2.916,CB|GK|LB|MID|RB|W,CB|GK|MID|RB|W,LB,,10.0,5.041
+Serie A,SSC Napoli,19/20,summer,9,8,1,2.801,2.801,CB|GK|LB|MID|RB|W,CB|GK|MID|RB|W,LB,,10.0,4.961
 Serie A,SSC Napoli,19/20,winter,4,4,0,2.592,2.592,CB|GK|LB|MID|RB|W,CB|MID,GK|LB|RB|W,,10.0,4.814
 Serie A,SSC Napoli,20/21,summer,3,3,0,2.076,2.826,CB|CF|GK|LB|MID|W,CF|W,CB|GK|LB|MID,GK,2.5,2.728
 Serie A,SSC Napoli,20/21,winter,0,0,0,,,CB|CF|GK|LB|MID|W,,CB|CF|GK|LB|MID|W,GK|LB|MID,0.0,
@@ -1531,10 +1531,10 @@ Ligue 1,RC Strasbourg Alsace,19/20,summer,4,4,0,4.984,4.984,CF|LB|MID|W,MID,CF|L
 Ligue 1,RC Strasbourg Alsace,19/20,winter,1,1,0,0.0,0.0,CF|LB|MID|W,W,CF|LB|MID,CF|LB,0.0,0.0
 Ligue 1,RC Strasbourg Alsace,20/21,summer,2,2,0,0.279,1.029,LB|MID|W,MID,LB|W,LB,3.5,1.77
 Ligue 1,RC Strasbourg Alsace,20/21,winter,0,0,0,,,LB|MID|W,,LB|MID|W,LB,0.0,
-Ligue 1,RC Strasbourg Alsace,21/22,summer,5,5,0,3.026,4.526,GK|LB|MID|W,,GK|LB|MID|W,LB|MID,0.0,3.168
+Ligue 1,RC Strasbourg Alsace,21/22,summer,5,5,0,2.666,4.166,GK|LB|MID|W,,GK|LB|MID|W,LB|MID,0.0,2.916
 Ligue 1,RC Strasbourg Alsace,21/22,winter,1,1,0,2.135,5.135,GK|LB|MID|W,,GK|LB|MID|W,GK|LB|MID|W,0.0,3.594
-Ligue 1,RC Strasbourg Alsace,22/23,summer,4,4,0,0.94,1.69,LB|W,LB,W,W,8.5,3.733
-Ligue 1,RC Strasbourg Alsace,22/23,winter,2,2,0,1.781,2.531,LB|W,LB,W,W,8.5,4.322
+Ligue 1,RC Strasbourg Alsace,22/23,summer,4,4,0,0.724,1.474,LB|W,LB,W,W,8.5,3.582
+Ligue 1,RC Strasbourg Alsace,22/23,winter,2,2,0,2.58,3.33,LB|W,LB,W,W,8.5,4.881
 Ligue 1,RC Strasbourg Alsace,23/24,summer,7,7,0,2.953,2.953,LB|MID|RB|W,MID|W,LB|RB,,6.67,4.068
 Ligue 1,RC Strasbourg Alsace,23/24,winter,1,1,0,0.0,0.0,LB|MID|RB|W,,LB|MID|RB|W,LB,0.0,0.0
 Ligue 1,RC Strasbourg Alsace,24/25,summer,10,10,0,2.828,2.828,CB|GK|MID|W,CB|MID|W,GK,,7.5,4.23
@@ -1617,7 +1617,7 @@ Liga Portugal,Portimonense SAD,19/20,summer,5,4,1,5.377,5.377,LB|MID|RB|W,LB|MID
 Liga Portugal,Portimonense SAD,19/20,winter,3,3,0,4.291,5.041,LB|MID|RB|W,MID|W,LB|RB,RB,3.5,4.579
 Liga Portugal,Portimonense SAD,20/21,summer,3,3,0,1.687,2.437,CF|GK|LB|MID|RB,RB,CF|GK|LB|MID,LB,1.0,2.006
 Liga Portugal,Portimonense SAD,20/21,winter,4,4,0,1.098,1.098,CF|GK|LB|MID|RB,CF|GK|LB|MID,RB,,10.0,3.769
-Liga Portugal,Portimonense SAD,21/22,summer,4,4,0,2.881,2.881,CF|MID|W,CF|MID,W,,6.67,4.018
+Liga Portugal,Portimonense SAD,21/22,summer,4,4,0,3.138,3.138,CF|MID|W,CF|MID,W,,6.67,4.198
 Liga Portugal,Portimonense SAD,21/22,winter,2,2,0,3.864,4.614,CF|MID|W,CF,MID|W,W,1.83,3.779
 Liga Portugal,Portimonense SAD,22/23,summer,7,6,1,3.349,3.349,CF|LB|MID|W,CF|LB|MID|W,,,10.0,5.344
 Liga Portugal,Portimonense SAD,22/23,winter,4,4,0,2.7,2.7,CF|LB|MID|W,MID|W,CF|LB,,5.0,3.39
@@ -1679,7 +1679,7 @@ Bundesliga,VfL Bochum,24/25,summer,6,6,0,2.85,3.6,CF|MID|RB|W,MID|W,CF|RB,RB,3.5
 Bundesliga,VfL Bochum,24/25,winter,0,0,0,,,CF|MID|RB|W,,CF|MID|RB|W,CF|RB,0.0,
 Serie A,Atalanta BC,19/20,summer,4,4,0,3.122,3.122,GK|LB|MID|W,GK|MID,LB|W,,10.0,5.185
 Serie A,Atalanta BC,19/20,winter,4,4,0,1.647,1.647,GK|LB|MID|W,W,GK|LB|MID,,10.0,4.153
-Serie A,Atalanta BC,20/21,summer,5,5,0,2.485,2.485,CF|W,CF,W,,5.0,3.239
+Serie A,Atalanta BC,20/21,summer,5,5,0,1.847,1.847,CF|W,CF,W,,5.0,2.793
 Serie A,Atalanta BC,20/21,winter,1,0,1,0.0,0.0,CF|W,,CF|W,W,0.0,0.0
 Serie A,Atalanta BC,21/22,summer,4,4,0,3.114,3.114,GK|MID|RB|W,GK|MID|W,RB,,10.0,5.18
 Serie A,Atalanta BC,21/22,winter,0,0,0,,,GK|MID|RB|W,,GK|MID|RB|W,RB,0.0,
@@ -1776,7 +1776,7 @@ Premier League,Fulham FC,22/23,winter,2,2,0,1.76,1.76,,,,,10.0,4.232
 Premier League,Fulham FC,23/24,summer,5,5,0,4.195,4.195,CB|CF|W,CB|CF|W,,,10.0,5.937
 Premier League,Fulham FC,23/24,winter,0,0,0,,,CB|CF|W,,CB|CF|W,,0.0,
 Premier League,Fulham FC,24/25,summer,5,5,0,2.497,3.997,CB|CF|MID|W,CB|MID,CF|W,CF|W,2.0,3.398
-Premier League,Fulham FC,24/25,winter,1,1,0,0.0,0.0,CB|CF|MID|W,W,CB|CF|MID,CF,1.0,0.3
+Premier League,Fulham FC,24/25,winter,1,1,0,0.0,0.006,CB|CF|MID|W,W,CB|CF|MID,CF,1.0,0.304
 Premier League,Fulham FC,25/26,summer,1,1,0,2.174,2.924,MID|RB|W,W,MID|RB,MID,1.83,2.596
 Premier League,Fulham FC,25/26,winter,1,1,0,0.456,1.956,MID|RB|W,W,MID|RB,MID|RB,0.33,1.468
 LaLiga,Celta de Vigo,19/20,summer,5,5,0,3.617,3.617,CB|LB|MID|W,CB|MID|W,LB,,7.5,4.782
@@ -1785,11 +1785,11 @@ LaLiga,Celta de Vigo,20/21,summer,2,2,0,0.703,1.453,MID|RB|W,MID,RB|W,W,1.83,1.5
 LaLiga,Celta de Vigo,20/21,winter,2,2,0,0.0,0.644,MID|RB|W,W,MID|RB,RB,1.83,1.0
 LaLiga,Celta de Vigo,21/22,summer,4,4,0,3.28,3.28,GK|LB|W,LB|W,GK,,6.67,4.297
 LaLiga,Celta de Vigo,21/22,winter,0,0,0,,,GK|LB|W,,GK|LB|W,GK,0.0,
-LaLiga,Celta de Vigo,22/23,summer,7,7,0,3.467,3.467,RB|W,RB|W,,,10.0,5.427
-LaLiga,Celta de Vigo,22/23,winter,2,2,0,1.547,1.547,RB|W,W,RB,,10.0,4.083
+LaLiga,Celta de Vigo,22/23,summer,7,7,0,3.313,3.313,RB|W,RB|W,,,10.0,5.319
+LaLiga,Celta de Vigo,22/23,winter,2,2,0,1.46,1.46,RB|W,W,RB,,10.0,4.022
 LaLiga,Celta de Vigo,23/24,summer,8,8,0,3.119,3.119,GK|MID|RB|W,GK|MID|W,RB,,7.5,4.433
 LaLiga,Celta de Vigo,23/24,winter,3,3,0,1.485,1.485,GK|MID|RB|W,MID|RB|W,GK,,7.5,3.29
-LaLiga,Celta de Vigo,24/25,summer,7,7,0,4.145,4.145,CB|LB|MID|W,CB|MID|W,LB,,7.5,5.151
+LaLiga,Celta de Vigo,24/25,summer,7,7,0,4.341,4.341,CB|LB|MID|W,CB|MID|W,LB,,7.5,5.289
 LaLiga,Celta de Vigo,24/25,winter,2,2,0,1.789,2.539,CB|LB|MID|W,MID|W,CB|LB,LB,3.5,2.827
 LaLiga,Celta de Vigo,25/26,summer,7,7,0,4.389,5.139,CF|LB|MID|W,CF|MID|W,LB,LB,6.0,5.397
 LaLiga,Celta de Vigo,25/26,winter,1,0,1,5.905,6.655,CF|LB|MID|W,,CF|LB|MID|W,LB,0.0,4.659
@@ -1809,11 +1809,11 @@ Liga Portugal,Moreirense FC,19/20,summer,10,10,0,4.142,4.142,CB|CF|LB|MID|RB,CB|
 Liga Portugal,Moreirense FC,19/20,winter,0,0,0,,,CB|CF|LB|MID|RB,,CB|CF|LB|MID|RB,RB,0.0,
 Liga Portugal,Moreirense FC,20/21,summer,9,9,0,3.671,3.671,CB|LB|W,CB|LB|W,,,10.0,5.57
 Liga Portugal,Moreirense FC,20/21,winter,2,2,0,5.892,5.892,CB|LB|W,CB,LB|W,,3.33,5.123
-Liga Portugal,Moreirense FC,21/22,summer,5,5,0,2.519,3.269,CB|CF|LB|MID|RB|W,CB|LB|MID|RB,CF|W,W,5.17,3.839
+Liga Portugal,Moreirense FC,21/22,summer,5,5,0,3.242,3.992,CB|CF|LB|MID|RB|W,CB|LB|MID|RB,CF|W,W,5.17,4.345
 Liga Portugal,Moreirense FC,21/22,winter,2,2,0,1.87,2.62,CB|CF|LB|MID|RB|W,MID|W,CB|CF|LB|RB,CF,1.83,2.383
 Liga Portugal,Moreirense FC,23/24,summer,11,9,2,5.142,5.142,,,,,10.0,6.599
 Liga Portugal,Moreirense FC,23/24,winter,2,2,0,2.487,2.487,,,,,10.0,4.741
-Liga Portugal,Moreirense FC,24/25,summer,4,4,0,3.291,3.291,CF|W,CF|W,,,10.0,5.304
+Liga Portugal,Moreirense FC,24/25,summer,4,4,0,3.277,3.277,CF|W,CF|W,,,10.0,5.294
 Liga Portugal,Moreirense FC,24/25,winter,2,2,0,2.881,2.881,CF|W,W,CF,,5.0,3.517
 Liga Portugal,Moreirense FC,25/26,summer,6,6,0,4.056,4.806,CF|MID|W,MID|W,CF,CF,5.17,4.915
 Liga Portugal,Moreirense FC,25/26,winter,2,2,0,1.479,2.229,CF|MID|W,MID,CF|W,CF,1.83,2.109
@@ -1859,7 +1859,7 @@ Ligue 1,FC Nantes,22/23,summer,2,2,0,1.525,1.525,LB|MID|RB,MID|RB,LB,,10.0,4.067
 Ligue 1,FC Nantes,22/23,winter,2,2,0,4.145,4.145,LB|MID|RB,LB|MID,RB,,10.0,5.901
 Ligue 1,FC Nantes,23/24,summer,4,4,0,1.526,1.526,CF|LB|MID|RB,CF|RB,LB|MID,,5.0,2.568
 Ligue 1,FC Nantes,23/24,winter,2,2,0,1.651,2.401,CF|LB|MID|RB,MID|RB,CF|LB,LB,3.5,2.731
-Ligue 1,FC Nantes,24/25,summer,4,4,0,1.774,2.524,LB|MID|RB|W,W,LB|MID|RB,LB,1.0,2.067
+Ligue 1,FC Nantes,24/25,summer,4,4,0,1.957,2.707,LB|MID|RB|W,W,LB|MID|RB,LB,1.0,2.195
 Ligue 1,FC Nantes,24/25,winter,2,2,0,3.428,4.928,LB|MID|RB|W,MID,LB|RB|W,LB|RB,0.0,3.45
 Ligue 1,FC Nantes,25/26,summer,4,4,0,3.389,4.139,GK|LB|W,,GK|LB|W,W,0.0,2.897
 Ligue 1,FC Nantes,25/26,winter,3,3,0,2.289,3.789,GK|LB|W,LB,GK|W,GK|W,2.0,3.252

@@ -116,11 +116,17 @@ def score_signing(ds: Dataset, signing: Signing, last_season: int) -> None:
     name = signing.name
     club_name = ds.club_name.get(club, "")
     rotation = not signing.is_starter_signing
+    # Was the player already in this club's senior squad in an earlier season? Then
+    # this "arrival" isn't a genuine new purchase (academy graduate, or bought before
+    # the data window) and his arrival market value is NOT a reliable cost basis — so
+    # don't fabricate a near-zero purchase price and an inflated profit on resale.
+    bought_before = any(ds.player_in_roster(signing.pid, club, yr)
+                        for yr in range(signing.season - 5, signing.season))
     cost_basis = None
     if signing.fee_known and signing.fee_eur:
-        cost_basis = signing.fee_eur
-    elif signing.mv_at_purchase:
-        cost_basis = signing.mv_at_purchase
+        cost_basis = signing.fee_eur                       # a real, disclosed fee
+    elif signing.mv_at_purchase and not bought_before:
+        cost_basis = signing.mv_at_purchase                # MV proxy for a genuine new buy
 
     sale = ds.sale_of(signing.pid, club, signing.season)
     sold = sale is not None
@@ -189,9 +195,11 @@ def score_signing(ds: Dataset, signing: Signing, last_season: int) -> None:
         sf, sk = sale.get("fee_eur"), sale.get("fee_known")
         if cost_basis and cost_basis > 0 and sk and sf is not None:
             pnl_unit = _ratio_unit(sf / cost_basis, rotation=rotation)
-        elif sk and sf is not None and (signing.is_free or cost_basis in (0, None)):
-            # bought free, sold for a fee -> treat as a large multiple
+        elif signing.is_free and sk and sf is not None:
+            # genuinely free transfer sold for a fee -> a real, large multiple
             pnl_unit = _ratio_unit(10.0 if sf > 0 else 1.0, rotation=rotation)
+        # else: purchase price unknown (undisclosed fee on a pre-existing player) ->
+        # leave P&L unknown so it's redistributed, not assumed to be bought for 0.
 
     min_frac_avg = sum(min_fracs) / len(min_fracs) if min_fracs else 0.0
     rate_frac_avg = sum(rate_fracs) / len(rate_fracs) if rate_fracs else None

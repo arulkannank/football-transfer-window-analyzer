@@ -119,7 +119,7 @@ Serie A,Bologna FC 1909,19/20,summer,Mattia Bani,CB,starter,2.0,1,1.0,1.0,addres
 Serie A,Bologna FC 1909,19/20,summer,Jerdy Schouten,MID,starter,4.0,3,2.0,1.0,addresses_problem|improves_problem|replaces_sold|significant_outlay,€2.1m,€2.0m,Excelsior Rotterdam,True,€12.3m,4,6.434,3.661,2.5,-0.145,-0.038,0.456
 Serie A,Bologna FC 1909,19/20,summer,Gary Medel,CB,starter,4.0,3,2.0,1.0,addresses_problem|improves_problem|replaces_sold,€1.5m,€3.8m,114,True,€0,4,1.529,3.23,-1.333,-0.15,0.0,-0.218
 Serie A,Bologna FC 1909,19/20,summer,Danilo,CB,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem|replaces_sold,€415k,€800k,Udinese Calcio,True,€0,2,4.058,5.575,-1.333,-0.09,0.0,-0.094
-Serie A,Bologna FC 1909,19/20,summer,Gabriele Corbo,CB,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€800k,14848,True,€0,2,0.0,0.119,-1.333,-0.227,-0.5,-0.036
+Serie A,Bologna FC 1909,19/20,summer,Gabriele Corbo,CB,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€800k,14848,True,€0,2,0.0,0.149,,-0.284,-0.625,-0.046
 Serie A,Bologna FC 1909,19/20,winter,Emanuel Vignato,W,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,€1.1m,€4.2m,Chievo Verona,True,€400k,3,0.158,1.303,-0.848,-0.307,0.0,0.011
 Serie A,Bologna FC 1909,19/20,winter,Musa Juwara,W,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€500k,14848,True,€0,3,0.0,0.22,-1.333,-0.484,-0.5,0.2
 Serie A,Bologna FC 1909,20/21,summer,Aaron Hickey,RB,starter,2.0,1,1.0,1.0,improves_problem,€1.7m,€600k,43,True,€14.2m,2,5.988,3.506,2.5,-0.282,-0.424,0.688
@@ -193,7 +193,7 @@ Serie A,UC Sampdoria,20/21,summer,Kristoffer Askildsen,MID,starter,3.172,0,1.0,1
 Serie A,UC Sampdoria,20/21,summer,Lorenzo Tonelli,CB,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|significant_outlay,€2.0m,€2.4m,SSC Napoli,True,€2.4m,1,3.843,3.48,0.267,-0.153,0.306,-0.056
 Serie A,UC Sampdoria,20/21,summer,Tommaso Augello,LB,starter,4.0,3,2.0,1.0,improves_problem|significant_outlay,€1.5m,€1.2m,Spezia Calcio,False,,3,6.531,6.011,,-0.285,-0.417,1.222
 Serie A,UC Sampdoria,20/21,summer,Adrien Silva,MID,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem|replaces_sold,€0,€8.0m,Leicester City,True,€0,2,1.87,3.674,-1.333,-0.242,0.0,-0.229
-Serie A,UC Sampdoria,20/21,summer,Maya Yoshida,CB,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem,€0,€3.8m,Southampton FC,True,€0,2,2.499,3.991,-1.333,-0.032,0.0,-0.127
+Serie A,UC Sampdoria,20/21,summer,Maya Yoshida,CB,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem,€0,€3.8m,Southampton FC,True,€0,2,3.833,3.991,0.0,-0.032,0.0,-0.127
 Serie A,UC Sampdoria,21/22,summer,Ernesto Torregrossa,CF,starter,4.0,0,1.0,2.0,addresses_problem|improves_problem|significant_outlay,€5.5m,€5.5m,Brescia Calcio (- 2025),True,€1.8m,1,0.0,0.209,-0.897,-0.53,-0.208,-0.152
 Serie A,UC Sampdoria,21/22,summer,Antonio Candreva,W,starter,2.0,1,1.0,1.0,improves_problem|replaces_sold|significant_outlay,€2.5m,€2.5m,Inter Milan,False,,2,3.262,3.25,,0.212,0.0,-0.2
 Serie A,UC Sampdoria,21/22,summer,Simone Trimboli,MID,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€500k,12001,False,,2,0.0,0.067,,-0.843,,0.211
@@ -291,24 +291,24 @@ LaLiga,Valencia CF,19/20,summer,Manu Vallejo,CF,starter,4.0,0,1.0,2.0,improves_p
 LaLiga,Valencia CF,19/20,summer,Jorge Sáenz,CB,starter,2.124,0,1.0,1.06,addresses_problem|significant_outlay,€2.0m,€3.0m,648,True,€400k,1,0.0,0.0,-1.123,-0.777,0.0,
 LaLiga,Valencia CF,19/20,summer,Eliaquim Mangala,CB,starter,2.0,0,1.0,1.0,addresses_problem,€0,€10.0m,Manchester City,True,,2,1.246,1.211,,-0.35,0.625,-0.24
 LaLiga,Valencia CF,20/21,summer,Cristian Rivero,GK,starter,2.0,0,1.0,1.0,addresses_problem,,€250k,6182,False,,5,0.0,0.025,,-0.621,,-0.211
-LaLiga,Valencia CF,20/21,summer,Hugo Guillamón,MID,starter,4.0,3,2.0,1.0,addresses_problem|improves_problem|replaces_sold,,€200k,6182,True,€0,5,1.597,2.995,-1.333,-0.315,-0.5,0.75
+LaLiga,Valencia CF,20/21,summer,Hugo Guillamón,MID,starter,4.0,3,2.0,1.0,addresses_problem|improves_problem|replaces_sold,,€200k,6182,True,€0,5,3.663,3.744,,-0.394,-0.625,0.938
 LaLiga,Valencia CF,21/22,summer,Marcos André,CF,starter,4.0,0,1.0,2.0,improves_problem|significant_outlay,€8.5m,€3.5m,Real Valladolid CF,True,€1.8m,2,0.0,1.363,-1.051,-0.377,-0.483,0.024
 LaLiga,Valencia CF,21/22,summer,Dimitri Foulquier,RB,starter,5.0,4,2.5,1.0,addresses_problem|improves_problem|significant_outlay,€2.5m,€3.5m,Granada CF,False,,5,3.706,3.961,,-0.389,0.476,-0.343
 LaLiga,Valencia CF,21/22,winter,Giorgi Mamardashvili,GK,starter,4.0,3,2.0,1.0,significant_outlay,€3.9m,€3.0m,663,True,€30.0m,3,8.625,6.0,2.5,-0.014,-0.486,0.625
 LaLiga,Valencia CF,21/22,winter,Eray Cömert,CB,starter,2.0,1,1.0,1.0,addresses_problem,€800k,€1.8m,26,False,,3,3.366,2.696,,-0.219,0.5,0.389
-LaLiga,Valencia CF,21/22,winter,Koba Koindredi,MID,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€1.0m,6182,True,€3.0m,2,2.399,0.345,2.0,-0.446,0.5,0.0
+LaLiga,Valencia CF,21/22,winter,Koba Koindredi,MID,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€1.0m,6182,True,€3.0m,2,0.499,0.431,,-0.558,0.625,0.0
 LaLiga,Valencia CF,21/22,winter,Jesús Vázquez,LB,starter,2.0,1,1.0,1.0,improves_problem,,€500k,6182,False,,5,3.627,2.007,,-0.433,,2.053
 LaLiga,Valencia CF,22/23,summer,André Almeida,MID,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem|replaces_sold|significant_outlay,€8.0m,€5.0m,Vitória Guimarães SC,False,,4,3.964,3.444,,-0.105,-0.5,1.125
 LaLiga,Valencia CF,22/23,summer,Hugo Duro,CF,starter,5.0,4,2.5,1.0,addresses_problem|improves_problem|replaces_sold|significant_outlay,€4.0m,€10.0m,Getafe CF,False,,4,4.744,4.501,,-0.407,0.5,0.15
 LaLiga,Valencia CF,22/23,summer,Edinson Cavani,CF,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold,€0,€4.0m,Manchester United,True,€0,1,1.196,2.844,-1.333,-0.231,0.0,-0.083
 LaLiga,Valencia CF,22/23,summer,Samu Castillejo,W,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold,€0,€4.0m,AC Milan,True,,1,4.068,3.333,,-0.099,0.625,0.208
-LaLiga,Valencia CF,22/23,winter,Cristhian Mosquera,CB,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem,,€1.0m,6182,True,€15.0m,3,7.064,4.184,3.0,-0.12,-0.5,0.5
+LaLiga,Valencia CF,22/23,winter,Cristhian Mosquera,CB,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem,,€1.0m,6182,True,€15.0m,3,5.08,5.23,,-0.15,-0.625,0.625
 LaLiga,Valencia CF,23/24,summer,Cenk Özkacar,CB,starter,3.81,1,1.0,1.9,addresses_problem|improves_problem|replaces_sold|significant_outlay,€5.0m,€5.0m,Olympique Lyon,False,,2,0.918,1.684,,-0.286,0.0,-0.48
 LaLiga,Valencia CF,23/24,summer,Pepelu,MID,starter,4.0,3,2.0,1.0,addresses_problem|improves_problem|replaces_sold|significant_outlay,€5.0m,€3.0m,Levante UD,False,,3,6.203,4.958,,0.12,-0.5,1.625
 LaLiga,Valencia CF,23/24,summer,Sergi Canós,W,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,€250k,€9.0m,Brentford FC,False,,2,0.83,1.682,,-0.546,0.5,-0.806
 LaLiga,Valencia CF,23/24,summer,Diego López,W,starter,4.0,3,2.0,1.0,addresses_problem|improves_problem,,€1.5m,6182,False,,3,6.995,5.331,,-0.442,,2.105
 LaLiga,Valencia CF,23/24,summer,Alberto Marí,CF,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€800k,6182,False,,2,0.023,0.3,,-0.869,,0.592
-LaLiga,Valencia CF,23/24,summer,Fran Pérez,W,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem,,€500k,6182,True,€1.0m,2,3.611,2.555,1.333,-0.464,-0.5,0.688
+LaLiga,Valencia CF,23/24,summer,Fran Pérez,W,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem,,€500k,6182,True,€1.0m,2,2.848,3.193,,-0.58,-0.625,0.859
 LaLiga,Valencia CF,23/24,summer,Yarek Gasiorowski,CB,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€200k,6182,True,€9.8m,2,5.771,1.636,3.0,-0.115,0.5,0.75
 LaLiga,Valencia CF,23/24,winter,Yarek Gasiorowski,CB,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€200k,6182,True,€9.8m,2,6.485,2.351,3.0,-0.115,0.5,0.75
 LaLiga,Valencia CF,23/24,winter,César Tárrega,CB,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem|replaces_sold,,€150k,6182,False,,3,6.269,4.177,,-0.276,,2.368
@@ -453,7 +453,7 @@ Ligue 1,LOSC Lille,24/25,summer,Osame Sahraoui,W,starter,3.967,1,1.0,1.98,addres
 Ligue 1,LOSC Lille,24/25,summer,Ngal'ayel Mukau,MID,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold|significant_outlay,€5.0m,€3.0m,354,False,,2,3.932,3.225,,-0.481,-0.5,1.688
 Ligue 1,LOSC Lille,24/25,summer,Thomas Meunier,RB,rotation,2.25,2,1.5,1.5,rotation_option,€0,€2.5m,449,False,,2,9.64,6.5,,1.5,0.5,1.14
 Ligue 1,LOSC Lille,24/25,summer,Aïssa Mandi,CB,starter,3.0,2,1.5,1.0,replaces_sold|rotation_option,€0,€1.8m,Villarreal CF,False,,2,5.305,4.913,,0.281,0.5,-0.389
-Ligue 1,LOSC Lille,24/25,summer,André Gomes,MID,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€10.0m,515,True,€0,2,0.0,1.418,-1.333,-0.18,-0.5,-0.133
+Ligue 1,LOSC Lille,24/25,summer,André Gomes,MID,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€10.0m,515,True,€0,2,0.756,1.773,,-0.226,-0.625,-0.167
 Ligue 1,LOSC Lille,25/26,summer,Hamza Igamane,CF,starter,4.0,0,1.0,2.0,replaces_sold|significant_outlay,€11.5m,€7.0m,124,False,,1,1.988,1.01,,-0.022,-0.5,1.5
 Ligue 1,LOSC Lille,25/26,summer,Félix Correia,W,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|significant_outlay,€7.0m,€4.0m,Gil Vicente FC,False,,1,5.673,4.879,,-0.205,-0.5,1.5
 Ligue 1,LOSC Lille,25/26,summer,Marius Broholm,W,starter,3.225,0,1.0,1.61,addresses_problem|improves_problem|significant_outlay,€6.0m,€7.0m,195,False,,1,0.097,0.642,,-0.64,0.238,-0.143
@@ -481,12 +481,12 @@ Eredivisie,AZ Alkmaar,19/20,winter,Ramon Leeuwin,CB,starter,2.0,0,1.0,1.0,improv
 Eredivisie,AZ Alkmaar,20/21,summer,Jesper Karlsson,W,starter,4.0,3,2.0,1.0,addresses_problem|replaces_sold|significant_outlay,€2.6m,€900k,1101,True,€11.2m,3,7.506,5.094,2.0,0.204,-0.5,0.708
 Eredivisie,AZ Alkmaar,20/21,summer,Timo Letschert,CB,starter,2.0,1,1.0,1.0,addresses_problem|replaces_sold,€0,€950k,Hamburger SV,True,,2,2.457,2.26,,-0.384,0.625,-0.044
 Eredivisie,AZ Alkmaar,20/21,summer,Hobie Verhulst,GK,rotation,1.0,1,1.0,1.0,rotation_option,€0,€450k,Go Ahead Eagles,False,,6,3.84,1.484,,0.717,0.5,1.139
-Eredivisie,AZ Alkmaar,20/21,summer,Yukinari Sugawara,RB,starter,5.0,4,2.5,1.0,rotation_option|promoted_to_starter,,€1.8m,1066,True,€7.0m,4,7.059,5.033,2.0,0.133,-0.5,0.392
+Eredivisie,AZ Alkmaar,20/21,summer,Yukinari Sugawara,RB,starter,5.0,4,2.5,1.0,rotation_option|promoted_to_starter,,€1.8m,1066,True,€7.0m,4,6.324,6.292,,0.167,-0.625,0.49
 Eredivisie,AZ Alkmaar,21/22,summer,Vangelis Pavlidis,CF,starter,4.0,3,2.0,1.0,improves_problem|replaces_sold|significant_outlay,€2.5m,€2.5m,Willem II Tilburg,True,€18.0m,3,8.237,5.193,2.5,0.164,-0.233,0.614
 Eredivisie,AZ Alkmaar,21/22,summer,Peter Vindahl,GK,starter,3.125,1,1.0,1.56,improves_problem|replaces_sold|significant_outlay,€1.8m,€800k,2778,True,€1.5m,2,2.179,3.0,-0.222,-0.088,-0.5,-0.01
 Eredivisie,AZ Alkmaar,21/22,summer,Aslak Witry,RB,starter,3.066,1,1.0,1.53,addresses_problem|improves_problem|replaces_sold|significant_outlay,€1.8m,€1.5m,1044,True,,1,3.19,3.804,,-0.184,-0.347,-0.083
 Eredivisie,AZ Alkmaar,21/22,summer,Sam Beukema,CB,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem,€900k,€525k,Go Ahead Eagles,True,€10.9m,2,7.0,3.462,3.0,0.075,0.0,0.463
-Eredivisie,AZ Alkmaar,21/22,summer,Bruno Martins Indi,CB,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem,,€3.0m,Stoke City,True,€0,4,0.28,2.385,-1.333,-0.1,-0.5,-0.171
+Eredivisie,AZ Alkmaar,21/22,summer,Bruno Martins Indi,CB,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem,,€3.0m,Stoke City,True,€0,4,2.017,2.981,,-0.125,-0.625,-0.214
 Eredivisie,AZ Alkmaar,21/22,winter,Milos Kerkez,LB,starter,2.0,1,1.0,1.0,significant_outlay,€2.7m,€300k,10958,True,€20.5m,2,6.19,2.926,2.5,0.167,0.0,0.597
 Eredivisie,AZ Alkmaar,22/23,summer,Jens Odgaard,MID,starter,2.0,1,1.0,1.0,improves_problem|replaces_sold|significant_outlay,€3.6m,€2.0m,US Sassuolo,True,€4.8m,2,3.302,2.854,0.449,-0.265,-0.194,0.458
 Eredivisie,AZ Alkmaar,22/23,summer,Mees de Wit,LB,starter,3.715,1,1.0,1.86,replaces_sold|significant_outlay,€2.3m,€1.5m,PEC Zwolle,False,,4,2.098,2.288,,-0.232,-0.5,0.542
@@ -602,7 +602,7 @@ LaLiga,Deportivo Alavés,20/21,summer,Jota Peleteiro,W,starter,2.0,1,1.0,1.0,add
 LaLiga,Deportivo Alavés,21/22,summer,Mamadou Sylla,CF,starter,2.0,0,1.0,1.0,improves_problem|replaces_sold|significant_outlay,€1.1m,€1.5m,Girona FC,True,€0,1,0.0,0.754,-1.333,-0.523,-0.056,-0.067
 LaLiga,Deportivo Alavés,21/22,summer,Miguel de la Fuente,CF,starter,2.0,0,1.0,1.0,improves_problem|replaces_sold,€0,€500k,7078,True,€2.0m,2,2.945,0.868,2.0,-0.569,0.083,0.562
 LaLiga,Deportivo Alavés,21/22,summer,Toni Moya,MID,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem,€0,€400k,3679,True,€0,1,1.61,2.7,-1.333,-0.256,0.0,0.5
-LaLiga,Deportivo Alavés,21/22,summer,Florian Lejeune,CB,starter,2.0,1,1.0,1.0,improves_problem|rotation_option,,€4.5m,Newcastle United,True,€2.5m,1,3.869,5.263,-0.593,-0.116,-0.5,-0.185
+LaLiga,Deportivo Alavés,21/22,summer,Florian Lejeune,CB,starter,2.0,1,1.0,1.0,improves_problem|rotation_option,,€4.5m,Newcastle United,True,€2.5m,1,5.577,6.579,,-0.145,-0.625,-0.231
 LaLiga,Deportivo Alavés,23/24,summer,Antonio Blanco,MID,starter,4.0,3,2.0,1.0,significant_outlay,€4.0m,€5.0m,Real Madrid,False,,3,6.698,5.811,,-0.28,0.333,0.833
 LaLiga,Deportivo Alavés,23/24,summer,Ander Guevara,MID,starter,3.0,2,1.5,1.0,significant_outlay,€1.8m,€2.5m,Real Sociedad,False,,3,4.43,3.88,,-0.45,0.467,0.533
 LaLiga,Deportivo Alavés,23/24,summer,Andoni Gorosabel,RB,starter,2.0,1,1.0,1.0,significant_outlay,€1.5m,€9.0m,Real Sociedad,True,€0,1,4.023,5.593,-1.333,-0.088,0.0,-0.148
@@ -762,7 +762,7 @@ Serie A,AS Roma,20/21,summer,Gianluca Mancini,CB,starter,5.0,6,2.5,1.0,significa
 Serie A,AS Roma,20/21,summer,Jordan Veretout,MID,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem|significant_outlay,€17.5m,€24.0m,ACF Fiorentina,True,€12.4m,2,3.95,4.28,-0.385,0.038,0.003,0.014
 Serie A,AS Roma,20/21,summer,Chris Smalling,CB,starter,6.0,2,1.5,2.0,significant_outlay,€15.0m,€20.0m,Manchester United,True,€800k,4,1.593,3.117,-1.262,-0.014,-0.042,-0.206
 Serie A,AS Roma,20/21,summer,Carles Pérez,W,starter,4.0,0,1.0,2.0,addresses_problem|improves_problem|significant_outlay,€13.0m,€9.0m,FC Barcelona,True,€5.2m,2,0.0,1.27,-0.8,-0.308,-0.217,-0.074
-Serie A,AS Roma,20/21,summer,Henrikh Mkhitaryan,MID,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem,€0,€20.0m,Arsenal FC,True,€0,2,3.919,5.116,-1.333,0.278,0.0,-0.142
+Serie A,AS Roma,20/21,summer,Henrikh Mkhitaryan,MID,starter,4.5,2,1.5,1.5,addresses_problem|improves_problem,€0,€20.0m,Arsenal FC,True,€0,2,5.252,5.116,0.0,0.278,0.0,-0.142
 Serie A,AS Roma,20/21,summer,Pedro,W,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem,€0,€9.5m,Chelsea FC,True,€0,1,1.515,3.119,-1.333,-0.113,0.0,-0.158
 Serie A,AS Roma,20/21,winter,Stephan El Shaarawy,W,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem,€0,€8.0m,3183,False,,6,2.356,2.533,,-0.279,0.5,-0.398
 Serie A,AS Roma,21/22,summer,Tammy Abraham,CF,starter,6.0,2,1.5,2.0,addresses_problem|improves_problem|replaces_sold|significant_outlay,€41.0m,€38.0m,Chelsea FC,True,€15.0m,4,1.621,2.695,-0.846,-0.185,-0.006,-0.037
@@ -792,7 +792,7 @@ Serie A,AS Roma,24/25,summer,Saud Abdulhamid,RB,starter,2.056,0,1.0,1.03,address
 Serie A,AS Roma,24/25,summer,Mario Hermoso,CB,starter,2.0,1,1.0,1.0,improves_problem|rotation_option,,€25.0m,515,False,,2,1.503,2.603,,-0.342,,-0.758
 Serie A,AS Roma,24/25,summer,Mats Hummels,CB,starter,2.0,0,1.0,1.0,improves_problem|rotation_option,,€5.0m,515,True,,1,2.243,2.386,,0.124,,-0.267
 Serie A,AS Roma,24/25,winter,Anass Salah-Eddine,LB,starter,4.0,0,1.0,2.0,addresses_problem|improves_problem|significant_outlay,€8.5m,€5.0m,FC Twente Enschede,False,,1,0.043,0.646,,-0.704,-0.5,0.6
-Serie A,AS Roma,24/25,winter,Devyne Rensch,RB,starter,3.534,0,1.0,1.77,addresses_problem|improves_problem|significant_outlay,€6.0m,€12.0m,Ajax Amsterdam,False,,2,2.573,2.225,,0.077,0.5,-0.229
+Serie A,AS Roma,24/25,winter,Devyne Rensch,RB,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|significant_outlay,€6.0m,€12.0m,Ajax Amsterdam,False,,2,2.573,2.225,,0.077,0.5,-0.229
 Serie A,AS Roma,24/25,winter,Pierluigi Gollini,GK,starter,2.0,0,1.0,1.0,addresses_problem|replaces_sold,€800k,€2.5m,Atalanta BC,False,,2,0.0,0.0,,-0.384,0.5,-0.64
 Serie A,AS Roma,25/26,summer,Wesley,RB,starter,2.0,1,1.0,1.0,significant_outlay,€25.0m,€20.0m,614,False,,1,6.077,5.191,,0.303,-0.417,1.0
 Serie A,AS Roma,25/26,summer,Neil El Aynaoui,MID,starter,4.0,0,1.0,2.0,addresses_problem|improves_problem|replaces_sold|significant_outlay,€23.5m,€15.0m,RC Lens,False,,1,1.711,2.093,,-0.415,-0.5,0.533
@@ -927,7 +927,7 @@ Eredivisie,PEC Zwolle,21/22,summer,Leandro Fernandes,MID,starter,2.0,0,1.0,1.0,a
 Eredivisie,PEC Zwolle,21/22,winter,Maikel van der Werff,CB,starter,2.0,0,1.0,1.0,improves_problem|replaces_sold|rotation_option,€0,€350k,51772,False,,1,2.45,2.37,,-0.42,0.5,0.0
 Eredivisie,PEC Zwolle,23/24,summer,Divaio Bobson,MID,starter,2.0,0,1.0,1.0,significant_outlay,€200k,,177,True,,1,0.0,0.162,,-0.901,,
 Eredivisie,PEC Zwolle,23/24,summer,Younes Namli,W,starter,3.0,1,1.0,1.5,rotation_option|promoted_to_starter,€0,€900k,Sparta Rotterdam,True,,1,8.297,7.013,,0.335,0.625,0.324
-Eredivisie,PEC Zwolle,23/24,summer,Thomas Lam,CB,starter,2.0,1,1.0,1.0,rotation_option|promoted_to_starter,€0,€700k,25580,True,€0,1,4.383,5.78,-1.333,-0.064,0.0,0.0
+Eredivisie,PEC Zwolle,23/24,summer,Thomas Lam,CB,starter,2.0,1,1.0,1.0,rotation_option|promoted_to_starter,€0,€700k,25580,True,€0,1,5.716,5.78,0.0,-0.064,0.0,0.0
 Eredivisie,PEC Zwolle,23/24,summer,Odysseus Velanas,MID,starter,3.0,2,1.5,1.0,rotation_option|promoted_to_starter,€0,€600k,NAC Breda,False,,3,3.401,3.255,,-0.382,0.5,0.028
 Eredivisie,PEC Zwolle,23/24,summer,Anouar El Azzouzi,MID,starter,3.0,2,1.5,1.0,squad_addition,,€450k,1455,True,€1.5m,2,6.255,4.432,2.0,-0.224,-0.278,0.324
 Eredivisie,PEC Zwolle,23/24,winter,Kaj de Rooij,W,starter,2.0,1,1.0,1.0,squad_addition,,€375k,515,False,,3,2.223,2.207,,-0.463,,0.48
@@ -938,7 +938,7 @@ Eredivisie,PEC Zwolle,24/25,summer,Younes Namli,W,starter,2.0,0,1.0,1.0,improves
 Eredivisie,PEC Zwolle,25/26,summer,Simon Graves,CB,starter,2.0,1,1.0,1.0,improves_problem|significant_outlay,€600k,€1.5m,458,False,,1,6.727,6.328,,-0.101,0.5,0.0
 Eredivisie,PEC Zwolle,25/26,summer,Dylan Mbayo,W,starter,2.218,0,1.0,1.11,addresses_problem|improves_problem|significant_outlay,€425k,€2.0m,601,False,,1,1.217,1.444,,-0.815,0.588,
 Eredivisie,PEC Zwolle,25/26,summer,Koen Kostons,CF,starter,2.713,1,1.0,1.36,improves_problem|significant_outlay,€100k,€600k,SC Paderborn 07,False,,1,8.341,6.5,,-0.159,0.5,1.5
-Eredivisie,PEC Zwolle,25/26,winter,Younes Namli,W,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem,€0,€1.0m,Le Havre AC,True,€0,1,3.626,4.601,-1.333,0.358,0.0,0.0
+Eredivisie,PEC Zwolle,25/26,winter,Younes Namli,W,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem,€0,€1.0m,Le Havre AC,True,€0,1,4.959,4.601,0.0,0.358,0.0,0.0
 Bundesliga,SC Paderborn 07,19/20,summer,Abdelhamid Sabiri,MID,rotation,1.5,0,1.0,1.5,squad_addition,€0,€1.5m,Huddersfield Town,False,,1,8.614,5.496,,1.118,0.5,1.5
 Bundesliga,SC Paderborn 07,19/20,summer,Cauly,MID,rotation,1.5,1,1.0,1.5,squad_addition,€0,€1.0m,52,True,€600k,1,8.415,6.0,1.2,0.715,0.0,0.5
 Bundesliga,SC Paderborn 07,19/20,summer,Streli Mamba,CF,starter,2.0,1,1.0,1.0,rotation_option|promoted_to_starter,€0,€550k,25,False,,1,4.943,3.604,,-0.662,0.5,1.5
@@ -949,12 +949,12 @@ Eredivisie,FC Emmen,19/20,summer,Marko Kolar,CF,starter,2.499,1,1.0,1.25,address
 Eredivisie,FC Emmen,19/20,summer,Miguel Araujo,CB,starter,6.0,3,2.0,1.5,addresses_problem|improves_problem,€0,€850k,515,False,,3,5.989,5.399,,0.139,0.5,-0.049
 Eredivisie,FC Emmen,19/20,summer,Sergio Peña,MID,starter,4.5,2,1.5,1.5,addresses_problem|improves_problem|replaces_sold,€0,€700k,Granada CF,False,,2,7.818,6.276,,0.328,0.5,0.714
 Eredivisie,FC Emmen,19/20,summer,Michaël Heylen,CB,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem,€0,€600k,3508,True,€0,1,3.386,4.826,-1.333,0.004,0.0,-0.111
-Eredivisie,FC Emmen,19/20,summer,Luciano Slagveer,W,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold,€0,€500k,498,True,€50k,1,1.444,3.026,-1.2,-0.315,0.0,-0.067
+Eredivisie,FC Emmen,19/20,summer,Luciano Slagveer,W,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold,€0,€500k,498,True,€50k,1,5.644,3.026,3.0,-0.315,0.0,-0.067
 Eredivisie,FC Emmen,19/20,summer,Tom Hiariej,MID,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold,€0,€350k,6954,True,,1,4.726,4.615,,-0.455,0.625,-0.06
 Eredivisie,FC Emmen,19/20,summer,Lorenzo Burnet,LB,starter,3.0,1,1.0,1.5,replaces_sold|rotation_option,€0,€350k,Excelsior Rotterdam,True,,1,6.003,5.741,,-0.333,0.625,-0.03
 Eredivisie,FC Emmen,19/20,summer,Nikolai Laursen,W,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem|replaces_sold,,€300k,9715,False,,2,4.466,4.035,,-0.49,,0.921
 Eredivisie,FC Emmen,19/20,winter,Miguel Araujo,CB,starter,6.0,3,2.0,1.5,addresses_problem|improves_problem,€0,€850k,515,False,,3,7.044,6.454,,0.139,0.5,-0.049
-Eredivisie,FC Emmen,19/20,winter,Hilal Ben Moussa,MID,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold,€0,€250k,54585,True,€0,1,1.2,2.917,-1.333,-0.384,0.0,0.0
+Eredivisie,FC Emmen,19/20,winter,Hilal Ben Moussa,MID,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold,€0,€250k,54585,True,€0,1,2.533,2.917,0.0,-0.384,0.0,0.0
 Eredivisie,FC Emmen,20/21,summer,Simon Tibbling,MID,starter,2.049,0,1.0,1.02,addresses_problem|improves_problem|replaces_sold|significant_outlay,€350k,€1.3m,206,False,,1,1.712,2.452,,-0.779,0.5,-0.462
 Eredivisie,FC Emmen,20/21,summer,Ricardo van Rhijn,RB,rotation,1.5,1,1.0,1.5,rotation_option,€0,€650k,SC Heerenveen,False,,1,9.037,6.5,,0.884,0.5,1.154
 Eredivisie,FC Emmen,20/21,summer,Felix Wiedwald,GK,starter,2.0,0,1.0,1.0,improves_problem|rotation_option,€0,€475k,Eintracht Frankfurt,False,,1,1.197,1.275,,-0.42,0.5,-0.158
@@ -984,7 +984,7 @@ LaLiga,Atlético de Madrid,20/21,summer,Álvaro Morata,CF,starter,6.0,2,1.5,2.0,
 LaLiga,Atlético de Madrid,20/21,summer,Yannick Carrasco,W,starter,4.0,3,2.0,1.0,addresses_problem|improves_problem|significant_outlay,€27.0m,€22.5m,33304,True,€15.0m,3,3.809,4.621,-0.593,0.012,-0.417,0.185
 LaLiga,Atlético de Madrid,20/21,summer,Luis Suárez,CF,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem,€9.0m,€28.0m,FC Barcelona,True,,2,5.623,5.308,,-0.065,0.625,-0.246
 LaLiga,Atlético de Madrid,20/21,summer,Ivo Grbic,GK,starter,2.0,0,1.0,1.0,rotation_option|promoted_to_starter,€3.5m,€2.0m,11194,True,€2.5m,4,0.0,0.449,-0.381,-0.023,-0.488,0.25
-LaLiga,Atlético de Madrid,20/21,summer,Rodrigo Riquelme,W,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem,,€2.3m,3679,True,€8.0m,2,3.87,1.977,2.0,-0.294,-0.5,0.688
+LaLiga,Atlético de Madrid,20/21,summer,Rodrigo Riquelme,W,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem,,€2.3m,3679,True,€8.0m,2,2.338,2.471,,-0.368,-0.625,0.859
 LaLiga,Atlético de Madrid,20/21,winter,Geoffrey Kondogbia,MID,starter,4.0,1,1.0,2.0,replaces_sold|significant_outlay,€16.0m,€17.5m,Valencia CF,True,€8.0m,3,1.76,2.656,-0.667,-0.028,-0.179,-0.022
 LaLiga,Atlético de Madrid,21/22,summer,Rodrigo De Paul,MID,starter,5.0,4,2.5,1.0,addresses_problem|improves_problem|significant_outlay,€35.0m,€38.0m,Udinese Calcio,True,€15.0m,4,3.456,4.038,-0.762,0.151,0.066,-0.037
 LaLiga,Atlético de Madrid,21/22,summer,Matheus Cunha,W,starter,4.0,0,1.0,2.0,addresses_problem|improves_problem|significant_outlay,€35.0m,€30.0m,Hertha BSC,True,€50.0m,2,1.879,1.386,0.571,-0.162,0.111,-0.028
@@ -1276,7 +1276,7 @@ Ligue 1,Angers SCO,22/23,summer,Cédric Hountondji,CB,starter,2.366,1,1.0,1.18,i
 Ligue 1,Angers SCO,22/23,summer,Adrien Hunou,CF,starter,2.024,1,1.0,1.01,addresses_problem|improves_problem|significant_outlay,€1.5m,€3.5m,56089,True,€0,2,0.266,2.198,-1.333,-0.403,0.0,-0.195
 Ligue 1,Angers SCO,22/23,summer,Halid Sabanovic,RB,starter,2.0,0,1.0,1.0,improves_problem|replaces_sold,€300k,€350k,282,True,,2,0.784,0.776,,-0.379,0.298,0.089
 Ligue 1,Angers SCO,22/23,summer,Miha Blazic,CB,starter,2.0,1,1.0,1.0,improves_problem|replaces_sold|rotation_option,€0,€2.0m,279,False,,1,4.329,4.179,,-0.25,0.5,-0.1
-Ligue 1,Angers SCO,22/23,summer,Ibrahim Amadou,MID,starter,2.0,0,1.0,1.0,improves_problem|replaces_sold|rotation_option,€0,€2.0m,FC Metz,True,€0,1,0.0,1.641,-1.333,-0.371,0.0,-0.083
+Ligue 1,Angers SCO,22/23,summer,Ibrahim Amadou,MID,starter,2.0,0,1.0,1.0,improves_problem|replaces_sold|rotation_option,€0,€2.0m,FC Metz,True,€0,1,1.187,1.641,0.0,-0.371,0.0,-0.083
 Ligue 1,Angers SCO,22/23,summer,Yahia Fofana,GK,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem,€0,€2.0m,Le Havre AC,True,€0,2,2.91,3.965,-1.333,0.028,0.0,0.25
 Ligue 1,Angers SCO,22/23,summer,Himad Abdelli,MID,starter,6.0,3,2.0,1.5,improves_problem|replaces_sold|rotation_option,€0,€1.5m,Le Havre AC,True,€2.8m,3,6.156,4.768,1.111,-0.084,0.0,0.361
 Ligue 1,Angers SCO,22/23,summer,Amine Salama,CF,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,€0,€400k,9202,False,,1,4.038,2.627,,-0.589,0.5,1.5
@@ -1517,23 +1517,23 @@ LaLiga,Real Betis Balompié,19/20,winter,Ismael Gutiérrez,MID,starter,2.0,0,1.0
 LaLiga,Real Betis Balompié,20/21,summer,Martín Montoya,RB,starter,2.0,0,1.0,1.0,rotation_option|promoted_to_starter,€0,€6.5m,Brighton & Hove Albion,True,€0,3,0.0,0.788,-1.333,-0.104,0.0,-0.253
 LaLiga,Real Betis Balompié,20/21,summer,Víctor Ruiz,CB,starter,3.0,2,1.5,1.0,replaces_sold|rotation_option,€0,€3.2m,114,True,,3,3.744,3.363,,-0.04,0.625,-0.204
 LaLiga,Real Betis Balompié,20/21,summer,Claudio Bravo,GK,starter,3.0,2,1.5,1.0,improves_problem|rotation_option,€0,€1.2m,Manchester City,True,,4,3.634,3.026,,0.07,0.625,-0.087
-LaLiga,Real Betis Balompié,20/21,summer,Edgar González,CB,starter,3.0,2,1.5,1.0,replaces_sold|rotation_option,,€800k,2865,True,€4.5m,2,5.761,3.145,2.5,-0.072,-0.5,0.688
-LaLiga,Real Betis Balompié,20/21,summer,Rober González,W,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€200k,2865,True,€1.2m,2,2.763,0.18,2.5,-0.167,-0.5,0.75
+LaLiga,Real Betis Balompié,20/21,summer,Edgar González,CB,starter,3.0,2,1.5,1.0,replaces_sold|rotation_option,,€800k,2865,True,€4.5m,2,4.076,3.932,,-0.09,-0.625,0.859
+LaLiga,Real Betis Balompié,20/21,summer,Rober González,W,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€200k,2865,True,€1.2m,2,0.329,0.225,,-0.209,-0.625,0.938
 LaLiga,Real Betis Balompié,21/22,summer,Germán Pezzella,CB,starter,4.0,3,2.0,1.0,addresses_problem|improves_problem|replaces_sold,€3.2m,€7.5m,ACF Fiorentina,True,€4.5m,3,5.645,4.728,0.513,0.045,0.5,-0.141
 LaLiga,Real Betis Balompié,21/22,summer,Rui Silva,GK,starter,4.0,3,2.0,1.0,addresses_problem|improves_problem,€0,€12.0m,Granada CF,True,€4.0m,4,3.07,3.962,-0.889,0.018,0.0,-0.021
-LaLiga,Real Betis Balompié,21/22,summer,Juan Miranda,LB,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem,€0,€7.0m,FC Barcelona,True,€0,3,1.466,2.684,-1.333,0.116,0.0,0.0
+LaLiga,Real Betis Balompié,21/22,summer,Juan Miranda,LB,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem,€0,€7.0m,FC Barcelona,True,€0,3,2.799,2.684,0.0,0.116,0.0,0.0
 LaLiga,Real Betis Balompié,21/22,summer,Youssouf Sabaly,RB,starter,3.0,2,1.5,1.0,replaces_sold|rotation_option,€0,€6.5m,FC Girondins Bordeaux,True,€2.0m,4,1.674,2.489,-0.923,-0.059,0.343,-0.176
-LaLiga,Real Betis Balompié,21/22,summer,Rodri Sánchez,W,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem,,€1.5m,2865,True,€8.0m,3,5.566,2.29,2.5,-0.21,0.5,0.486
+LaLiga,Real Betis Balompié,21/22,summer,Rodri Sánchez,W,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem,,€1.5m,2865,True,€8.0m,3,3.833,2.862,,-0.262,0.625,0.608
 LaLiga,Real Betis Balompié,22/23,summer,Luiz Henrique,W,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|significant_outlay,€10.4m,€12.0m,2462,True,€16.0m,2,3.93,2.956,0.718,-0.147,0.361,0.042
 LaLiga,Real Betis Balompié,22/23,summer,Willian José,CF,starter,4.0,1,1.0,2.0,addresses_problem|improves_problem|significant_outlay,€10.0m,€12.0m,Real Sociedad,True,€2.0m,2,1.056,2.628,-1.067,-0.214,-0.111,-0.181
 LaLiga,Real Betis Balompié,22/23,summer,Luiz Felipe,CB,starter,2.0,1,1.0,1.0,addresses_problem|replaces_sold,€0,€16.0m,SS Lazio,True,€22.0m,1,4.328,3.446,0.5,-0.098,0.5,-0.021
-LaLiga,Real Betis Balompié,22/23,summer,Raúl García,CF,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€500k,2865,True,€7.0m,1,3.346,0.0,3.158,-0.338,0.526,
+LaLiga,Real Betis Balompié,22/23,summer,Raúl García,CF,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€500k,2865,True,€7.0m,1,0.239,0.0,,-0.428,0.667,
 LaLiga,Real Betis Balompié,23/24,summer,Sergi Altimira,MID,starter,2.0,1,1.0,1.0,improves_problem|replaces_sold|rotation_option,€2.0m,€300k,Getafe CF,False,,3,4.054,2.619,,-0.19,-0.5,2.125
 LaLiga,Real Betis Balompié,23/24,summer,Héctor Bellerín,RB,starter,3.0,2,1.5,1.0,addresses_problem,€0,€8.0m,Sporting CP,False,,3,2.561,2.895,,-0.188,0.5,-0.646
-LaLiga,Real Betis Balompié,23/24,summer,Ayoze Pérez,CF,starter,2.0,1,1.0,1.0,improves_problem|rotation_option,€0,€6.0m,Leicester City,True,€4.0m,1,4.102,4.497,-0.444,-0.006,0.0,0.056
+LaLiga,Real Betis Balompié,23/24,summer,Ayoze Pérez,CF,starter,3.0,1,1.0,1.5,improves_problem|rotation_option,€0,€6.0m,Leicester City,True,€4.0m,1,7.547,4.497,3.0,-0.006,0.0,0.056
 LaLiga,Real Betis Balompié,23/24,summer,Marc Bartra,CB,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem|replaces_sold,€0,€3.7m,449,False,,3,2.763,3.03,,-0.038,0.5,-0.73
 LaLiga,Real Betis Balompié,23/24,summer,Isco,MID,starter,3.0,2,1.5,1.0,improves_problem|replaces_sold|rotation_option,,€5.0m,515,False,,3,3.731,3.052,,0.468,,0.211
-LaLiga,Real Betis Balompié,23/24,summer,Juan Cruz,W,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€1.5m,2865,True,€1.0m,1,0.0,0.138,-0.444,-0.475,-0.5,0.0
+LaLiga,Real Betis Balompié,23/24,summer,Juan Cruz,W,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€1.5m,2865,True,€1.0m,1,0.0,0.173,,-0.594,-0.625,0.0
 LaLiga,Real Betis Balompié,23/24,summer,Sokratis Papastathopoulos,CB,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€800k,515,True,,1,2.772,2.95,,-0.123,,-0.056
 LaLiga,Real Betis Balompié,23/24,summer,Assane Diao,W,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€200k,2865,True,€12.0m,2,5.402,1.556,3.0,-0.404,0.5,0.75
 LaLiga,Real Betis Balompié,23/24,winter,Pablo Fornals,MID,starter,4.0,3,2.0,1.0,improves_problem|replaces_sold|significant_outlay,€8.0m,€17.0m,West Ham United,False,,3,5.14,4.936,,0.155,0.5,-0.451
@@ -1741,7 +1741,7 @@ LaLiga,Granada CF,21/22,summer,Luis Abram,CB,starter,2.0,0,1.0,1.0,improves_prob
 LaLiga,Granada CF,21/22,summer,Rubén Rochina,W,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,€0,€2.8m,Levante UD,True,,1,2.242,1.818,,-0.156,0.625,-0.045
 LaLiga,Granada CF,21/22,summer,Sergio Escudero,LB,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem,€0,€2.5m,Sevilla FC,False,,1,2.885,3.013,,-0.348,0.5,-0.28
 LaLiga,Granada CF,21/22,summer,Carlos Bacca,CF,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,€0,€1.8m,Villarreal CF,False,,1,0.543,1.092,,-0.604,0.5,-0.444
-LaLiga,Granada CF,21/22,summer,Isma Ruiz,MID,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€300k,21550,True,€0,1,0.0,0.548,-1.333,-0.426,-0.5,0.333
+LaLiga,Granada CF,21/22,summer,Isma Ruiz,MID,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€300k,21550,True,€0,1,0.0,0.685,,-0.533,-0.625,0.417
 LaLiga,Granada CF,21/22,winter,Matías Arezo,CF,starter,4.0,0,1.0,2.0,addresses_problem|improves_problem|replaces_sold|significant_outlay,€5.7m,€7.0m,2419,False,,2,0.145,0.708,,-0.802,0.31,-0.071
 LaLiga,Granada CF,21/22,winter,Myrto Uzuni,W,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem|significant_outlay,€5.1m,€3.5m,279,False,,2,3.955,4.408,,-0.525,-0.5,0.571
 LaLiga,Granada CF,21/22,winter,Njegos Petrovic,MID,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|significant_outlay,€1.5m,€2.5m,159,False,,2,2.057,2.091,,-0.534,0.5,0.0
@@ -1850,7 +1850,7 @@ Eredivisie,FC Utrecht,21/22,summer,Quinten Timber,MID,starter,3.0,1,1.0,1.5,addr
 Eredivisie,FC Utrecht,21/22,winter,Henk Veerman,CF,starter,2.0,0,1.0,1.0,improves_problem|significant_outlay,€300k,€900k,SC Heerenveen,True,,1,2.732,2.239,,-0.131,0.625,0.0
 Eredivisie,FC Utrecht,22/23,summer,Luuk Brouwers,MID,starter,3.898,1,1.0,1.95,addresses_problem|replaces_sold|significant_outlay,€1.2m,€1.0m,Go Ahead Eagles,True,€875k,1,2.543,3.534,-0.4,-0.199,-0.458,0.067
 Eredivisie,FC Utrecht,22/23,summer,Mike van der Hoorn,CB,starter,5.0,4,2.5,1.0,addresses_problem|improves_problem|replaces_sold,€150k,€1.6m,Arminia Bielefeld,False,,4,5.302,5.031,,0.076,0.5,-0.305
-Eredivisie,FC Utrecht,22/23,summer,Sean Klaiber,RB,starter,2.0,1,1.0,1.0,rotation_option|promoted_to_starter,€0,€2.8m,Ajax Amsterdam,True,€1.0m,1,4.021,4.874,-0.857,0.04,0.0,-0.036
+Eredivisie,FC Utrecht,22/23,summer,Sean Klaiber,RB,starter,3.0,1,1.0,1.5,rotation_option|promoted_to_starter,€0,€2.8m,Ajax Amsterdam,True,€1.0m,1,7.878,4.874,3.0,0.04,0.0,-0.036
 Eredivisie,FC Utrecht,22/23,summer,Bas Dost,CF,starter,2.0,1,1.0,1.0,improves_problem|replaces_sold|rotation_option,€0,€2.5m,2282,True,€0,1,1.58,2.935,-1.333,0.139,0.0,-0.16
 Eredivisie,FC Utrecht,22/23,summer,Jens Toornstra,MID,starter,4.0,3,2.0,1.0,addresses_problem|replaces_sold,€0,€1.2m,Feyenoord Rotterdam,True,€0,3,2.336,3.965,-1.333,-0.106,0.0,-0.19
 Eredivisie,FC Utrecht,22/23,summer,Taylor Booth,W,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem,€0,€1.0m,28,True,€2.0m,3,3.766,2.14,1.333,-0.277,0.083,0.486
@@ -1893,7 +1893,7 @@ Eredivisie,FC Groningen,20/21,summer,Jørgen Strand Larsen,CF,starter,3.0,2,1.5,
 Eredivisie,FC Groningen,20/21,summer,Patrick Joosten,W,starter,2.434,0,1.0,1.22,addresses_problem|improves_problem|significant_outlay,€600k,€725k,FC Utrecht,True,,2,1.859,1.959,,-0.502,0.359,0.043
 Eredivisie,FC Groningen,20/21,summer,Damil Dankerlui,RB,starter,3.0,2,1.5,1.0,replaces_sold|significant_outlay,€375k,€650k,Willem II Tilburg,False,,3,3.46,3.348,,-0.464,0.5,0.077
 Eredivisie,FC Groningen,20/21,summer,Wessel Dammers,CB,starter,2.0,1,1.0,1.0,replaces_sold|rotation_option,€0,€400k,Fortuna Sittard,True,,2,4.656,3.78,,-0.009,0.625,0.26
-Eredivisie,FC Groningen,20/21,winter,Mike te Wierik,CB,starter,2.0,1,1.0,1.0,replaces_sold|rotation_option,,€1.2m,22,True,€0,1,3.477,5.451,-1.333,-0.085,-0.5,-0.056
+Eredivisie,FC Groningen,20/21,winter,Mike te Wierik,CB,starter,2.0,1,1.0,1.0,replaces_sold|rotation_option,,€1.2m,22,True,€0,1,6.013,6.814,,-0.106,-0.625,-0.069
 Eredivisie,FC Groningen,21/22,summer,Paulos Abraham,W,starter,4.0,1,1.0,2.0,addresses_problem|improves_problem|significant_outlay,€2.0m,€2.0m,272,True,€1.3m,2,0.527,2.011,-0.467,-0.611,-0.231,-0.175
 Eredivisie,FC Groningen,21/22,summer,Laros Duarte,MID,starter,3.0,2,1.5,1.0,improves_problem|replaces_sold|significant_outlay,€675k,€600k,Sparta Rotterdam,True,€875k,2,4.84,4.474,0.395,-0.207,-0.127,0.306
 Eredivisie,FC Groningen,21/22,summer,Daleho Irandust,MID,starter,2.0,0,1.0,1.0,improves_problem|replaces_sold|significant_outlay,€400k,€2.0m,1109,False,,2,1.579,2.079,,-0.475,0.5,-0.525
@@ -2024,7 +2024,7 @@ Eredivisie,RKC Waalwijk,20/21,winter,Shawn Adewoye,CB,starter,4.0,3,2.0,1.0,impr
 Eredivisie,RKC Waalwijk,21/22,summer,Dario Van den Buijs,CB,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem|significant_outlay,€55k,€600k,41274,False,,4,4.265,3.929,,-0.102,0.5,-0.062
 Eredivisie,RKC Waalwijk,21/22,summer,Michiel Kramer,CF,starter,4.0,3,2.0,1.0,addresses_problem|improves_problem,€0,€350k,ADO Den Haag,False,,4,4.129,4.095,,-0.305,0.5,-0.161
 Eredivisie,RKC Waalwijk,21/22,summer,Iliass Bel Hassani,MID,starter,2.0,1,1.0,1.0,improves_problem|replaces_sold,,€400k,24724,True,€0,2,0.321,2.388,-1.333,-0.192,-0.5,-0.042
-Eredivisie,RKC Waalwijk,21/22,summer,Thierry Lutonda,LB,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€300k,58,True,€0,3,0.497,2.618,-1.333,-0.417,-0.5,0.13
+Eredivisie,RKC Waalwijk,21/22,summer,Thierry Lutonda,LB,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€300k,58,True,€0,3,2.288,3.273,,-0.521,-0.625,0.162
 Eredivisie,RKC Waalwijk,21/22,summer,Alexander Büttner,LB,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€600k,515,True,€0,1,2.383,4.144,-1.333,0.128,-0.5,-0.056
 Eredivisie,RKC Waalwijk,21/22,summer,Issam El Maach,GK,starter,2.0,0,1.0,1.0,replaces_sold|rotation_option,,€75k,515,True,€0,1,0.0,0.196,-1.333,1.0,-0.5,0.0
 Eredivisie,RKC Waalwijk,21/22,winter,Roy Kuijpers,W,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,€0,€250k,404,True,,2,1.407,1.065,,-0.407,0.625,0.125
@@ -2043,7 +2043,7 @@ Eredivisie,RKC Waalwijk,23/24,summer,Jeroen Houwen,GK,starter,2.0,1,1.0,1.0,rota
 Eredivisie,RKC Waalwijk,23/24,summer,Richonell Margaret,CF,starter,2.0,1,1.0,1.0,rotation_option|promoted_to_starter,€0,€250k,1228,False,,2,4.906,3.95,,-0.494,0.5,0.95
 Eredivisie,RKC Waalwijk,23/24,summer,Aaron Meijers,LB,starter,2.0,1,1.0,1.0,improves_problem|rotation_option,€0,€200k,Sparta Rotterdam,False,,2,3.15,3.618,,-0.53,0.5,-0.438
 Eredivisie,RKC Waalwijk,23/24,summer,Ilias Takidine,W,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€150k,30857,False,,2,0.0,0.104,,-1.045,,-0.175
-Eredivisie,RKC Waalwijk,23/24,winter,Mats Seuntjens,MID,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold,€0,€1.0m,FC Utrecht,True,€0,1,1.794,3.569,-1.333,-0.391,0.0,-0.05
+Eredivisie,RKC Waalwijk,23/24,winter,Mats Seuntjens,MID,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold,€0,€1.0m,FC Utrecht,True,€0,1,3.128,3.569,0.0,-0.391,0.0,-0.05
 Eredivisie,RKC Waalwijk,24/25,summer,Oskar Zawada,CF,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold,€0,€600k,8445,False,,1,5.006,4.617,,-0.278,0.5,0.167
 Eredivisie,RKC Waalwijk,24/25,summer,Silvester van der Water,W,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,€0,€450k,SC Cambuur Leeuwarden,False,,1,1.232,1.477,,-0.579,0.5,-0.167
 Eredivisie,RKC Waalwijk,24/25,summer,Roshon van Eijma,CB,starter,2.0,1,1.0,1.0,improves_problem|replaces_sold|rotation_option,€0,€350k,1228,False,,1,4.657,4.3,,-0.429,0.5,0.286
@@ -2074,7 +2074,7 @@ LaLiga,RCD Mallorca,21/22,winter,Clément Grenier,MID,starter,2.0,0,1.0,1.0,squa
 LaLiga,RCD Mallorca,22/23,summer,Vedat Muriqi,CF,starter,5.0,4,2.5,1.0,addresses_problem|improves_problem|significant_outlay,€8.0m,€7.0m,SS Lazio,False,,4,5.542,5.505,,-0.024,-0.243,0.304
 LaLiga,RCD Mallorca,22/23,summer,Pablo Maffeo,RB,starter,5.0,4,2.5,1.0,improves_problem|significant_outlay,€3.0m,€5.0m,VfB Stuttgart,False,,4,5.667,5.004,,0.013,0.5,0.15
 LaLiga,RCD Mallorca,22/23,summer,Predrag Rajković,GK,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem|replaces_sold|significant_outlay,€2.0m,€9.0m,Stade Reims,True,€8.0m,2,8.077,6.0,2.0,-0.043,0.083,0.037
-LaLiga,RCD Mallorca,22/23,summer,Rodrigo Battaglia,MID,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,€0,€1.8m,Sporting CP,True,€800k,1,0.112,1.337,-0.741,-0.429,0.0,-0.056
+LaLiga,RCD Mallorca,22/23,summer,Rodrigo Battaglia,MID,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,€0,€1.8m,Sporting CP,True,€800k,1,3.853,1.337,3.0,-0.429,0.0,-0.056
 LaLiga,RCD Mallorca,22/23,summer,Matija Nastasić,CB,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold,€0,€1.5m,ACF Fiorentina,True,€0,2,1.657,3.08,-1.333,-0.09,0.0,0.0
 LaLiga,RCD Mallorca,22/23,summer,José Copete,CB,starter,4.5,2,1.5,1.5,addresses_problem|improves_problem|replaces_sold,€0,€800k,4032,True,€3.6m,3,6.181,3.297,2.0,-0.033,0.417,0.5
 LaLiga,RCD Mallorca,23/24,summer,Sergi Darder,MID,starter,4.0,3,2.0,1.0,addresses_problem|improves_problem|replaces_sold|significant_outlay,€8.0m,€16.0m,RCD Espanyol Barcelona,False,,3,5.151,5.355,,0.015,0.5,-0.719
@@ -2188,7 +2188,7 @@ Bundesliga,Eintracht Frankfurt,25/26,winter,Ayoube Amaimouni-Echghouyab,W,starte
 Liga Portugal,Vitória Guimarães SC,19/20,summer,Bruno Duarte,CF,starter,2.203,1,1.0,1.1,improves_problem|significant_outlay,€600k,€700k,18105,True,€600k,3,2.589,2.597,0.0,-0.211,-0.131,0.333
 Liga Portugal,Vitória Guimarães SC,19/20,summer,Marcus Edwards,W,starter,5.398,3,2.0,1.35,addresses_problem|improves_problem,€150k,€1.2m,9254,True,€7.8m,3,8.479,4.708,3.0,0.146,0.0,0.625
 Liga Portugal,Vitória Guimarães SC,19/20,summer,Mikel Agu,MID,starter,2.0,1,1.0,1.0,addresses_problem|replaces_sold,€0,€2.0m,FC Porto,True,€0,2,0.829,2.186,-1.333,-0.016,0.0,-0.008
-Liga Portugal,Vitória Guimarães SC,19/20,summer,Pêpê,MID,starter,3.0,1,1.0,1.5,addresses_problem|replaces_sold,€0,€1.0m,10330,True,€3.0m,1,6.722,4.216,2.0,0.19,0.25,0.067
+Liga Portugal,Vitória Guimarães SC,19/20,summer,Pêpê,MID,starter,3.0,1,1.0,1.5,addresses_problem|replaces_sold,€0,€1.0m,10330,True,€3.0m,1,7.722,4.216,3.0,0.19,0.25,0.067
 Liga Portugal,Vitória Guimarães SC,19/20,winter,Easah Suliman,CB,starter,2.0,0,1.0,1.0,rotation_option|promoted_to_starter,,€200k,12124,True,€0,2,0.115,1.867,-1.333,-0.168,-0.5,0.25
 Liga Portugal,Vitória Guimarães SC,20/21,summer,Lyle Foster,CF,starter,3.407,0,1.0,1.7,addresses_problem|improves_problem|significant_outlay,€1.2m,€1.3m,AS Monaco,True,,1,0.099,0.654,,-0.555,0.16,-0.16
 Liga Portugal,Vitória Guimarães SC,20/21,summer,Matous Trmal,GK,starter,3.407,0,1.0,1.7,improves_problem|replaces_sold|significant_outlay,€1.2m,€1.0m,5544,True,€300k,3,0.0,0.784,-1.0,0.28,-0.375,0.044
@@ -2252,7 +2252,7 @@ Liga Portugal,CD Santa Clara,19/20,winter,Costinha,MID,starter,2.0,1,1.0,1.0,add
 Liga Portugal,CD Santa Clara,19/20,winter,Cryzan,CF,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem,,€350k,679,True,€2.0m,2,4.991,2.076,2.5,-0.18,0.5,0.095
 Liga Portugal,CD Santa Clara,20/21,summer,Shahriar Moghanlou,CF,starter,2.0,0,1.0,1.0,improves_problem|replaces_sold|significant_outlay,€80k,€300k,6078,True,€500k,1,3.336,0.9,2.5,-0.314,0.25,0.0
 Liga Portugal,CD Santa Clara,20/21,summer,Mikel Villanueva,CB,starter,3.0,2,1.5,1.0,improves_problem|rotation_option,€0,€475k,Málaga CF,True,€0,2,3.728,4.739,-1.333,-0.046,0.0,0.368
-Liga Portugal,CD Santa Clara,20/21,summer,Carlos Júnior,W,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem,,€650k,3352,True,€2.5m,1,8.289,6.0,2.0,0.14,-0.476,0.625
+Liga Portugal,CD Santa Clara,20/21,summer,Carlos Júnior,W,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem,,€650k,3352,True,€2.5m,1,7.861,7.5,,0.175,-0.595,0.781
 Liga Portugal,CD Santa Clara,20/21,summer,Mansur,CB,starter,3.0,2,1.5,1.0,improves_problem|rotation_option,,€550k,16655,True,,2,6.09,6.243,,-0.315,,0.162
 Liga Portugal,CD Santa Clara,20/21,summer,Jean Patric,W,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€300k,7788,True,€150k,2,0.366,1.795,-0.667,-0.318,-0.5,0.056
 Liga Portugal,CD Santa Clara,20/21,winter,Hidemasa Morita,MID,starter,4.5,2,1.5,1.5,improves_problem|replaces_sold|rotation_option,€0,€1.3m,9598,True,€3.5m,2,7.933,5.483,2.0,-0.153,0.135,0.468
@@ -2314,13 +2314,13 @@ Liga Portugal,Gil Vicente FC,21/22,summer,Giorgi Aburjania,MID,starter,2.0,1,1.0
 Liga Portugal,Gil Vicente FC,21/22,summer,Emmanuel Hackman,CB,starter,2.0,0,1.0,1.0,improves_problem|replaces_sold|rotation_option,€0,€200k,Portimonense SAD,True,€0,2,0.0,1.01,-1.333,-0.517,0.0,0.5
 Liga Portugal,Gil Vicente FC,21/22,summer,Matheus Bueno,MID,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€600k,776,True,€0,2,0.0,1.905,-1.333,-0.331,-0.5,-0.097
 Liga Portugal,Gil Vicente FC,21/22,summer,Jean Irmer,MID,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€500k,CS Marítimo,True,€0,1,0.0,0.022,-1.333,-0.294,-0.5,-0.067
-Liga Portugal,Gil Vicente FC,21/22,summer,Vítor Carvalho,MID,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem|replaces_sold,,€400k,776,True,€2.1m,2,7.894,5.4,2.5,-0.131,-0.5,0.625
+Liga Portugal,Gil Vicente FC,21/22,summer,Vítor Carvalho,MID,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem|replaces_sold,,€400k,776,True,€2.1m,2,6.743,6.75,,-0.163,-0.625,0.781
 Liga Portugal,Gil Vicente FC,21/22,summer,Bilel Aouacheria,W,starter,2.0,0,1.0,1.0,improves_problem|replaces_sold,,€350k,SC Farense,True,€0,2,0.0,1.499,-1.333,-0.348,-0.5,0.095
 Liga Portugal,Gil Vicente FC,21/22,summer,Marcelo dos Santos,CF,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€200k,1536,True,€0,1,0.0,0.022,-1.333,-0.592,-0.5,-0.042
 Liga Portugal,Gil Vicente FC,21/22,summer,Élder Santana,CF,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€75k,6023,True,€0,2,0.0,0.437,-1.333,-0.304,-0.5,0.5
 Liga Portugal,Gil Vicente FC,21/22,summer,Andrew,GK,starter,5.0,4,2.5,1.0,improves_problem|replaces_sold|rotation_option,,€50k,537,True,€1.5m,5,8.242,4.92,3.0,0.103,-0.5,0.719
 Liga Portugal,Gil Vicente FC,22/23,summer,Kanya Fujimoto,MID,starter,4.0,3,2.0,1.0,improves_problem|replaces_sold|significant_outlay,€600k,€2.0m,3734,True,€0,3,3.754,4.992,-1.333,-0.127,0.0,0.222
-Liga Portugal,Gil Vicente FC,22/23,summer,Stanislav Kritsyuk,GK,starter,2.0,0,1.0,1.0,addresses_problem,€0,€1.5m,964,True,€0,2,0.0,1.013,-1.333,0.112,0.0,-0.156
+Liga Portugal,Gil Vicente FC,22/23,summer,Stanislav Kritsyuk,GK,starter,2.0,0,1.0,1.0,addresses_problem,€0,€1.5m,964,True,€0,2,0.97,1.013,0.0,0.112,0.0,-0.156
 Liga Portugal,Gil Vicente FC,22/23,summer,Ali Alipour,CF,starter,2.0,0,1.0,1.0,improves_problem|rotation_option,€0,€1.5m,CS Marítimo,True,€0,2,0.0,1.443,-1.333,-0.469,0.0,-0.089
 Liga Portugal,Gil Vicente FC,22/23,summer,Adrián Marín,LB,starter,2.0,1,1.0,1.0,improves_problem|replaces_sold|rotation_option,€0,€1.5m,Granada CF,True,€600k,1,4.632,5.603,-0.8,-0.171,0.0,0.0
 Liga Portugal,Gil Vicente FC,22/23,summer,Pedro Tiba,MID,starter,3.0,2,1.5,1.0,improves_problem|replaces_sold|rotation_option,€0,€600k,238,True,€0,2,1.156,3.001,-1.333,-0.248,0.0,-0.264
@@ -2332,7 +2332,7 @@ Liga Portugal,Gil Vicente FC,23/24,summer,Roko Baturina,CF,starter,2.409,0,1.0,1
 Liga Portugal,Gil Vicente FC,23/24,summer,Jesús Castillo,MID,starter,2.174,0,1.0,1.09,addresses_problem|improves_problem|replaces_sold|significant_outlay,€500k,€750k,1450,True,€250k,2,0.064,1.156,-0.667,-0.403,0.0,-0.022
 Liga Portugal,Gil Vicente FC,23/24,summer,Maxime Dominguez,MID,starter,2.53,1,1.0,1.27,addresses_problem|improves_problem|replaces_sold|significant_outlay,€200k,€600k,9644,True,€1.5m,1,8.374,5.122,2.5,0.002,0.25,0.5
 Liga Portugal,Gil Vicente FC,23/24,summer,Zé Carlos,RB,starter,6.0,3,2.0,1.5,addresses_problem,€0,€700k,SC Braga,False,,3,6.523,5.591,,-0.116,0.5,0.548
-Liga Portugal,Gil Vicente FC,23/24,winter,Alex Pinto,RB,starter,2.0,1,1.0,1.0,addresses_problem,,€600k,4529,True,€0,1,2.721,4.658,-1.333,-0.104,-0.5,0.0
+Liga Portugal,Gil Vicente FC,23/24,winter,Alex Pinto,RB,starter,2.0,1,1.0,1.0,addresses_problem,,€600k,4529,True,€0,1,5.067,5.822,,-0.13,-0.625,0.0
 Liga Portugal,Gil Vicente FC,23/24,winter,Kazu,LB,starter,2.0,0,1.0,1.0,improves_problem|replaces_sold,,€400k,8827,True,,2,0.468,0.93,,-0.461,,0.0
 Liga Portugal,Gil Vicente FC,24/25,summer,Félix Correia,W,starter,2.0,1,1.0,1.0,improves_problem|replaces_sold|significant_outlay,€3.2m,€2.5m,41101,True,€7.0m,1,7.967,6.0,1.538,0.229,0.0,0.2
 Liga Portugal,Gil Vicente FC,24/25,summer,Mory Gbane,MID,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold|significant_outlay,€1.5m,€1.5m,3719,True,€5.0m,1,8.633,6.0,2.0,-0.117,0.25,0.5
@@ -2363,7 +2363,7 @@ Liga Portugal,Rio Ave FC,19/20,summer,Paweł Kieszek,GK,starter,4.5,2,1.5,1.5,im
 Liga Portugal,Rio Ave FC,19/20,summer,Pedro Amaral,LB,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem|replaces_sold,,€800k,10330,True,€1.0m,3,3.793,3.214,0.333,-0.206,0.5,-0.049
 Liga Portugal,Rio Ave FC,19/20,summer,Murilo,W,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€500k,3876,True,,1,0.0,0.0,,-0.18,,
 Liga Portugal,Rio Ave FC,20/21,summer,Gelson Dala,CF,starter,2.221,1,1.0,1.11,replaces_sold|significant_outlay,€375k,€1.0m,Sporting CP,True,€1.5m,1,7.64,5.475,2.0,-0.154,0.152,0.167
-Liga Portugal,Rio Ave FC,20/21,summer,Aderllan Santos,CB,starter,5.0,4,2.5,1.0,rotation_option|promoted_to_starter,€0,€2.0m,18487,True,€0,4,4.499,6.0,-1.333,0.083,0.0,-0.25
+Liga Portugal,Rio Ave FC,20/21,summer,Aderllan Santos,CB,starter,7.5,4,2.5,1.5,rotation_option|promoted_to_starter,€0,€2.0m,18487,True,€0,4,5.833,6.0,0.0,0.083,0.0,-0.25
 Liga Portugal,Rio Ave FC,20/21,summer,André Pereira,CF,starter,2.0,0,1.0,1.0,replaces_sold|rotation_option,€0,€1.6m,FC Porto,True,,3,1.696,1.775,,-0.43,0.625,-0.273
 Liga Portugal,Rio Ave FC,20/21,winter,Guga,MID,starter,4.0,3,2.0,1.0,improves_problem|replaces_sold|rotation_option,,€800k,FC Famalicão,True,€550k,3,4.415,5.48,-0.417,-0.468,-0.5,0.319
 Liga Portugal,Rio Ave FC,20/21,winter,Anderson Cruz,W,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€300k,6878,True,,1,0.351,0.871,,-0.52,,0.0
@@ -2446,7 +2446,7 @@ Liga Portugal,CF Estrela Amadora,25/26,winter,Eddy Doué,MID,starter,2.0,1,1.0,1
 Liga Portugal,CF Estrela Amadora,25/26,winter,Max Scholze,RB,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem,,€400k,69,False,,1,3.343,3.622,,-0.279,,0.0
 Ligue 1,Olympique Marseille,19/20,summer,Darío Benedetto,CF,starter,6.0,2,1.5,2.0,addresses_problem|improves_problem|significant_outlay,€14.0m,€15.0m,189,True,€3.0m,3,1.327,2.959,-1.048,-0.351,-0.063,-0.17
 Ligue 1,Olympique Marseille,19/20,summer,Valentin Rongier,MID,starter,10.0,5,2.5,2.0,improves_problem|replaces_sold|significant_outlay,€13.0m,€15.0m,FC Nantes,True,€5.5m,6,3.136,3.983,-0.769,0.079,-0.139,-0.019
-Ligue 1,Olympique Marseille,19/20,summer,Florian Chabrolle,MID,starter,2.0,0,1.0,1.0,improves_problem|replaces_sold|rotation_option,,€150k,8524,True,€0,1,0.0,0.045,-1.333,-0.54,-0.5,0.222
+Ligue 1,Olympique Marseille,19/20,summer,Florian Chabrolle,MID,starter,2.0,0,1.0,1.0,improves_problem|replaces_sold|rotation_option,,€150k,8524,True,€0,1,0.0,0.056,,-0.675,-0.625,0.278
 Ligue 1,Olympique Marseille,20/21,summer,Luis Henrique,W,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|significant_outlay,€8.0m,€5.0m,48640,True,€22.8m,4,4.219,2.517,2.0,-0.248,-0.323,0.273
 Ligue 1,Olympique Marseille,20/21,summer,Álvaro González,CB,starter,2.249,1,1.0,1.12,addresses_problem,€4.0m,€6.5m,Villarreal CF,True,€0,2,1.688,3.202,-1.333,-0.091,0.0,-0.09
 Ligue 1,Olympique Marseille,20/21,summer,Pape Gueye,MID,starter,3.0,2,1.5,1.0,replaces_sold|rotation_option,€0,€1.6m,Le Havre AC,True,€0,4,1.466,2.397,-1.333,-0.192,0.0,0.594
@@ -2456,7 +2456,7 @@ Ligue 1,Olympique Marseille,21/22,summer,Pol Lirola,RB,starter,4.0,1,1.0,2.0,imp
 Ligue 1,Olympique Marseille,21/22,summer,Leonardo Balerdi,CB,starter,5.0,4,2.5,1.0,improves_problem|significant_outlay,€11.0m,€8.0m,Borussia Dortmund,False,,5,5.057,4.608,,-0.001,-0.5,0.95
 Ligue 1,Olympique Marseille,21/22,summer,Luan Peres,CB,starter,2.0,1,1.0,1.0,improves_problem,€4.5m,€2.0m,221,True,€5.2m,1,5.532,5.218,0.216,0.058,-0.461,0.5
 Ligue 1,Olympique Marseille,21/22,summer,Konrad de la Fuente,W,starter,2.0,0,1.0,1.0,addresses_problem|replaces_sold,€3.0m,€4.0m,2464,True,,1,2.307,1.92,,-0.343,0.521,0.208
-Ligue 1,Olympique Marseille,21/22,summer,Oussama Targhalline,MID,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€200k,8524,True,€0,1,0.0,0.008,-1.333,-1.0,-0.5,0.0
+Ligue 1,Olympique Marseille,21/22,summer,Oussama Targhalline,MID,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€200k,8524,True,€0,1,0.0,0.01,,-1.25,-0.625,0.0
 Ligue 1,Olympique Marseille,21/22,winter,Samuel Gigot,CB,starter,4.266,2,1.5,1.42,improves_problem|rotation_option,€500k,€11.0m,232,True,€4.3m,2,6.729,3.723,2.5,0.052,0.5,-0.045
 Ligue 1,Olympique Marseille,21/22,winter,Cédric Bakambu,CF,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,€0,€12.0m,3176,True,€0,1,0.0,1.404,-1.333,-0.146,0.0,-0.111
 Ligue 1,Olympique Marseille,21/22,winter,Sead Kolasinac,CB,starter,2.0,1,1.0,1.0,improves_problem|rotation_option,€0,€3.0m,Arsenal FC,True,€0,2,1.669,3.017,-1.333,-0.264,0.0,0.25
@@ -2501,7 +2501,7 @@ Ligue 1,Olympique Marseille,25/26,summer,Neal Maupay,CF,starter,2.249,0,1.0,1.12
 Ligue 1,Olympique Marseille,25/26,summer,Emerson,LB,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold,€700k,€10.0m,West Ham United,False,,1,5.64,4.987,,0.153,0.5,0.0
 Ligue 1,Olympique Marseille,25/26,summer,Angel Gomes,MID,starter,2.0,0,1.0,1.0,replaces_sold|rotation_option,€0,€20.0m,LOSC Lille,False,,1,2.867,2.477,,-0.198,0.588,
 Ligue 1,Olympique Marseille,25/26,summer,Pierre-Emerick Aubameyang,CF,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem,€0,€3.5m,26069,False,,1,5.136,4.831,,-0.053,0.5,-0.143
-Ligue 1,Olympique Marseille,25/26,summer,Robinio Vaz,CF,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€150k,8524,True,€22.0m,1,5.19,1.711,3.158,-0.205,0.526,
+Ligue 1,Olympique Marseille,25/26,summer,Robinio Vaz,CF,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€150k,8524,True,€22.0m,1,2.574,2.167,,-0.26,0.667,
 Ligue 1,Olympique Marseille,25/26,winter,Tochukwu Nnadi,MID,starter,2.874,0,1.0,1.44,replaces_sold|significant_outlay,€6.0m,€2.0m,3508,False,,1,0.943,1.666,,-0.723,-0.5,0.5
 Ligue 1,Olympique Marseille,25/26,winter,Quinten Timber,MID,starter,2.0,1,1.0,1.0,replaces_sold|rotation_option,€4.5m,€25.0m,Feyenoord Rotterdam,False,,1,5.251,5.249,,-0.498,0.5,0.0
 Ligue 1,Olympique Marseille,25/26,winter,Himad Abdelli,MID,starter,2.0,0,1.0,1.0,replaces_sold|rotation_option,€2.8m,€7.0m,Angers SCO,False,,1,0.93,0.628,,-0.198,0.5,0.0
@@ -2509,7 +2509,7 @@ Liga Portugal,B SAD (2018-2024),19/20,summer,André Moreira,GK,starter,2.0,1,1.0
 Liga Portugal,B SAD (2018-2024),19/20,summer,Mateo Cassierra,CF,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem,,€1.8m,Ajax Amsterdam,True,€1.2m,2,3.007,4.13,-0.419,-0.175,-0.5,-0.029
 Liga Portugal,B SAD (2018-2024),19/20,summer,Chima Akas,CB,starter,3.0,2,1.5,1.0,replaces_sold|rotation_option,,€300k,3654,False,,3,2.337,2.562,,-0.401,,0.175
 Liga Portugal,B SAD (2018-2024),19/20,summer,Marco Matias,W,starter,2.0,0,1.0,1.0,replaces_sold|rotation_option,,€1.5m,515,True,,1,2.84,3.463,,-0.341,,-0.281
-Liga Portugal,B SAD (2018-2024),19/20,summer,Guilherme Oliveira,GK,starter,2.0,0,1.0,1.0,improves_problem|replaces_sold|rotation_option,,€75k,67969,True,€0,1,0.0,0.065,-1.481,-0.792,,
+Liga Portugal,B SAD (2018-2024),19/20,summer,Guilherme Oliveira,GK,starter,2.0,0,1.0,1.0,improves_problem|replaces_sold|rotation_option,,€75k,67969,True,€0,1,0.0,0.084,,-1.019,,
 Liga Portugal,B SAD (2018-2024),19/20,winter,Marco Matias,W,starter,2.0,1,1.0,1.0,replaces_sold|rotation_option,,€1.5m,515,True,,1,6.302,6.925,,-0.341,,-0.281
 Liga Portugal,B SAD (2018-2024),19/20,winter,Rúben Lima,LB,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem|replaces_sold,,€900k,515,True,€0,2,2.645,4.704,-1.333,-0.073,-0.5,-0.153
 Liga Portugal,B SAD (2018-2024),19/20,winter,Ricardo Ferreira,CB,starter,2.0,0,1.0,1.0,replaces_sold|rotation_option,,€700k,515,True,€0,1,0.0,1.538,-1.333,-0.139,-0.5,-0.107
@@ -2701,7 +2701,7 @@ Bundesliga,Bayern Munich,23/24,winter,Sacha Boey,RB,starter,4.0,0,1.0,2.0,addres
 Bundesliga,Bayern Munich,24/25,summer,Michael Olise,W,starter,3.0,2,1.5,1.0,addresses_problem|significant_outlay,€53.0m,€55.0m,Crystal Palace,False,,2,7.716,5.508,,0.989,0.061,1.159
 Bundesliga,Bayern Munich,24/25,summer,João Palhinha,MID,starter,4.0,0,1.0,2.0,addresses_problem|significant_outlay,€51.0m,€55.0m,Fulham FC,False,,1,0.703,1.595,,-0.559,0.121,-0.455
 Bundesliga,Bayern Munich,24/25,summer,Hiroki Ito,CB,starter,4.0,0,1.0,2.0,addresses_problem|improves_problem|replaces_sold|significant_outlay,€23.5m,€30.0m,VfB Stuttgart,False,,2,1.366,1.381,,-0.092,0.361,-0.283
-Bundesliga,Bayern Munich,24/25,summer,Eric Dier,CB,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold,€0,€12.0m,Tottenham Hotspur,True,€0,1,1.85,3.192,-1.333,0.103,0.0,-0.111
+Bundesliga,Bayern Munich,24/25,summer,Eric Dier,CB,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold,€0,€12.0m,Tottenham Hotspur,True,€0,1,3.184,3.192,0.0,0.103,0.0,-0.111
 Bundesliga,Bayern Munich,24/25,winter,Jonas Urbig,GK,starter,2.0,1,1.0,1.0,improves_problem,€7.0m,€3.0m,1.FC Köln,False,,2,4.056,3.009,,-0.141,-0.5,1.688
 Bundesliga,Bayern Munich,25/26,summer,Luis Díaz,W,starter,2.0,1,1.0,1.0,addresses_problem|replaces_sold|significant_outlay,€70.0m,€70.0m,Liverpool FC,False,,1,5.98,5.785,,0.195,0.0,0.0
 Bundesliga,Bayern Munich,25/26,summer,Jonathan Tah,CB,starter,2.684,1,1.0,1.34,addresses_problem|replaces_sold,€2.0m,€30.0m,Bayer 04 Leverkusen,False,,1,5.625,4.765,,0.426,0.5,-0.067
@@ -2857,7 +2857,7 @@ Premier League,Manchester City,23/24,summer,Jérémy Doku,W,starter,4.0,3,2.0,1.
 Premier League,Manchester City,23/24,summer,Mateo Kovacic,MID,starter,6.0,2,1.5,2.0,replaces_sold|significant_outlay,€29.1m,€38.0m,Chelsea FC,False,,3,2.552,2.729,,-0.111,0.39,-0.456
 Premier League,Manchester City,23/24,winter,Claudio Echeverri,MID,starter,3.029,0,1.0,1.51,replaces_sold|significant_outlay,€18.5m,€12.0m,209,False,,1,0.0,0.011,,-0.882,-0.5,0.5
 Premier League,Manchester City,24/25,summer,Savinho,W,starter,2.0,1,1.0,1.0,addresses_problem|significant_outlay,€25.0m,€50.0m,ESTAC Troyes,False,,2,3.098,2.738,,-0.04,0.5,-0.1
-Premier League,Manchester City,24/25,summer,İlkay Gündoğan,MID,rotation,1.5,1,1.0,1.5,rotation_option,€0,€15.0m,FC Barcelona,True,€0,1,7.159,6.0,0.0,0.992,0.0,0.167
+Premier League,Manchester City,24/25,summer,İlkay Gündoğan,MID,rotation,1.5,1,1.0,1.5,rotation_option,€0,€15.0m,FC Barcelona,True,€0,1,9.159,6.0,2.0,0.992,0.0,0.167
 Premier League,Manchester City,24/25,winter,Omar Marmoush,CF,starter,2.0,1,1.0,1.0,replaces_sold|significant_outlay,€75.0m,€60.0m,Eintracht Frankfurt,False,,2,3.107,3.236,,0.163,-0.417,0.125
 Premier League,Manchester City,24/25,winter,Nico González,MID,starter,3.0,2,1.5,1.0,significant_outlay,€60.0m,€18.0m,FC Porto,False,,2,3.937,3.268,,-0.192,-0.5,1.361
 Premier League,Manchester City,24/25,winter,Abdukodir Khusanov,CB,starter,2.0,1,1.0,1.0,significant_outlay,€40.0m,€12.0m,RC Lens,False,,2,3.355,2.573,,-0.218,-0.5,1.5
@@ -3102,7 +3102,7 @@ Eredivisie,SC Heerenveen,22/23,summer,Hussein Ali,RB,starter,2.0,0,1.0,1.0,rotat
 Eredivisie,SC Heerenveen,22/23,winter,Osame Sahraoui,W,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem|significant_outlay,€2.6m,€2.0m,76,True,€8.0m,2,7.127,5.134,2.0,-0.208,-0.299,0.5
 Eredivisie,SC Heerenveen,22/23,winter,Daniel Karlsbakk,CF,starter,4.0,0,1.0,2.0,addresses_problem|improves_problem|significant_outlay,€2.3m,€750k,239,True,€500k,3,0.0,0.842,-1.043,-0.58,-0.5,0.356
 Eredivisie,SC Heerenveen,22/23,winter,Jeffrey Bruma,CB,starter,2.0,1,1.0,1.0,improves_problem|replaces_sold|rotation_option,€0,€450k,10484,True,€0,1,1.358,2.863,-1.333,-0.171,0.0,0.0
-Eredivisie,SC Heerenveen,22/23,winter,Pelle van Amersfoort,CF,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem,,€1.5m,515,True,€380k,2,3.142,4.953,-0.996,-0.282,-0.5,-0.033
+Eredivisie,SC Heerenveen,22/23,winter,Pelle van Amersfoort,CF,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem,,€1.5m,515,True,€380k,2,5.172,6.191,,-0.353,-0.625,-0.042
 Eredivisie,SC Heerenveen,22/23,winter,Ché Nunnely,W,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem,,€700k,515,True,€0,3,0.0,2.237,-1.333,-0.391,-0.5,-0.032
 Eredivisie,SC Heerenveen,23/24,summer,Ion Nicolaescu,CF,starter,3.525,1,1.0,1.76,improves_problem|significant_outlay,€1.3m,€1.0m,3793,True,€1.3m,2,1.479,2.146,0.0,-0.389,-0.361,0.083
 Eredivisie,SC Heerenveen,23/24,summer,Denzel Hall,RB,starter,2.0,0,1.0,1.0,replaces_sold|rotation_option,€300k,€600k,Feyenoord Rotterdam,True,,2,1.199,1.31,,-0.597,0.625,-0.139
@@ -3276,7 +3276,7 @@ LaLiga,CA Osasuna,22/23,summer,Aitor Fernández,GK,starter,2.0,1,1.0,1.0,improve
 LaLiga,CA Osasuna,22/23,summer,Rubén Peña,RB,starter,2.0,1,1.0,1.0,improves_problem|rotation_option,€0,€2.5m,Villarreal CF,True,€0,3,1.076,2.697,-1.333,-0.216,0.0,-0.071
 LaLiga,CA Osasuna,23/24,summer,Raúl García,CF,starter,4.0,0,1.0,2.0,addresses_problem|improves_problem|replaces_sold|significant_outlay,€7.0m,€4.0m,Real Betis Balompié,False,,3,0.689,2.175,,-0.819,-0.5,-0.167
 LaLiga,CA Osasuna,23/24,summer,Alejandro Catena,CB,starter,6.0,3,2.0,1.5,addresses_problem|improves_problem|replaces_sold,€0,€8.0m,Rayo Vallecano,False,,3,6.069,6.114,,0.047,0.5,-0.592
-LaLiga,CA Osasuna,23/24,summer,José Manuel Arnáiz,W,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,€0,€3.2m,CD Leganés,True,€0,2,0.0,1.017,-1.333,-0.339,0.0,-0.151
+LaLiga,CA Osasuna,23/24,summer,José Manuel Arnáiz,W,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,€0,€3.2m,CD Leganés,True,€0,2,0.527,1.017,0.0,-0.339,0.0,-0.151
 LaLiga,CA Osasuna,24/25,summer,Enzo Boyomo,CB,starter,3.0,2,1.5,1.0,improves_problem|replaces_sold|significant_outlay,€5.0m,€3.0m,Real Valladolid CF,False,,2,7.14,5.842,,-0.077,-0.5,1.875
 LaLiga,CA Osasuna,24/25,summer,Abel Bretones,LB,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem|significant_outlay,€2.8m,€1.8m,Real Oviedo,False,,2,4.339,3.893,,-0.277,-0.5,1.222
 LaLiga,CA Osasuna,25/26,summer,Víctor Muñoz,W,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|significant_outlay,€5.0m,€1.0m,6767,False,,1,7.117,5.638,,-0.272,-0.5,2.25
@@ -3388,7 +3388,7 @@ Liga Portugal,Sporting CP,20/21,winter,Paulinho,CF,starter,5.0,4,2.5,1.0,address
 Liga Portugal,Sporting CP,20/21,winter,João Pereira,RB,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,€0,€300k,449,True,,1,1.544,1.264,,-0.345,0.625,0.0
 Liga Portugal,Sporting CP,21/22,summer,Manuel Ugarte,MID,starter,2.0,1,1.0,1.0,addresses_problem|significant_outlay,€24.5m,€5.0m,FC Famalicão,True,€60.0m,2,6.203,3.78,1.932,-0.05,-0.083,0.625
 Liga Portugal,Sporting CP,21/22,summer,Ricardo Esgaio,RB,starter,8.0,3,2.0,2.0,significant_outlay,€5.5m,€6.0m,SC Braga,True,€0,4,0.708,2.468,-1.333,-0.093,-0.181,-0.153
-Liga Portugal,Sporting CP,21/22,summer,Matheus Reis,LB,starter,5.0,4,2.5,1.0,rotation_option|promoted_to_starter,€0,€2.5m,Rio Ave FC,True,€0,5,2.568,3.407,-1.333,0.003,0.0,0.492
+Liga Portugal,Sporting CP,21/22,summer,Matheus Reis,LB,starter,5.0,4,2.5,1.0,rotation_option|promoted_to_starter,€0,€2.5m,Rio Ave FC,True,€0,5,3.902,3.407,0.0,0.003,0.0,0.492
 Liga Portugal,Sporting CP,21/22,winter,Marcus Edwards,W,starter,3.0,2,1.5,1.0,addresses_problem|significant_outlay,€7.8m,€13.0m,Vitória Guimarães SC,True,€10.0m,4,3.328,2.608,0.387,0.062,0.111,0.16
 Liga Portugal,Sporting CP,21/22,winter,Islam Slimani,CF,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,€0,€2.5m,Olympique Lyon,True,€0,1,0.179,1.878,-1.333,-0.232,0.0,-0.133
 Liga Portugal,Sporting CP,22/23,summer,Jeremiah St. Juste,CB,starter,4.0,0,1.0,2.0,significant_outlay,€10.0m,€16.0m,1.FSV Mainz 05,True,€0,3,0.0,1.466,-1.333,-0.214,0.0,-0.146
@@ -3554,7 +3554,7 @@ Ligue 1,Clermont Foot 63,23/24,summer,Massamba N'Diaye,GK,rotation,1.0,0,1.0,1.0
 Ligue 1,Clermont Foot 63,23/24,summer,Yoël Armougom,LB,starter,2.0,0,1.0,1.0,improves_problem|rotation_option,,€400k,750,False,,1,0.0,0.574,,-0.565,,-0.263
 LaLiga,Real Valladolid CF,19/20,summer,Pablo Hervías,W,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|significant_outlay,€1.0m,€700k,SD Eibar,True,€0,2,0.211,2.15,-1.333,-0.284,-0.5,0.179
 LaLiga,Real Valladolid CF,19/20,summer,Marcos André,CF,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€400k,7078,False,,2,3.695,2.626,,-0.707,,1.776
-LaLiga,Real Valladolid CF,19/20,summer,Mohammed Salisu,CB,starter,2.0,1,1.0,1.0,improves_problem|replaces_sold,,€250k,7078,True,€12.0m,1,9.086,5.314,3.0,0.022,0.0,0.75
+LaLiga,Real Valladolid CF,19/20,summer,Mohammed Salisu,CB,starter,2.0,1,1.0,1.0,improves_problem|replaces_sold,,€250k,7078,True,€12.0m,1,7.607,6.642,,0.027,0.0,0.938
 LaLiga,Real Valladolid CF,19/20,winter,Sekou Gassama,CF,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,€400k,€500k,UD Almería,False,,1,0.0,0.074,,-0.901,0.333,-0.4
 LaLiga,Real Valladolid CF,19/20,winter,Hatem Ben Arfa,MID,starter,2.0,0,1.0,1.0,improves_problem,,€6.0m,515,True,,1,0.0,0.821,,-0.781,,-0.148
 LaLiga,Real Valladolid CF,20/21,summer,Shon Weissman,CF,starter,3.954,1,1.0,1.98,improves_problem|significant_outlay,€4.0m,€6.0m,4441,False,,2,2.768,3.059,,-0.624,0.5,-0.167
@@ -3566,7 +3566,7 @@ LaLiga,Real Valladolid CF,20/21,summer,Roque Mesa,MID,starter,3.0,2,1.5,1.0,addr
 LaLiga,Real Valladolid CF,20/21,summer,Fabián Orellana,W,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem,€0,€1.6m,SD Eibar,False,,1,4.217,4.545,,-0.765,0.5,-0.062
 LaLiga,Real Valladolid CF,20/21,summer,Bruno González,CB,starter,2.0,1,1.0,1.0,improves_problem|replaces_sold|rotation_option,€0,€1.2m,Levante UD,False,,1,4.835,4.775,,-0.273,0.5,-0.167
 LaLiga,Real Valladolid CF,20/21,summer,Luis Pérez,RB,starter,2.0,1,1.0,1.0,improves_problem|replaces_sold|rotation_option,€0,€650k,648,False,,3,4.786,3.569,,-0.232,0.5,0.949
-LaLiga,Real Valladolid CF,20/21,summer,Kike Pérez,MID,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem,,€250k,7078,True,€1.0m,3,5.766,3.814,2.0,-0.215,-0.5,0.667
+LaLiga,Real Valladolid CF,20/21,summer,Kike Pérez,MID,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem,,€250k,7078,True,€1.0m,3,4.707,4.767,,-0.268,-0.625,0.833
 LaLiga,Real Valladolid CF,22/23,summer,Gonzalo Plata,W,starter,2.0,1,1.0,1.0,significant_outlay,€9.0m,€6.0m,Sporting CP,False,,1,3.866,4.876,,-0.344,-0.5,-0.167
 LaLiga,Real Valladolid CF,22/23,summer,Monchu,MID,starter,2.114,1,1.0,1.06,significant_outlay,€1.2m,€3.0m,Granada CF,True,€3.6m,1,6.113,3.963,2.0,-0.089,0.017,0.222
 LaLiga,Real Valladolid CF,22/23,summer,Kenedy,W,starter,2.0,0,1.0,1.0,squad_addition,€500k,€7.0m,Chelsea FC,False,,2,0.0,0.289,,-1.014,0.5,-0.871
@@ -3602,7 +3602,7 @@ LaLiga,Rayo Vallecano,23/24,summer,Florian Lejeune,CB,starter,4.0,3,2.0,1.0,impr
 LaLiga,Rayo Vallecano,23/24,summer,Dani Cárdenas,GK,starter,2.0,0,1.0,1.0,improves_problem|significant_outlay,€1.3m,€2.0m,Levante UD,False,,3,0.925,0.697,,-0.171,0.5,-0.1
 LaLiga,Rayo Vallecano,23/24,summer,Aridane Hernández,CB,starter,2.0,1,1.0,1.0,improves_problem|replaces_sold|rotation_option,€0,€1.0m,CA Osasuna,True,,2,3.7,3.307,,-0.044,0.625,-0.187
 LaLiga,Rayo Vallecano,24/25,summer,Pedro Díaz,MID,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem,€0,€2.5m,FC Girondins Bordeaux,False,,2,3.531,3.247,,-0.415,0.5,0.2
-LaLiga,Rayo Vallecano,24/25,summer,Sergi Guardiola,CF,starter,2.0,0,1.0,1.0,improves_problem,,€800k,515,True,€0,1,0.0,0.676,-1.333,-0.595,-0.5,-0.125
+LaLiga,Rayo Vallecano,24/25,summer,Sergi Guardiola,CF,starter,2.0,0,1.0,1.0,improves_problem,,€800k,515,True,€0,1,0.0,0.846,,-0.744,-0.625,-0.156
 LaLiga,Rayo Vallecano,25/26,summer,Alemão,CF,starter,4.0,0,1.0,2.0,addresses_problem|improves_problem|significant_outlay,€4.5m,€3.5m,4035,False,,1,1.154,2.393,,-0.62,-0.476,-0.143
 LaLiga,Rayo Vallecano,25/26,summer,Augusto Batalla,GK,starter,2.0,1,1.0,1.0,significant_outlay,€1.6m,€6.0m,209,False,,1,6.854,6.462,,-0.108,0.5,0.0
 LaLiga,Rayo Vallecano,25/26,summer,Fran Pérez,W,starter,2.0,0,1.0,1.0,improves_problem|significant_outlay,€1.0m,€3.0m,Valencia CF,False,,1,2.412,2.604,,-0.692,0.5,0.0
@@ -3635,7 +3635,7 @@ LaLiga,Sevilla FC,21/22,winter,Jesús Corona,W,starter,2.185,1,1.0,1.09,improves
 LaLiga,Sevilla FC,22/23,summer,Tanguy Nianzou,CB,starter,4.0,1,1.0,2.0,addresses_problem|replaces_sold|significant_outlay,€16.0m,€9.0m,Bayern Munich,False,,4,0.0,1.506,,-0.391,-0.5,-0.628
 LaLiga,Sevilla FC,22/23,summer,Marcão,CB,starter,4.0,0,1.0,2.0,addresses_problem|replaces_sold|significant_outlay,€13.0m,€14.0m,141,False,,4,0.263,1.17,,-0.312,0.119,-0.714
 LaLiga,Sevilla FC,22/23,summer,Isco,MID,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem,€0,€7.5m,Real Madrid,True,,1,4.163,3.913,,-0.236,0.625,-0.139
-LaLiga,Sevilla FC,22/23,summer,Iván Romero,CF,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€600k,8519,True,€100k,1,0.0,0.019,-1.111,-0.501,-0.5,0.111
+LaLiga,Sevilla FC,22/23,summer,Iván Romero,CF,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€600k,8519,True,€100k,1,0.0,0.024,,-0.626,-0.625,0.139
 LaLiga,Sevilla FC,22/23,summer,Juanlu Sánchez,RB,starter,3.0,2,1.5,1.0,replaces_sold|rotation_option,,€500k,8519,False,,3,5.862,3.624,,-0.13,,2.368
 LaLiga,Sevilla FC,22/23,summer,José Ángel Carmona,RB,starter,3.0,2,1.5,1.0,replaces_sold|rotation_option,,€200k,8519,False,,3,6.723,4.48,,-0.125,,2.368
 LaLiga,Sevilla FC,22/23,winter,Federico Gattoni,CB,starter,2.0,0,1.0,1.0,addresses_problem|replaces_sold,€1.4m,€4.5m,1775,False,,2,0.0,0.019,,-0.469,0.5,-0.5
@@ -3657,7 +3657,7 @@ LaLiga,Sevilla FC,25/26,summer,Gabriel Suazo,LB,starter,2.0,1,1.0,1.0,improves_p
 LaLiga,Sevilla FC,25/26,summer,César Azpilicueta,CB,starter,2.0,0,1.0,1.0,improves_problem|replaces_sold|rotation_option,€0,€1.5m,Atlético de Madrid,False,,1,2.911,2.572,,0.039,0.5,-0.2
 LaLiga,Sevilla FC,25/26,summer,Alexis Sánchez,CF,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,€0,€1.5m,Udinese Calcio,False,,1,2.694,2.745,,-0.484,0.5,-0.067
 LaLiga,Sevilla FC,25/26,summer,Manu Bueno,MID,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€1.5m,8519,False,,1,0.1,0.6,,-0.501,,0.0
-LaLiga,Sevilla FC,25/26,summer,Ramón Martínez,CB,starter,2.0,0,1.0,1.0,improves_problem|replaces_sold|rotation_option,,€1.0m,8519,True,€0,1,0.0,0.41,-1.404,-0.509,-0.526,
+LaLiga,Sevilla FC,25/26,summer,Ramón Martínez,CB,starter,2.0,0,1.0,1.0,improves_problem|replaces_sold|rotation_option,,€1.0m,8519,True,€0,1,0.0,0.52,,-0.645,-0.667,
 LaLiga,Sevilla FC,25/26,winter,Oso,LB,starter,2.0,1,1.0,1.0,improves_problem,,€2.0m,8519,False,,1,7.704,6.264,,-0.139,,1.579
 LaLiga,Sevilla FC,25/26,winter,Andrés Castrín,CB,starter,2.0,1,1.0,1.0,improves_problem|replaces_sold|rotation_option,,€1.5m,8519,False,,1,5.903,5.673,,0.231,,0.0
 LaLiga,Getafe CF,19/20,summer,Enric Gallego,CF,starter,4.0,0,1.0,2.0,improves_problem|significant_outlay,€6.0m,€3.0m,SD Huesca,True,€3.0m,1,0.0,0.316,-0.667,-0.258,0.0,-0.2
@@ -3671,7 +3671,7 @@ LaLiga,Getafe CF,21/22,summer,Jakub Jankto,W,starter,4.0,0,1.0,2.0,addresses_pro
 LaLiga,Getafe CF,21/22,summer,Carles Aleñá,MID,starter,6.0,2,1.5,2.0,addresses_problem|improves_problem|replaces_sold|significant_outlay,€5.0m,€15.0m,FC Barcelona,True,€1.0m,4,1.295,2.887,-1.067,-0.322,0.0,-0.203
 LaLiga,Getafe CF,21/22,summer,Jonathan Silva,LB,starter,2.689,0,1.0,1.34,improves_problem|replaces_sold|significant_outlay,€2.5m,€1.5m,CD Leganés,True,€0,1,0.0,0.429,-1.333,-0.532,-0.5,0.067
 LaLiga,Getafe CF,21/22,summer,Stefan Mitrovic,CB,starter,4.0,3,2.0,1.0,addresses_problem|improves_problem|significant_outlay,€1.0m,€2.2m,RC Strasbourg Alsace,True,€500k,3,2.778,3.736,-0.667,-0.215,0.0,-0.076
-LaLiga,Getafe CF,21/22,summer,Darío Poveda,CF,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,€0,€400k,3679,True,€0,1,0.0,0.723,-1.333,-0.493,0.0,0.167
+LaLiga,Getafe CF,21/22,summer,Darío Poveda,CF,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,€0,€400k,3679,True,€0,1,0.397,0.723,0.0,-0.493,0.0,0.167
 LaLiga,Getafe CF,22/23,summer,Borja Mayoral,CF,starter,3.0,2,1.5,1.0,improves_problem|significant_outlay,€10.0m,€9.0m,Real Madrid,False,,4,3.246,3.758,,-0.411,-0.185,0.083
 LaLiga,Getafe CF,22/23,summer,Luis Milla,MID,starter,5.0,4,2.5,1.0,improves_problem|significant_outlay,€5.0m,€5.0m,Granada CF,False,,4,5.03,5.249,,0.057,0.0,-0.275
 LaLiga,Getafe CF,22/23,summer,Domingos Duarte,CB,starter,4.0,3,2.0,1.0,improves_problem,€750k,€8.0m,Granada CF,False,,4,3.872,4.412,,-0.309,0.5,-0.731
@@ -3848,7 +3848,7 @@ Eredivisie,Fortuna Sittard,22/23,summer,Doğan Erdoğan,MID,starter,2.0,1,1.0,1.
 Eredivisie,Fortuna Sittard,22/23,summer,Oğuzhan Özyakup,MID,starter,2.0,1,1.0,1.0,improves_problem|replaces_sold|rotation_option,€0,€1.0m,114,True,€0,2,1.159,2.785,-1.333,-0.21,0.0,-0.083
 Eredivisie,Fortuna Sittard,22/23,summer,Ivo Pinto,RB,starter,5.0,4,2.5,1.0,improves_problem|replaces_sold|rotation_option,€0,€500k,419,False,,4,5.609,5.681,,-0.322,0.5,-0.25
 Eredivisie,Fortuna Sittard,22/23,summer,Rémy Vita,LB,starter,2.0,0,1.0,1.0,rotation_option|promoted_to_starter,,€1.0m,28,True,,2,1.932,2.569,,-0.459,,-0.178
-Eredivisie,Fortuna Sittard,22/23,summer,Michael Verrips,GK,rotation,1.0,0,1.0,1.0,rotation_option,,€800k,Sheffield United,True,€0,1,5.737,5.294,0.0,0.537,-0.5,0.406
+Eredivisie,Fortuna Sittard,22/23,summer,Michael Verrips,GK,rotation,1.0,0,1.0,1.0,rotation_option,,€800k,Sheffield United,True,€0,1,7.172,6.618,,0.671,-0.625,0.508
 Eredivisie,Fortuna Sittard,22/23,summer,Ximo Navarro,RB,starter,2.0,0,1.0,1.0,improves_problem|replaces_sold,,€1.2m,515,True,€0,1,0.514,2.634,-1.333,-0.12,-0.5,-0.167
 Eredivisie,Fortuna Sittard,22/23,winter,Stipe Radic,CB,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€800k,515,True,€0,1,0.0,1.216,-1.333,-0.401,-0.5,-0.083
 Eredivisie,Fortuna Sittard,23/24,summer,Ivor Pandur,GK,starter,2.0,1,1.0,1.0,improves_problem|replaces_sold|significant_outlay,€1.4m,€2.0m,Hellas Verona,True,€2.0m,1,6.688,6.0,0.571,-0.133,0.25,0.0
@@ -3973,7 +3973,7 @@ Serie A,SS Lazio,21/22,summer,Dimitrije Kamenovic,LB,starter,2.858,0,1.0,1.43,im
 Serie A,SS Lazio,21/22,summer,Elseid Hysaj,RB,starter,3.0,2,1.5,1.0,improves_problem|rotation_option,€0,€13.0m,SSC Napoli,False,,5,2.005,2.453,,-0.182,0.5,-0.766
 Serie A,SS Lazio,21/22,summer,Pedro,W,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem,€0,€5.0m,AS Roma,False,,5,2.461,2.869,,-0.208,0.5,-0.7
 Serie A,SS Lazio,22/23,summer,Luís Maximiano,GK,starter,4.0,0,1.0,2.0,addresses_problem|improves_problem|replaces_sold|significant_outlay,€10.5m,€12.0m,Granada CF,True,€8.1m,1,0.0,0.012,-0.305,-1.0,0.354,-0.167
-Serie A,SS Lazio,22/23,summer,Nicolò Casale,CB,starter,6.0,2,1.5,2.0,replaces_sold|significant_outlay,€8.0m,€7.5m,Hellas Verona,True,€6.5m,3,2.58,2.682,-0.25,-0.107,0.014,0.241
+Serie A,SS Lazio,22/23,summer,Nicolò Casale,CB,starter,3.0,2,1.5,1.0,replaces_sold|significant_outlay,€8.0m,€7.5m,Hellas Verona,True,€6.5m,3,2.58,2.682,-0.25,-0.107,0.014,0.241
 Serie A,SS Lazio,22/23,summer,Marcos Antônio,MID,starter,4.0,0,1.0,2.0,addresses_problem|replaces_sold|significant_outlay,€7.5m,€8.0m,660,True,€4.2m,1,0.191,1.148,-0.587,-0.173,-0.198,0.0
 Serie A,SS Lazio,22/23,summer,Mattia Zaccagni,W,starter,5.0,4,2.5,1.0,addresses_problem|improves_problem|significant_outlay,€7.1m,€18.0m,Hellas Verona,False,,4,5.846,5.056,,0.213,0.5,0.076
 Serie A,SS Lazio,22/23,summer,Mario Gila,CB,starter,4.0,3,2.0,1.0,replaces_sold|significant_outlay,€6.0m,€500k,6767,False,,4,5.434,3.762,,0.017,-0.5,2.156
@@ -4203,14 +4203,14 @@ Ligue 1,FC Toulouse,23/24,summer,Frank Magri,CF,starter,4.0,3,2.0,1.0,improves_p
 Ligue 1,FC Toulouse,23/24,summer,Cristian Cásseres Jr.,MID,starter,4.826,3,2.0,1.21,replaces_sold|rotation_option,€1.0m,€3.5m,623,False,,3,6.889,5.628,,-0.025,0.5,0.786
 Ligue 1,FC Toulouse,23/24,summer,César Gelabert,MID,starter,2.0,0,1.0,1.0,replaces_sold|rotation_option,€0,€700k,13222,True,€2.0m,1,4.091,1.649,2.0,-0.189,0.25,0.381
 Ligue 1,FC Toulouse,23/24,summer,Álex Domínguez,GK,starter,2.0,0,1.0,1.0,replaces_sold|rotation_option,,€300k,UD Las Palmas,False,,3,0.0,0.015,,-0.917,,-0.058
-Ligue 1,FC Toulouse,23/24,summer,Christian Mawissa,CB,starter,2.0,0,1.0,1.0,improves_problem|rotation_option,,€250k,9371,True,€16.0m,1,6.472,2.431,3.0,-0.209,0.5,0.75
+Ligue 1,FC Toulouse,23/24,summer,Christian Mawissa,CB,starter,2.0,0,1.0,1.0,improves_problem|rotation_option,,€250k,9371,True,€16.0m,1,4.34,3.039,,-0.261,0.625,0.938
 Ligue 1,FC Toulouse,23/24,winter,Shavy Babicka,W,starter,2.614,0,1.0,1.31,addresses_problem|improves_problem|significant_outlay,€2.8m,€1.0m,10586,True,€4.0m,2,2.617,2.082,0.606,-0.487,0.0,0.417
 Ligue 1,FC Toulouse,23/24,winter,Yann Gboho,W,starter,4.0,3,2.0,1.0,addresses_problem|improves_problem|significant_outlay,€2.5m,€2.5m,520,False,,3,7.034,5.784,,-0.075,0.0,1.325
 Ligue 1,FC Toulouse,24/25,summer,Charlie Cresswell,CB,starter,3.0,2,1.5,1.0,improves_problem|replaces_sold|significant_outlay,€4.5m,€4.0m,Leeds United,False,,2,7.69,6.049,,0.161,-0.208,1.688
 Ligue 1,FC Toulouse,24/25,summer,Mark McKenzie,CB,starter,3.0,2,1.5,1.0,improves_problem|replaces_sold|significant_outlay,€3.0m,€6.0m,1184,False,,2,6.131,5.785,,-0.154,0.5,0.0
 Ligue 1,FC Toulouse,24/25,summer,Joshua King,CF,starter,2.0,1,1.0,1.0,improves_problem|replaces_sold|rotation_option,€0,€2.3m,36,True,€0,1,2.195,3.662,-1.333,-0.062,0.0,-0.072
 Ligue 1,FC Toulouse,24/25,summer,Djibril Sidibé,RB,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem|replaces_sold,€0,€1.5m,2441,False,,2,5.104,5.018,,-0.08,0.5,-0.333
-Ligue 1,FC Toulouse,24/25,winter,Noah Edjouma,W,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€50k,9371,True,€5.0m,2,4.578,0.895,3.0,-0.567,0.5,0.75
+Ligue 1,FC Toulouse,24/25,winter,Noah Edjouma,W,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€50k,9371,True,€5.0m,2,1.973,1.119,,-0.709,0.625,0.938
 Ligue 1,FC Toulouse,24/25,winter,Jaydee Canvot,CB,starter,2.0,1,1.0,1.0,improves_problem|replaces_sold|rotation_option,,€50k,9371,True,€23.0m,1,8.886,4.815,3.0,-0.179,0.5,0.75
 Ligue 1,FC Toulouse,25/26,summer,Emersonn,CF,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold|significant_outlay,€3.2m,€1.4m,1467,False,,1,3.927,3.55,,-0.623,-0.5,1.5
 Ligue 1,FC Toulouse,25/26,summer,Santiago Hidalgo,CF,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold|significant_outlay,€2.5m,€1.5m,1234,False,,1,3.678,3.075,,-0.397,-0.5,1.5
@@ -4222,11 +4222,11 @@ Serie A,Torino FC,19/20,summer,Simone Zaza,CF,starter,6.0,2,1.5,2.0,improves_pro
 Serie A,Torino FC,19/20,summer,Ola Aina,RB,starter,6.0,2,1.5,2.0,improves_problem|significant_outlay,€9.8m,€10.0m,Chelsea FC,True,€0,3,1.115,2.851,-1.333,-0.003,-0.233,-0.167
 Serie A,Torino FC,19/20,summer,Koffi Djidji,CB,starter,3.0,2,1.5,1.0,replaces_sold|significant_outlay,€3.0m,€5.0m,FC Nantes,True,,4,3.75,3.514,,-0.216,0.625,-0.173
 Serie A,Torino FC,19/20,summer,Cristian Ansaldi,LB,starter,4.279,2,1.5,1.43,addresses_problem|significant_outlay,€2.5m,€5.0m,Inter Milan,True,€0,3,1.24,2.854,-1.333,-0.096,0.0,-0.184
-Serie A,Torino FC,19/20,summer,Vincenzo Millico,W,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€1.0m,12130,True,€18k,2,0.0,0.219,-1.309,-0.509,-0.5,0.167
-Serie A,Torino FC,19/20,summer,Ben Lhassine Kone,MID,starter,2.0,0,1.0,1.0,improves_problem|rotation_option,,€200k,12130,True,€2.1m,1,3.781,0.158,3.0,-0.294,0.5,0.417
-Serie A,Torino FC,19/20,summer,Wilfried Singo,CB,starter,4.0,3,2.0,1.0,replaces_sold|rotation_option,,€125k,12130,True,€9.1m,4,6.369,3.245,3.0,-0.052,-0.403,0.579
-Serie A,Torino FC,19/20,summer,Luca Gemello,GK,starter,2.0,0,1.0,1.0,rotation_option|promoted_to_starter,,€100k,12130,True,€0,4,0.0,0.132,-1.333,0.063,-0.5,0.354
-Serie A,Torino FC,19/20,winter,Michel Adopo,MID,starter,2.0,0,1.0,1.0,improves_problem|rotation_option,,€150k,12130,True,€0,2,0.0,0.261,-1.333,-0.438,-0.5,0.306
+Serie A,Torino FC,19/20,summer,Vincenzo Millico,W,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€1.0m,12130,True,€18k,2,0.0,0.274,,-0.637,-0.625,0.208
+Serie A,Torino FC,19/20,summer,Ben Lhassine Kone,MID,starter,2.0,0,1.0,1.0,improves_problem|rotation_option,,€200k,12130,True,€2.1m,1,0.976,0.197,,-0.367,0.625,0.521
+Serie A,Torino FC,19/20,summer,Wilfried Singo,CB,starter,4.0,3,2.0,1.0,replaces_sold|rotation_option,,€125k,12130,True,€9.1m,4,4.211,4.056,,-0.065,-0.503,0.724
+Serie A,Torino FC,19/20,summer,Luca Gemello,GK,starter,2.0,0,1.0,1.0,rotation_option|promoted_to_starter,,€100k,12130,True,€0,4,0.062,0.164,,0.079,-0.625,0.443
+Serie A,Torino FC,19/20,winter,Michel Adopo,MID,starter,2.0,0,1.0,1.0,improves_problem|rotation_option,,€150k,12130,True,€0,2,0.0,0.327,,-0.547,-0.625,0.382
 Serie A,Torino FC,20/21,summer,Simone Verdi,MID,starter,4.0,1,1.0,2.0,addresses_problem|improves_problem|significant_outlay,€22.0m,€13.0m,SSC Napoli,True,€1.8m,2,0.0,1.618,-1.224,0.023,-0.5,-0.167
 Serie A,Torino FC,20/21,summer,Karol Linetty,MID,starter,10.0,4,2.5,2.0,addresses_problem|improves_problem|significant_outlay,€7.5m,€10.0m,UC Sampdoria,True,€0,5,1.231,3.13,-1.333,-0.313,-0.042,-0.211
 Serie A,Torino FC,20/21,summer,Mërgim Vojvoda,RB,starter,10.0,4,2.5,2.0,improves_problem|replaces_sold|significant_outlay,€5.2m,€4.0m,3057,True,€2.0m,5,2.011,3.371,-0.821,-0.048,-0.5,0.008
@@ -4378,15 +4378,15 @@ Liga Portugal,SC Farense,24/25,summer,Pastor,RB,starter,2.0,1,1.0,1.0,improves_p
 Liga Portugal,SC Farense,24/25,summer,Mehdi Merghem,W,starter,2.0,0,1.0,1.0,improves_problem|replaces_sold,,€800k,EA Guingamp,True,,1,2.193,2.655,,-0.268,,-0.194
 Liga Portugal,SC Farense,24/25,summer,Marco Moreno,CB,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€400k,3679,False,,1,5.528,5.086,,-0.347,,0.789
 Liga Portugal,SC Farense,24/25,winter,Tomás Ribeiro,CB,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold,€0,€2.0m,Vitória Guimarães SC,False,,1,3.184,3.064,,0.12,0.5,-0.5
-Liga Portugal,SC Farense,24/25,winter,Rui Costa,CF,starter,2.0,1,1.0,1.0,improves_problem|replaces_sold|rotation_option,€0,€550k,10481,True,€0,1,1.364,3.02,-1.333,-0.353,0.0,0.03
+Liga Portugal,SC Farense,24/25,winter,Rui Costa,CF,starter,2.0,1,1.0,1.0,improves_problem|replaces_sold|rotation_option,€0,€550k,10481,True,€0,1,2.697,3.02,0.0,-0.353,0.0,0.03
 Serie A,ACF Fiorentina,19/20,summer,Erick Pulgar,MID,starter,6.0,2,1.5,2.0,improves_problem|significant_outlay,€12.3m,€10.0m,Bologna FC 1909,True,€2.8m,3,1.975,3.433,-1.03,0.041,-0.442,-0.028
 Serie A,ACF Fiorentina,19/20,summer,Pedro,CF,starter,4.0,0,1.0,2.0,improves_problem|significant_outlay,€11.0m,€18.0m,2462,True,€14.0m,1,0.4,0.115,0.364,-0.356,0.389,-0.111
 Serie A,ACF Fiorentina,19/20,summer,Aleksa Terzic,LB,rotation,1.0,0,1.0,1.0,rotation_option,€1.7m,€1.5m,159,True,€5.4m,3,5.112,1.747,2.0,0.749,0.139,0.478
 Serie A,ACF Fiorentina,19/20,summer,Kevin-Prince Boateng,MID,starter,2.0,0,1.0,1.0,improves_problem|rotation_option,€1.5m,€7.0m,US Sassuolo,True,€0,1,0.0,1.177,-1.333,-0.263,0.0,-0.181
 Serie A,ACF Fiorentina,19/20,summer,Franck Ribéry,W,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem,€0,€4.0m,Bayern Munich,True,€0,2,1.98,3.503,-1.333,-0.115,0.0,-0.075
 Serie A,ACF Fiorentina,19/20,summer,Martín Cáceres,CB,starter,4.5,2,1.5,1.5,replaces_sold|rotation_option,€0,€1.5m,SS Lazio,True,,2,5.922,5.602,,-0.194,0.625,-0.111
-Serie A,ACF Fiorentina,19/20,summer,Pietro Terracciano,GK,starter,4.0,3,2.0,1.0,improves_problem|rotation_option,€0,€800k,FC Empoli,True,€0,6,2.03,3.121,-1.333,0.041,0.0,0.201
-Serie A,ACF Fiorentina,19/20,summer,Tòfol Montiel,W,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€1.0m,8505,True,€0,2,0.0,0.003,-1.333,-1.0,-0.5,-0.117
+Serie A,ACF Fiorentina,19/20,summer,Pietro Terracciano,GK,starter,4.0,3,2.0,1.0,improves_problem|rotation_option,€0,€800k,FC Empoli,True,€0,6,3.363,3.121,0.0,0.041,0.0,0.201
+Serie A,ACF Fiorentina,19/20,summer,Tòfol Montiel,W,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€1.0m,8505,True,€0,2,0.0,0.004,,-1.25,-0.625,-0.146
 Serie A,ACF Fiorentina,19/20,winter,Sofyan Amrabat,MID,starter,6.0,2,1.5,2.0,improves_problem|significant_outlay,€19.5m,€10.0m,Hellas Verona,True,€12.0m,5,1.236,2.167,-0.513,-0.184,-0.495,0.26
 Serie A,ACF Fiorentina,20/21,summer,Christian Kouamé,CF,starter,4.0,1,1.0,2.0,addresses_problem|improves_problem|significant_outlay,€15.5m,€17.5m,Genoa CFC,True,,5,1.928,2.243,,-0.326,0.238,-0.226
 Serie A,ACF Fiorentina,20/21,summer,Alfred Duncan,MID,starter,6.0,2,1.5,2.0,addresses_problem|improves_problem|significant_outlay,€15.0m,€15.0m,US Sassuolo,True,€0,4,0.505,2.483,-1.333,-0.209,-0.25,-0.186
@@ -4414,7 +4414,7 @@ Serie A,ACF Fiorentina,23/24,summer,M'Bala Nzola,CF,starter,4.0,1,1.0,2.0,addres
 Serie A,ACF Fiorentina,23/24,summer,Fabiano Parisi,LB,starter,6.0,2,1.5,2.0,significant_outlay,€10.0m,€10.0m,FC Empoli,False,,3,2.534,2.883,,-0.066,0.0,-0.283
 Serie A,ACF Fiorentina,23/24,summer,Oliver Christensen,GK,starter,3.384,0,1.0,1.69,improves_problem|significant_outlay,€3.8m,€4.0m,Hertha BSC,False,,2,0.513,0.472,,0.407,0.083,-0.45
 Serie A,ACF Fiorentina,23/24,summer,Gino Infantino,MID,starter,2.882,0,1.0,1.44,addresses_problem|improves_problem|significant_outlay,€3.0m,€3.0m,1418,False,,2,0.0,0.096,,-0.672,0.0,-0.167
-Serie A,ACF Fiorentina,23/24,summer,Michael Kayode,RB,starter,2.0,1,1.0,1.0,improves_problem,,€800k,8505,True,€17.5m,2,5.907,2.131,3.0,0.073,-0.046,0.75
+Serie A,ACF Fiorentina,23/24,summer,Michael Kayode,RB,starter,2.0,1,1.0,1.0,improves_problem,,€800k,8505,True,€17.5m,2,3.634,2.663,,0.091,-0.058,0.938
 Serie A,ACF Fiorentina,23/24,summer,Lorenzo Amatucci,MID,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€700k,8505,False,,1,0.0,0.044,,-0.565,,0.451
 Serie A,ACF Fiorentina,24/25,summer,Marin Pongracic,CB,starter,3.0,2,1.5,1.0,improves_problem|replaces_sold|significant_outlay,€15.0m,€7.0m,US Lecce,False,,2,3.932,4.526,,-0.272,-0.5,0.179
 Serie A,ACF Fiorentina,24/25,summer,Moise Kean,CF,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem|significant_outlay,€14.5m,€14.0m,Juventus FC,False,,2,6.317,5.023,,-0.039,-0.06,1.393
@@ -4477,7 +4477,7 @@ Serie A,Inter Milan,20/21,summer,Stefano Sensi,MID,starter,4.0,0,1.0,2.0,address
 Serie A,Inter Milan,20/21,summer,Andrea Pinamonti,CF,starter,4.0,0,1.0,2.0,significant_outlay,€21.0m,€13.5m,Genoa CFC,True,€19.5m,1,0.0,0.331,-0.095,-0.474,0.0,-0.037
 Serie A,Inter Milan,20/21,summer,Aleksandar Kolarov,LB,starter,2.0,0,1.0,1.0,addresses_problem,€1.5m,€5.0m,AS Roma,True,,2,0.441,0.519,,-0.37,0.625,-0.333
 Serie A,Inter Milan,20/21,summer,Arturo Vidal,MID,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,€1.0m,€11.0m,FC Barcelona,True,€0,2,0.049,1.809,-1.333,-0.177,0.0,-0.25
-Serie A,Inter Milan,20/21,summer,Alexis Sánchez,CF,rotation,1.5,0,1.0,1.5,rotation_option,€0,€16.0m,Manchester United,True,€0,2,5.49,4.395,0.0,0.923,0.0,0.172
+Serie A,Inter Milan,20/21,summer,Alexis Sánchez,CF,rotation,1.5,0,1.0,1.5,rotation_option,€0,€16.0m,Manchester United,True,€0,2,7.49,4.395,2.0,0.923,0.0,0.172
 Serie A,Inter Milan,21/22,summer,Zinho Vanheusden,CB,starter,4.0,0,1.0,2.0,significant_outlay,€16.2m,€12.0m,3057,True,,1,0.0,0.0,,-0.4,-0.667,
 Serie A,Inter Milan,21/22,summer,Denzel Dumfries,RB,starter,5.0,4,2.5,1.0,replaces_sold|significant_outlay,€14.2m,€16.0m,PSV Eindhoven,False,,5,4.784,3.873,,0.016,0.182,0.712
 Serie A,Inter Milan,21/22,summer,Matteo Darmian,RB,starter,5.0,4,2.5,1.0,replaces_sold,€3.3m,€7.0m,Parma Calcio 1913,False,,5,3.254,3.382,,-0.11,0.5,-0.517
@@ -4493,7 +4493,7 @@ Serie A,Inter Milan,23/24,summer,Yann Bisseck,CB,starter,3.0,2,1.5,1.0,addresses
 Serie A,Inter Milan,23/24,summer,Yann Sommer,GK,starter,4.0,3,2.0,1.0,addresses_problem|replaces_sold|significant_outlay,€6.9m,€5.0m,Bayern Munich,False,,3,5.572,6.329,,0.01,-0.5,-0.267
 Serie A,Inter Milan,23/24,summer,Francesco Acerbi,CB,starter,4.0,3,2.0,1.0,addresses_problem|improves_problem|replaces_sold|significant_outlay,€4.0m,€4.0m,SS Lazio,False,,3,3.783,3.853,,0.222,0.0,-0.292
 Serie A,Inter Milan,23/24,summer,Marcus Thuram,CF,starter,6.0,3,2.0,1.5,replaces_sold|rotation_option,€0,€32.0m,Borussia Mönchengladbach,False,,3,6.749,4.875,,0.395,0.5,0.979
-Serie A,Inter Milan,23/24,summer,Alexis Sánchez,CF,starter,2.0,0,1.0,1.0,replaces_sold|rotation_option,€0,€4.0m,Olympique Marseille,True,€0,1,0.0,1.462,-1.333,-0.067,0.0,-0.125
+Serie A,Inter Milan,23/24,summer,Alexis Sánchez,CF,starter,2.0,0,1.0,1.0,replaces_sold|rotation_option,€0,€4.0m,Olympique Marseille,True,€0,1,1.27,1.462,0.0,-0.067,0.0,-0.125
 Serie A,Inter Milan,23/24,winter,Tajon Buchanan,W,starter,4.0,0,1.0,2.0,addresses_problem|improves_problem|significant_outlay,€7.3m,€8.0m,2282,True,€9.0m,2,0.455,0.381,0.311,-0.517,0.323,-0.042
 Serie A,Inter Milan,24/25,summer,Davide Frattesi,MID,starter,4.0,0,1.0,2.0,significant_outlay,€31.4m,€35.0m,US Sassuolo,False,,2,1.382,1.881,,-0.484,0.171,-0.186
 Serie A,Inter Milan,24/25,summer,Carlos Augusto,LB,starter,3.0,2,1.5,1.0,addresses_problem|significant_outlay,€15.2m,€22.0m,AC Monza,False,,2,4.24,3.626,,0.001,0.5,0.114
@@ -4515,7 +4515,7 @@ Eredivisie,NEC Nijmegen,21/22,winter,Wilfried Bony,CF,starter,2.0,0,1.0,1.0,squa
 Eredivisie,NEC Nijmegen,22/23,summer,Jasper Cillessen,GK,starter,3.0,2,1.5,1.0,significant_outlay,€1.0m,€3.0m,Valencia CF,True,€500k,2,5.085,5.877,-0.667,-0.003,0.0,-0.122
 Eredivisie,NEC Nijmegen,22/23,summer,Philippe Sandler,CB,starter,5.0,4,2.5,1.0,improves_problem|replaces_sold|rotation_option,€0,€2.0m,Feyenoord Rotterdam,False,,4,4.635,4.019,,-0.022,0.5,0.137
 Eredivisie,NEC Nijmegen,22/23,summer,Pedro Marques,CF,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,€0,€800k,Sporting CP,True,€300k,2,0.0,0.918,-0.833,-0.352,0.0,-0.031
-Eredivisie,NEC Nijmegen,22/23,summer,Calvin Verdonk,LB,starter,4.5,2,1.5,1.5,improves_problem|rotation_option,€0,€700k,FC Famalicão,True,€3.0m,3,7.6,4.701,2.0,0.133,0.417,0.349
+Eredivisie,NEC Nijmegen,22/23,summer,Calvin Verdonk,LB,starter,4.5,2,1.5,1.5,improves_problem|rotation_option,€0,€700k,FC Famalicão,True,€3.0m,3,8.6,4.701,3.0,0.133,0.417,0.349
 Eredivisie,NEC Nijmegen,22/23,summer,Oussama Tannane,MID,starter,3.0,1,1.0,1.5,addresses_problem|improves_problem|replaces_sold,€0,€600k,1467,True,,1,7.202,5.861,,0.439,0.625,0.278
 Eredivisie,NEC Nijmegen,22/23,summer,Joris Kramer,CB,starter,2.0,0,1.0,1.0,improves_problem|replaces_sold|rotation_option,,€650k,AZ Alkmaar,True,€250k,1,1.09,2.512,-0.821,-0.101,-0.5,0.0
 Eredivisie,NEC Nijmegen,23/24,summer,Kodai Sano,MID,starter,4.0,3,2.0,1.0,replaces_sold|significant_outlay,€450k,€450k,22171,False,,3,6.761,4.972,,-0.212,0.0,2.0
@@ -4558,17 +4558,17 @@ Eredivisie,Sparta Rotterdam,20/21,summer,Benjamin van Leer,GK,starter,2.0,0,1.0,
 Eredivisie,Sparta Rotterdam,20/21,summer,Reda Kharchouch,CF,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€400k,SC Telstar,True,,1,0.552,1.118,,-0.567,,0.0
 Eredivisie,Sparta Rotterdam,21/22,summer,Mohammed Osman,MID,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold,€0,€1.1m,19585,True,,1,3.872,3.655,,-0.219,0.625,-0.189
 Eredivisie,Sparta Rotterdam,21/22,summer,Laurent Jans,RB,starter,2.0,0,1.0,1.0,addresses_problem,€0,€600k,3057,True,,1,2.309,2.116,,-0.259,0.625,-0.174
-Eredivisie,Sparta Rotterdam,21/22,summer,Aaron Meijers,LB,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,€0,€325k,ADO Den Haag,True,€0,2,0.0,1.115,-1.333,-0.173,0.0,-0.103
+Eredivisie,Sparta Rotterdam,21/22,summer,Aaron Meijers,LB,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,€0,€325k,ADO Den Haag,True,€0,2,0.84,1.115,0.0,-0.173,0.0,-0.103
 Eredivisie,Sparta Rotterdam,21/22,summer,Vito van Crooij,MID,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem|replaces_sold,,€750k,VVV-Venlo,True,,2,7.521,7.185,,0.017,,0.319
 Eredivisie,Sparta Rotterdam,21/22,winter,Adrián Dalmau,CF,starter,2.0,0,1.0,1.0,improves_problem|rotation_option,,€1.6m,FC Utrecht,True,€0,1,0.169,2.545,-1.333,-0.355,-0.5,-0.188
 Eredivisie,Sparta Rotterdam,22/23,summer,Joshua Kitolano,MID,starter,5.0,4,2.5,1.0,addresses_problem|improves_problem|replaces_sold|significant_outlay,€610k,€800k,1058,False,,4,7.185,5.301,,-0.2,0.396,1.688
 Eredivisie,Sparta Rotterdam,22/23,summer,Tobias Lauritsen,CF,starter,5.0,4,2.5,1.0,improves_problem|replaces_sold|significant_outlay,€450k,€500k,1058,False,,4,8.858,6.323,,0.399,0.167,1.969
 Eredivisie,Sparta Rotterdam,22/23,summer,Charles-Andreas Brym,CF,starter,2.0,1,1.0,1.0,improves_problem|replaces_sold|significant_outlay,€250k,€325k,3892,True,,3,1.762,1.798,,-0.666,0.481,0.15
-Eredivisie,Sparta Rotterdam,22/23,summer,Younes Namli,W,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem,€0,€1.2m,16704,True,€0,1,1.489,3.17,-1.333,-0.264,0.0,-0.083
+Eredivisie,Sparta Rotterdam,22/23,summer,Younes Namli,W,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem,€0,€1.2m,16704,True,€0,1,2.823,3.17,0.0,-0.264,0.0,-0.083
 Eredivisie,Sparta Rotterdam,22/23,summer,Mike Eerdhuijzen,CB,starter,4.5,2,1.5,1.5,improves_problem|replaces_sold,€0,€325k,FC Volendam,True,€1.3m,3,6.463,3.815,2.0,0.106,0.0,0.542
 Eredivisie,Sparta Rotterdam,22/23,summer,Jonathan de Guzmán,MID,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem|replaces_sold,€0,€300k,653,False,,4,1.539,2.06,,-0.563,0.5,-0.458
 Eredivisie,Sparta Rotterdam,22/23,summer,Nick Olij,GK,starter,4.0,3,2.0,1.0,rotation_option|promoted_to_starter,,€800k,NAC Breda,True,€3.0m,3,8.52,6.0,2.0,0.216,-0.238,0.542
-Eredivisie,Sparta Rotterdam,22/23,summer,Arno Verschueren,MID,starter,4.0,3,2.0,1.0,addresses_problem|improves_problem|replaces_sold,,€600k,5026,True,€450k,3,5.106,5.505,-0.333,-0.066,-0.5,0.5
+Eredivisie,Sparta Rotterdam,22/23,summer,Arno Verschueren,MID,starter,4.0,3,2.0,1.0,addresses_problem|improves_problem|replaces_sold,,€600k,5026,True,€450k,3,6.8,6.882,,-0.082,-0.625,0.625
 Eredivisie,Sparta Rotterdam,22/23,winter,Rick Meissen,CB,starter,2.0,0,1.0,1.0,improves_problem|replaces_sold,,€300k,17596,True,,3,1.65,1.665,,-0.312,,0.296
 Eredivisie,Sparta Rotterdam,23/24,summer,Camiel Neghli,W,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem|replaces_sold|significant_outlay,€500k,€600k,De Graafschap Doetinchem,True,€3.5m,2,7.601,4.471,2.5,-0.064,0.389,0.306
 Eredivisie,Sparta Rotterdam,23/24,summer,Tijs Velthuis,CB,starter,2.0,1,1.0,1.0,addresses_problem|replaces_sold|significant_outlay,€150k,€500k,11368,False,,2,2.804,2.088,,-0.383,0.5,0.6
@@ -4610,7 +4610,7 @@ Eredivisie,Vitesse Arnhem,19/20,summer,Tomas Hajek,CB,starter,2.084,0,1.0,1.04,a
 Eredivisie,Vitesse Arnhem,19/20,summer,Eli Dasa,CB,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem|replaces_sold,,€1.5m,515,True,€0,3,2.745,4.644,-1.333,-0.014,-0.5,-0.052
 Eredivisie,Vitesse Arnhem,19/20,winter,Sondre Tronstad,MID,starter,5.251,3,2.0,1.31,replaces_sold|significant_outlay,€600k,€500k,2761,True,€0,4,2.567,4.119,-1.333,-0.102,-0.417,0.3
 Eredivisie,Vitesse Arnhem,19/20,winter,Keisuke Honda,MID,starter,2.0,0,1.0,1.0,replaces_sold|rotation_option,,€3.5m,515,True,€0,1,0.0,1.544,-1.333,0.006,-0.5,-0.257
-Eredivisie,Vitesse Arnhem,20/21,summer,Oussama Tannane,MID,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem,€0,€1.0m,AS Saint-Étienne,True,€0,2,2.31,3.087,-1.333,0.373,0.0,0.183
+Eredivisie,Vitesse Arnhem,20/21,summer,Oussama Tannane,MID,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem,€0,€1.0m,AS Saint-Étienne,True,€0,2,3.643,3.087,0.0,0.373,0.0,0.183
 Eredivisie,Vitesse Arnhem,20/21,summer,Maximilian Wittek,LB,starter,6.0,3,2.0,1.5,replaces_sold|rotation_option,€0,€800k,SpVgg Greuther Fürth,True,€750k,3,6.09,5.58,-0.083,0.205,0.0,0.389
 Eredivisie,Vitesse Arnhem,20/21,winter,Dominik Oroz,CB,starter,2.0,1,1.0,1.0,rotation_option|promoted_to_starter,,€500k,37024,False,,4,2.415,2.642,,-0.28,,0.053
 Eredivisie,Vitesse Arnhem,21/22,summer,Toni Domgjoni,MID,starter,2.0,0,1.0,1.0,addresses_problem|replaces_sold,€0,€2.0m,260,False,,3,0.808,1.572,,-0.722,0.5,-0.542
@@ -4689,10 +4689,10 @@ Serie A,Juventus FC,19/20,summer,Adrien Rabiot,MID,starter,7.5,5,2.5,1.5,address
 Serie A,Juventus FC,19/20,summer,Gianluigi Buffon,GK,rotation,1.0,0,1.0,1.0,rotation_option,€0,€1.0m,Paris Saint-Germain,True,€0,2,4.74,3.355,0.0,0.885,0.0,0.5
 Serie A,Juventus FC,19/20,winter,Dejan Kulusevski,MID,starter,4.0,1,1.0,2.0,addresses_problem|significant_outlay,€39.0m,€25.0m,Atalanta BC,True,€30.0m,2,1.676,2.611,-0.308,-0.327,-0.5,0.2
 Serie A,Juventus FC,20/21,summer,Rolando Mandragora,MID,starter,4.0,0,1.0,2.0,addresses_problem|improves_problem|replaces_sold|significant_outlay,€15.0m,€12.0m,Udinese Calcio,True,€8.2m,1,0.0,0.0,-0.636,-0.253,-0.377,
-Serie A,Juventus FC,20/21,summer,Manolo Portanova,MID,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€600k,41101,True,€12.2m,1,3.589,0.277,3.0,-0.41,0.5,0.222
-Serie A,Juventus FC,20/21,summer,Gianluca Frabotta,LB,starter,2.0,0,1.0,1.0,rotation_option|promoted_to_starter,,€75k,41101,True,€0,1,0.0,1.337,-1.333,-0.355,-0.5,0.75
+Serie A,Juventus FC,20/21,summer,Manolo Portanova,MID,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€600k,41101,True,€12.2m,1,0.736,0.346,,-0.513,0.625,0.278
+Serie A,Juventus FC,20/21,summer,Gianluca Frabotta,LB,starter,2.0,0,1.0,1.0,rotation_option|promoted_to_starter,,€75k,41101,True,€0,1,1.54,1.672,,-0.444,-0.625,0.938
 Serie A,Juventus FC,20/21,winter,Nicolò Rovella,MID,starter,4.0,0,1.0,2.0,addresses_problem|improves_problem|replaces_sold|significant_outlay,€26.0m,€4.0m,Genoa CFC,True,€17.0m,1,0.0,0.047,-0.462,0.097,-0.5,0.5
-Serie A,Juventus FC,20/21,winter,Nicolò Fagioli,MID,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€900k,41101,True,€13.5m,5,4.071,1.005,3.0,-0.115,-0.417,0.597
+Serie A,Juventus FC,20/21,winter,Nicolò Fagioli,MID,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€900k,41101,True,€13.5m,5,1.339,1.256,,-0.143,-0.521,0.747
 Serie A,Juventus FC,21/22,summer,Weston McKennie,MID,starter,5.0,4,2.5,1.0,addresses_problem|improves_problem|replaces_sold|significant_outlay,€21.9m,€25.0m,FC Schalke 04,False,,5,4.352,4.303,,-0.141,0.207,-0.016
 Serie A,Juventus FC,21/22,summer,Kaio Jorge,CF,starter,2.55,0,1.0,1.27,replaces_sold|rotation_option,€7.0m,€12.0m,221,True,€7.2m,2,0.064,0.11,0.038,-0.39,0.5,-0.194
 Serie A,Juventus FC,21/22,winter,Dušan Vlahović,CF,starter,5.0,4,2.5,1.0,replaces_sold|significant_outlay,€85.4m,€70.0m,ACF Fiorentina,False,,5,3.311,3.87,,-0.021,-0.367,-0.171
@@ -4705,13 +4705,13 @@ Serie A,Juventus FC,22/23,summer,Andrea Cambiaso,LB,starter,4.0,3,2.0,1.0,addres
 Serie A,Juventus FC,22/23,summer,Filip Kostić,W,starter,6.0,2,1.5,2.0,addresses_problem|replaces_sold|significant_outlay,€14.7m,€24.0m,Eintracht Frankfurt,False,,4,2.31,2.575,,-0.135,0.5,-0.63
 Serie A,Juventus FC,22/23,summer,Ángel Di María,W,starter,2.0,0,1.0,1.0,addresses_problem|replaces_sold,€0,€12.0m,Paris Saint-Germain,True,€0,1,1.26,2.659,-1.333,0.046,0.0,-0.111
 Serie A,Juventus FC,22/23,summer,Fabio Miretti,MID,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€5.0m,41101,False,,3,3.266,2.181,,-0.494,,1.579
-Serie A,Juventus FC,22/23,summer,Matías Soulé,W,starter,2.0,0,1.0,1.0,addresses_problem|replaces_sold,,€2.5m,41101,True,€28.6m,2,4.04,0.409,3.0,-0.084,0.24,0.475
+Serie A,Juventus FC,22/23,summer,Matías Soulé,W,starter,2.0,0,1.0,1.0,addresses_problem|replaces_sold,,€2.5m,41101,True,€28.6m,2,1.3,0.512,,-0.105,0.3,0.594
 Serie A,Juventus FC,22/23,summer,Enzo Barrenechea,MID,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€900k,41101,True,€8.0m,1,2.706,0.308,2.5,-0.213,0.111,0.0
-Serie A,Juventus FC,22/23,winter,Samuel Iling-Junior,W,starter,2.0,0,1.0,1.0,addresses_problem|replaces_sold,,€700k,41101,True,€14.0m,2,4.954,1.385,3.0,-0.309,0.128,0.75
+Serie A,Juventus FC,22/23,winter,Samuel Iling-Junior,W,starter,2.0,0,1.0,1.0,addresses_problem|replaces_sold,,€700k,41101,True,€14.0m,2,2.443,1.731,,-0.386,0.16,0.938
 Serie A,Juventus FC,23/24,summer,Manuel Locatelli,MID,starter,4.0,3,2.0,1.0,addresses_problem|improves_problem|significant_outlay,€36.4m,€30.0m,US Sassuolo,False,,3,6.352,6.232,,0.553,-0.356,-0.078
 Serie A,Juventus FC,23/24,summer,Moise Kean,CF,starter,4.0,0,1.0,2.0,addresses_problem|improves_problem|significant_outlay,€30.0m,€18.0m,Everton FC,True,€14.5m,1,0.0,1.29,-0.689,-0.557,-0.22,-0.074
 Serie A,Juventus FC,23/24,summer,Arkadiusz Milik,CF,starter,2.616,0,1.0,1.31,addresses_problem|improves_problem,€7.3m,€8.0m,Olympique Marseille,False,,3,0.0,0.657,,-0.599,0.146,-0.604
-Serie A,Juventus FC,23/24,summer,Hans Nicolussi Caviglia,MID,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€2.0m,41101,True,€4.1m,1,1.377,0.528,1.4,-0.218,-0.5,0.167
+Serie A,Juventus FC,23/24,summer,Hans Nicolussi Caviglia,MID,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€2.0m,41101,True,€4.1m,1,0.0,0.66,,-0.272,-0.625,0.208
 Serie A,Juventus FC,23/24,winter,Tiago Djaló,CB,rotation,1.0,0,1.0,1.0,rotation_option,€5.1m,€15.0m,LOSC Lille,True,€3.5m,1,2.749,0.14,1.373,0.836,0.0,0.4
 Serie A,Juventus FC,23/24,winter,Kenan Yıldız,W,starter,4.0,3,2.0,1.0,addresses_problem|improves_problem|replaces_sold,,€1.0m,41101,False,,3,7.826,5.293,,0.165,,2.368
 Serie A,Juventus FC,23/24,winter,Dean Huijsen,CB,starter,2.0,0,1.0,1.0,rotation_option|promoted_to_starter,,€400k,41101,True,€22.1m,1,3.993,0.047,3.0,-0.304,0.5,0.75
@@ -4752,7 +4752,7 @@ Bundesliga,TSG 1899 Hoffenheim,23/24,summer,Attila Szalai,CB,starter,4.0,0,1.0,2
 Bundesliga,TSG 1899 Hoffenheim,23/24,summer,Anton Stach,MID,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem|replaces_sold|significant_outlay,€12.0m,€15.0m,1.FSV Mainz 05,True,€20.0m,2,6.663,5.355,0.889,0.013,0.417,-0.011
 Bundesliga,TSG 1899 Hoffenheim,23/24,summer,Marius Bülter,W,starter,3.43,2,1.5,1.14,addresses_problem|improves_problem|significant_outlay,€3.0m,€3.0m,FC Schalke 04,True,€1.0m,2,1.863,3.363,-0.889,-0.305,-0.25,-0.056
 Bundesliga,TSG 1899 Hoffenheim,23/24,summer,Julian Justvan,MID,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,€2.0m,€1.5m,SC Paderborn 07,True,€1.0m,1,0.0,0.1,-0.667,-0.291,-0.5,0.0
-Bundesliga,TSG 1899 Hoffenheim,23/24,summer,Florian Grillitsch,MID,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold,€0,€6.5m,Ajax Amsterdam,True,€0,2,1.566,3.161,-1.333,-0.147,0.0,-0.115
+Bundesliga,TSG 1899 Hoffenheim,23/24,summer,Florian Grillitsch,MID,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold,€0,€6.5m,Ajax Amsterdam,True,€0,2,2.899,3.161,0.0,-0.147,0.0,-0.115
 Bundesliga,TSG 1899 Hoffenheim,24/25,summer,Adam Hlozek,CF,starter,4.0,1,1.0,2.0,improves_problem|replaces_sold|significant_outlay,€18.0m,€12.0m,Bayer 04 Leverkusen,False,,2,1.456,2.256,,-0.467,-0.5,0.167
 Bundesliga,TSG 1899 Hoffenheim,24/25,summer,Alexander Prass,W,starter,6.0,2,1.5,2.0,addresses_problem|improves_problem|replaces_sold|significant_outlay,€12.0m,€12.0m,122,False,,2,2.353,3.386,,-0.617,0.0,-0.417
 Bundesliga,TSG 1899 Hoffenheim,24/25,summer,Valentin Gendrey,RB,starter,4.0,1,1.0,2.0,addresses_problem|significant_outlay,€9.5m,€7.0m,US Lecce,False,,2,1.251,1.734,,0.089,-0.5,-0.071
@@ -4906,7 +4906,7 @@ Serie A,Venezia FC,24/25,summer,Giorgio Altare,CB,starter,2.325,0,1.0,1.16,signi
 Serie A,Venezia FC,24/25,summer,Issa Doumbia,MID,starter,2.0,0,1.0,1.0,significant_outlay,€1.0m,€500k,4541,False,,1,2.362,1.974,,-0.612,-0.5,1.5
 Serie A,Venezia FC,24/25,summer,Alfred Duncan,MID,rotation,1.5,0,1.0,1.5,rotation_option,€0,€4.0m,ACF Fiorentina,False,,1,6.725,4.557,,1.143,0.5,0.525
 Serie A,Venezia FC,24/25,summer,Saad El Haddad,MID,starter,2.0,0,1.0,1.0,squad_addition,,€125k,17257,False,,1,0.821,0.06,,-0.818,,1.579
-Serie A,Venezia FC,24/25,winter,Daniel Fila,CF,starter,4.0,0,1.0,2.0,significant_outlay,€4.0m,€1.2m,62,False,,1,2.579,2.091,,-0.512,-0.5,1.5
+Serie A,Venezia FC,24/25,winter,Daniel Fila,CF,starter,2.0,0,1.0,1.0,significant_outlay,€4.0m,€1.2m,62,False,,1,2.579,2.091,,-0.512,-0.5,1.5
 Serie A,Venezia FC,24/25,winter,Kike Pérez,MID,starter,2.117,1,1.0,1.06,significant_outlay,€1.0m,€2.8m,Real Valladolid CF,False,,1,5.113,4.73,,-0.117,0.5,0.0
 Serie A,Venezia FC,24/25,winter,Ionuț Radu,GK,starter,3.0,1,1.0,1.5,rotation_option|promoted_to_starter,€0,€1.5m,Inter Milan,False,,1,6.814,5.702,,-0.054,0.5,0.667
 Eredivisie,Ajax Amsterdam,19/20,summer,Quincy Promes,W,starter,3.0,2,1.5,1.0,significant_outlay,€15.7m,€18.0m,Sevilla FC,True,€8.5m,2,3.675,4.438,-0.611,0.024,-0.144,-0.032
@@ -4986,14 +4986,14 @@ Serie A,SSC Napoli,19/20,summer,Giovanni Di Lorenzo,RB,starter,5.0,7,2.5,1.0,add
 Serie A,SSC Napoli,19/20,summer,David Ospina,GK,starter,4.706,3,2.0,1.18,addresses_problem|improves_problem,€3.5m,€4.0m,Arsenal FC,True,€0,3,2.309,3.704,-1.333,0.062,-0.146,0.022
 Serie A,SSC Napoli,19/20,summer,Michael Folorunsho,MID,starter,2.0,0,1.0,1.0,addresses_problem,€1.0m,€300k,49939,False,,1,1.473,0.065,,-0.342,-0.5,2.25
 Serie A,SSC Napoli,19/20,summer,Fernando Llorente,CF,rotation,1.0,0,1.0,1.0,rotation_option,€0,€3.5m,Tottenham Hotspur,True,€500,2,2.306,1.289,0.0,0.695,0.0,0.321
-Serie A,SSC Napoli,19/20,summer,Gianluca Gaetano,MID,starter,2.0,0,1.0,1.0,addresses_problem,,€800k,12819,True,€6.2m,5,3.378,0.095,2.5,-0.211,0.5,0.494
+Serie A,SSC Napoli,19/20,summer,Gianluca Gaetano,MID,starter,2.0,0,1.0,1.0,addresses_problem,,€800k,12819,True,€6.2m,5,1.097,0.118,,-0.263,0.625,0.617
 Serie A,SSC Napoli,19/20,winter,Stanislav Lobotka,MID,starter,5.0,6,2.5,1.0,addresses_problem|significant_outlay,€24.0m,€20.0m,Celta de Vigo,False,,7,3.955,4.397,,-0.166,-0.333,0.057
 Serie A,SSC Napoli,19/20,winter,Andrea Petagna,CF,starter,4.0,0,1.0,2.0,significant_outlay,€16.6m,€18.0m,SPAL,True,€9.7m,2,0.595,1.489,-0.554,-0.297,0.04,-0.083
 Serie A,SSC Napoli,19/20,winter,Amir Rrahmani,CB,starter,5.0,5,2.5,1.0,addresses_problem|replaces_sold|significant_outlay,€15.3m,€6.0m,Hellas Verona,False,,6,5.936,4.908,,0.278,-0.5,1.25
 Serie A,SSC Napoli,19/20,winter,Diego Demme,MID,starter,6.0,2,1.5,2.0,addresses_problem|significant_outlay,€10.2m,€17.0m,RB Leipzig,True,€0,5,0.0,1.68,-1.333,-0.218,0.0,-0.171
 Serie A,SSC Napoli,20/21,summer,Victor Osimhen,CF,starter,5.0,4,2.5,1.0,addresses_problem|improves_problem|significant_outlay,€78.9m,€40.0m,LOSC Lille,True,€75.0m,4,4.118,3.965,-0.066,0.087,-0.19,0.323
 Serie A,SSC Napoli,20/21,summer,Alessandro Zanoli,RB,starter,2.0,0,1.0,1.0,rotation_option|promoted_to_starter,,€200k,12819,False,,4,2.424,0.285,,-0.229,,2.368
-Serie A,SSC Napoli,20/21,summer,Karim Zedadka,W,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€100k,12819,True,€60k,2,0.0,0.018,-0.533,-0.384,-0.5,0.167
+Serie A,SSC Napoli,20/21,summer,Karim Zedadka,W,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€100k,12819,True,€60k,2,0.0,0.022,,-0.48,-0.625,0.208
 Serie A,SSC Napoli,21/22,summer,Matteo Politano,W,starter,5.0,4,2.5,1.0,addresses_problem|significant_outlay,€22.1m,€30.0m,Inter Milan,False,,5,4.088,4.33,,-0.1,0.439,-0.58
 Serie A,SSC Napoli,21/22,summer,Juan Jesus,CB,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem|replaces_sold,€0,€2.0m,AS Roma,False,,5,3.713,2.987,,-0.074,0.5,0.3
 Serie A,SSC Napoli,22/23,summer,Mathías Olivera,LB,starter,5.0,4,2.5,1.0,significant_outlay,€16.5m,€15.0m,Getafe CF,False,,4,3.657,3.668,,0.022,-0.167,0.133
@@ -5024,14 +5024,14 @@ Serie A,SSC Napoli,25/26,summer,Luca Marianucci,CB,starter,4.0,0,1.0,2.0,address
 Serie A,SSC Napoli,25/26,summer,Kevin De Bruyne,MID,rotation,1.5,0,1.0,1.5,rotation_option,€0,€20.0m,Manchester City,False,,1,8.154,5.554,,1.5,0.5,0.6
 Serie A,SSC Napoli,25/26,winter,Lorenzo Lucca,CF,starter,4.0,0,1.0,2.0,improves_problem|significant_outlay,€26.0m,€25.0m,Udinese Calcio,False,,1,1.612,1.993,,-0.302,-0.078,
 Serie A,SSC Napoli,25/26,winter,Giovane,CF,starter,2.0,0,1.0,1.0,improves_problem|rotation_option,€2.0m,€12.0m,Hellas Verona,False,,1,1.541,1.402,,-0.362,0.5,0.0
-LaLiga,Athletic Bilbao,19/20,summer,Peru Nolaskoain,MID,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€5.0m,6688,True,€0,4,0.0,0.008,-1.333,-0.683,-0.5,-0.225
+LaLiga,Athletic Bilbao,19/20,summer,Peru Nolaskoain,MID,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€5.0m,6688,True,€0,4,0.0,0.01,,-0.854,-0.625,-0.281
 LaLiga,Athletic Bilbao,19/20,summer,Asier Villalibre,CF,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem,,€2.0m,6688,True,€1.0m,5,0.0,1.264,-0.667,-0.398,-0.5,0.19
-LaLiga,Athletic Bilbao,19/20,summer,Iñigo Vicente,W,starter,2.0,0,1.0,1.0,improves_problem|replaces_sold,,€1.0m,6688,True,€0,1,0.0,0.096,-1.333,-0.05,-0.5,0.0
+LaLiga,Athletic Bilbao,19/20,summer,Iñigo Vicente,W,starter,2.0,0,1.0,1.0,improves_problem|replaces_sold,,€1.0m,6688,True,€0,1,0.0,0.119,,-0.062,-0.625,0.0
 LaLiga,Athletic Bilbao,19/20,summer,Gaizka Larrazabal,RB,starter,2.0,0,1.0,1.0,improves_problem,,€300k,6688,True,€0,1,0.0,0.476,-1.333,-0.432,-0.5,0.625
 LaLiga,Athletic Bilbao,20/21,summer,Álex Berenguer,W,starter,5.0,6,2.5,1.0,improves_problem|significant_outlay,€11.1m,€6.0m,Torino FC,False,,6,4.656,4.526,,-0.258,-0.5,0.889
 LaLiga,Athletic Bilbao,20/21,summer,Oihan Sancet,MID,starter,5.0,5,2.5,1.0,addresses_problem|improves_problem,,€2.3m,6688,False,,6,5.623,3.867,,-0.243,,1.999
 LaLiga,Athletic Bilbao,20/21,summer,Unai Vencedor,MID,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem,,€1.8m,6688,False,,4,3.856,2.38,,-0.497,,1.974
-LaLiga,Athletic Bilbao,20/21,summer,Jokin Ezkieta,GK,starter,2.0,0,1.0,1.0,improves_problem,,€300k,6688,True,€0,2,0.0,0.088,-1.333,-0.733,-0.5,0.0
+LaLiga,Athletic Bilbao,20/21,summer,Jokin Ezkieta,GK,starter,2.0,0,1.0,1.0,improves_problem,,€300k,6688,True,€0,2,0.0,0.11,,-0.916,-0.625,0.0
 LaLiga,Athletic Bilbao,20/21,summer,Dani Vivian,CB,starter,5.0,5,2.5,1.0,rotation_option|promoted_to_starter,,€200k,6688,False,,5,7.932,5.515,,0.048,,2.368
 LaLiga,Athletic Bilbao,20/21,summer,Jon Morcillo,W,starter,2.0,0,1.0,1.0,improves_problem,,€50k,6688,True,€0,3,0.0,0.958,-1.333,-0.378,-0.5,0.75
 LaLiga,Athletic Bilbao,20/21,winter,Oier Zarraga,MID,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€500k,6688,True,€0,3,0.0,1.418,-1.333,-0.348,-0.5,0.417
@@ -5163,14 +5163,14 @@ Ligue 1,RC Strasbourg Alsace,21/22,summer,Gerzino Nyamsi,CB,starter,4.795,3,2.0,
 Ligue 1,RC Strasbourg Alsace,21/22,summer,Karol Fila,RB,starter,2.0,0,1.0,1.0,rotation_option|promoted_to_starter,€1.5m,€1.5m,4000,True,€0,3,0.0,0.394,-1.333,-0.276,-0.25,-0.126
 Ligue 1,RC Strasbourg Alsace,21/22,summer,Kévin Gameiro,CF,starter,4.0,3,2.0,1.0,improves_problem|rotation_option,€0,€3.0m,Valencia CF,True,,3,4.906,4.876,,-0.359,0.625,-0.236
 Ligue 1,RC Strasbourg Alsace,21/22,summer,Maxime Le Marchand,CB,starter,2.0,1,1.0,1.0,improves_problem|replaces_sold|rotation_option,€0,€1.5m,Fulham FC,True,,2,4.046,3.5,,0.032,0.625,-0.111
-Ligue 1,RC Strasbourg Alsace,21/22,summer,Marvin Senaya,RB,starter,2.0,1,1.0,1.0,rotation_option|promoted_to_starter,,€150k,7968,True,€1.5m,4,4.349,1.289,3.0,-0.318,-0.278,0.656
+Ligue 1,RC Strasbourg Alsace,21/22,summer,Marvin Senaya,RB,starter,2.0,1,1.0,1.0,rotation_option|promoted_to_starter,,€150k,7968,True,€1.5m,4,1.686,1.611,,-0.398,-0.347,0.82
 Ligue 1,RC Strasbourg Alsace,21/22,winter,Ismaël Doukouré,CB,starter,5.0,4,2.5,1.0,improves_problem|replaces_sold|rotation_option,€1.5m,€1.5m,1423,False,,5,5.135,3.999,,-0.439,0.0,1.575
 Ligue 1,RC Strasbourg Alsace,22/23,summer,Jean-Eudes Aholou,MID,starter,2.205,0,1.0,1.1,improves_problem|replaces_sold,€3.0m,€3.0m,AS Monaco,True,€0,2,0.0,1.268,-1.333,-0.301,-0.25,-0.15
 Ligue 1,RC Strasbourg Alsace,22/23,summer,Lucas Perrin,CB,starter,3.0,2,1.5,1.0,improves_problem|rotation_option,€1.5m,€5.0m,Olympique Marseille,True,€0,2,3.133,4.683,-1.333,-0.083,0.0,-0.133
 Ligue 1,RC Strasbourg Alsace,22/23,summer,Thomas Delaine,LB,starter,2.0,1,1.0,1.0,addresses_problem,€0,€2.0m,FC Metz,True,€0,3,0.402,2.197,-1.333,-0.284,0.0,-0.178
-Ligue 1,RC Strasbourg Alsace,22/23,summer,Alaa Bellaarouch,GK,starter,2.0,1,1.0,1.0,improves_problem|rotation_option,,€150k,7968,True,€300k,2,2.678,1.471,1.333,-0.334,-0.417,0.625
+Ligue 1,RC Strasbourg Alsace,22/23,summer,Alaa Bellaarouch,GK,starter,2.0,1,1.0,1.0,improves_problem|rotation_option,,€150k,7968,True,€300k,2,1.681,1.838,,-0.417,-0.521,0.781
 Ligue 1,RC Strasbourg Alsace,22/23,winter,Eduard Sobol,LB,starter,2.004,1,1.0,1.0,addresses_problem,€2.5m,€3.0m,2282,True,€0,4,0.0,0.912,-1.333,-0.33,-0.111,-0.152
-Ligue 1,RC Strasbourg Alsace,22/23,winter,Frédéric Guilbert,RB,starter,3.0,2,1.5,1.0,replaces_sold|rotation_option,€0,€5.0m,Aston Villa,True,€0,2,4.222,5.571,-1.333,0.034,0.0,-0.05
+Ligue 1,RC Strasbourg Alsace,22/23,winter,Frédéric Guilbert,RB,starter,3.0,2,1.5,1.0,replaces_sold|rotation_option,€0,€5.0m,Aston Villa,True,€0,2,5.555,5.571,0.0,0.034,0.0,-0.05
 Ligue 1,RC Strasbourg Alsace,23/24,summer,Abakar Sylla,CB,starter,4.0,1,1.0,2.0,improves_problem|replaces_sold|significant_outlay,€20.0m,€8.0m,2282,False,,3,1.437,2.154,,-0.592,-0.5,0.375
 Ligue 1,RC Strasbourg Alsace,23/24,summer,Emmanuel Emegha,CF,starter,3.0,2,1.5,1.0,improves_problem|replaces_sold|significant_outlay,€13.0m,€8.0m,122,False,,3,4.162,3.805,,-0.309,-0.5,1.167
 Ligue 1,RC Strasbourg Alsace,23/24,summer,Junior Mwanga,MID,starter,4.0,1,1.0,2.0,addresses_problem|improves_problem|replaces_sold|significant_outlay,€10.0m,€4.0m,FC Girondins Bordeaux,False,,3,1.336,1.673,,-0.42,-0.5,0.583
@@ -5331,7 +5331,7 @@ Liga Portugal,CD Tondela,19/20,summer,Bruno Wilson,CB,starter,3.0,1,1.0,1.5,addr
 Liga Portugal,CD Tondela,19/20,summer,Babacar Niasse,GK,starter,2.0,1,1.0,1.0,improves_problem,€0,€300k,1245,False,,3,1.719,1.86,,-0.585,0.5,-0.056
 Liga Portugal,CD Tondela,19/20,summer,Tomislav Strkalj,CF,starter,2.0,0,1.0,1.0,improves_problem|replaces_sold|rotation_option,,€400k,Rio Ave FC,False,,3,0.399,1.22,,-0.624,,-0.197
 Liga Portugal,CD Tondela,19/20,summer,Rubilio Castillo,CF,starter,2.0,0,1.0,1.0,improves_problem|replaces_sold|rotation_option,,€300k,4720,True,,1,0.0,0.029,,-0.688,,-0.148
-Liga Portugal,CD Tondela,19/20,summer,João Mendes,MID,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€200k,8827,True,€0,1,0.0,0.41,-1.333,-0.072,-0.5,-0.083
+Liga Portugal,CD Tondela,19/20,summer,João Mendes,MID,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€200k,8827,True,€0,1,0.0,0.512,,-0.09,-0.625,-0.104
 Liga Portugal,CD Tondela,19/20,winter,Marko Petkovic,RB,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,€0,€700k,515,True,€0,1,0.334,2.009,-1.333,-0.163,0.0,-0.179
 Liga Portugal,CD Tondela,19/20,winter,João Pedro,MID,starter,6.0,3,2.0,1.5,addresses_problem|improves_problem|replaces_sold,€0,€700k,1061,False,,3,5.815,5.687,,-0.348,0.5,-0.024
 Liga Portugal,CD Tondela,19/20,winter,Ricardo Valente,CF,starter,2.0,0,1.0,1.0,improves_problem|replaces_sold|rotation_option,€0,€500k,17195,True,€0,1,0.23,1.926,-1.333,-0.296,0.0,-0.067
@@ -5441,7 +5441,7 @@ Liga Portugal,Portimonense SAD,20/21,winter,Jafar Salmani,LB,starter,2.0,0,1.0,1
 Liga Portugal,Portimonense SAD,20/21,winter,Bruno Moreira,CF,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,€0,€300k,Rio Ave FC,True,€0,1,0.059,1.917,-1.333,-0.414,0.0,-0.111
 Liga Portugal,Portimonense SAD,20/21,winter,Giannelli Imbula,MID,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€1.5m,515,True,,2,0.0,0.193,,-0.379,,-0.237
 Liga Portugal,Portimonense SAD,21/22,summer,Ewerton,MID,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,€0,€1.0m,FC Porto,True,,2,1.945,1.789,,-0.344,0.625,-0.125
-Liga Portugal,Portimonense SAD,21/22,summer,Fabrício,CF,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem,,€700k,828,True,€400k,1,1.766,2.902,-0.571,-0.422,0.0,-0.143
+Liga Portugal,Portimonense SAD,21/22,summer,Fabrício,CF,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem,,€700k,828,True,€400k,1,2.921,3.627,,-0.527,0.0,-0.179
 Liga Portugal,Portimonense SAD,21/22,summer,Henrique Jocú,MID,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€100k,68780,True,,2,1.653,1.527,,-0.541,,0.667
 Liga Portugal,Portimonense SAD,21/22,summer,Carlinhos,MID,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem|replaces_sold,,€800k,515,False,,3,5.068,4.749,,-0.031,,0.351
 Liga Portugal,Portimonense SAD,21/22,winter,Pedrão,CB,starter,4.0,3,2.0,1.0,replaces_sold|significant_outlay,€800k,€1.5m,1023,False,,3,6.666,6.272,,0.027,0.5,-0.133
@@ -5647,8 +5647,8 @@ Serie A,Atalanta BC,19/20,winter,Ebrima Colley,W,starter,2.0,0,1.0,1.0,addresses
 Serie A,Atalanta BC,20/21,summer,Aleksey Miranchuk,MID,starter,4.0,0,1.0,2.0,significant_outlay,€15.0m,€18.0m,932,True,€11.8m,3,1.546,1.689,-0.284,-0.031,0.289,-0.117
 Serie A,Atalanta BC,20/21,summer,Mario Pašalić,MID,starter,5.0,5,2.5,1.0,significant_outlay,€14.5m,€25.0m,Chelsea FC,False,,6,3.883,3.819,,-0.102,0.5,-0.333
 Serie A,Atalanta BC,20/21,summer,Sam Lammers,CF,starter,4.0,0,1.0,2.0,addresses_problem|significant_outlay,€8.0m,€7.0m,PSV Eindhoven,True,€4.1m,2,0.0,0.322,-0.65,-0.512,0.131,-0.119
-Serie A,Atalanta BC,20/21,summer,Roberto Piccoli,CF,starter,2.0,0,1.0,1.0,addresses_problem,,€1.0m,11998,True,€12.5m,1,3.372,0.382,3.0,-0.58,0.069,0.5
-Serie A,Atalanta BC,20/21,summer,Caleb Okoli,CB,starter,2.0,0,1.0,1.0,rotation_option|promoted_to_starter,,€800k,11998,True,€14.0m,2,4.952,0.929,3.0,-0.227,0.5,0.75
+Serie A,Atalanta BC,20/21,summer,Roberto Piccoli,CF,starter,2.0,0,1.0,1.0,addresses_problem,,€1.0m,11998,True,€12.5m,1,0.464,0.478,,-0.725,0.087,0.625
+Serie A,Atalanta BC,20/21,summer,Caleb Okoli,CB,starter,2.0,0,1.0,1.0,rotation_option|promoted_to_starter,,€800k,11998,True,€14.0m,2,2.44,1.161,,-0.283,0.625,0.938
 Serie A,Atalanta BC,20/21,winter,Viktor Kovalenko,MID,rotation,1.0,0,1.0,1.0,rotation_option,€600k,€6.0m,660,True,,1,0.0,0.044,,-1.25,0.625,0.521
 Serie A,Atalanta BC,21/22,summer,Juan Musso,GK,starter,6.0,2,1.5,2.0,addresses_problem|improves_problem|significant_outlay,€20.5m,€20.0m,Udinese Calcio,True,€3.0m,4,1.574,2.968,-1.138,0.073,-0.14,-0.19
 Serie A,Atalanta BC,21/22,summer,Teun Koopmeiners,MID,starter,4.0,3,2.0,1.0,addresses_problem|significant_outlay,€17.9m,€16.5m,AZ Alkmaar,True,€58.4m,3,7.496,4.957,2.0,0.155,0.069,0.315
@@ -5974,7 +5974,7 @@ Premier League,Fulham FC,24/25,summer,Joachim Andersen,CB,starter,3.0,2,1.5,1.0,
 Premier League,Fulham FC,24/25,summer,Sander Berge,MID,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem|replaces_sold|significant_outlay,€23.6m,€20.0m,Burnley FC,False,,2,5.052,5.425,,-0.327,-0.296,0.25
 Premier League,Fulham FC,24/25,summer,Jorge Cuenca,CB,starter,2.055,0,1.0,1.03,addresses_problem|improves_problem|replaces_sold|significant_outlay,€6.7m,€6.0m,Villarreal CF,False,,2,0.873,1.36,,-0.376,-0.194,0.083
 Premier League,Fulham FC,24/25,summer,Ryan Sessegnon,LB,starter,2.0,1,1.0,1.0,rotation_option|promoted_to_starter,€0,€10.0m,Tottenham Hotspur,False,,2,3.647,2.536,,-0.139,0.5,0.75
-Premier League,Fulham FC,24/25,winter,Willian,W,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€1.0m,515,True,€0,1,0.0,0.982,-1.333,-0.394,-0.5,-0.083
+Premier League,Fulham FC,24/25,winter,Willian,W,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€1.0m,515,True,€0,1,0.006,1.228,,-0.493,-0.625,-0.104
 Premier League,Fulham FC,25/26,summer,Kevin,W,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold|significant_outlay,€40.0m,€12.0m,660,False,,1,2.924,2.192,,-0.269,-0.5,1.5
 Premier League,Fulham FC,25/26,winter,Oscar Bobb,W,starter,4.0,0,1.0,2.0,addresses_problem|improves_problem|replaces_sold|significant_outlay,€31.2m,€25.0m,Manchester City,False,,1,1.956,2.407,,-0.238,-0.413,0.2
 LaLiga,Celta de Vigo,19/20,summer,Denis Suárez,MID,starter,4.0,3,2.0,1.0,addresses_problem|improves_problem|replaces_sold|significant_outlay,€12.9m,€12.0m,FC Barcelona,True,€0,3,3.029,4.773,-1.333,-0.057,-0.312,-0.042
@@ -5988,7 +5988,7 @@ LaLiga,Celta de Vigo,20/21,winter,Augusto Solari,W,starter,2.0,0,1.0,1.0,address
 LaLiga,Celta de Vigo,20/21,winter,Facundo Ferreyra,CF,starter,2.0,0,1.0,1.0,improves_problem|rotation_option,€0,€2.0m,SL Benfica,True,,1,1.289,1.428,,-0.764,0.625,0.0
 LaLiga,Celta de Vigo,21/22,summer,Franco Cervi,W,starter,5.959,2,1.5,1.99,addresses_problem|improves_problem|significant_outlay,€5.0m,€5.0m,SL Benfica,False,,5,1.014,1.905,,-0.331,0.0,-0.56
 LaLiga,Celta de Vigo,21/22,summer,Javi Galán,LB,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem|significant_outlay,€4.0m,€6.0m,SD Huesca,True,€5.0m,2,6.674,6.0,0.333,0.007,0.0,0.333
-LaLiga,Celta de Vigo,21/22,summer,José Fontán,CB,starter,2.0,0,1.0,1.0,improves_problem,,€1.0m,8733,True,€0,1,0.0,0.532,-1.333,-0.276,-0.5,0.0
+LaLiga,Celta de Vigo,21/22,summer,José Fontán,CB,starter,2.0,0,1.0,1.0,improves_problem,,€1.0m,8733,True,€0,1,0.0,0.665,,-0.345,-0.625,0.0
 LaLiga,Celta de Vigo,21/22,summer,Sergio Carreira,RB,starter,3.0,2,1.5,1.0,improves_problem,,€1.0m,8733,False,,2,6.572,4.835,,-0.039,,1.776
 LaLiga,Celta de Vigo,22/23,summer,Jørgen Strand Larsen,CF,starter,3.0,2,1.5,1.0,improves_problem|significant_outlay,€15.0m,€6.0m,FC Groningen,True,€27.0m,2,5.376,4.493,1.06,-0.233,-0.333,0.389
 LaLiga,Celta de Vigo,22/23,summer,Williot Swedberg,W,starter,4.0,0,1.0,2.0,addresses_problem|improves_problem|replaces_sold|significant_outlay,€5.5m,€5.0m,1059,False,,4,1.367,1.637,,-0.378,-0.167,0.275
@@ -5996,9 +5996,9 @@ LaLiga,Celta de Vigo,22/23,summer,Luca de la Torre,MID,starter,3.0,2,1.5,1.0,imp
 LaLiga,Celta de Vigo,22/23,summer,Agustín Marchesín,GK,starter,2.0,1,1.0,1.0,rotation_option|promoted_to_starter,€1.0m,€4.0m,FC Porto,True,€0,2,0.0,1.667,-1.333,-0.183,0.0,-0.217
 LaLiga,Celta de Vigo,22/23,summer,Gonçalo Paciência,CF,starter,2.0,0,1.0,1.0,improves_problem|rotation_option,€790k,€3.0m,Eintracht Frankfurt,True,€0,2,0.0,0.632,-1.333,-0.351,0.0,-0.139
 LaLiga,Celta de Vigo,22/23,summer,Óscar Mingueza,RB,starter,6.0,3,2.0,1.5,addresses_problem,€0,€6.0m,FC Barcelona,False,,4,6.046,4.748,,0.11,0.5,0.688
-LaLiga,Celta de Vigo,22/23,summer,Gabri Veiga,MID,starter,2.0,1,1.0,1.0,improves_problem|replaces_sold|rotation_option,,€1.5m,8733,True,€30.0m,1,8.23,4.509,3.0,-0.029,0.0,0.75
+LaLiga,Celta de Vigo,22/23,summer,Gabri Veiga,MID,starter,2.0,1,1.0,1.0,improves_problem|replaces_sold|rotation_option,,€1.5m,8733,True,€30.0m,1,6.537,5.636,,-0.036,0.0,0.938
 LaLiga,Celta de Vigo,22/23,winter,Carlos Domínguez,CB,starter,2.0,1,1.0,1.0,improves_problem|replaces_sold,,€1.0m,8733,False,,4,2.92,1.995,,-0.206,,1.132
-LaLiga,Celta de Vigo,22/23,winter,Miguel Rodríguez,W,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€1.0m,8733,True,€1.2m,2,0.174,0.771,0.333,-0.397,-0.5,-0.033
+LaLiga,Celta de Vigo,22/23,winter,Miguel Rodríguez,W,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€1.0m,8733,True,€1.2m,2,0.0,0.964,,-0.496,-0.625,-0.042
 LaLiga,Celta de Vigo,23/24,summer,Anastasios Douvikas,CF,starter,4.0,1,1.0,2.0,improves_problem|significant_outlay,€12.0m,€9.0m,FC Utrecht,True,€14.0m,2,1.982,2.212,0.222,-0.416,0.0,-0.037
 LaLiga,Celta de Vigo,23/24,summer,Carles Pérez,W,starter,4.0,0,1.0,2.0,addresses_problem|improves_problem|significant_outlay,€5.2m,€5.0m,AS Roma,False,,1,0.538,1.622,,-0.517,-0.067,-0.5
 LaLiga,Celta de Vigo,23/24,summer,Carl Starfelt,CB,starter,4.0,3,2.0,1.0,improves_problem|significant_outlay,€5.0m,€6.5m,371,False,,3,4.545,4.211,,0.078,0.385,-0.128
@@ -6014,7 +6014,7 @@ LaLiga,Celta de Vigo,24/25,summer,Unai Núñez,CB,starter,4.0,0,1.0,2.0,addresse
 LaLiga,Celta de Vigo,24/25,summer,Marcos Alonso,CB,starter,4.5,2,1.5,1.5,addresses_problem|improves_problem,€0,€2.0m,FC Barcelona,False,,2,6.239,5.724,,0.29,0.5,-0.275
 LaLiga,Celta de Vigo,24/25,summer,Hugo Álvarez,W,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€1.5m,8733,False,,2,4.799,3.231,,-0.406,,1.974
 LaLiga,Celta de Vigo,24/25,summer,Damián Rodríguez,MID,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€500k,8733,False,,2,2.692,1.195,,-0.477,,1.974
-LaLiga,Celta de Vigo,24/25,summer,Alfon González,W,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€300k,8733,True,€0,1,1.398,2.674,-1.333,-0.193,-0.5,0.75
+LaLiga,Celta de Vigo,24/25,summer,Alfon González,W,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€300k,8733,True,€0,1,3.414,3.343,,-0.241,-0.625,0.938
 LaLiga,Celta de Vigo,24/25,summer,Pablo Durán,CF,starter,3.0,2,1.5,1.0,rotation_option|promoted_to_starter,,€300k,8733,False,,2,4.951,3.133,,-0.551,,2.368
 LaLiga,Celta de Vigo,24/25,summer,Javi Rodríguez,CB,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem,,€250k,8733,False,,2,7.919,5.64,,-0.089,,2.368
 LaLiga,Celta de Vigo,24/25,winter,Jones El-Abdellaoui,W,starter,3.497,0,1.0,1.75,addresses_problem|improves_problem|replaces_sold|significant_outlay,€4.2m,€2.3m,76,False,,2,0.195,0.705,,-0.587,-0.5,0.576
@@ -6080,7 +6080,7 @@ Liga Portugal,Moreirense FC,21/22,summer,Artur Jorge,CB,starter,2.0,1,1.0,1.0,ad
 Liga Portugal,Moreirense FC,21/22,summer,Paulinho,RB,starter,3.0,1,1.0,1.5,addresses_problem|improves_problem|replaces_sold,€0,€500k,Gil Vicente FC,False,,1,5.708,5.483,,-0.075,0.5,-0.2
 Liga Portugal,Moreirense FC,21/22,summer,Nikola Jambor,MID,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€400k,Rio Ave FC,False,,1,0.0,0.229,,-0.464,,-0.526
 Liga Portugal,Moreirense FC,21/22,summer,Godfried Frimpong,LB,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem|replaces_sold,,€350k,10330,True,€0,3,2.11,3.725,-1.333,-0.141,-0.5,0.359
-Liga Portugal,Moreirense FC,21/22,summer,Kewin,GK,starter,4.0,3,2.0,1.0,rotation_option|promoted_to_starter,,€200k,3876,True,€0,3,3.451,4.827,-1.333,-0.071,-0.5,0.528
+Liga Portugal,Moreirense FC,21/22,summer,Kewin,GK,starter,4.0,3,2.0,1.0,rotation_option|promoted_to_starter,,€200k,3876,True,€0,3,5.98,6.034,,-0.088,-0.625,0.66
 Liga Portugal,Moreirense FC,21/22,winter,Jefferson,MID,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold,€0,€1.2m,2832,False,,1,4.829,4.697,,-0.201,0.5,-0.167
 Liga Portugal,Moreirense FC,21/22,winter,Kevin Mirallas,W,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,,€900k,515,False,,1,0.412,1.496,,-0.499,,-0.585
 Liga Portugal,Moreirense FC,23/24,summer,Kobamelo Kodisang,W,starter,2.0,1,1.0,1.0,significant_outlay,€1.6m,€1.2m,10789,True,€2.5m,1,4.055,3.536,0.712,-0.276,0.0,0.083
@@ -6098,7 +6098,7 @@ Liga Portugal,Moreirense FC,23/24,winter,Luis Asué,CF,starter,2.0,1,1.0,1.0,sig
 Liga Portugal,Moreirense FC,23/24,winter,Vinicius Mingotti,CF,starter,2.0,0,1.0,1.0,squad_addition,,€800k,679,True,€0,1,0.0,2.118,-1.333,-0.652,-0.5,-0.083
 Liga Portugal,Moreirense FC,24/25,summer,Guilherme Schettine,CF,starter,3.0,2,1.5,1.0,addresses_problem|improves_problem,€0,€700k,11127,True,€700k,2,4.003,4.022,0.0,-0.114,0.0,0.095
 Liga Portugal,Moreirense FC,24/25,summer,Leonardo Buta,LB,starter,2.0,0,1.0,1.0,improves_problem,,€3.0m,Udinese Calcio,True,,1,1.095,1.473,,-0.229,,-0.148
-Liga Portugal,Moreirense FC,24/25,summer,Gabrielzinho,W,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€450k,16214,True,€600k,1,1.977,1.985,0.444,-0.211,-0.5,0.259
+Liga Portugal,Moreirense FC,24/25,summer,Gabrielzinho,W,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€450k,16214,True,€600k,1,1.916,2.481,,-0.264,-0.625,0.324
 Liga Portugal,Moreirense FC,24/25,summer,Sidnei Tavares,MID,starter,2.0,1,1.0,1.0,improves_problem|replaces_sold|rotation_option,,€400k,FC Porto,True,€2.0m,1,5.733,2.817,2.5,-0.417,0.5,0.333
 Liga Portugal,Moreirense FC,24/25,winter,Ivo Rodrigues,MID,starter,2.0,1,1.0,1.0,improves_problem|replaces_sold|rotation_option,€0,€1.0m,FC Arouca,True,€0,1,1.684,3.294,-1.333,-0.277,0.0,0.0
 Liga Portugal,Moreirense FC,24/25,winter,Cedric Teguia,W,starter,2.0,1,1.0,1.0,addresses_problem|improves_problem|replaces_sold,€0,€500k,7077,False,,2,4.078,3.154,,-0.176,0.5,0.6
@@ -6229,7 +6229,7 @@ Ligue 1,FC Nantes,23/24,winter,Kelvin Amian,RB,starter,4.0,3,2.0,1.0,addresses_p
 Ligue 1,FC Nantes,23/24,winter,Lamine Diack,MID,starter,2.168,0,1.0,1.08,addresses_problem|improves_problem|significant_outlay,€2.0m,€1.5m,868,False,,1,0.0,0.005,,-1.5,-0.5,-0.2
 Ligue 1,FC Nantes,24/25,summer,Matthis Abline,CF,starter,3.0,2,1.5,1.0,improves_problem|significant_outlay,€10.0m,€6.0m,Stade Rennais FC,False,,2,7.116,6.197,,-0.08,-0.5,1.5
 Ligue 1,FC Nantes,24/25,summer,Jean-Philippe Gbamin,CB,starter,2.0,0,1.0,1.0,improves_problem|rotation_option,€0,€2.5m,9202,True,€0,1,0.0,0.95,-1.333,-0.409,0.0,-0.067
-Ligue 1,FC Nantes,24/25,summer,Tino Kadewere,CF,starter,2.0,0,1.0,1.0,improves_problem|rotation_option,€0,€2.5m,Olympique Lyon,True,€0,1,0.0,1.118,-1.333,-0.292,0.0,0.0
+Ligue 1,FC Nantes,24/25,summer,Tino Kadewere,CF,starter,2.0,0,1.0,1.0,improves_problem|rotation_option,€0,€2.5m,Olympique Lyon,True,€0,1,0.826,1.118,0.0,-0.292,0.0,0.0
 Ligue 1,FC Nantes,24/25,summer,Yassine Benhattab,W,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem,€0,,42609,False,,1,0.682,1.407,,-0.726,,
 Ligue 1,FC Nantes,24/25,winter,Anthony Lopes,GK,starter,4.5,2,1.5,1.5,improves_problem|rotation_option,€0,€1.5m,Olympique Lyon,False,,2,6.702,6.5,,-0.032,0.5,-0.267
 Ligue 1,FC Nantes,24/25,winter,Francis Coquelin,MID,starter,2.0,0,1.0,1.0,addresses_problem|improves_problem|replaces_sold,,€1.0m,515,False,,2,0.935,1.378,,-0.285,,-0.158

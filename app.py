@@ -94,7 +94,7 @@ report** (Club view) auto-summarises each club's strengths and weaknesses.
 | **Value×** | Weight multiplier (up to ×2) that amplifies **cheap successes** and **expensive flops** — fee judged vs the club+league average spend — so finding gems lifts the club's rating and overpaying for flops drags it harder. |
 | **Rating** | The transfer's /10 score (sum of the sub-scores below). |
 | **minutes** | Share of available league minutes, averaged across seasons (max **6**, or 6.5 if never sold). The dominant component. |
-| **P/L** | Profit/loss at sale: ≥ 2.5× cost → full **2**; bonuses at 5×/10×; blank (redistributed) if not sold. |
+| **P/L** | Profit/loss at sale: ≥ 2.5× cost → full **2**; bonuses at 5×/10×. Blank (redistributed) if not sold, or if the purchase price is unknown — a player already at the club / academy graduate isn't treated as bought for €0. |
 | **rating⁺** | SofaScore rating minus the league **starter** average for that slot (max **1**, or 1.5 if not sold). |
 | **effic.** | Fee vs market value at purchase/sale — bought ≥ 30% below value → full **0.5**; overpaying is negative. |
 | **mv↑** | Market-value growth vs purchase (max **0.5**, or 1.5 if not sold). |
@@ -241,8 +241,9 @@ def _compute_sw(cs, cw, prior, blended, by_pos):
             W.append(f"**Costly flops**: {len(flops)} big buys underperformed "
                      f"(e.g. {ex['player']} {fmt_eur(ex['fee_eur'])} → {ex['rating']}; "
                      f"€{flops['fee_m'].sum():.0f}m total)")
-    # trading
-    sold = cs[cs["sold"]]
+    # trading (only sales where we know the purchase fee — undisclosed/academy sales
+    # aren't counted as profit, since their cost basis is unknown)
+    sold = cs[cs["sold"] & cs["fee_eur"].notna()]
     if not sold.empty:
         profit = (sold["sale_m"] - sold["fee_m"]).sum()
         if profit >= 20:

@@ -2,19 +2,19 @@
 
 - Windows analysed (with signings): **1525**
 - Signings scored: **6241**
-- Overall mean transfer rating: **3.281/10**
-- Empirical-Bayes shrinkage k ≈ **19.4** (estimated from variance components; club identity explains little of the signing-to-signing variance, so club ratings carry **wide** bootstrap intervals — read small leaderboard gaps with caution).
+- Overall mean transfer rating: **3.284/10**
+- Empirical-Bayes shrinkage k ≈ **19.0** (estimated from variance components; club identity explains little of the signing-to-signing variance, so club ratings carry **wide** bootstrap intervals — read small leaderboard gaps with caution).
 
 ## League averages (weighted transfer rating /10)
 | League | Signings | Rating |
 |---|---:|---:|
-| Eredivisie | 881 | 3.747 |
-| Liga Portugal | 1027 | 3.591 |
-| Ligue 1 | 882 | 3.473 |
-| Bundesliga | 702 | 3.312 |
-| LaLiga | 818 | 3.287 |
-| Premier League | 808 | 2.972 |
-| Serie A | 1123 | 2.768 |
+| Eredivisie | 881 | 3.774 |
+| Liga Portugal | 1027 | 3.606 |
+| Ligue 1 | 882 | 3.468 |
+| Bundesliga | 702 | 3.314 |
+| LaLiga | 818 | 3.285 |
+| Premier League | 808 | 2.974 |
+| Serie A | 1123 | 2.758 |
 
 > Scale note: every incoming transfer is scored, minutes are 60% of the weight, and most signings are squad depth — so window/club means sit low in absolute terms. Elite single signings reach 8–10; flops sit near 0.
 
@@ -30,11 +30,11 @@
 | Eredivisie | FC Emmen | 22/23 | summer | 5 | 6.399 | - |
 | Serie A | US Lecce | 22/23 | summer | 6 | 6.367 | - |
 | Ligue 1 | AJ Auxerre | 22/23 | summer | 7 | 6.301 | - |
-| Eredivisie | AZ Alkmaar | 20/21 | summer | 4 | 6.173 | CB,W |
 | Liga Portugal | GD Estoril Praia | 21/22 | summer | 5 | 6.108 | - |
 | Liga Portugal | Avs Futebol | 24/25 | summer | 10 | 6.107 | - |
 | LaLiga | Real Valladolid CF | 22/23 | winter | 3 | 6.078 | - |
 | Premier League | AFC Bournemouth | 22/23 | winter | 3 | 6.077 | - |
+| Liga Portugal | Vitória Guimarães SC | 19/20 | summer | 4 | 6.055 | MID,W |
 | Eredivisie | Willem II Tilburg | 19/20 | summer | 6 | 5.997 | CB,CF,W |
 | Liga Portugal | FC Famalicão | 24/25 | summer | 8 | 5.967 | MID,RB,W |
 | Ligue 1 | Stade Rennais FC | 25/26 | summer | 6 | 5.936 | CB,MID |
@@ -49,6 +49,7 @@
 | Serie A | FC Empoli | 24/25 | winter | 3 | 0.0 | CB,CF,LB,RB,W |
 | LaLiga | Real Sociedad | 23/24 | summer | 3 | 0.0 | LB,W |
 | LaLiga | Athletic Bilbao | 19/20 | summer | 4 | 0.0 | - |
+| Serie A | Juventus FC | 20/21 | summer | 3 | 0.0 | RB,W |
 | Serie A | SS Lazio | 20/21 | summer | 5 | 0.0 | CB,W |
 | Serie A | US Salernitana 1919 | 23/24 | winter | 3 | 0.0 | GK,MID,RB,W |
 | LaLiga | Cádiz CF | 23/24 | summer | 3 | 0.0 | CB,RB,W |
@@ -62,7 +63,6 @@
 | Serie A | US Sassuolo | 22/23 | summer | 7 | 0.039 | CB,LB,RB |
 | Liga Portugal | FC Arouca | 22/23 | winter | 3 | 0.109 | CB,MID |
 | LaLiga | Sevilla FC | 24/25 | summer | 4 | 0.127 | GK,LB,RB |
-| Serie A | Juventus FC | 20/21 | summer | 3 | 0.147 | RB,W |
 | Bundesliga | Hertha BSC | 21/22 | summer | 8 | 0.179 | CB,LB,RB |
 | Premier League | Brighton & Hove Albion | 24/25 | winter | 3 | 0.244 | GK,LB,RB,W |
 
@@ -89,11 +89,11 @@
 | Milan van Ewijk | SC Heerenveen | 21/22 | starter | €650k | Y | €5.3m | 9.178 |
 | Enzo Fernández | SL Benfica | 22/23 | starter | €44.2m | Y | €121.0m | 9.138 |
 | Jesús Ramírez | CD Nacional | 25/26 | starter | €600k | N |  | 9.092 |
-| Mohammed Salisu | Real Valladolid CF | 19/20 | starter |  | Y | €12.0m | 9.086 |
 | Wout Faes | Stade Reims | 19/20 | starter | €3.0m | Y | €17.0m | 9.074 |
 | Jeffrey de Lange | Go Ahead Eagles | 22/23 | starter |  | Y | €2.0m | 9.072 |
 | Loïc Badé | RC Lens | 20/21 | starter | €0 | Y | €17.0m | 9.061 |
 | Viktor Gyökeres | Sporting CP | 23/24 | starter | €24.0m | Y | €66.9m | 9.043 |
+| Francisco Moura | FC Famalicão | 23/24 | starter | €1.0m | Y | €5.0m | 9.039 |
 
 ## Best 20 trades (bought, then sold)
 *profit/loss realised — minutes still dominate the score*

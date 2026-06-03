@@ -107,6 +107,32 @@ def test_winter_denominator(make_signing):
     assert e19["minutes_share"] == pytest.approx(0.877, abs=0.01)
 
 
+def test_bought_before_no_fabricated_profit(make_signing):
+    from conftest import player, rating_index
+    from ftw.dataset import Dataset
+    ds = Dataset(seasons=[2020, 2021])
+    c = "100"
+    ds.club_name[c] = "X"
+    for s, mins in [(2019, 2000), (2020, 3000), (2021, 3000)]:   # present in 2019, before signing
+        ds.club_league[(c, s)] = "GB1"
+        ds.matches[(c, s)] = 38
+        ds.rosters[(c, s)] = [player("9", "P", "Centre-Forward", mins, c, s)]
+        ds.squad_mv[(c, s)] = {"9": 500_000}                     # tiny pre-breakout value
+        ds.pos_rating_avg[("GB1", s, "CF")] = 6.8
+        ds.ratings_index[("GB1", s)] = rating_index([("P", "X", 7.0)])
+    ds.departures_by_pid["9"] = [{"club_id": c, "season": 2022, "window": "summer",
+                                  "fee_eur": 15_000_000, "fee_known": True, "is_loan": False,
+                                  "mv": 12_000_000, "group": "CF", "to_club_id": "200"}]
+    sg = make_signing(pid="9", name="P", club="100", season=2020, window="summer",
+                      fee=None, mv=500_000)
+    sg.fee_known = False
+    sg.is_starter_signing = True
+    scoring.score_signing(ds, sg, 2021)
+    # purchase price unknown (already at the club, undisclosed fee) -> P&L not fabricated
+    assert sg._sold is True
+    assert sg._breakdown.get("profit_loss") is None
+
+
 def test_longevity_single_season(base_ds, make_signing):
     _sale(base_ds, "100", 2020, "summer", 60_000_000, 50_000_000)  # sold after one season
     sg = make_signing(season=2019, fee=50_000_000, mv=50_000_000)
