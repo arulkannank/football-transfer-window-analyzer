@@ -163,6 +163,11 @@ change in `config.py` / the scoring module:
   (×2 weight, starter rubric) when its realised role shows it became a regular —
   it plays >70% of minutes, its market value surges ≥ 1.75× purchase, or it fills
   the slot of a sold regular with no separate replacement signed.
+- **Starter → squad demotion** (symmetric): the intent labels (`improves_problem`
+  = any below-average slot, `addresses_problem`, `replaces_sold`) are broad, so a
+  signing that never reached `DEMOTE_MINUTES_SHARE` (50%) of minutes is reclassified
+  rotation by realised role — unless it was a significant outlay, which stays a
+  starter so its failure is fully penalised. (Starter share ≈ 95% → 73%.)
 - **Rating baseline for "improvement"** = the league's minutes-weighted average
   rating that season **over actual starters** (players past the 65% minutes bar)
   in that slot — a higher, more discriminating bar than averaging every squad player.

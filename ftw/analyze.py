@@ -188,6 +188,11 @@ def _apply_value_weighting(signings: list[Signing], priors: dict,
 # slot of a sold regular without a separate replacement being signed.
 PROMOTE_MINUTES_SHARE = 0.70
 PROMOTE_MV_RATIO = 1.75
+# Symmetric to promotion: a starter-intent buy whose realised role never reached a
+# regular's share of minutes is, in fact, a squad player and is demoted to rotation —
+# UNLESS it was a significant outlay (an expensive flop is kept as the intended starter
+# so its failure is fully weighted and penalised).
+DEMOTE_MINUTES_SHARE = 0.50
 
 
 def _real_arrival_count(ds: Dataset, club: str, season: int, slot: str) -> int:
@@ -217,6 +222,13 @@ def _filled_vacancy(ds: Dataset, sg: Signing) -> bool:
             return True
         s += 1
     return False
+
+
+def _should_demote(sg: Signing) -> bool:
+    if not sg.is_starter_signing or "significant_outlay" in sg.classification:
+        return False
+    return max((e.get("minutes_share") or 0 for e in sg.season_evals),
+               default=0.0) < DEMOTE_MINUTES_SHARE
 
 
 def _should_promote(ds: Dataset, sg: Signing) -> bool:
@@ -261,6 +273,10 @@ def analyze(ds: Dataset, log=print, bootstrap: bool = True) -> dict:
                     sg.is_starter_signing = True
                     sg.classification.append("promoted_to_starter")
                     scoring.score_signing(ds, sg, last_season)   # re-score as a starter
+                elif _should_demote(sg):              # starter-intent buy that never started
+                    sg.is_starter_signing = False
+                    sg.classification.append("demoted_to_squad")
+                    scoring.score_signing(ds, sg, last_season)   # re-score as rotation
                 if _insignificant(sg, avg_spend.get(club_id)) or _unrated(sg):
                     continue
                 sigs.append(sg)

@@ -77,6 +77,21 @@ def test_promotion_minutes_and_value():
     assert not analyze._should_promote(ds, no)
 
 
+def test_demotion_realized_role():
+    # starter-intent, never reached 50% minutes, not a big outlay -> demote to squad
+    s1 = _sig(3.0, 2e6, starter=True, evals=[{"season": 2020, "minutes_share": 0.30}])
+    s1.classification = ["addresses_problem"]
+    assert analyze._should_demote(s1)
+    # significant outlay that flopped (9% minutes) -> kept as starter (full penalty)
+    s2 = _sig(1.0, 50e6, starter=True, evals=[{"season": 2020, "minutes_share": 0.09}])
+    s2.classification = ["addresses_problem", "significant_outlay"]
+    assert not analyze._should_demote(s2)
+    # genuine regular (>=50% minutes) -> not demoted
+    s3 = _sig(6.0, 2e6, starter=True, evals=[{"season": 2020, "minutes_share": 0.60}])
+    s3.classification = ["addresses_problem"]
+    assert not analyze._should_demote(s3)
+
+
 def _win(season, window):
     return {"club_id": "100", "club": "X", "league": "GB1", "season": season,
             "season_label": "", "window": window, "n_signings": 1, "n_starter": 1,

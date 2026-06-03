@@ -2,69 +2,69 @@
 
 - Windows analysed (with signings): **1525**
 - Signings scored: **6241**
-- Overall mean transfer rating: **3.284/10**
-- Empirical-Bayes shrinkage k ≈ **19.0** (estimated from variance components; club identity explains little of the signing-to-signing variance, so club ratings carry **wide** bootstrap intervals — read small leaderboard gaps with caution).
+- Overall mean transfer rating: **3.789/10**
+- Empirical-Bayes shrinkage k ≈ **10.2** (estimated from variance components; club identity explains little of the signing-to-signing variance, so club ratings carry **wide** bootstrap intervals — read small leaderboard gaps with caution).
 
 ## League averages (weighted transfer rating /10)
 | League | Signings | Rating |
 |---|---:|---:|
-| Eredivisie | 881 | 3.774 |
-| Liga Portugal | 1027 | 3.606 |
-| Ligue 1 | 882 | 3.468 |
-| Bundesliga | 702 | 3.314 |
-| LaLiga | 818 | 3.285 |
-| Premier League | 808 | 2.974 |
-| Serie A | 1123 | 2.758 |
+| Liga Portugal | 1027 | 4.579 |
+| Eredivisie | 881 | 4.489 |
+| Ligue 1 | 882 | 3.927 |
+| LaLiga | 818 | 3.754 |
+| Bundesliga | 702 | 3.725 |
+| Premier League | 808 | 3.257 |
+| Serie A | 1123 | 3.107 |
 
 > Scale note: every incoming transfer is scored, minutes are 60% of the weight, and most signings are squad depth — so window/club means sit low in absolute terms. Elite single signings reach 8–10; flops sit near 0.
 
 ## Best 20 windows (≥3 signings)
 | League | Club | Season | Window | N | Rating | Problems addressed |
 |---|---|---|---|---:|---:|---|
+| Bundesliga | VfB Stuttgart | 20/21 | summer | 4 | 8.793 | - |
 | Ligue 1 | RC Lens | 20/21 | summer | 5 | 8.062 | - |
-| Bundesliga | VfB Stuttgart | 20/21 | summer | 4 | 7.962 | - |
 | Eredivisie | SC Heerenveen | 19/20 | summer | 4 | 7.669 | RB,W |
+| Ligue 1 | Clermont Foot 63 | 22/23 | summer | 7 | 7.455 | CB,GK,MID,W |
+| Liga Portugal | CD Santa Clara | 25/26 | winter | 3 | 7.264 | CF,MID |
+| Bundesliga | FC Augsburg | 22/23 | winter | 3 | 7.257 | MID |
 | Eredivisie | Go Ahead Eagles | 21/22 | summer | 6 | 7.252 | - |
-| Eredivisie | FC Twente Enschede | 21/22 | summer | 6 | 6.588 | CB,W |
-| Eredivisie | SC Heerenveen | 25/26 | summer | 6 | 6.488 | CF,MID,W |
-| Eredivisie | FC Emmen | 22/23 | summer | 5 | 6.399 | - |
-| Serie A | US Lecce | 22/23 | summer | 6 | 6.367 | - |
-| Ligue 1 | AJ Auxerre | 22/23 | summer | 7 | 6.301 | - |
-| Liga Portugal | GD Estoril Praia | 21/22 | summer | 5 | 6.108 | - |
-| Liga Portugal | Avs Futebol | 24/25 | summer | 10 | 6.107 | - |
-| LaLiga | Real Valladolid CF | 22/23 | winter | 3 | 6.078 | - |
-| Premier League | AFC Bournemouth | 22/23 | winter | 3 | 6.077 | - |
-| Liga Portugal | Vitória Guimarães SC | 19/20 | summer | 4 | 6.055 | MID,W |
-| Eredivisie | Willem II Tilburg | 19/20 | summer | 6 | 5.997 | CB,CF,W |
-| Liga Portugal | FC Famalicão | 24/25 | summer | 8 | 5.967 | MID,RB,W |
-| Ligue 1 | Stade Rennais FC | 25/26 | summer | 6 | 5.936 | CB,MID |
-| LaLiga | CD Leganés | 24/25 | summer | 11 | 5.926 | - |
-| LaLiga | Levante UD | 25/26 | summer | 5 | 5.92 | - |
-| Liga Portugal | Sporting CP | 23/24 | summer | 4 | 5.919 | CF,MID,RB |
+| Liga Portugal | GD Estoril Praia | 24/25 | summer | 14 | 7.18 | CB,CF,GK,MID,RB |
+| Liga Portugal | Portimonense SAD | 22/23 | summer | 7 | 7.18 | CF,LB,MID,W |
+| Liga Portugal | SC Farense | 20/21 | summer | 13 | 7.139 | - |
+| Liga Portugal | Avs Futebol | 24/25 | summer | 10 | 7.088 | - |
+| Eredivisie | SC Telstar | 25/26 | summer | 4 | 7.048 | - |
+| Eredivisie | Willem II Tilburg | 19/20 | summer | 6 | 7.045 | CB,CF,W |
+| Liga Portugal | Vitória Guimarães SC | 19/20 | summer | 4 | 6.975 | MID,W |
+| Liga Portugal | CD Tondela | 25/26 | summer | 7 | 6.964 | - |
+| LaLiga | Valencia CF | 21/22 | winter | 4 | 6.954 | CB,MID |
+| Bundesliga | Bayern Munich | 25/26 | summer | 3 | 6.915 | CB,MID,W |
+| Liga Portugal | Gil Vicente FC | 24/25 | summer | 11 | 6.911 | CF,MID,RB |
+| Ligue 1 | AC Ajaccio | 22/23 | summer | 8 | 6.851 | - |
+| Eredivisie | VVV-Venlo | 20/21 | summer | 8 | 6.837 | CF,LB,MID,W |
 
 ## Worst 20 windows (≥3 signings)
 | League | Club | Season | Window | N | Rating | Unaddressed problems |
 |---|---|---|---|---:|---:|---|
 | Serie A | Atalanta BC | 23/24 | summer | 4 | 0.0 | GK,LB,MID,RB |
-| Serie A | FC Empoli | 24/25 | winter | 3 | 0.0 | CB,CF,LB,RB,W |
-| LaLiga | Real Sociedad | 23/24 | summer | 3 | 0.0 | LB,W |
-| LaLiga | Athletic Bilbao | 19/20 | summer | 4 | 0.0 | - |
-| Serie A | Juventus FC | 20/21 | summer | 3 | 0.0 | RB,W |
-| Serie A | SS Lazio | 20/21 | summer | 5 | 0.0 | CB,W |
-| Serie A | US Salernitana 1919 | 23/24 | winter | 3 | 0.0 | GK,MID,RB,W |
 | LaLiga | Cádiz CF | 23/24 | summer | 3 | 0.0 | CB,RB,W |
 | Serie A | Genoa CFC | 24/25 | winter | 3 | 0.0 | LB,W |
 | Ligue 1 | Olympique Marseille | 22/23 | winter | 3 | 0.0 | LB,RB |
-| Bundesliga | Eintracht Frankfurt | 24/25 | winter | 3 | 0.0 | LB,MID,RB,W |
-| Ligue 1 | FC Lorient | 23/24 | summer | 5 | 0.0 | GK,W |
-| LaLiga | Villarreal CF | 22/23 | summer | 4 | 0.0 | MID,W |
 | Ligue 1 | Olympique Lyon | 22/23 | winter | 3 | 0.0 | RB |
-| Eredivisie | Vitesse Arnhem | 21/22 | summer | 3 | 0.005 | W |
-| Serie A | US Sassuolo | 22/23 | summer | 7 | 0.039 | CB,LB,RB |
-| Liga Portugal | FC Arouca | 22/23 | winter | 3 | 0.109 | CB,MID |
-| LaLiga | Sevilla FC | 24/25 | summer | 4 | 0.127 | GK,LB,RB |
-| Bundesliga | Hertha BSC | 21/22 | summer | 8 | 0.179 | CB,LB,RB |
+| LaLiga | Elche CF | 22/23 | summer | 4 | 0.074 | CB,GK,MID,RB,W |
+| Serie A | Juventus FC | 20/21 | summer | 3 | 0.085 | RB,W |
+| LaLiga | Real Sociedad | 23/24 | summer | 3 | 0.219 | LB,W |
+| Serie A | SS Lazio | 20/21 | summer | 5 | 0.226 | CB,W |
 | Premier League | Brighton & Hove Albion | 24/25 | winter | 3 | 0.244 | GK,LB,RB,W |
+| Premier League | Everton FC | 23/24 | summer | 3 | 0.257 | CB,MID |
+| Serie A | US Sassuolo | 22/23 | summer | 7 | 0.338 | CB,LB,RB |
+| Bundesliga | SV Werder Bremen | 24/25 | summer | 3 | 0.425 | LB |
+| Premier League | Arsenal FC | 22/23 | summer | 4 | 0.532 | CB |
+| Premier League | AFC Bournemouth | 24/25 | summer | 5 | 0.56 | LB,MID |
+| Bundesliga | Eintracht Frankfurt | 24/25 | winter | 3 | 0.585 | LB,MID,RB,W |
+| LaLiga | Villarreal CF | 22/23 | summer | 4 | 0.602 | MID,W |
+| Premier League | AFC Bournemouth | 25/26 | summer | 5 | 0.663 | MID,RB |
+| Liga Portugal | FC Porto | 22/23 | summer | 5 | 0.696 | LB |
+| LaLiga | Sevilla FC | 21/22 | summer | 6 | 0.734 | CB |
 
 ## Best 25 starter signings
 | Player | Club | Season | Type | Fee | Sold | Sale | Rating |
@@ -99,26 +99,26 @@
 *profit/loss realised — minutes still dominate the score*
 | Player | Club | Season | Type | Fee | Sold | Sale | Rating |
 |---|---|---|---|---:|:--:|---:|---:|
+| Yarek Gasiorowski | Valencia CF | 23/24 | rotation |  | Y | €9.8m | 10.0 |
+| Luciano Slagveer | FC Emmen | 19/20 | rotation | €0 | Y | €50k | 10.0 |
+| El Bilal Touré | Stade Reims | 19/20 | rotation |  | Y | €8.0m | 10.0 |
 | Omar Marmoush | Eintracht Frankfurt | 23/24 | starter | €0 | Y | €75.0m | 10.0 |
 | Danilo Veiga | Gil Vicente FC | 22/23 | rotation | €0 | Y |  | 10.0 |
 | Sidny Lopes Cabral | CF Estrela Amadora | 25/26 | starter | €0 | Y | €6.0m | 10.0 |
 | Otávio | FC Famalicão | 23/24 | starter | €500k | Y | €12.3m | 10.0 |
+| Kristjan Asllani | FC Empoli | 21/22 | rotation |  | Y | €15.7m | 10.0 |
+| Fer López | Celta de Vigo | 24/25 | rotation |  | Y | €23.0m | 10.0 |
+| Sidnei Tavares | Moreirense FC | 24/25 | rotation |  | Y | €2.0m | 10.0 |
+| Youcef Belaïli | Stade Brestois 29 | 21/22 | rotation | €0 | Y |  | 9.982 |
+| Samu Castillejo | Valencia CF | 22/23 | rotation | €0 | Y |  | 9.901 |
 | Romain Faivre | Stade Brestois 29 | 20/21 | starter | €400k | Y | €15.0m | 9.887 |
+| Paul Gladon | Fortuna Sittard | 21/22 | rotation |  | Y |  | 9.883 |
 | Vangelis Pavlidis | Willem II Tilburg | 19/20 | starter | €250k | Y | €2.5m | 9.821 |
+| Hatem Ben Arfa | FC Girondins Bordeaux | 20/21 | rotation |  | Y |  | 9.792 |
 | Wataru Endo | VfB Stuttgart | 20/21 | starter | €1.7m | Y | €20.0m | 9.788 |
 | Pedro Gonçalves | FC Famalicão | 19/20 | starter | €1.3m | Y | €13.5m | 9.774 |
+| Cuco Martina | Go Ahead Eagles | 21/22 | rotation |  | Y |  | 9.747 |
 | Yuto Nagatomo | Olympique Marseille | 20/21 | rotation | €0 | Y |  | 9.734 |
-| Rafael Defendi | SC Farense | 20/21 | rotation | €0 | Y |  | 9.721 |
-| Baptiste Roux | Avs Futebol | 24/25 | rotation | €0 | Y |  | 9.713 |
-| Federico Baschirotto | US Lecce | 22/23 | starter | €280k | Y | €3.0m | 9.699 |
-| David Raum | TSG 1899 Hoffenheim | 21/22 | starter | €0 | Y | €26.0m | 9.693 |
-| Milan Zonneveld | SC Telstar | 25/26 | rotation | €0 | Y |  | 9.649 |
-| Zian Flemming | Fortuna Sittard | 20/21 | starter | €200k | Y | €2.5m | 9.631 |
-| Guillermo Ochoa | Avs Futebol | 24/25 | rotation | €0 | Y |  | 9.627 |
-| Ivan Radovanovic | US Salernitana 1919 | 21/22 | rotation | €0 | Y |  | 9.554 |
-| Fredrik Aursnes | Feyenoord Rotterdam | 21/22 | starter | €750k | Y | €13.0m | 9.536 |
-| Fabio Borini | Hellas Verona | 19/20 | rotation | €0 | Y |  | 9.53 |
-| Zié Ouattara | Portimonense SAD | 22/23 | rotation | €0 | Y |  | 9.512 |
 
 ## Worst 20 big-money signings (fee ≥ €25m)
 | Player | Club | Season | Type | Fee | Sold | Sale | Rating |
